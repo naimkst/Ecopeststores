@@ -1,0 +1,81 @@
+<!-- hero slider -->
+<div class="hero-slider">
+    <div class="owl-carousel owl-theme hero-carousel">
+        <!-- item -->
+        {% for block in section.blocks %}
+            <div class="item" style="background: url('{{ block.settings.hero_image | img_url: '' }}') no-repeat center center /cover;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-10 text-center">
+                            <h1>{{ block.settings.hero_slider_slug }} <span style='color: {{ block.settings.hero_slider_title_color }};'>{{ block.settings.hero_slider_title }}</span></h1>
+                            <h2>{{ block.settings.hero_slider_subtitle }}</h2>
+                            <div class="row align-items-center justify-content-center mt-4">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <a href="{{ block.settings.hero_left_button_link }}" class="btn learn-more">Learn More</a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <a href="{{ block.settings.hero_right_button_link }}" class="btn shop-now">Shop Now</a>
+                                </div>
+                            </div>                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <!-- /item -->
+    </div>
+</div>
+<!-- /hero slider -->
+
+{% schema %}
+{
+  "name": "Slider Section",
+  "settings": [
+  ],
+  "blocks": [
+     {
+       "name": "Hero Slider",
+       "type": "slider",
+       "settings": [
+       {
+        "type": "image_picker",
+        "id": "hero_image",
+        "label": "Hero Slider Image"
+      },
+        {
+        "type": "text",
+        "id": "hero_slider_slug",
+        "label": "Hero Slider Slug"
+        },
+        {
+        "type": "text",
+        "id": "hero_slider_title",
+        "label": "Hero Slider Title"
+        },
+        {
+        "type": "text",
+        "id": "hero_slider_subtitle",
+        "label": "Hero Slider Subtitle"
+        },
+        {
+        "type": "color",
+        "id": "hero_slider_title_color",
+        "label": "Hero Slider Title Color",
+        "default": "#f43739"
+        },
+        {
+            "type": "text",
+            "id": "hero_left_button_link",
+            "label": "Hero Left Button Link"
+        },
+        {
+            "type": "text",
+            "id": "hero_right_button_link",
+            "label": "Hero Right Button Link"
+        }
+       ]
+     }
+   ]
+}
+{% endschema %}
