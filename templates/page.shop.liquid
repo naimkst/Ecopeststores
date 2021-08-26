@@ -1,7 +1,6 @@
+{% paginate collections.all.products by 12 %}
 
-{% paginate collection.products by 12 %}
-
-{% section 'collectionheader' %}
+{% section 'shopheader' %}
 
 <div class="top-selling">
   <div class="container">
@@ -14,9 +13,9 @@
     </div>
     <div class="row justify-content-center align-items-center">
       <div class="container">
-        <div class="row">
+        <div data-next-url="{{ paginate.next.url }}" class="products-on-page row">
           <!-- tab panel -->
-          {% for product in collection.products %}
+          {% for product in collections.all.products %}
           <div class="col-lg-3">
             <div class="product-list">
               <!-- item -->
@@ -54,17 +53,19 @@
       </div>
     </div>
 
-      <div class="pagination text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              {% if paginate.pages > 1 %}
+    <div class="pagination text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <button class="load_more" onclick="loadmoreProduct()">Load More</button>
+            <div class="load-more-spiner"></div>
+            <!-- {% if paginate.pages > 1 %}
               {{ paginate | default_pagination }}
-              {% endif %}
-            </div>
+              {% endif %} -->
           </div>
         </div>
       </div>
+    </div>
 
   </div>
 </div>
@@ -72,3 +73,4 @@
 <!-- top selling product -->
 
 {% endpaginate %}
+

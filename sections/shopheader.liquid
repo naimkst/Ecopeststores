@@ -1,0 +1,54 @@
+
+<!-- top selling product -->
+
+<div class="headerimg">
+    <style>
+        .headerimg::before {
+            background-image: url('{{ section.settings.collection_hero_img | img_url: '' }}');
+        }
+    </style>
+
+    <div class="middle-text">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8">
+                    <div class="sec-title">
+                        <h2 style="color: {{ section.settings.collection_header_color }}" class="prd_title">{{
+                            page.title }}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Header Hero Image",
+  "settings": [
+    {
+    "type": "image_picker",
+    "id": "collection_hero_img",
+    "label": "Collection Hero Image"
+    },
+    {
+    "type": "color",
+    "id": "collection_header_color",
+    "label": "Collection Header Color",
+    "default": "#000"
+    },
+    {
+        "type": "range",
+        "id": "collection_product_view",
+        "label": "Product Item Per Page",
+        "min": 4,
+        "max": 90,
+        "default": 4
+    }
+  ]
+}
+
+{% endschema %}
