@@ -1,0 +1,102 @@
+<div class="container-fluid row-full">
+    <!-- Row -->
+    <div class="row">
+        <div class="col-xl-12 pa-0">
+            <div class="faq-search-wrap bg-teal-light-3">
+                <div class="container">
+                    <div class="col-lg-7 faq-search">
+                        <h1 class="display-5 text-white mb-20">Ask a question or browse by category below.</h1>
+                        <div class="form-group w-100 mb-0">
+                            <div class="input-group">
+                                <input class="form-control form-control-lg filled-input bg-white" placeholder="Search by keywords" type="text">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><span class="feather-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-sm-60 mt-30 mb-30">
+                <div class="hk-row">
+                    <div class="col-xl-5">
+                        <div class="card">
+                            <div class="faq-image">
+                                <img class="img-fluid" src="{{ section.settings.faq_image | img_url: ''}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="card card-lg">
+                            <h3 class="card-header border-bottom-0">
+                                            {{ section.settings.faq_title }}
+                                        </h3>
+                            <div class="accordion accordion-type-2 accordion-flush" id="accordion_2">
+
+                                {% for faq in section.blocks %}
+                                    <div class="card">
+                                    <div data-next-url="appication_{{ forloop.index }}" id="faq_id_{{ forloop.index }}" class="card-header d-flex justify-content-between on-click-faq {% if forloop.index == 1 %} activestate {% endif %}">
+                                        <a role="button" data-toggle="collapse" href="#collapse_{{forloop.index}}i" {% if forloop.index == 1 %} aria-expanded="true" {% endif %}>{{ faq.settings.faq_question_title }}</a>
+                                    </div>
+                                    <div id="collapse_{{forloop.index}}i" class="collapse {% if forloop.index == 1 %} show {% endif %} " data-parent="#accordion_2" role="tabpanel">
+                                        <div class="card-body pa-15">{{ faq.settings.faq_description }}</div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Row -->
+</div>
+
+{% schema %}
+{
+    "name": "Faq Section",
+    "settings":[
+        {
+            "type": "image_picker",
+            "id": "faq_image",
+            "label": "Faq Left Image"
+        },
+        {
+            "type": "text",
+            "id": "faq_title",
+            "label": "Faq Header Title",
+            "default": "FAQ Questios"
+        }
+    ],
+    "presets": [
+        {
+        "name": "Faq Section",
+        "category": "image"
+        }
+       
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "name": "Add Faq",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "faq_question_title",
+                    "label": "Faq Title",
+                    "default": "Type your FAQ question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "faq_description",
+                    "label": "Faq Description",
+                    "default": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.</p>"
+                }
+            ]
+        }
+    ]
+  
+}
+{% endschema %}

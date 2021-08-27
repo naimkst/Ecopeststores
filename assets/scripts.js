@@ -166,6 +166,13 @@ $(document).ready(function () {
         $('#variant-id').val(found.id)
     });
 
+   
+    $( ".card-header" ).click(function() {
+    var id = this.id;
+    $( ".card-header" ).removeClass( "activestate" );
+    $( "#"+id ).addClass( "activestate" );
+        
+    });
 
 
 });

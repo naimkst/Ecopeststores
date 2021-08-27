@@ -57,11 +57,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
+            
+            {% if paginate.pages > 1 %}
             <button class="load_more" onclick="loadmoreProduct()">Load More</button>
             <div class="load-more-spiner"></div>
-            <!-- {% if paginate.pages > 1 %}
-              {{ paginate | default_pagination }}
-              {% endif %} -->
+            {% endif %} 
           </div>
         </div>
       </div>
@@ -73,4 +73,5 @@
 <!-- top selling product -->
 
 {% endpaginate %}
+
 
