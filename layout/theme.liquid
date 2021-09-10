@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}" class="no-js">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="html5 responsive bootstrap template">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript,html5,css3, responsive, bootstrap,jquery,">
+
+        <title>{{ shop.name }}</title>
+
+        {{ content_for_header }} <!-- Header hook for plugins -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="{{ 'owl.carousel.min.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'owl.theme.default.min.css' | asset_url }}">
+        <!-- Swiper Slider -->
+        <link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}">
+        <!-- Slicknav -->
+        <link rel="stylesheet" href="{{ 'slicknav.min.css' | asset_url }}">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="{{ 'magnific-popup.css' | asset_url }}">
+        
+        <link rel="stylesheet" href="{{ 'jquery.fancybox.min.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'slick.min.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'slick-theme.min.css' | asset_url }}">
+        <!-- Site Style -->
+        <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'responsive.css' | asset_url }}">
+
+
+        <!-- Modernizr Js -->
+        <script src="{{ 'modernizr.js' | asset_url }}"></script>
+
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="assets/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    </head>
+
+    <body>
+
+        <!--  Start Header section  -->
+
+       {% section 'header' %}
+
+        <!-- End Header section  -->
+
+        <!-- Start Main section  -->
+
+        <main>
+            {{ content_for_layout }}
+            {% section 'cta' %}
+        </main>
+
+        <!--  End Main section -->
+
+        {% section 'footer' %}
+
+        <!-- Jquery plugins -->
+
+        <script src="{{ 'jquery.min.js' | asset_url }}"></script>
+        
+        <!-- Popper -->
+        <script src="{{ 'popper.min.js' | asset_url }}"></script>
+        <!-- Bootstrap -->
+        <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
+        <!-- Owl Carousel -->
+        <script src="{{ 'owl.carousel.min.js' | asset_url }}"></script>
+        <!-- Counterup -->
+        <script src="{{ 'waypoints.min.js' | asset_url }}"></script>
+        <script src="{{ 'counterup.min.js' | asset_url }}"></script>
+        <!-- Slicknav -->
+        <script src="{{ 'jquery.slicknav.min.js' | asset_url }}"></script>
+        <!-- magnific popup -->
+        <script src="{{ 'magnific-popup.min.js' | asset_url }}"></script>
+        <!-- Swiper Slider -->
+        <script src="{{ 'swiper.min.js' | asset_url }}"></script>
+        
+        <script src="{{ 'jquery.fancybox.min.js' | asset_url }}"></script>
+        <script src="{{ 'slick.min.js' | asset_url }}"></script>
+        <!-- main js -->
+        <script src="{{ 'scripts.js' | asset_url }}"></script>
+        
+        <script src="{{ 'ajaxProduct.js' | asset_url }}"></script>
+
+    </body>
+
+</html>

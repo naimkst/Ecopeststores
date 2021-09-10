@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "header": {
+      "type": "slider"
+    },
+    "easy-step": {
+      "type": "easy-step"
+    },
+    "product-slider": {
+      "type": "product-slider"
+    },
+    "testimonial": {
+      "type": "testimonial"
+    }
+  }
+  ,
+  "order": [
+    "header",
+    "easy-step",
+    "product-slider",
+    "testimonial"
+  ]
+}

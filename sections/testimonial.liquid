@@ -1,0 +1,97 @@
+
+<!-- reviews -->
+
+<div class="client-feedback-title">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8">
+                <div class="sec-title">
+                    <h2>{{ section.settings.testimonial_section_title }}</h2>                               
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .client-feedback::after {
+        background: url("{{ section.settings.testimonial_left_image | img_url: ''}}") no-repeat center center/cover;
+    }
+    .client-feedback::before {
+        background: url("{{ section.settings.testimonial_right_bg | img_url: '' }}") no-repeat center center/cover;
+    }
+</style>
+<div class="client-feedback">
+    <div class="container">
+        <div class="row justify-content-end align-items-center">
+            <div class="col-lg-6">
+                <div class="owl-carousel owl-theme feedback-slider">
+                    
+                    {% for testimonial in section.blocks %}
+                        <!-- item -->
+                        <div class="item">
+                            <p>{{ testimonial.settings.testimonial_item }}</p>
+                            <h6>{{ testimonial.settings.testimonial_name }}</h6>
+                        </div>
+                        <!-- item -->
+                    {% endfor %}
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- reviews -->
+
+{% schema %}
+{
+    "name": "Testimonial Section",
+    "settings":[
+        {
+            "type": "text",
+            "id": "testimonial_section_title",
+            "label": "Testimonial Sction Title",
+            "default": "Customer Reviews"
+        },
+        {
+            "type": "image_picker",
+            "id": "testimonial_left_image",
+            "label": " Testimonial Left Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "testimonial_right_bg",
+            "label": "Testimonial Right Background"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Testimonial Add",
+            "type": "slideshow",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "testimonial_item",
+                    "label": "Testimonial Add",
+                    "default": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>"
+                },
+                {
+                    "type": "text",
+                    "id": "testimonial_name",
+                    "label": "Testimonail Name",
+                    "default": "Lena Roy"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Testimonials Setion",
+        "blocks": [
+          {
+            "type": "slideshow"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}

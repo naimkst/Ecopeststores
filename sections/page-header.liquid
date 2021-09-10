@@ -1,0 +1,53 @@
+<div class="headerimg">
+    <style>
+        .headerimg::before {
+            background-image: url('{{ section.settings.collection_hero_img | img_url: '' }}');
+        }
+    </style>
+
+    <div class="middle-text">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8">
+                    <div class="sec-title">
+                        <h2 style="color: {{ section.settings.collection_header_color }}" class="prd_title">{{
+                            section.settings.page_header_ttle }}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Header Hero Image",
+  "settings": [
+    {
+    "type": "image_picker",
+    "id": "collection_hero_img",
+    "label": "Collection Hero Image"
+    },
+    {
+    "type": "color",
+    "id": "collection_header_color",
+    "label": "Collection Header Color",
+    "default": "#000"
+    },
+    {
+        "type": "text",
+        "id": "page_header_ttle",
+        "label": "Header Title",
+        "default": "Page Title Here"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header Image"
+    }
+  ]
+}
+
+{% endschema %}

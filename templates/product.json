@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "singpe-product": {
+      "type": "single-product"
+    }
+  },
+  "order": [
+    "singpe-product"
+  ]
+}

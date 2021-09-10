@@ -1,0 +1,187 @@
+<!--  Start Footer section -->
+
+<footer class="footer">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <div class="widget">
+                        <h5>{{ section.settings.footer_shop_menu_title }}</h5>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <ul>
+                                    {% for link in linklists[section.settings.footer_shop_menu].links %}
+                                        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <ul>
+                                    {% for link in linklists[section.settings.footer_shop_menu_two].links %}
+                                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mt-md-0 mt-4">
+                    <div class="widget">
+                        <h5>{{ section.settings.privacy_menu_title }}</h5>
+                        <ul>
+                            {% for link in linklists[section.settings.plolicy_menu].links %}
+                            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-xl-0 mt-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="widget">
+                                <h5>{{ section.settings.contact_us_title }}</h5>
+                                <ul class="contact-card">
+                                    <li><a href="#"><i class="fa fa-phone"></i> {{ section.settings.phone_number }}</a></li>
+                                    <li><a href="mailto:{{ section.settings.email }}"><i class="fa fa-envelope"></i>{{ section.settings.email }}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="widget">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h6>{{ section.settings.address_one }}</h6>
+                                                <p>{{ section.settings.address_details }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <span class="card-label">{{ section.settings.address_appointment }}</span>
+                                                <h6>{{ section.settings.address_two}}</h6>
+                                                <p>{{ section.settings.address_details_two }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mt-lg-6 mt-lg-0 mt-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h6>{{ section.settings.address_Three }}</h6>
+                                                <p>{{ section.settings.address_details_three }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!-- End Footer section -->
+
+{% schema %}
+{
+    "name": "Footer Section",
+    "settings": [
+        {
+            "type": "link_list",
+            "id": "footer_shop_menu",
+            "label": "Footer Shop Menu"
+        },
+        {
+            "type": "text",
+            "id": "footer_shop_menu_title",
+            "label": "Footer Shop Menu Title",
+            "default": "Shop by Pest"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_shop_menu_two",
+            "label": "Footer Shop Menu Two"
+        },
+        {
+            "type": "link_list",
+            "id": "plolicy_menu",
+            "label": "Privacy Policy Menu"
+        },
+        {
+            "type": "text",
+            "id": "privacy_menu_title",
+            "label": "Privacy Menu Title",
+            "default": "Policies & Disclaimer"
+        },
+        {
+            "type": "text",
+            "id": "contact_us_title",
+            "label": "Contact Us Title",
+            "default": "Contact Us"
+        },
+        {
+            "type": "text",
+            "id": "phone_number",
+            "label": "Phone Number",
+            "default": " 1-866-ANY-BUGS; 1-866-269-2847"
+        },
+        {
+            "type": "text",
+            "id": "email",
+            "label": "Email",
+            "default": "service@ecopeststore.ca"
+        },
+        {
+            "type": "text",
+            "id": "address_one",
+            "label": "Address One Title",
+            "default": "PEST CONTROL EDMONTON"
+        },
+        {
+            "type": "text",
+            "id": "address_details",
+            "label": "Address One Details",
+            "default": "8605 CORONET RD EDMONTON, AB T6E 4P2 - CANADA"
+        },
+        {
+            "type": "text",
+            "id": "address_two",
+            "label": "Address Two Title",
+            "default": "Only PEST CONTROL CALGARY"
+        },
+        {
+            "type": "text",
+            "id": "address_details_two",
+            "label": "Address Two Details",
+            "default": "#6 2821 3RD AVE NE CALGARY, ABT2A 7P3 - CANADA"
+        },
+        {
+            "type": "text",
+            "id": "address_appointment",
+            "label": "Address Appointment",
+            "default": "By Appointment Only"
+        },
+        {
+            "type": "text",
+            "id": "address_Three",
+            "label": "Address Three Title",
+            "default": "PEST CONTROL REGINA"
+        },
+        {
+            "type": "text",
+            "id": "address_details_three",
+            "label": "Address Three Details",
+            "default": "399 VICTORIA AVE REGINA, SK S4N 0P5 (306) 271-1827"
+        }
+        
+    ]
+}
+{% endschema %}
+

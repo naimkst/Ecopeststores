@@ -1,0 +1,70 @@
+<!-- Call to acction -->
+<div class="cta" style="background: url('{{ section.settings.cta_bg_image | img_url: '' }}') no-repeat center center / cover;">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+                <h2>{{ section.settings.cta_title }}</h2>
+                <p>{{ section.settings.cta_subtitle }}</p>
+            </div>
+            <div class="col-lg-6 action-form">
+                {% form 'contact'%}
+                {% if form.posted_successfully? %}
+                    <p style="font-size: 15px; margin-bottom: 10px;">Thank you for contacting with us!</p>
+                    <style>
+                        .cta-btn {
+                            top: 65%;
+                        }
+                    </style>
+                {% endif %}
+                <input type="email" name="contact[email]" placeholder="Enter your email address" class="form-control">
+                <button type="submit" class="btn cta-btn">{{ section.settings.cta_btn_txt }}</button>
+                {% endform %}
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- /Call to acction -->
+
+{% schema %}
+{
+    "name": "Call To Action Section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "cta_bg_image",
+            "label": "CTA Background Image"
+        },
+        {
+            "type": "text",
+            "id": "cta_title",
+            "label": "CTA Title",
+            "default": "Subscribe To Our Newsletter"
+        },
+        {
+            "type": "text",
+            "id": "cta_subtitle",
+            "label": "CTA Subtitle",
+            "default": "Promotions, new products and sales. Directly to your inbox."
+        },
+        {
+            "type": "text",
+            "id": "cta_btn_txt",
+            "label": "CTA Button Text",
+            "default": "Subscribe  Now"
+        },
+        {
+            "type": "text",
+            "id": "cat_success_msg",
+            "label": "CTA Success Message",
+            "default": "Thank you for contacting with us!"
+        }
+    ],
+    "presets":[
+        {
+            "name": "CTA Section"
+        }
+    ]
+}
+{% endschema %}

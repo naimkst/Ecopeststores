@@ -1,0 +1,366 @@
+<header class="header">
+
+    {% if section.settings.top_header_hide_show != false %}
+    <!-- top bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="owl-carousel owl-theme topbar-carousel">
+                        <!-- item -->
+                        {% for block in section.blocks %}
+                        <div class="item">
+                            <p>{{ block.settings.top_slider }}</p>
+                        </div>
+                        {% endfor %}
+                        <!-- /item -->
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- /container -->
+        <!-- language -->
+        <div class="lang">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="{{ 'ca.png' | asset_url }}" class="img-fluid" alt="">
+                    CA
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">
+                        <img src="{{ 'ca.png' | asset_url }}" class="img-fluid" alt="">
+                        CA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    <!-- middle -->
+    <div class="middle-header">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-3 col-md-4 col-sm-6 mb-xl-0 mb-3">
+                    <!-- logo -->
+                    {% if section.settings.logo != blank %}
+                    <a href="/" class="logo">
+                        <img src="{{ section.settings.logo | img_url: '' }}" class="img-fluid" alt="">
+                    </a>
+                    {% else %}
+                    <a href="/" class="logo">
+                        <img src="{{ 'logo.png' | asset_url }}" class="img-fluid" alt="">
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="col-xl-1 col-md-2 col-sm-3 mb-xl-0 mb-3">
+                    <div class="logo-2">
+                        <img src="{{ section.settings.logo_right_image | img_url: '' }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-10 mb-xl-0 mb-4">
+                    <form action="/search" method="get" role="search" class="search-bar">
+                        <input type="search" name="q" value="{{ search.terms | escape }}" class="form-control"
+                            placeholder="Find your Pest Solution">
+                        <button type="submit" class="btn search-btn"><i class="fa fa-search"></i>
+                            <span>search</span></button>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-10">
+                    <ul class="middle-header-right">
+                        {% if section.settings.sign_in_hide_show != false %}
+                        <li>
+                            <a href="{{ section.settings.sing_in }}" class="signin-card">
+                                <img src="{{ section.settings.sign_in_image | img_url: '' }}" class="img-fluid" alt="">
+                                Sign In
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if section.settings.cart_hide_show != false %}
+                        <li>
+                            <a href="/cart" class="cart-card">
+                                <span class="cart-number">{{ cart.item_count }}</span>
+                                <img src="{{ section.settings.Cart_image | img_url: '' }}" class="img-fluid" alt="">
+                                Cart
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if section.settings.chat_hide_show != false %}
+                        <li>
+                            <a href="#" class="chat-card">
+                                <img src="{{ section.settings.chat_image | img_url: '' }}" class="img-fluid" alt="">
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if section.settings.video_hide_show != false %}
+                        <li>
+                            <a data-fancybox href="{{ section.settings.header_video }}" class="video-card">
+                                <img src="{{ section.settings.video_image | img_url: '' }}" class="img-fluid" alt="">
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle -->
+    <!-- Navigation bar -->
+
+    <div class="navigation-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <ul class="menu">
+
+                        {% for link in linklists[section.settings.main_menu].links %}
+
+                        {% if link.links == blank %}
+                        <li class="menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+                        {% endif %}
+
+                        {% if link.links != blank %}
+                        <li class="menu-item is_megamenu"><a href="{{ link.url }}">{{ link.title }}</a></li>
+                        <div class="mega-menu ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="row">
+
+                                            {% for childlink in link.links %}
+                                            {% if forloop.index == 1 %}
+                                            <div class="col-lg-2 mt-lg-0">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h4>{{ childlink.title }}</h4>
+                                                        <ul class="mega_cat">
+                                                            {% for sublink in childlink.links %}
+                                                            <li class="menu-items"><a href="{{ sublink.url }}">{{
+                                                                    sublink.title }}</a></li>
+                                                            {% endfor %}
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+
+                                            {% if forloop.index == 2 %}
+                                            <div class="col-lg-3">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h4>{{ childlink.title }}</h4>
+
+                                                        {% for sublink in childlink.links %}
+                                                        <div class="menu-card">
+                                                            <!-- <h1>{{ collection.title }}</h1> -->
+                                                            {% for product in collections['all'].products %}
+                                                            {%if sublink.url == product.url %}
+                                                            <a href="{{ product.url }}">
+                                                                <img src="{{ product.featured_image.src | img_url: 'large' }}"
+                                                                    class="img-fluid" alt="">
+                                                                <h5>{{ sublink.title }}</h5>
+                                                                <span>{{ product.price | money }}</span>
+                                                            </a>
+                                                            {% endif %}
+                                                            {% endfor %}
+                                                        </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+
+                                            {% if forloop.index == 3 %}
+                                            <div class="col-lg-7">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h4>{{ childlink.title }}</h4>
+                                                        <div class="menu-card">
+                                                            <ul class="menu_img_grid">
+
+                                                                {% for sublink in childlink.links %}
+                                                                {% for product in collections['all'].products %}
+                                                                {%if sublink.url == product.url %}
+                                                                <li>
+                                                                    <a href="{{ sublink.url }}">
+                                                                        <div class="tmenu_product tmenu_product-left">
+                                                                            <img
+                                                                                src="{{ product.featured_image.src | img_url: 'large' }}">
+                                                                            <div class="tmenu_product_body">
+                                                                                <div class="tmenu_product_title">{{
+                                                                                    sublink.title }}
+                                                                                </div>
+                                                                                <div class="tmenu_product_price">{{
+                                                                                    product.price | money }}</div>
+                                                                                <!---->
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                {% endif %}
+                                                                {% endfor %}
+                                                                {% endfor %}
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+
+                                            {% endfor %}
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="dropdown">
+                        <button class="btn know-more-btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>
+                                Know More!
+                                <span>Learn & Support</span>
+                            </span>
+                            <img src="{{ section.settings.right_menu_image | img_url: '' }}" class="img-fluid" alt="">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            {% for link in linklists[section.settings.know_more_menu].links %}
+                            {% if link.lists == blank %}
+                            <a class="dropdown-item" href="{{ link.url }}">{{ link.title }}</a>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% schema %}
+{
+  "name": "Header Style",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+    "type": "image_picker",
+    "id": "logo_right_image",
+    "label": "Logo Right Image"
+    },
+    {
+    "type": "header",
+    "content": "Sign In Icon"
+    },
+    {
+    "type": "checkbox",
+    "id": "sign_in_hide_show",
+    "default": true,
+    "label": "Sign In Hide & Show"
+    },
+    {
+    "type": "url",
+    "id": "sing_in",
+    "label": "Sign In Link"
+    },
+    {
+    "type": "image_picker",
+    "id": "sign_in_image",
+    "label": "Sign In Image"
+    },
+    {
+    "type": "checkbox",
+    "id": "cart_hide_show",
+    "default": true,
+    "label": "Cart Hide & Show"
+    },
+    {
+    "type": "image_picker",
+    "id": "Cart_image",
+    "label": "Cart Icon"
+    },
+    {
+    "type": "checkbox",
+    "id": "chat_hide_show",
+    "default": true,
+    "label": "Chat Image Hide & Show"
+    },
+    {
+    "type": "image_picker",
+    "id": "chat_image",
+    "label": "Chat Icon"
+    },
+    {
+    "type": "checkbox",
+    "id": "video_hide_show",
+    "default": true,
+    "label": "Video Hide & Show"
+    },
+    {
+    "type": "image_picker",
+    "id": "video_image",
+    "label": "Video Icon"
+    },
+    {
+    "type": "image_picker",
+    "id": "right_menu_image",
+    "label": "Right Menu Icon"
+    },
+    {
+    "type": "text",
+    "id": "header_video",
+    "label": "Header Video Link",
+    "default": "https://www.youtube.com/watch?v=jssO8-5qmag&ab_channel=HighResolutionDatabase"
+    },
+    {
+    "type": "link_list",
+    "id": "main_menu",
+    "label": "Main menu"
+    },
+    {
+    "type": "link_list",
+    "id": "know_more_menu",
+    "label": "Know More menu"
+    },
+    {
+    "type": "header",
+    "content": "Management Section"
+    },
+    {
+      "type": "checkbox",
+      "id": "top_header_hide_show",
+      "default": true,
+      "label": "Top Header Hide & Show"
+    }
+
+  ],
+  "blocks": [
+     {
+       "name": "Top Slider",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "text",
+           "id": "top_slider",
+           "label": "Top Slider",
+           "default": "Free Shipping on All Orders $45+"
+         }
+       ]
+     }
+   ]
+}
+{% endschema %}

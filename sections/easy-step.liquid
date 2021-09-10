@@ -1,0 +1,103 @@
+<!-- clean steps -->
+<div class="clean-steps" style="background: url('{{ section.settings.step_bg_image | img_url: '' }}') no-repeat center center / cover;">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8">
+                <div class="sec-title">
+                    <h2>{{ section.settings.step_title }}</h2>
+                    <h5>{{ section.settings.step_subtitle }}</h5>                               
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xl-8 col-lg-12">
+                <div class="steps-title-number">
+                    <ul>
+                        {% for block in section.blocks %}
+                            <li><span>{{ forloop.index }}</span></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="steps-title">
+                    <ul>
+                        {% for block in section.blocks %}
+                        <li>{{ block.settings.step_progress_title }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xl-10 col-lg-12">
+                <div class="steps-img">
+                    <ul>
+                        {% for block in section.blocks %}
+                        <li><img src="{{ block.settings.step_progress_image | img_url: '' }}" class="img-fluid" alt=""></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /clean steps -->
+
+
+{% schema %}
+
+{
+    "name": "Processing Section",
+    "settings":[
+        {
+            "type": "text",
+            "id": "step_title",
+            "label": "Step Title",
+            "default": "Clean your Home from Rodent Pest"
+        },
+        {
+            "type": "text",
+            "id": "step_subtitle",
+            "label": "Step Subtitle",
+            "default": "In 4 Easy Steps"
+        },
+        {
+            "type": "image_picker",
+            "id": "step_bg_image",
+            "label": "Step Background Image"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Setp Progress",
+            "type": "text",
+            "settings":[
+                {
+                    "type": "text",
+                    "id": "step_progress_title",
+                    "label": "Step Progess Title",
+                    "default": "Id Your Pest"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "step_progress_image",
+                    "label": "Step Progess Image"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Home Page Setp Setion",
+        "blocks": [
+          {
+            "type": "text"
+          }
+        ]
+      }
+    ]
+}
+
+{% endschema %}
