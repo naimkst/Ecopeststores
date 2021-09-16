@@ -1,7 +1,27 @@
 {
   "sections": {
     "main": {
-      "type": "faq"
+      "type": "faq",
+      "blocks": {
+        "51c34abe-8de2-4426-9ebd-278279f126f0": {
+          "type": "text",
+          "settings": {
+            "faq_question_title": "Type your FAQ question",
+            "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
+            "faq_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "51c34abe-8de2-4426-9ebd-278279f126f0"
+      ],
+      "settings": {
+        "collection_hero_img": "shopify:\/\/shop_images\/slider1.jpg",
+        "contact_form_title": "Contact Form",
+        "faq_title": "FAQ Questios",
+        "ask_question_header": "Frequently Asked Questions",
+        "search_text": "What can we help you with?"
+      }
     }
   },
   "order": [
