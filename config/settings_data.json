@@ -1,63 +1,59 @@
 {
-  "current": "Default",
-  "presets": {
-    "Default": {
-      "colors_solid_button_labels": "#FFFFFF",
-      "colors_accent_1": "#121212",
-      "colors_accent_2": "#334FB4",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#FFFFFF",
-      "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4",
-      "sections": {
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "blocks": {
-            "announcement-bar-0": {
-              "type": "announcement",
-              "settings": {
-                "color_scheme": "background-1"
-              }
-            }
-          },
-          "block_order": [
-            "announcement-bar-0"
-          ]
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_right_image": "shopify:\/\/shop_images\/logo-2.png",
+          "sign_in_hide_show": true,
+          "sing_in": "",
+          "sign_in_image": "shopify:\/\/shop_images\/user.png",
+          "cart_hide_show": true,
+          "Cart_image": "shopify:\/\/shop_images\/cart.png",
+          "chat_hide_show": true,
+          "chat_image": "shopify:\/\/shop_images\/chat.png",
+          "video_hide_show": true,
+          "video_image": "shopify:\/\/shop_images\/video.png",
+          "right_menu_image": "shopify:\/\/shop_images\/more-btn-angle_c5e5bd90-265e-425e-a494-99ddf98e21e4.png",
+          "header_video": "https:\/\/www.youtube.com\/watch?v=jssO8-5qmag&ab_channel=HighResolutionDatabase",
+          "main_menu": "main-menu",
+          "know_more_menu": "footer",
+          "top_header_hide_show": true
+        }
+      },
+      "cta": {
+        "type": "cta",
+        "settings": {
+          "cta_title": "Subscribe To Our Newsletter",
+          "cta_subtitle": "Promotions, new products and sales. Directly to your inbox.",
+          "cta_btn_txt": "Subscribe  Now",
+          "cat_success_msg": "Thank you for contacting with us!"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_shop_menu": "",
+          "footer_shop_menu_title": "Shop by Pest",
+          "footer_shop_menu_two": "",
+          "plolicy_menu": "",
+          "privacy_menu_title": "Policies & Disclaimer",
+          "contact_us_title": "Contact Us",
+          "phone_number": "1-866-ANY-BUGS; 1-866-269-2847",
+          "email": "service@ecopeststore.ca",
+          "address_one": "PEST CONTROL EDMONTON",
+          "address_details": "8605 CORONET RD EDMONTON, AB T6E 4P2 - CANADA",
+          "address_two": "Only PEST CONTROL CALGARY",
+          "address_details_two": "#6 2821 3RD AVE NE CALGARY, ABT2A 7P3 - CANADA",
+          "address_appointment": "By Appointment Only",
+          "address_Three": "PEST CONTROL REGINA",
+          "address_details_three": "399 VICTORIA AVE REGINA, SK S4N 0P5 (306) 271-1827"
         }
       }
     },
-    "Craft": {
-      "colors_solid_button_labels": "#EFECEC",
-      "colors_accent_1": "#2A332F",
-      "colors_accent_2": "#476154",
-      "colors_text": "#1C1A1A",
-      "colors_outline_button_labels": "#7B8382",
-      "colors_background_1": "#EFECEC",
-      "colors_background_2": "#C1BCAE",
-      "type_header_font": "americana_n4",
-      "type_body_font": "quattrocento_sans_n4",
-      "sections": {
-        "footer": {
-          "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
-          "blocks": {
-            "menu": {
-              "type": "link_list"
-            },
-            "text": {
-              "type": "text"
-            }
-          },
-          "block_order": [
-            "menu",
-            "text"
-          ]
-        }
-      }
-    }
+    "content_for_index": [
+
+    ]
   }
 }
