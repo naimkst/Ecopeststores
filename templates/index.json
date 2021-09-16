@@ -37,9 +37,46 @@
     },
     "easy-step": {
       "type": "easy-step",
+      "blocks": {
+        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/step1.png"
+          }
+        },
+        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Find the RIGHT Pest Products",
+            "step_progress_image": "shopify:\/\/shop_images\/step2.png"
+          }
+        },
+        "971dec0e-271c-4427-bec1-650a421d7014": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "DIY - Knowledge Center & Training Videos",
+            "step_progress_image": "shopify:\/\/shop_images\/step3.png"
+          }
+        },
+        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Book an Online Video Call With a Pest Expert!",
+            "step_progress_image": "shopify:\/\/shop_images\/step4.png"
+          }
+        }
+      },
+      "block_order": [
+        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d",
+        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653",
+        "971dec0e-271c-4427-bec1-650a421d7014",
+        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7"
+      ],
       "settings": {
         "step_title": "Clean your Home from Rodent Pest",
-        "step_subtitle": "In 4 Easy Steps"
+        "step_subtitle": "In 4 Easy Steps",
+        "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
       }
     },
     "product-slider": {
