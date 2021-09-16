@@ -115,8 +115,38 @@
     },
     "testimonial": {
       "type": "testimonial",
+      "blocks": {
+        "4b6be68b-822e-4e1f-83a4-a6ebbeb8bf20": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        },
+        "f0e429ac-28b3-46fa-94da-a972c012ab55": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        },
+        "b1ee4490-9a80-4858-a098-ab3ee54f6ed1": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        }
+      },
+      "block_order": [
+        "4b6be68b-822e-4e1f-83a4-a6ebbeb8bf20",
+        "f0e429ac-28b3-46fa-94da-a972c012ab55",
+        "b1ee4490-9a80-4858-a098-ab3ee54f6ed1"
+      ],
       "settings": {
-        "testimonial_section_title": "Customer Reviews"
+        "testimonial_section_title": "Customer Reviews",
+        "testimonial_left_image": "shopify:\/\/shop_images\/feedback-left.jpg",
+        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg.jpg"
       }
     }
   },
