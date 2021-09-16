@@ -3,6 +3,31 @@
     "sections": {
       "header": {
         "type": "header",
+        "blocks": {
+          "91a9d7e7-743b-4e22-9802-3d668a5534e8": {
+            "type": "slide",
+            "settings": {
+              "top_slider": "Free Shipping on All Orders $45+"
+            }
+          },
+          "101419fa-ca60-4a1b-bedc-cfc62b55b7c5": {
+            "type": "slide",
+            "settings": {
+              "top_slider": "Free Shipping on All Orders $45+"
+            }
+          },
+          "2d0ec77c-addc-4da1-851a-fa7f636a1590": {
+            "type": "slide",
+            "settings": {
+              "top_slider": "Free Shipping on All Orders $45+"
+            }
+          }
+        },
+        "block_order": [
+          "91a9d7e7-743b-4e22-9802-3d668a5534e8",
+          "101419fa-ca60-4a1b-bedc-cfc62b55b7c5",
+          "2d0ec77c-addc-4da1-851a-fa7f636a1590"
+        ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_right_image": "shopify:\/\/shop_images\/logo-2.png",
