@@ -14,10 +14,23 @@
             "hero_left_button_link": "#",
             "hero_right_button_link": "#"
           }
+        },
+        "8d431182-fd03-446e-b11b-5982018d7f53": {
+          "type": "heading",
+          "settings": {
+            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
+            "hero_slider_slug": "Make Your",
+            "hero_slider_title": "Home a Safe Space",
+            "hero_slider_subtitle": "From Rodent Pest Invaders",
+            "hero_slider_title_color": "#f43739",
+            "hero_left_button_link": "#",
+            "hero_right_button_link": "#"
+          }
         }
       },
       "block_order": [
-        "6620487d-8a95-4ef5-ad65-a0806e995f1c"
+        "6620487d-8a95-4ef5-ad65-a0806e995f1c",
+        "8d431182-fd03-446e-b11b-5982018d7f53"
       ],
       "settings": {
       }
