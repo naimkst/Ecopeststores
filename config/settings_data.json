@@ -50,6 +50,7 @@
       "cta": {
         "type": "cta",
         "settings": {
+          "cta_bg_image": "shopify:\/\/shop_images\/cta.jpg",
           "cta_title": "Subscribe To Our Newsletter",
           "cta_subtitle": "Promotions, new products and sales. Directly to your inbox.",
           "cta_btn_txt": "Subscribe  Now",
@@ -59,10 +60,10 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_shop_menu": "",
+          "footer_shop_menu": "footer-one",
           "footer_shop_menu_title": "Shop by Pest",
-          "footer_shop_menu_two": "",
-          "plolicy_menu": "",
+          "footer_shop_menu_two": "footer-two",
+          "plolicy_menu": "policies-disclaimer",
           "privacy_menu_title": "Policies & Disclaimer",
           "contact_us_title": "Contact Us",
           "phone_number": "1-866-ANY-BUGS; 1-866-269-2847",
