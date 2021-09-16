@@ -1,7 +1,63 @@
 {
   "sections": {
     "main": {
-      "type": "faq"
+      "type": "faq",
+      "blocks": {
+        "51c34abe-8de2-4426-9ebd-278279f126f0": {
+          "type": "text",
+          "settings": {
+            "faq_question_title": "Type your FAQ question",
+            "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
+            "faq_collection": ""
+          }
+        },
+        "0aee446e-eb4e-41b2-ab76-a246b16d6ecc": {
+          "type": "text",
+          "settings": {
+            "faq_question_title": "Type your FAQ Test",
+            "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
+            "faq_collection": "demo-collection"
+          }
+        },
+        "2feddb89-f323-4735-9e6c-13c39b6031ee": {
+          "type": "text",
+          "settings": {
+            "faq_question_title": "Type your FAQ One",
+            "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
+            "faq_collection": "lawn-garden"
+          }
+        },
+        "78939926-c600-403e-b371-01a11ad93b93": {
+          "type": "text",
+          "settings": {
+            "faq_question_title": "Type your FAQ Two",
+            "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
+            "faq_collection": "commercial-center"
+          }
+        },
+        "fff8027f-e49b-4d9c-bcec-297fbd3216f3": {
+          "type": "text",
+          "settings": {
+            "faq_question_title": "How can i help you?",
+            "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
+            "faq_collection": "lawn-garden"
+          }
+        }
+      },
+      "block_order": [
+        "51c34abe-8de2-4426-9ebd-278279f126f0",
+        "0aee446e-eb4e-41b2-ab76-a246b16d6ecc",
+        "2feddb89-f323-4735-9e6c-13c39b6031ee",
+        "78939926-c600-403e-b371-01a11ad93b93",
+        "fff8027f-e49b-4d9c-bcec-297fbd3216f3"
+      ],
+      "settings": {
+        "collection_hero_img": "shopify:\/\/shop_images\/slider1.jpg",
+        "contact_form_title": "Contact Form",
+        "faq_title": "FAQ Questios",
+        "ask_question_header": "Frequently Asked Questions",
+        "search_text": "What can we help you with?"
+      }
     }
   },
   "order": [

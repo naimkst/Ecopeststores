@@ -1,19 +1,155 @@
 {
   "sections": {
     "header": {
-      "type": "slider"
+      "type": "slider",
+      "blocks": {
+        "6620487d-8a95-4ef5-ad65-a0806e995f1c": {
+          "type": "heading",
+          "settings": {
+            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
+            "hero_slider_slug": "Make Your",
+            "hero_slider_title": "Home a Safe Space",
+            "hero_slider_subtitle": "From Rodent Pest Invaders",
+            "hero_slider_title_color": "#f43739",
+            "hero_left_button_link": "#",
+            "hero_right_button_link": "#"
+          }
+        },
+        "8d431182-fd03-446e-b11b-5982018d7f53": {
+          "type": "heading",
+          "settings": {
+            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
+            "hero_slider_slug": "Make Your",
+            "hero_slider_title": "Home a Safe Space",
+            "hero_slider_subtitle": "From Rodent Pest Invaders",
+            "hero_slider_title_color": "#f43739",
+            "hero_left_button_link": "#",
+            "hero_right_button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "6620487d-8a95-4ef5-ad65-a0806e995f1c",
+        "8d431182-fd03-446e-b11b-5982018d7f53"
+      ],
+      "settings": {
+      }
     },
     "easy-step": {
-      "type": "easy-step"
+      "type": "easy-step",
+      "blocks": {
+        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/step1.png"
+          }
+        },
+        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Find the RIGHT Pest Products",
+            "step_progress_image": "shopify:\/\/shop_images\/step2.png"
+          }
+        },
+        "971dec0e-271c-4427-bec1-650a421d7014": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "DIY - Knowledge Center & Training Videos",
+            "step_progress_image": "shopify:\/\/shop_images\/step3.png"
+          }
+        },
+        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Book an Online Video Call With a Pest Expert!",
+            "step_progress_image": "shopify:\/\/shop_images\/step4.png"
+          }
+        }
+      },
+      "block_order": [
+        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d",
+        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653",
+        "971dec0e-271c-4427-bec1-650a421d7014",
+        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7"
+      ],
+      "settings": {
+        "step_title": "Clean your Home from Rodent Pest",
+        "step_subtitle": "In 4 Easy Steps",
+        "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
+      }
     },
     "product-slider": {
-      "type": "product-slider"
+      "type": "product-slider",
+      "blocks": {
+        "aaca5c7f-25ba-4352-8517-4e61606675a7": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Ants",
+            "product_collection": "lawn-garden"
+          }
+        },
+        "b547df73-077b-40cc-8b2f-edd94455a421": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Bed Bugs",
+            "product_collection": "demo-collection"
+          }
+        },
+        "edf119ab-48ee-4ee3-b9d1-47cf262325bf": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Wasps & Bees",
+            "product_collection": "commercial-center"
+          }
+        }
+      },
+      "block_order": [
+        "aaca5c7f-25ba-4352-8517-4e61606675a7",
+        "b547df73-077b-40cc-8b2f-edd94455a421",
+        "edf119ab-48ee-4ee3-b9d1-47cf262325bf"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top selling products"
+      }
     },
     "testimonial": {
-      "type": "testimonial"
+      "type": "testimonial",
+      "blocks": {
+        "4b6be68b-822e-4e1f-83a4-a6ebbeb8bf20": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        },
+        "f0e429ac-28b3-46fa-94da-a972c012ab55": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        },
+        "b1ee4490-9a80-4858-a098-ab3ee54f6ed1": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        }
+      },
+      "block_order": [
+        "4b6be68b-822e-4e1f-83a4-a6ebbeb8bf20",
+        "f0e429ac-28b3-46fa-94da-a972c012ab55",
+        "b1ee4490-9a80-4858-a098-ab3ee54f6ed1"
+      ],
+      "settings": {
+        "testimonial_section_title": "Customer Reviews",
+        "testimonial_left_image": "shopify:\/\/shop_images\/feedback-left.jpg",
+        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg.jpg"
+      }
     }
-  }
-  ,
+  },
   "order": [
     "header",
     "easy-step",
