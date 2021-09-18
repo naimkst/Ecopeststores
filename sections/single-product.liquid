@@ -381,7 +381,7 @@
             </div>
 
             <div class="tab-pane fade" id="home4" role="tabpanel" aria-labelledby="home-tab4">
-              Reviews
+              {{product.reviews_count}} {{ product.reviews_count | pluralize: 'review', 'reviews' }}
             </div>
 
           </div>
