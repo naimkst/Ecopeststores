@@ -312,42 +312,59 @@
       </div>
 
       <div class="row">
-
-        <div class="col-md-6">
-          <div class="main-slider" id="main-slider">
-            {% for media in product.media %}
-            {% case media.media_type %}
-            {% when 'external_video' %}
-            <div>
-              <div class="video-wrapper">
-                {{ media | external_video_tag }}
-              </div>
-            </div>
-            {% when 'video' %}
-            <div>
-              <div class="video-wrapper">
-                {{ media | video_tag: controls: true }}
-              </div>
-            </div>
-            {% else %}
-            {% endcase %}
-            {% endfor %}
-
-          </div>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-                aria-selected="true">Product FAQ</a>
+                aria-selected="true">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="home-tab2" data-toggle="tab" href="#home2" role="tab" aria-controls="home2"
+                aria-selected="true">How To Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="home-tab3" data-toggle="tab" href="#home3" role="tab" aria-controls="home3"
+                aria-selected="true">FAQ</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="home-tab4" data-toggle="tab" href="#home4" role="tab" aria-controls="home4"
+                aria-selected="true">Rreives</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <p>{{ product.metafields.my_fields.long_description }}</p>
+            </div>
 
+            <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home-tab2">
+              <div class="col-md-12">
+                <div class="main-slider" id="main-slider">
+                  {% for media in product.media %}
+                  {% case media.media_type %}
+                  {% when 'external_video' %}
+                  <div>
+                    <div class="video-wrapper">
+                      {{ media | external_video_tag }}
+                    </div>
+                  </div>
+                  {% when 'video' %}
+                  <div>
+                    <div class="video-wrapper">
+                      {{ media | video_tag: controls: true }}
+                    </div>
+                  </div>
+                  {% else %}
+                  {% endcase %}
+                  {% endfor %}
+      
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="home3" role="tabpanel" aria-labelledby="home-tab3">
               <div class="accordion accordion-type-2 accordion-flush" id="accordion_2">
                 {% for faq in product.metafields.my_fields.faqs.value %}
-
                 <div class="card">
                   <div data-next-url="appication_{{ forloop.index }}" id="faq_id_{{ forloop.index }}"
                     class="card-header d-flex justify-content-between on-click-faq {% if forloop.index == 1 %} activestate {% endif %}">
@@ -361,6 +378,10 @@
                 </div>
                 {% endfor %}
               </div>
+            </div>
+
+            <div class="tab-pane fade" id="home4" role="tabpanel" aria-labelledby="home-tab4">
+              Reviews
             </div>
 
           </div>
