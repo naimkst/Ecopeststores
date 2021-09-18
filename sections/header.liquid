@@ -1,4 +1,59 @@
 <header class="header">
+    <style>
+        .search-section {
+            position: absolute;
+            z-index: 999;
+            background: #fff;
+            width: 100%;
+            padding: 25px;
+        }
+    
+        .thumbnail {
+            display: inline-block;
+            max-width: 30%;
+            float: left;
+        }
+    
+        .title {
+            display: inline-block;
+            max-width: 70%;
+            margin-left: 10px;
+        }
+    
+        ul.search-result li {
+            padding: 12px 0px;
+            border-bottom: 1px solid #f3f3f3;
+            display: flow-root;
+        }
+    
+        ul.search-result li:last-child {
+            padding: 12px 0px;
+            border-bottom: 0px solid #f3f3f3;
+        }
+    
+        li.all-result {
+            background: #f13a33;
+            padding: 18px 0px !important;
+            text-align: center;
+            font-size: 18px;
+            color: #fff !important;
+            display: list-item;
+            margin-top: 20px;
+        }
+    
+        li.all-result a {
+            color: #fff !important;
+        }
+    
+        .title p {
+            margin-top: 6px;
+            font-size: 12px;
+            color: #e73236;
+        }
+        .search-section{
+           display: none;
+        }
+    </style>
 
     {% if section.settings.top_header_hide_show != false %}
     <!-- top bar -->
@@ -60,11 +115,23 @@
                 </div>
                 <div class="col-xl-4 col-md-10 mb-xl-0 mb-4">
                     <form action="/search" method="get" role="search" class="search-bar">
-                        <input type="search" name="q" value="{{ search.terms | escape }}" class="form-control"
-                            placeholder="Find your Pest Solution">
+                        <input type="search" id="search-box" name="q" value="{{ search.terms | escape }}" class="form-control"
+                            placeholder="Find your Pest Solution" onkeyup="ajaxSearch()">
                         <button type="submit" class="btn search-btn"><i class="fa fa-search"></i>
                             <span>search</span></button>
                     </form>
+
+                    <div class="search-section">
+                        <div class="search-loading"></div>
+                        <ul class="search-result predictive-search-results">
+                          
+                            <!-- <li class="all-result">
+                                <a href="">
+                                    View All Results (72)
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-10">
                     <ul class="middle-header-right">
