@@ -1596,6 +1596,7 @@ a.disabled {
 .product-list .item .img-fluid {
     max-width: 200px;
     max-height: 150px;
+    margin: 0 auto;
 }
 .product-list .item .card {
     height: 400px;
