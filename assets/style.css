@@ -1630,3 +1630,8 @@ button.load_more:hover {
 .product-list h5 {
     min-height: 42px;
 }
+div#shopify-product-reviews {
+    width: 83% !important;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+}
