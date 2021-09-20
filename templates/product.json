@@ -1,10 +1,36 @@
 {
   "sections": {
     "singpe-product": {
-      "type": "single-product"
+      "type": "single-product",
+      "settings": {
+      }
+    },
+    "1632119646fa8f89c7": {
+      "type": "product-recommendations",
+      "settings": {
+        "related_product_slider_section_title": "Related Products",
+        "related_product_collection": "lawn-garden"
+      }
+    },
+    "163211966633c6dde5": {
+      "type": "apps",
+      "blocks": {
+        "4c5e60a1-6064-4dd6-b190-d0b4f5e896b4": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4c5e60a1-6064-4dd6-b190-d0b4f5e896b4"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "singpe-product"
+    "singpe-product",
+    "1632119646fa8f89c7",
+    "163211966633c6dde5"
   ]
 }
