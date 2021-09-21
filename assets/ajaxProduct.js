@@ -1,6 +1,5 @@
 
 //Ajax Product Pagination
-
 var products_on_page = $('.products-on-page');
 var next_url = products_on_page.data('next-url');
 var load_more_btn = $('.load_more');
@@ -57,7 +56,6 @@ function loadmoreCollection() {
 }
 
 // Case insensitive search
-
 $("#faqSearch").on("keyup", function () {
   var value = $(this).val().toLowerCase();
   $("div#accordion_2 .card").filter(function () {
@@ -67,8 +65,6 @@ $("#faqSearch").on("keyup", function () {
 
 
 //Ajax Search Result
-
-
 function ajaxSearch() {
   const search_result = $('.search-result');
   const query = document.querySelector('input').value;

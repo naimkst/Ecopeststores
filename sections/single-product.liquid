@@ -197,7 +197,7 @@
     text-rendering: auto;
     position: absolute;
     content: "\f176";
-    font-size: 21px;
+    font-size: 15px;
     top: 10px;
     left: 20px;
   }
@@ -230,6 +230,62 @@
   .card-header{
     padding: 15px 0px !important;
   }
+
+/* Slider */
+
+
+.js .slider-single > div:nth-child(1n+2) { display: none }
+
+.js .slider-single.slick-initialized > div:nth-child(1n+2) { display: block }
+
+h3 {
+	background: #f0f0f0;
+	color: #3498db;
+	font-size: 2.25rem;
+	margin: .5rem;
+	padding: 2%;
+	position: relative;
+	text-align: center;
+}
+
+.slider-single h3 {
+	line-height: 10rem;
+}
+
+.slider-nav h3::before {
+	content: "";
+	display: block;
+	padding-top: 75%;
+}
+
+.slider-nav h3 span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slider-nav .slick-slide { cursor: pointer; }
+
+.slick-slide.is-active h3 {
+	color: #c00;
+	background-color: #fff
+}
+.single-product .slick-prev, .slick-prev:focus{
+    width: 30px;
+    padding: 20px 0;
+    top: 50% !important;
+}
+.single-product .slick-prev:hover:before {
+    background: #000 !important;
+    color: #fff !important;
+}
+.single-product .slick-next, .slick-next:focus {
+  width: 30px;
+  padding: 20px 0;
+  top: 50% !important;
+}
+
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css"
   integrity="sha256-F3Xeb7IIFr1QsWD113kV2JXaEbjhsfpgrKkwZFGIA4E=" crossorigin="anonymous" />
@@ -252,6 +308,25 @@
     <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
       <div class="row pb-5">
         <div class="col-md-4">
+
+          <div class="column small-11 small-centered">
+            <div class="slider slider-single">
+              {% for image in product.images %}
+            <div data-thumb="{{ image.src | img_url: '' }}">
+              <img class="img-fluid" src="{{ image.src | img_url: '' }}">
+            </div>
+            {%endfor %}
+            </div>
+            <div class="slider slider-nav">
+              {% for image in product.images %}
+            <div data-thumb="{{ image.src | img_url: '' }}">
+              <img class="img-fluid" src="{{ image.src | img_url: '' }}">
+            </div>
+            {%endfor %}
+            </div>
+          </div>
+
+<!-- 
           <div class="single-product-images">
 
             {% for image in product.images %}
@@ -260,7 +335,7 @@
             </div>
             {%endfor %}
 
-          </div>
+          </div> -->
         </div>
         <div class="col-md-7">
           <div class="single-product-details">
@@ -328,8 +403,7 @@
             </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="home-tab4" data-toggle="tab" href="#home4" role="tab" aria-controls="home4"
-                aria-selected="true">Rreives</a>
+              <a class="nav-link" id="home-tab4"  href="#shopify-product-reviews" >Rreives</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -338,26 +412,34 @@
             </div>
 
             <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home-tab2">
-              <div class="col-md-12">
-                <div class="main-slider" id="main-slider">
-                  {% for media in product.media %}
-                  {% case media.media_type %}
-                  {% when 'external_video' %}
-                  <div>
-                    <div class="video-wrapper">
-                      {{ media | external_video_tag }}
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="main-slider" id="main-slider">
+                    {% for media in product.media %}
+                    {% case media.media_type %}
+                    {% when 'external_video' %}
+                    <div>
+                      <div class="video-wrapper">
+                        {{ media | external_video_tag }}
+                      </div>
                     </div>
-                  </div>
-                  {% when 'video' %}
-                  <div>
-                    <div class="video-wrapper">
-                      {{ media | video_tag: controls: true }}
+                    {% when 'video' %}
+                    <div>
+                      <div class="video-wrapper">
+                        {{ media | video_tag: controls: true }}
+                      </div>
                     </div>
+                    {% else %}
+                    {% endcase %}
+                    {% endfor %}
+        
                   </div>
-                  {% else %}
-                  {% endcase %}
-                  {% endfor %}
-      
+                </div>
+                <div class="col-md-7">
+                  <div class="video-right-content">
+                    <h2>{{ section.settings.video_content_title }}</h2>
+                    <p>{{ section.settings.video_content_description }}</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -391,3 +473,28 @@
 
   </form>
 </section>
+
+{% schema %}
+{
+  "name": "Video Content Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_content_title",
+      "label": "Video Content Title",
+      "default": "How can you use this?"
+    },
+    {
+      "type": "richtext",
+      "id": "video_content_description",
+      "label": "Video Content Description",
+      "default": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home Page Slider"
+    }
+  ]
+}
+{% endschema %}

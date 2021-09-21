@@ -1635,3 +1635,6 @@ div#shopify-product-reviews {
     margin: 0 auto !important;
     margin-bottom: 50px !important;
 }
+h3.spr-review-header-title {
+    text-align: left;
+}
