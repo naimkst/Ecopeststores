@@ -437,8 +437,8 @@ h3 {
                 </div>
                 <div class="col-md-7">
                   <div class="video-right-content">
-                    <h2>{{ section.settings.video_content_title }}</h2>
-                    <p>{{ section.settings.video_content_description }}</p>
+                    <h2>{{ product.metafields.my_fields.video_title }}</h2>
+                    <p>{{ product.metafields.my_fields.video_description }}</p>
                   </div>
                 </div>
               </div>
@@ -461,11 +461,6 @@ h3 {
                 {% endfor %}
               </div>
             </div>
-
-            <div class="tab-pane fade" id="home4" role="tabpanel" aria-labelledby="home-tab4">
-              {{product.reviews_count}} {{ product.reviews_count | pluralize: 'review', 'reviews' }} <p>okay...</p>
-            </div>
-
           </div>
         </div>
       </div>
