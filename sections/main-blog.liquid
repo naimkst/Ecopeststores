@@ -1,1 +1,31 @@
-<h1> This is for blog post</h1>
+<style>
+    .blog-section{
+        padding: 50px 0px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .blog-title{
+        padding: 30px 0px;
+    }
+    .blog-description{
+        line-height: 1.4;
+    }
+    .blog-section h2, .blog-section h3, .blog-section p{
+        line-height: 1.4;
+        margin: 15px 0px 10px 0px;
+    }
+    .blog-section ul li, .blog-section p{
+        line-height: 1.4;
+    }
+</style>
+<section class="blog-section">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="{{ article.image.src | img_url: '' }}" alt="" class="img-fluid">
+            <h1 class="blog-title">{{ article.title }}</h1>
+            <p class="blog-description">{{ article.content }}</p>
+        </div>
+    </div>
+</div>
+</section>
