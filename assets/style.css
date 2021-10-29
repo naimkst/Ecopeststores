@@ -956,13 +956,26 @@ p {
     z-index: 10;
     width: 100%;
 }
+.mega-menu2{
+    position: absolute;
+    height: auto;
+    background: #fff;
+    top: 100%;
+    left: 0%;
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 10;
+    width: 100%;
+}
 
 .mega-menu-show{
     visibility: visible;
     opacity: 1;
 }
 
-.mega-menu h5{
+.mega-menu h5, .mega-menu2 h5{
     color: #313131;
     text-transform: capitalize;
     text-align: center;
@@ -971,7 +984,7 @@ p {
     font-family: Archivo,sans-serif;
     font-weight: 400;
 }
-.menu-card span {
+.menu-card span, .mega-menu2 .menu-card span {
     text-align: center;
     display: block;
     margin-top: 10px;
@@ -979,10 +992,10 @@ p {
     color: #313131;
     font-family: sans-serif;
 }
-.menu-card:hover h5, .menu-card:hover span {
+.menu-card:hover h5, .menu-card:hover span, .mega-menu2 .menu-card:hover h5, .mega-menu2 .menu-card:hover span {
     color: #f43739;
 }
-.mega-menu h4 {
+.mega-menu h4, .mega-menu2 h4 {
     color: #313131;
     text-transform: capitalize;
     font-weight: 600;
@@ -996,10 +1009,10 @@ p {
     color: #313131;
     font-size: 15px;
 }
-.mega-menu li:not(:last-child){
+.mega-menu li:not(:last-child), .mega-menu2 li:not(:last-child){
     margin-bottom: 15px;
 }
-.mega-menu li:hover a{
+.mega-menu li:hover a, .mega-menu2 li:hover a{
     color: #f43739;
 }
 
@@ -1637,4 +1650,157 @@ div#shopify-product-reviews {
 }
 h3.spr-review-header-title {
     text-align: left;
+}
+.custom-id-your-problem {
+    padding: 30px 0px;
+    background-image: url('https://www.victorpest.com/media/wysiwyg/vp/cms/learning-center/vp-lc-id-your-problem-header.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #efefef;
+}
+.custom-id-your-problem-footer {
+    padding: 30px 0px;
+    background-image: url('https://www.victorpest.com/media/wysiwyg/vp/cms/learning-center/vp-lc-banner-ad-diagnose-3.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #efefef;
+}
+
+.id-your-problem-header-left-img h1 {
+    border-right: 2px solid #fff;
+    padding-right: 25px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header-copy {
+    display: table-cell;
+    vertical-align: middle;
+    min-height: auto;
+    height: 170px;
+}
+
+.custom-header-content {
+    max-width: 50%;
+}
+
+.header-copy p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.rodent-image {
+    position: relative;
+}
+.custom-id-grid-section .grid-cotent p {
+    line-height: 1.4;
+    margin-top: 10px;
+    color: #4a4949;
+    font-size: 15px;
+}
+.grid-cotent span {
+    color: red;
+    margin-top: 10px !important;
+    display: inline-block;
+}
+.custom-grid {
+    padding-bottom: 40px;
+}
+.custom-id-grid-section {
+    padding: 50px 0px;
+}
+
+.content-faq-sections{
+   position: relative;
+   z-index: 2;
+}
+.content-faq-sections p {
+font-size: 18px;
+    line-height: 1.4;
+}
+.content-faq-sections h2 {
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.learn-more{
+    color:#f43739;
+    font-weight: 700;
+    margin-top: 10px;
+    display: inline-block;
+}
+.custom-id-your-problem-footer .custom-header-content{
+    color: #000;
+}
+
+/*New Design Code*/
+.rodent-image {
+    width: 48%;
+    display: inline-block;
+    float: left;
+}
+.grid-cotent {
+    width: 48%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.grid-title h2 {
+    font-size: 25px;
+    color: #000;
+}
+.rodent-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.grid-cotent span {
+    color: #fff;
+    margin-top: 10px !important;
+    display: inline-block;
+    background: #1c3d72;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-family: monospace;
+}
+.grid-cotent span:hover {
+    background: #f43739;
+}
+.grid-column{
+    padding-bottom: 40px;
+}
+.left-faq-section {
+    padding: 50px 60px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    transition: 0.2s all ease-in-out;
+}
+
+.left-faq-section:hover {
+    transform: scale(1.09);
+}
+.icon-faqs i {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.main-btn {
+    color: #fff;
+    margin-top: 20px !important;
+    display: inline-block;
+    background: #1c3d72;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-family: monospace;
+}
+.main-btn:hover{
+    color: #fff;
+    background: #f43739;
+}
+.custom-faq-section {
+    padding: 50px;
+}
+.top-selling.id-identity {
+    padding-bottom: 0px;
+}
+.mega-menu2.know-more.mega-menu-show{
+    display: none;
 }

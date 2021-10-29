@@ -1,0 +1,68 @@
+<div class="custom-faq-section">
+    <div class="container">
+        <div class="row">
+            {% for block in section.blocks %}
+                <div class="col-md-4">
+                    <div class="left-faq-section">
+                        <div class="content-faq-sections">
+                            <div class="icon-faqs">
+                                <i class="{{ block.settings.ask_an_expert_icon }}" aria-hidden="true"></i>
+                            </div>
+                            <h2>{{ block.settings.ask_an_expert_title }}</h2>
+                            {{ block.settings.ask_an_expert_description }}
+                            <a class="main-btn" href="{{ block.settings.ask_an_expert_link }}">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "blocks":[
+        {
+        "name": "Ask An Expert Section",
+        "type": "image",
+        "settings": [
+                {
+                    "type": "text",
+                    "id": "ask_an_expert_icon",
+                    "label": "Ask An Expert Icon",
+                    "default": "fa fa-commenting"
+                },
+                {
+                    "type": "text",
+                    "id": "ask_an_expert_title",
+                    "label": "Ask An Expert Title",
+                    "default": "Ask An Expert"
+                },
+                {
+                    "type": "richtext",
+                    "id": "ask_an_expert_description",
+                    "label": "Ask An Expert Description",
+                    "default": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.</p>"
+                },
+                {
+                    "type": "url",
+                    "id": "ask_an_expert_link",
+                    "label": "Ask An Expert URL"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Ask An Expert",
+        "blocks": [
+          {
+            "type": "image"
+          }
+        ]
+      }
+    ]
+}
+
+{% endschema %}

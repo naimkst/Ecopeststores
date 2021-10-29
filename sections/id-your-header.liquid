@@ -1,0 +1,66 @@
+
+<!-- Header Section -->
+
+<style>
+    .custom-id-your-problem {
+    padding: 30px 0px;
+    background-image: url('{{ section.settings.id_your_header_background | img_url: "" }}');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #efefef;
+}
+</style>
+<div class="custom-id-your-problem">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="id-your-problem-header-left-img">
+                    <h1><img src="{{ section.settings.id_your_header_left_image | img_url: '' }}" alt=""></h1>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="custom-header-content">
+                    <div class="header-copy">
+                        <h1>{{ section.settings.id_your_header_title }}</h1>
+                        {{ section.settings.id_your_header_description }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Id Your Problem",
+    "settings":[
+        {
+            "type": "image_picker",
+            "id": "id_your_header_left_image",
+            "label": "Id Probelm Header Left Image"
+        },
+        {
+            "type": "text",
+            "id": "id_your_header_title",
+            "label": "Id Probelm Header Title",
+            "default": "ID Your Problem"
+        },
+        {
+            "type": "richtext",
+            "id": "id_your_header_description",
+            "label": "Id Probelm Header Description",
+            "default": "<p>Learn more about the rodents that may be infesting your home, buildings, yard and fields and how to control them in the safest and most efficient way.</p>"
+        },
+        {
+            "type": "image_picker",
+            "id": "id_your_header_background",
+            "label": "Id Probelm Header Background"
+        }
+    ],
+    "presets": [
+      {
+        "name": "ID Problem Header"
+      }
+    ]
+}
+{% endschema %}

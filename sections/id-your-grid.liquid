@@ -1,0 +1,376 @@
+
+
+<!-- top selling product -->
+<div class="top-selling id-identity">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8">
+                <div class="sec-title">
+                    <h2>{{ section.settings.id_your_grid_title }}</h2>
+                </div>
+            </div>
+        </div>
+        <!-- tab menu -->
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-10">
+                <ul class="nav nav-pills top-selling-tab-menu justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" data-toggle="pill" href="#pills-1" role="tab"
+                            aria-selected="true">{{ section.settings.id_your_tab_one }}</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-toggle="pill" href="#pills-2" role="tab" aria-selected="true">{{ section.settings.id_your_tab_two }}</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-toggle="pill" href="#pills-3" role="tab"
+                            aria-selected="true">{{ section.settings.id_your_tab_three }}</a>
+                    </li>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-toggle="pill" href="#pills-4" role="tab" aria-selected="true">{{ section.settings.id_your_tab_four }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- tabs -->
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-12">
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- tab panel -->
+                    <div class="tab-pane fade show active" id="pills-1">
+                        <div class="custom-id-grid-section">
+                            <div class="container">
+                                <div class="row">
+                                    {% for block in section.blocks %}
+                                    {% if block.type == 'button' %}
+                                        <div class="col-md-6 grid-column">
+                                        <div class="custom-grid">
+                                            <a href="#">
+                                                <div class="rodent-image">
+                                                    <img src="{{ block.settings.Pest_Identification_image | img_url: '' }}"
+                                                        class="img-fluid" alt="">
+                                                </div>
+
+                                                <div class="grid-cotent">
+                                                    <a href="{{ block.settings.Pest_Identification_link }}">
+                                                        <div class="grid-title">
+                                                            <h2>{{ block.settings.Pest_Identification_title }}</h2>
+                                                        </div>
+                                                        <p>{{ block.settings.Pest_Identification_description }}</p>
+                                                        <span>
+                                                            Learn More >>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab panel -->
+
+                    <!-- tab panel -->
+                    <div class="tab-pane fade" id="pills-2">
+                        <div class="custom-id-grid-section">
+                            <div class="container">
+                                <div class="row">
+                                    {% for block in section.blocks %}
+                                    {% if block.type == 'image' %}
+                                        <div class="col-md-6 grid-column">
+                                        <div class="custom-grid">
+                                            <a href="#">
+                                                <div class="rodent-image">
+                                                    <img src="{{ block.settings.Pest_Identification_image | img_url: '' }}"
+                                                        class="img-fluid" alt="">
+                                                </div>
+
+                                                <div class="grid-cotent">
+                                                    <a href="{{ block.settings.Pest_Identification_link }}">
+                                                        <div class="grid-title">
+                                                            <h2>{{ block.settings.Pest_Identification_title }}</h2>
+                                                        </div>
+                                                        <p>{{ block.settings.Pest_Identification_description }}</p>
+                                                        <span>
+                                                            Learn More >>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab panel -->
+
+                    <!-- tab panel -->
+                    <div class="tab-pane fade" id="pills-3">
+                        <div class="custom-id-grid-section">
+                            <div class="container">
+                                <div class="row">
+                                    {% for block in section.blocks %}
+                                    {% if block.type == 'headline' %}
+                                        <div class="col-md-6 grid-column">
+                                        <div class="custom-grid">
+                                            <a href="#">
+                                                <div class="rodent-image">
+                                                    <img src="{{ block.settings.Pest_Identification_image | img_url: '' }}"
+                                                        class="img-fluid" alt="">
+                                                </div>
+
+                                                <div class="grid-cotent">
+                                                    <a href="{{ block.settings.Pest_Identification_link }}">
+                                                        <div class="grid-title">
+                                                            <h2>{{ block.settings.Pest_Identification_title }}</h2>
+                                                        </div>
+                                                        <p>{{ block.settings.Pest_Identification_description }}</p>
+                                                        <span>
+                                                            Learn More >>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab panel -->
+                    <!-- tab panel -->
+
+                    <!-- tab panel -->
+                    <div class="tab-pane fade" id="pills-4">
+                        <div class="custom-id-grid-section">
+                            <div class="container">
+                                <div class="row">
+                                    {% for block in section.blocks %}
+                                    {% if block.type == 'advert' %}
+                                        <div class="col-md-6 grid-column">
+                                        <div class="custom-grid">
+                                            <a href="#">
+                                                <div class="rodent-image">
+                                                    <img src="{{ block.settings.Pest_Identification_image | img_url: '' }}"
+                                                        class="img-fluid" alt="">
+                                                </div>
+
+                                                <div class="grid-cotent">
+                                                    <a href="{{ block.settings.Pest_Identification_link }}">
+                                                        <div class="grid-title">
+                                                            <h2>{{ block.settings.Pest_Identification_title }}</h2>
+                                                        </div>
+                                                        <p>{{ block.settings.Pest_Identification_description }}</p>
+                                                        <span>
+                                                            Learn More >>
+                                                        </span>
+                                                    </a>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab panel -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- top selling product -->
+
+
+{% schema %}
+{
+    "settings": [
+        {
+            "type": "text",
+            "id": "id_your_grid_title",
+            "label": "ID Your Grid Title",
+            "default": "Pest Identification"
+        },
+        {
+            "type": "text",
+            "id": "id_your_tab_one",
+            "label": "ID Your Tab One Title",
+            "default": "Crawling Insects & bugs"
+        },
+        {
+            "type": "text",
+            "id": "id_your_tab_two",
+            "label": "ID Your Tab Two Title",
+            "default": "Flying Insects"
+        },
+        {
+            "type": "text",
+            "id": "id_your_tab_three",
+            "label": "ID Your Tab Three Title",
+            "default": "Rodents"
+        },
+        {
+            "type": "text",
+            "id": "id_your_tab_four",
+            "label": "ID Your Tab Four Title",
+            "default": "Birds"
+        }
+
+    ],
+    "blocks": [
+    {
+      "type": "button",
+      "name": "Tab One",
+      "settings": [
+      {
+        "type": "text",
+        "id": "Pest_Identification_title",
+        "label": "Pest Identification Title",
+        "default": "Pest Identification"
+    },
+    {
+        "type": "richtext",
+        "id": "Pest_Identification_description",
+        "label": "Pest Identification Description",
+        "default": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.</p>"
+    },
+    {
+        "type": "image_picker",
+        "id": "Pest_Identification_image",
+        "label": "Pest Identification Image"
+    },
+    {
+        "type": "url",
+        "id": "Pest_Identification_link",
+        "label": "Pest Identification Link"
+    }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Tab Two",
+      "settings": [
+        {
+                    "type": "text",
+                    "id": "Pest_Identification_title",
+                    "label": "Pest Identification Title",
+                    "default": "Pest Identification"
+                },
+                {
+                    "type": "richtext",
+                    "id": "Pest_Identification_description",
+                    "label": "Pest Identification Description",
+                    "default": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.</p>"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "Pest_Identification_image",
+                    "label": "Pest Identification Image"
+                },
+                {
+                    "type": "url",
+                    "id": "Pest_Identification_link",
+                    "label": "Pest Identification Link"
+                }
+      ]
+    },
+    {
+      "type": "headline",
+      "name": "Tab Three",
+      "settings": [
+        {
+                    "type": "text",
+                    "id": "Pest_Identification_title",
+                    "label": "Pest Identification Title",
+                    "default": "Pest Identification"
+                },
+                {
+                    "type": "richtext",
+                    "id": "Pest_Identification_description",
+                    "label": "Pest Identification Description",
+                    "default": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.</p>"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "Pest_Identification_image",
+                    "label": "Pest Identification Image"
+                },
+                {
+                    "type": "url",
+                    "id": "Pest_Identification_link",
+                    "label": "Pest Identification Link"
+                }
+      ]
+    },
+    {
+        "type": "advert",
+        "name": "Tab Four",
+        "settings": [
+          {
+                      "type": "text",
+                      "id": "Pest_Identification_title",
+                      "label": "Pest Identification Title",
+                      "default": "Pest Identification"
+                  },
+                  {
+                      "type": "richtext",
+                      "id": "Pest_Identification_description",
+                      "label": "Pest Identification Description",
+                      "default": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.</p>"
+                  },
+                  {
+                      "type": "image_picker",
+                      "id": "Pest_Identification_image",
+                      "label": "Pest Identification Image"
+                  },
+                  {
+                      "type": "url",
+                      "id": "Pest_Identification_link",
+                      "label": "Pest Identification Link"
+                  }
+        ]
+      }
+  ],
+    "presets": [
+      {
+        "name": "ID Your Grid",
+        "blocks": [
+          {
+            "type": "button"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "image"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "headline"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "advert"
+          }
+        ]
+      }
+    ]
+}
+
+{% endschema %}

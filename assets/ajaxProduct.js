@@ -109,5 +109,9 @@ function ajaxSearch() {
 }
 
 
+$(".right-menu-toggole").click(function () {
+  $(".mega-menu2.know-more.mega-menu-show").toggle();
+  $("#example").toggleClass('display-none');
+});
 
 
