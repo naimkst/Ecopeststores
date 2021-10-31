@@ -1,0 +1,441 @@
+    <!-- Start Main section  -->
+
+    <main>
+
+        <style>
+            .custom-id-your-problem {
+                background-image: url('https://www.victorpest.com/media/wysiwyg/vp/cms/learning-center/vp-lc-rodent-library-house-mouse-header-3.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            .custom-id-your-problem:before {
+                background: #000;
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;
+            }
+
+            .header-copy {
+                display: inline-block;
+                padding: 50px 10px 50px 30px;
+                color: #fff;
+                background: #1c3d72bf;
+                margin: 40px 0;
+                width: 50%;
+            }
+            .header-copy p {
+                line-height: 1.4;
+                font-family: system-ui;
+            }
+
+            .overview-section {
+                background: #1c3d72;
+                padding: 25px 30px;
+            }
+
+            .overview-section h2 {
+                font-size: 24px;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+
+            .overview-section ul li {
+                font-size: 18px;
+                padding: 5px;
+            }
+
+            .overview-section ul li a:hover {
+                color: #f43739;
+            }
+
+            .overview-section ul li a {
+                color: #fff;
+                font-size: 15px;
+            }
+
+            .mouse-fact {
+                background: #eee;
+                padding: 50px 45px;
+            }
+
+            .mouse-fact h2 {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+
+            .spacification p {
+                font-size: 17px;
+                font-weight: 500;
+                color: #000;
+                margin-bottom: 5px;
+            }
+
+            .spacification {
+                margin-bottom: 15px;
+            }
+
+            .spacification span {
+                font-size: 14px;
+            }
+
+            .right-content-id {
+                padding: 50px 10px;
+            }
+
+            .content-image-with-title p {
+                font-size: 18px;
+                line-height: 1.4;
+            }
+
+            .content-image-with-title h2 {
+                margin-bottom: 15px;
+            }
+
+            .image-grid {
+                margin-top: 20px;
+            }
+            .cotent-sfasification{
+                margin-top: 25px;
+            }
+            .cotent-sfasification h2{
+                font-size: 25px;
+                margin-bottom: 25px;
+            }
+            .prd_widget_image {
+                width: 30%;
+                display: inline-block;
+                float: left;
+            }
+            .prd_widget_image img{
+                width: 100%;
+                height: 80px;
+                object-fit: cover;
+            }
+            .prd_widget_content {
+                padding-left: 95px;
+            }
+            .prd_widget_content p {
+                font-size: 14px;
+                line-height: 1.2;
+                font-family: system-ui;
+            }
+            .prd_widget_content h2 {
+                font-family: system-ui;
+                font-weight: 600;
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            .prd_widget_content span {
+                font-size: 14px;
+                color: red;
+                font-family: system-ui;
+                font-weight: 600;
+                margin-top: 6px;
+                display: inline-block;
+            }
+            .prduct-line-widget ul li {
+                display: inline-block;
+                margin-bottom: 10px;
+                background: #f9f9f9;
+                padding: 10px;
+            }
+            .product-id-widget {
+                margin-top: 50px;
+            }
+        </style>
+
+        <!-- Header Section -->
+        <div class="custom-id-your-problem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="custom-header-content">
+                            <div class="header-copy">
+                                <h1>{{ section.settings.id_your_single_title }}</h1>
+                                <p>{{ section.settings.id_your_single_subtitle }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-id-content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="right-content-id">
+                            <div class="content-image-with-title">
+                                <h2>{{ section.settings.id_your_single_title }}</h2>
+                                <p>{{ section.settings.id_your_single_subtitle }}</p>
+
+                                <div class="image-grid">
+                                    <div class="container">
+                                        <div class="row">
+                                            {% for block in section.blocks %}
+                                            <div class="col-md-6">
+                                                <div class="idimg">
+                                                    <img src="{{ block.settings.single_id_grid_image | img_url: ''}}"
+                                                    alt="">
+                                                </div>
+                                                <div class="single-spacification">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="cotent-sfasification">
+                                                                    <h2>{{ block.settings.single_id_grid_title }}</h2>
+                                                                    <div class="spacification">
+                                                                        {{ block.settings.single_id_description }}
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="left-sidebar-id">
+                            <div class="overview-section">
+                                <h2>{{ section.settings.side_bar_title }}</h2>
+                                <ul>
+                                    {% for link in linklists[section.settings.side_bar_link].links %}
+                                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="mouse-fact">
+                                <h2>{{ section.settings.side_bar_fact_title }}</h2>
+                                <div class="spacification">
+                                   {{ section.settings.side_bar_fact_description }}
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--  End Main section -->
+
+
+    <!-- top selling product -->
+    <div class="top-selling">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8">
+                    <div class="sec-title">
+                        <h2>Top selling products</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- tab panel -->
+                        <div class="tab-pane fade show active" id="pills-1">
+                            <div class="owl-carousel owl-theme product-carousel">
+
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-1.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-2.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-3.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-4.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-1.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-2.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-3.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/product-4.jpg" class="img-fluid" alt="">
+                                            <h5>Child & Pet Safe Mice / Rat Outdoor Bait Trap - EBS - Online Only</h5>
+                                            <p>$69.95</p>
+                                            <button class="btn shop-now">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item -->
+
+                            </div>
+                        </div>
+                        <!-- tab panel -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top selling product -->
+
+
+    {% schema %}
+{
+    "settings": [
+        {
+            "type": "text",
+            "id": "id_your_single_title",
+            "label": "ID Your Single Title",
+            "default": "House Mouse"
+        },
+        {
+            "type": "text",
+            "id": "id_your_single_subtitle",
+            "label": "ID Your Single Subtitle",
+            "default": "xcellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter. House M"
+        },
+        {
+            "type": "text",
+            "id": "side_bar_title",
+            "label": "Sidebar Overview Title",
+            "default": "Overview"
+        },
+        {
+            "type": "link_list",
+            "id": "side_bar_link",
+            "label": "Sidebar Overview Link"
+        },
+        {
+            "type": "text",
+            "id": "side_bar_fact_title",
+            "label": "Sidebar Fact Tite"
+        },
+        {
+            "type": "richtext",
+            "id": "side_bar_fact_description",
+            "label": "Sidebar Fact Description"
+        }
+
+    ],
+    "blocks": [
+        {
+            "type": "button",
+            "name": "Tab One",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "single_id_grid_title",
+                    "label": "Single Id Fact Title",
+                    "default": "House Mouse Facts"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "single_id_grid_image",
+                    "label": "Single Id Scientific"
+                },
+                {
+                    "type": "richtext",
+                    "id": "single_id_description",
+                    "label": "Single Id Description",
+                    "default": "<p>here is description</p>"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Singe Page ID Your Grid",
+        "blocks": [
+          {
+            "type": "button"
+          }
+        ]
+      }
+    ]
+}
+
+{% endschema %}
