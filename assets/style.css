@@ -1684,6 +1684,9 @@ h3.spr-review-header-title {
 .custom-header-content {
     background: #1c3d72bf;
 }
+.custom-header-content-id-problem {
+    max-width: 50%;
+}
 
 .header-copy p {
     font-size: 18px;
