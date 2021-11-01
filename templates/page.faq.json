@@ -6,7 +6,7 @@
         "51c34abe-8de2-4426-9ebd-278279f126f0": {
           "type": "text",
           "settings": {
-            "faq_question_title": "Type your FAQ question",
+            "faq_question_title": "What can I use to kill bed bugs?",
             "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
             "faq_collection": ""
           }
@@ -14,7 +14,7 @@
         "0aee446e-eb4e-41b2-ab76-a246b16d6ecc": {
           "type": "text",
           "settings": {
-            "faq_question_title": "Type your FAQ Test",
+            "faq_question_title": "What can I use to kill ants",
             "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
             "faq_collection": "demo-collection"
           }
@@ -22,7 +22,7 @@
         "2feddb89-f323-4735-9e6c-13c39b6031ee": {
           "type": "text",
           "settings": {
-            "faq_question_title": "Type your FAQ One",
+            "faq_question_title": "Help - Wasps and Bees!!!!!",
             "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
             "faq_collection": "lawn-garden"
           }
@@ -30,13 +30,14 @@
         "78939926-c600-403e-b371-01a11ad93b93": {
           "type": "text",
           "settings": {
-            "faq_question_title": "Type your FAQ Two",
+            "faq_question_title": "Rodents - Mice, rats, Moles and Voles",
             "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
             "faq_collection": "commercial-center"
           }
         },
         "fff8027f-e49b-4d9c-bcec-297fbd3216f3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "faq_question_title": "How can i help you?",
             "faq_description": "<p>The Intellectual Property disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.<\/p>",
