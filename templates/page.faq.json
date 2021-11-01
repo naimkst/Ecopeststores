@@ -74,7 +74,7 @@
         "5f3876cd-dbb3-4e5d-8ac1-3b989ea71e80": {
           "type": "image",
           "settings": {
-            "ask_an_expert_icon": "fa fa-commenting",
+            "ask_an_expert_icon": "fa fa-comments",
             "ask_an_expert_title": "Chat Now",
             "ask_an_expert_description": "<p>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products your need for your next DIY - Do it yourself project!<\/p>",
             "ask_an_expert_link": ""
