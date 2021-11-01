@@ -115,6 +115,15 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download_8.jpg",
             "Pest_Identification_link": "#"
           }
+        },
+        "d6474b4b-b4e2-44a3-aae5-963ce7274b20": {
+          "type": "image",
+          "settings": {
+            "Pest_Identification_title": "Flies",
+            "Pest_Identification_description": "<p>Flies are more than a nuisance. They spread bacteria and contaminate food. Flies are prolific breeders, capable of existing in a wide range of conditions. Ecopest’s Fly Control Program is a smart, effective way to reduce flies.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_9.jpg",
+            "Pest_Identification_link": "#"
+          }
         }
       },
       "block_order": [
@@ -128,7 +137,8 @@
         "22f8627f-a2f7-4810-9611-4a5b637dd51e",
         "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad",
         "e93b4569-bec7-484d-baae-e8f20daece85",
-        "abebb77e-6690-4cce-9d5d-56768787729b"
+        "abebb77e-6690-4cce-9d5d-56768787729b",
+        "d6474b4b-b4e2-44a3-aae5-963ce7274b20"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
