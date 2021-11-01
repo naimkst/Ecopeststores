@@ -61,6 +61,42 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download_2.jpg",
             "Pest_Identification_link": "#"
           }
+        },
+        "e3a66d7d-6811-43c6-8995-3225ab6c71ba": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Spider",
+            "Pest_Identification_description": "<p>There are many varieties in North America. All are easily recognizable by four pairs of legs and a large sac-like abdomen. The size of a spider generally ranges from 10 to 20 mm in length. Color varies from brown and gray to black.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_3.jpg",
+            "Pest_Identification_link": ""
+          }
+        },
+        "2207c084-19e2-4f3b-8c02-cb1b1c0c0149": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Carpet Beetle",
+            "Pest_Identification_description": "<p>The Carpet beetle, commonly found in all parts of North America, is oval in shape, measures approximately 1\/8” with an irregular arrangement of white, brownish and yellowish spots, or a solid black shell, when fully matured. While in the larvae.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_4.jpg",
+            "Pest_Identification_link": ""
+          }
+        },
+        "22f8627f-a2f7-4810-9611-4a5b637dd51e": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Larder Beetle",
+            "Pest_Identification_description": "<p>Larder Beetles, as their name implies, prefer meat or meat by-products. This could be decomposing animal, poultry, insect or other non-plant materials. Mounted animals may also become infested. However, Larder Beetles can.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_5.jpg",
+            "Pest_Identification_link": ""
+          }
+        },
+        "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Centipedee",
+            "Pest_Identification_description": "<p>Centipedes are common animals of the soil and leaf litter. They are long (2-4 cm), flattened creatures with from 15 to over 100 pairs of legs, one pair to each abdominal segment. The long, jointed legs provide for rapid movement. Long.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_6.jpg",
+            "Pest_Identification_link": ""
+          }
         }
       },
       "block_order": [
@@ -68,7 +104,11 @@
         "16357457268d23df8b-0",
         "381676eb-3673-48ea-a48e-ceea979a7d6a",
         "b6d44db5-0c82-4cd5-a46a-9a75e1e75841",
-        "509ddb78-a21f-463f-ab56-6c8b3523453a"
+        "509ddb78-a21f-463f-ab56-6c8b3523453a",
+        "e3a66d7d-6811-43c6-8995-3225ab6c71ba",
+        "2207c084-19e2-4f3b-8c02-cb1b1c0c0149",
+        "22f8627f-a2f7-4810-9611-4a5b637dd51e",
+        "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
