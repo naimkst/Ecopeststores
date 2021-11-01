@@ -34,11 +34,21 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download_12.jpg",
             "Pest_Identification_link": "#"
           }
+        },
+        "381676eb-3673-48ea-a48e-ceea979a7d6a": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Cockroach",
+            "Pest_Identification_description": "<p>Cockroaches require a strategy that involves two consecutive sprays and a baiting as they are impossible to kill in only one shot. Each application should be carried out at 2 weeks apart. This strategy usually requires 3 visits depending......<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download.png",
+            "Pest_Identification_link": "#"
+          }
         }
       },
       "block_order": [
         "72c6cca3-971b-49f0-abcd-a16462f97847",
-        "16357457268d23df8b-0"
+        "16357457268d23df8b-0",
+        "381676eb-3673-48ea-a48e-ceea979a7d6a"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
