@@ -4,9 +4,19 @@
       "type": "id-your-problem",
       "settings": {
       }
+    },
+    "1635745706a4d81549": {
+      "type": "id-your-header",
+      "settings": {
+        "id_your_header_left_image": "shopify:\/\/shop_images\/know_more.png",
+        "id_your_header_title": "ID Your Problem",
+        "id_your_header_description": "<p>Learn more about the rodents that may be infesting your home, buildings, yard and fields and how to control them in the safest and most efficient way.<\/p>",
+        "id_your_header_background": "shopify:\/\/shop_images\/vp-lc-id-your-problem-header.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1635745706a4d81549"
   ]
 }
