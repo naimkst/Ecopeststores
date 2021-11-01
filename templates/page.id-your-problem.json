@@ -13,10 +13,44 @@
         "id_your_header_description": "<p>Learn more about the rodents that may be infesting your home, buildings, yard and fields and how to control them in the safest and most efficient way.<\/p>",
         "id_your_header_background": "shopify:\/\/shop_images\/vp-lc-id-your-problem-header.jpg"
       }
+    },
+    "16357457268d23df8b": {
+      "type": "id-your-grid",
+      "blocks": {
+        "16357457268d23df8b-0": {
+          "type": "advert",
+          "settings": {
+            "Pest_Identification_title": "Pest Identification",
+            "Pest_Identification_description": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.<\/p>",
+            "Pest_Identification_link": ""
+          }
+        },
+        "72c6cca3-971b-49f0-abcd-a16462f97847": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Bed Bugs",
+            "Pest_Identification_description": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download.jpg",
+            "Pest_Identification_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "16357457268d23df8b-0",
+        "72c6cca3-971b-49f0-abcd-a16462f97847"
+      ],
+      "settings": {
+        "id_your_grid_title": "Pest Identification",
+        "id_your_tab_one": "Crawling Insects & bugs",
+        "id_your_tab_two": "Flying Insects",
+        "id_your_tab_three": "Rodents",
+        "id_your_tab_four": "Birds"
+      }
     }
   },
   "order": [
     "main",
-    "1635745706a4d81549"
+    "1635745706a4d81549",
+    "16357457268d23df8b"
   ]
 }
