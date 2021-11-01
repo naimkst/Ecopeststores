@@ -17,14 +17,6 @@
     "16357457268d23df8b": {
       "type": "id-your-grid",
       "blocks": {
-        "16357457268d23df8b-0": {
-          "type": "advert",
-          "settings": {
-            "Pest_Identification_title": "Pest Identification",
-            "Pest_Identification_description": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.<\/p>",
-            "Pest_Identification_link": ""
-          }
-        },
         "72c6cca3-971b-49f0-abcd-a16462f97847": {
           "type": "button",
           "settings": {
@@ -33,11 +25,20 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download.jpg",
             "Pest_Identification_link": "#"
           }
+        },
+        "16357457268d23df8b-0": {
+          "type": "advert",
+          "settings": {
+            "Pest_Identification_title": "Pigeon",
+            "Pest_Identification_description": "<p>Most people are well acquainted with this bird. They are excellent fliers and are often seen in flocks. Pigeons feed on open ground eating seeds or discarded scraps. They mate for life and roost on tall buildings where their droppings coat....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_12.jpg",
+            "Pest_Identification_link": "#"
+          }
         }
       },
       "block_order": [
-        "16357457268d23df8b-0",
-        "72c6cca3-971b-49f0-abcd-a16462f97847"
+        "72c6cca3-971b-49f0-abcd-a16462f97847",
+        "16357457268d23df8b-0"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
