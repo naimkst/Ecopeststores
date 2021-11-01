@@ -124,6 +124,41 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download_9.jpg",
             "Pest_Identification_link": "#"
           }
+        },
+        "044cbad4-33bf-4eb6-8f81-f4f91e92ee89": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Mice",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": "#"
+          }
+        },
+        "7277750c-1717-4114-a238-e344c7145423": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Rats",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": ""
+          }
+        },
+        "bb72ac03-546a-43b4-b112-93dc756856c7": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Mice",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.<\/p>",
+            "Pest_Identification_link": ""
+          }
+        },
+        "711c333b-9de8-40e2-9116-c0e1fbe8f097": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Rats",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": ""
+          }
         }
       },
       "block_order": [
@@ -138,7 +173,11 @@
         "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad",
         "e93b4569-bec7-484d-baae-e8f20daece85",
         "abebb77e-6690-4cce-9d5d-56768787729b",
-        "d6474b4b-b4e2-44a3-aae5-963ce7274b20"
+        "d6474b4b-b4e2-44a3-aae5-963ce7274b20",
+        "044cbad4-33bf-4eb6-8f81-f4f91e92ee89",
+        "7277750c-1717-4114-a238-e344c7145423",
+        "bb72ac03-546a-43b4-b112-93dc756856c7",
+        "711c333b-9de8-40e2-9116-c0e1fbe8f097"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
