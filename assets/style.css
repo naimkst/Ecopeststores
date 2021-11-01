@@ -1682,7 +1682,7 @@ h3.spr-review-header-title {
 }
 
 .custom-header-content {
-    max-width: 50%;
+    background: #1c3d72bf;
 }
 
 .header-copy p {
