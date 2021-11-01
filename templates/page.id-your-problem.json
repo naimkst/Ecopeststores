@@ -97,6 +97,15 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download_6.jpg",
             "Pest_Identification_link": ""
           }
+        },
+        "e93b4569-bec7-484d-baae-e8f20daece85": {
+          "type": "image",
+          "settings": {
+            "Pest_Identification_title": "Wasps & Bees",
+            "Pest_Identification_description": "<p>Wasps and honey bees are beneficial insects, although they are generally considered to be pests because of their ability to sting. Wasps, in particular, can become a problem in autumn when they may disrupt many outdoor activities.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_7.jpg",
+            "Pest_Identification_link": "#"
+          }
         }
       },
       "block_order": [
@@ -108,7 +117,8 @@
         "e3a66d7d-6811-43c6-8995-3225ab6c71ba",
         "2207c084-19e2-4f3b-8c02-cb1b1c0c0149",
         "22f8627f-a2f7-4810-9611-4a5b637dd51e",
-        "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad"
+        "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad",
+        "e93b4569-bec7-484d-baae-e8f20daece85"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
