@@ -106,6 +106,15 @@
             "Pest_Identification_image": "shopify:\/\/shop_images\/download_7.jpg",
             "Pest_Identification_link": "#"
           }
+        },
+        "abebb77e-6690-4cce-9d5d-56768787729b": {
+          "type": "image",
+          "settings": {
+            "Pest_Identification_title": "Mosquitoes",
+            "Pest_Identification_description": "<p>Heavy summer rainfall can result in uncomfortable levels of mosquito biting activity in Edmonton. Such biting is considered only to be a nuisance since there appears to be negligible risk of human disease transmission by.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_8.jpg",
+            "Pest_Identification_link": "#"
+          }
         }
       },
       "block_order": [
@@ -118,7 +127,8 @@
         "2207c084-19e2-4f3b-8c02-cb1b1c0c0149",
         "22f8627f-a2f7-4810-9611-4a5b637dd51e",
         "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad",
-        "e93b4569-bec7-484d-baae-e8f20daece85"
+        "e93b4569-bec7-484d-baae-e8f20daece85",
+        "abebb77e-6690-4cce-9d5d-56768787729b"
       ],
       "settings": {
         "id_your_grid_title": "Pest Identification",
