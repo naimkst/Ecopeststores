@@ -212,7 +212,7 @@
         "aed903b4-73df-4e25-8335-5566eb522b0a": {
           "type": "image",
           "settings": {
-            "ask_an_expert_icon": "fa fa-camera",
+            "ask_an_expert_icon": "fa fa-video-camera",
             "ask_an_expert_title": "Video Call",
             "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<br\/><br\/>.<\/p>",
             "ask_an_expert_link": ""
