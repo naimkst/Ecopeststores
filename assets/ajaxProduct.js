@@ -114,4 +114,10 @@ $(".right-menu-toggole").click(function () {
   $("#example").toggleClass('display-none');
 });
 
-
+$(document).ready(function () {
+  setTimeout(function(){ 
+    $('.spintrevoew').removeClass('spinBG');
+    $('#loadingSingleProduct').hide();
+   }, 2000);
+  
+})
