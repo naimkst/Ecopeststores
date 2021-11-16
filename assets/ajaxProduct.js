@@ -65,6 +65,50 @@ $("#faqSearch").on("keyup", function () {
 
 
 //Ajax Search Result
+$(document).ready(function(){
+  $("#search-box").click(function(){
+  console.log('innnn');
+  const search_result = $('.search-result');
+  const query = document.querySelector('input').value;
+  const searchSection = $('.search-section');
+  var ajax_spiner = $('.search-loading');
+    $.ajax(
+      {
+        url: '/products.json',
+        type: 'GET',
+        dataType: 'json',
+        beforeSend: function () {
+          ajax_spiner.show();
+        }
+      }
+    ).done(function (data) {
+      if (data.products != null) {
+        searchSection.hide();
+        $('.search-result').empty();
+        data.products.forEach(function (product) {
+          searchSection.show();
+          var html = '<li>';
+          html += '<a href="">';
+          html += '<div class="thumbnail"><img src="' + product['images'][0]['src'] + '" alt="" width="80px"></div>';
+          html += '<div class="title"> <h6>' + product['title'] + '</h6> <p>$' + product['price'] + '</p> </div> </a> </li>';
+          ajax_spiner.hide();
+          $('.search-result').append(html);
+        });
+      } else {
+        searchSection.hide();
+        $('.search-result').empty();
+        $('.search-result').append("<li>No Data Found</li>");
+      }
+    });
+    $("body").click(function(){
+      searchSection.hide();
+    });
+  });
+
+});
+
+
+//Search Funcition
 function ajaxSearch() {
   const search_result = $('.search-result');
   const query = document.querySelector('input').value;

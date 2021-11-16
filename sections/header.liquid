@@ -53,6 +53,13 @@
         .search-section{
            display: none;
         }
+        ::-webkit-input-placeholder{
+            color: #1C3D72;
+        }
+        .search-section {
+            max-height: 500px;
+            overflow: scroll;
+        }
     </style>
 
     {% if section.settings.top_header_hide_show != false %}
@@ -115,7 +122,7 @@
                 </div>
                 <div class="col-xl-4 col-md-10 mb-xl-0 mb-4">
                     <form action="/search" method="get" role="search" class="search-bar">
-                        <input type="search" id="search-box" data-period="2000" data-type='[ "Ecopeststore", "Ants", "Bed Bugs", "Wasps & Bees", "Spiders", "Mice", "Rats", "Voles", "Moles", "Cockroaches", "Sow Bugs", "Tree & Garden"]' name="q" value="{{ search.terms | escape }}" class="form-control"  onkeyup="ajaxSearch()">
+                        <input type="search" id="search-box" name="q" value="{{ search.terms | escape }}" class="form-control typewrite form-control"  onkeyup="ajaxSearch()" data-period="2000" data-type='[ "Ecopeststore", "Ants", "Bed Bugs", "Wasps & Bees", "Spiders", "Mice", "Rats", "Voles", "Moles", "Cockroaches", "Sow Bugs", "Tree & Garden"]'>
                         <button type="submit" class="btn search-btn"><i class="fa fa-search"></i>
                             <span>search</span></button>
                     </form>
@@ -209,7 +216,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             {% endfor %}
                                         </div>
                                     </div>
