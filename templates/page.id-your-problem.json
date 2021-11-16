@@ -187,11 +187,51 @@
         "id_your_tab_three": "Rodents",
         "id_your_tab_four": "Birds"
       }
+    },
+    "1636484325c0269271": {
+      "type": "id-problem-faq",
+      "blocks": {
+        "1636484325c0269271-0": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-commenting",
+            "ask_an_expert_title": "Ask An Expert",
+            "ask_an_expert_description": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.<\/p>",
+            "ask_an_expert_link": ""
+          }
+        },
+        "9ce5f3b3-fa5d-4fe0-9bd9-bcc39230a1fb": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-comments",
+            "ask_an_expert_title": "Chat Now",
+            "ask_an_expert_description": "<p><br\/>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products your need for your next DIY - Do it yourself project!<\/p>",
+            "ask_an_expert_link": ""
+          }
+        },
+        "aed903b4-73df-4e25-8335-5566eb522b0a": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-video-camera",
+            "ask_an_expert_title": "Video Call",
+            "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<br\/><br\/>.<\/p>",
+            "ask_an_expert_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636484325c0269271-0",
+        "9ce5f3b3-fa5d-4fe0-9bd9-bcc39230a1fb",
+        "aed903b4-73df-4e25-8335-5566eb522b0a"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "1635745706a4d81549",
-    "16357457268d23df8b"
+    "16357457268d23df8b",
+    "1636484325c0269271"
   ]
 }
