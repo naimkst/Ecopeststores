@@ -174,16 +174,16 @@ $(document).ready(function () {
 
 
     //Mega Menu
-    $('.is_megamenu').on('mouseenter', function () {
-        $('.mega-menu').addClass('mega-menu-show');
-    });
+    // $('.is_megamenu').on('mouseenter', function () {
+    //     $('.mega-menu').addClass('mega-menu-show');
+    // });
 
-    $(".is_megamenu").click(function () {
-        $('.mega-menu').toggleClass('mega-menu-show');
-    });
-    $(document).click(function () {
-        $('.mega-menu').removeClass('mega-menu-show');
-    });
+    // $(".is_megamenu").click(function () {
+    //     $('.mega-menu').toggleClass('mega-menu-show');
+    // });
+    // $(document).click(function () {
+    //     $('.mega-menu').removeClass('mega-menu-show');
+    // });
 
 
     function getVariantFromOptions() {

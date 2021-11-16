@@ -153,10 +153,39 @@ function ajaxSearch() {
 }
 
 
-$(".right-menu-toggole").click(function () {
-  $(".mega-menu2.know-more.mega-menu-show").toggle();
-  $("#example").toggleClass('display-none');
+
+
+$(document).ready(function(){
+  $(".right-menu-toggole").hover(function(){
+    $(".mega-menu2.know-more.mega-menu-show").css("display", "block");
+    }, function(){
+      $(".mega-menu2.know-more.mega-menu-show").css("display", "none");
+  });
+
+  $(".mega-menu2.know-more.mega-menu-show").hover(function(){
+    $(".mega-menu2.know-more.mega-menu-show").css("display", "block");
+    }, function(){
+      $(".mega-menu2.know-more.mega-menu-show").css("display", "none");
+  });
 });
+
+
+
+$(document).ready(function(){
+  $(".is_megamenu").hover(function(){
+    $(".mega-menu").css("display", "block");
+    }, function(){
+      $(".mega-menu").css("display", "none");
+  });
+
+  $(".mega-menu").hover(function(){
+    $(".mega-menu").css("display", "block");
+    }, function(){
+      $(".mega-menu").css("display", "none");
+  });
+});
+
+
 
 $(document).ready(function () {
   setTimeout(function(){ 
