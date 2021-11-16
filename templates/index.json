@@ -5,6 +5,7 @@
       "blocks": {
         "6620487d-8a95-4ef5-ad65-a0806e995f1c": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
             "hero_slider_slug": "Make Your",
@@ -17,6 +18,7 @@
         },
         "8d431182-fd03-446e-b11b-5982018d7f53": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
             "hero_slider_slug": "Make Your",
