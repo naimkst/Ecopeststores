@@ -287,7 +287,7 @@ p {
     display: block;
 }
 .mega_cat li a{
-    color: #313131 !important;
+    color: #fff !important;
 }
 .menu-items:hover a{
     color: #F43739 !important;
@@ -946,20 +946,19 @@ p {
 .mega-menu{
     position: absolute;
     height: auto;
-    background: #fff;
+    background: #1c3d72;
     top: 100%;
     left: 10%;
     padding: 30px;
     visibility: hidden;
-    opacity: 0;
     transition: all 0.3s ease;
-    z-index: 10;
+    z-index: 99999;
     width: 100%;
 }
 .mega-menu2{
     position: absolute;
     height: auto;
-    background: #fff;
+    background: #1c3d72;
     top: 100%;
     left: 0%;
     padding: 30px;
@@ -976,7 +975,7 @@ p {
 }
 
 .mega-menu h5, .mega-menu2 h5{
-    color: #313131;
+    color: #fff;
     text-transform: capitalize;
     text-align: center;
     margin-top: 10px;
@@ -989,14 +988,14 @@ p {
     display: block;
     margin-top: 10px;
     font-size: 15px;
-    color: #313131;
+    color: #fff;
     font-family: sans-serif;
 }
 .menu-card:hover h5, .menu-card:hover span, .mega-menu2 .menu-card:hover h5, .mega-menu2 .menu-card:hover span {
     color: #f43739;
 }
 .mega-menu h4, .mega-menu2 h4 {
-    color: #313131;
+    color: #fff;
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 25px;
@@ -1006,7 +1005,7 @@ p {
     padding-bottom: 15px;
 }
 .mega-menu li a{
-    color: #313131;
+    color: #fff;
     font-size: 15px;
 }
 .mega-menu li:not(:last-child), .mega-menu2 li:not(:last-child){
@@ -1806,4 +1805,8 @@ font-size: 18px;
 }
 .mega-menu2.know-more.mega-menu-show{
     display: none;
+}
+.custom-faq-section {
+    position: relative;
+    z-index: -1;
 }

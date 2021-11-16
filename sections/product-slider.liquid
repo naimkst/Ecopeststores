@@ -13,13 +13,13 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-lg-10">
                 <ul class="nav nav-pills top-selling-tab-menu justify-content-center" id="pills-tab" role="tablist">
-
                     {% for block in section.blocks %}
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link {% if forloop.index == 1 %} active {% endif %}" data-toggle="pill" href="#pills-{{ forloop.index }}" role="tab" aria-selected="true">{{ block.settings.collection_name }}</a>
-                    </li>
+                        {% if block.settings.collection_name != blank %}
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link {% if forloop.index == 1 %} active {% endif %}" data-toggle="pill" href="#pills-{{ forloop.index }}" role="tab" aria-selected="true">{{ block.settings.collection_name }}</a>
+                        </li>
+                        {% endif %}
                     {% endfor %}
-
                 </ul>
             </div>
         </div>
