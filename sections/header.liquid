@@ -115,8 +115,7 @@
                 </div>
                 <div class="col-xl-4 col-md-10 mb-xl-0 mb-4">
                     <form action="/search" method="get" role="search" class="search-bar">
-                        <input type="search" id="search-box" name="q" value="{{ search.terms | escape }}" class="form-control"
-                            placeholder="Find your Pest Solution" onkeyup="ajaxSearch()">
+                        <input type="search" id="search-box" data-period="2000" data-type='[ "Ecopeststore", "Ants", "Bed Bugs", "Wasps & Bees", "Spiders", "Mice", "Rats", "Voles", "Moles", "Cockroaches", "Sow Bugs", "Tree & Garden"]' name="q" value="{{ search.terms | escape }}" class="form-control"  onkeyup="ajaxSearch()">
                         <button type="submit" class="btn search-btn"><i class="fa fa-search"></i>
                             <span>search</span></button>
                     </form>
@@ -196,10 +195,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="row">
-
                                             {% for childlink in link.links %}
-                                            
-                                                {% if forloop.index == 1 %}
                                                 <div class="col-lg-2 mt-lg-0">
                                                     <div class="row">
                                                         <div class="col-12">
@@ -213,74 +209,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {% endif %}
-
-                                                {% if forloop.index == 2 %}
-                                                <div class="col-lg-3">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h4>{{ childlink.title }}</h4>
-
-                                                            {% for sublink in childlink.links %}
-                                                            <div class="menu-card">
-                                                                <!-- <h1>{{ collection.title }}</h1> -->
-                                                                {% for product in collections['all'].products %}
-                                                                {%if sublink.url == product.url %}
-                                                                <a href="{{ product.url }}">
-                                                                    <img src="{{ product.featured_image.src | img_url: 'large' }}"
-                                                                        class="img-fluid" alt="">
-                                                                    <h5>{{ sublink.title }}</h5>
-                                                                    <span>{{ product.price | money }}</span>
-                                                                </a>
-                                                                {% endif %}
-                                                                {% endfor %}
-                                                            </div>
-                                                            {% endfor %}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {% endif %}
-
-                                                {% if forloop.index == 3 %}
-                                                <div class="col-lg-7">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h4>{{ childlink.title }}</h4>
-                                                            <div class="menu-card">
-                                                                <ul class="menu_img_grid">
-
-                                                                    {% for sublink in childlink.links %}
-                                                                    {% for product in collections['all'].products %}
-                                                                    {%if sublink.url == product.url %}
-                                                                    <li>
-                                                                        <a href="{{ sublink.url }}">
-                                                                            <div class="tmenu_product tmenu_product-left">
-                                                                                <img
-                                                                                    src="{{ product.featured_image.src | img_url: 'large' }}">
-                                                                                <div class="tmenu_product_body">
-                                                                                    <div class="tmenu_product_title">{{
-                                                                                        sublink.title }}
-                                                                                    </div>
-                                                                                    <div class="tmenu_product_price">{{
-                                                                                        product.price | money }}</div>
-                                                                                    <!---->
-                                                                                </div>
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-                                                                    {% endif %}
-                                                                    {% endfor %}
-                                                                    {% endfor %}
-
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {% endif %}
 
                                             {% endfor %}
-
                                         </div>
                                     </div>
                                 </div>
