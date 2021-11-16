@@ -994,13 +994,23 @@ p {
 .menu-card:hover h5, .menu-card:hover span, .mega-menu2 .menu-card:hover h5, .mega-menu2 .menu-card:hover span {
     color: #f43739;
 }
-.mega-menu h4, .mega-menu2 h4 {
+.mega-menu2 h4 {
     color: #fff;
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 25px;
     font-family: 'Archivo';
     font-size: 18px;
+    border-bottom: 1px solid #d2cbcb;
+    padding-bottom: 15px;
+}
+.mega-menu h4 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Archivo';
+    font-size: 15px;
     border-bottom: 1px solid #d2cbcb;
     padding-bottom: 15px;
 }
@@ -1810,4 +1820,7 @@ font-size: 18px;
 .custom-faq-section {
     position: relative;
     z-index: -1;
+}
+.wsshoptabingwp.clearfix.submenu-section {
+    display: none;
 }

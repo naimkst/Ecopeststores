@@ -169,19 +169,17 @@ $(document).ready(function(){
   });
 });
 
-
-
 $(document).ready(function(){
-  $(".is_megamenu").hover(function(){
-    $(".mega-menu").css("display", "block");
+  $(".wstabitem02 .wsshoplink-active a").hover(function(){
+    $(".submenu-section").css("display", "block");
     }, function(){
-      $(".mega-menu").css("display", "none");
+      $(".submenu-section").css("display", "none");
   });
 
-  $(".mega-menu").hover(function(){
-    $(".mega-menu").css("display", "block");
+  $(".submenu-section").hover(function(){
+    $(".submenu-section").css("display", "block");
     }, function(){
-      $(".mega-menu").css("display", "none");
+      $(".submenu-section").css("display", "none");
   });
 });
 
@@ -194,3 +192,4 @@ $(document).ready(function () {
    }, 2000);
   
 })
+
