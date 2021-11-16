@@ -37,45 +37,6 @@
       "settings": {
       }
     },
-    "163578805663d00692": {
-      "type": "id-problem-faq",
-      "blocks": {
-        "163578805663d00692-0": {
-          "type": "image",
-          "settings": {
-            "ask_an_expert_icon": "fa fa-commenting",
-            "ask_an_expert_title": "Ask An Expert",
-            "ask_an_expert_description": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.<\/p>",
-            "ask_an_expert_link": ""
-          }
-        },
-        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b": {
-          "type": "image",
-          "settings": {
-            "ask_an_expert_icon": "fa fa-comments",
-            "ask_an_expert_title": "Chat Now",
-            "ask_an_expert_description": "<p>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products your need for your next DIY - Do it yourself project!<\/p>",
-            "ask_an_expert_link": ""
-          }
-        },
-        "7a93814a-c7a4-43f6-99d5-53d328d44aed": {
-          "type": "image",
-          "settings": {
-            "ask_an_expert_icon": "fa fa-video-camera",
-            "ask_an_expert_title": "Video Call",
-            "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<\/p><p>.<\/p>",
-            "ask_an_expert_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163578805663d00692-0",
-        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b",
-        "7a93814a-c7a4-43f6-99d5-53d328d44aed"
-      ],
-      "settings": {
-      }
-    },
     "easy-step": {
       "type": "easy-step",
       "blocks": {
@@ -118,6 +79,45 @@
         "step_title": "Clean your Home from Rodent Pest",
         "step_subtitle": "In 4 Easy Steps",
         "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
+      }
+    },
+    "163578805663d00692": {
+      "type": "id-problem-faq",
+      "blocks": {
+        "163578805663d00692-0": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-commenting",
+            "ask_an_expert_title": "Ask An Expert",
+            "ask_an_expert_description": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.<\/p>",
+            "ask_an_expert_link": ""
+          }
+        },
+        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-comments",
+            "ask_an_expert_title": "Chat Now",
+            "ask_an_expert_description": "<p>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products your need for your next DIY - Do it yourself project!<\/p>",
+            "ask_an_expert_link": ""
+          }
+        },
+        "7a93814a-c7a4-43f6-99d5-53d328d44aed": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-video-camera",
+            "ask_an_expert_title": "Video Call",
+            "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<\/p><p>.<\/p>",
+            "ask_an_expert_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163578805663d00692-0",
+        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b",
+        "7a93814a-c7a4-43f6-99d5-53d328d44aed"
+      ],
+      "settings": {
       }
     },
     "product-slider": {
@@ -193,8 +193,8 @@
   },
   "order": [
     "header",
-    "163578805663d00692",
     "easy-step",
+    "163578805663d00692",
     "product-slider",
     "testimonial"
   ]
