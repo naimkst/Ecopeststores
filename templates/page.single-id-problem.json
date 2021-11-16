@@ -6,15 +6,15 @@
         "0a325e78-fd6a-4912-b250-de8b424e938c": {
           "type": "button",
           "settings": {
-            "single_id_grid_title": "House Mouse Facts",
-            "single_id_grid_image": "shopify:\/\/shop_images\/vp-lc-rodent-library-house-mouse-habitat.jpg",
+            "single_id_grid_title": "Bed Bug Facts",
+            "single_id_grid_image": "shopify:\/\/shop_images\/download.jpg",
             "single_id_description": "<p><strong>Daily Amount:<\/strong><br\/>1\/10 Ounce<br\/><br\/><strong>Daily Water:<\/strong><br\/>Utilizes moisture in food<br\/><br\/><strong>Daily Food:<\/strong><br\/>Cereal grains, meats, seeds<\/p>"
           }
         },
         "16dea0b5-d1fe-4d00-97bf-d1ec864afc75": {
           "type": "button",
           "settings": {
-            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_title": "Bed Bug Facts",
             "single_id_grid_image": "shopify:\/\/shop_images\/vp-lc-rodent-library-house-mouse-diet.jpg",
             "single_id_description": "<p><strong>Daily Amount:<\/strong><br\/>1\/10 Ounce<br\/><br\/><strong>Daily Water:<\/strong><br\/>Utilizes moisture in food<br\/><br\/><strong>Daily Food:<\/strong><br\/>Cereal grains, meats, seeds<\/p>"
           }
@@ -25,7 +25,7 @@
         "16dea0b5-d1fe-4d00-97bf-d1ec864afc75"
       ],
       "settings": {
-        "id_your_single_title": "House Mouse",
+        "id_your_single_title": "Bed Bugs",
         "id_your_single_subtitle": "Excellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter.",
         "side_bar_title": "Overview",
         "side_bar_link": "overview-sidebar",
