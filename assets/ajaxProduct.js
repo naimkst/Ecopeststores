@@ -170,7 +170,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".wstabitem02 .wsshoplink-active a").hover(function(){
+  $("ul.wstabitem02.clearfix li").hover(function(){
+    console.log('iinnn');
     $(".submenu-section").css("display", "block");
     }, function(){
       $(".submenu-section").css("display", "none");
