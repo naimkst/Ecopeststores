@@ -1819,7 +1819,7 @@ font-size: 18px;
 
 .custom-faq-section {
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 .wsshoptabingwp.clearfix.submenu-section {
     display: none;
