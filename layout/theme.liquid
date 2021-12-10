@@ -13,7 +13,7 @@
         <title>{{ shop.name }}</title>
 
         {% include 'buddha-megamenu' %}
-  {{ content_for_header }}{% include 'globo.menu.script' %} <!-- Header hook for plugins -->
+  {{ content_for_header }} <!-- Header hook for plugins -->
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
@@ -99,3 +99,4 @@
     </body>
 
 </html>
+{% include 'globo.menu.script' %}
