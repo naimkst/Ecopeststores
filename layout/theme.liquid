@@ -12,7 +12,8 @@
 
         <title>{{ shop.name }}</title>
 
-        {{ content_for_header }} <!-- Header hook for plugins -->
+        {% include 'buddha-megamenu' %}
+  {{ content_for_header }} <!-- Header hook for plugins -->
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
