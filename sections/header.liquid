@@ -118,11 +118,14 @@
                     </a>
                     {% endif %}
                 </div>
+
+                {% if section.settings.logo_right_image != blank %}
                 <div class="col-xl-1 col-md-2 col-sm-3 mb-xl-0 mb-3">
                     <div class="logo-2">
                         <img src="{{ section.settings.logo_right_image | img_url: '' }}" class="img-fluid" alt="">
                     </div>
                 </div>
+                {% endif %}
                 <div class="col-xl-4 col-md-10 mb-xl-0 mb-4">
                     <form action="/search" method="get" role="search" class="search-bar">
                         <input type="search" id="search-box" name="q" value="{{ search.terms | escape }}"
@@ -166,6 +169,7 @@
                         {% endif %}
 
                         {% if section.settings.chat_hide_show != false %}
+                        {% if section.settings.chat_image != blank %}
                         <li>
                             <a href="#" class="chat-card">
                                 <img src="{{ section.settings.chat_image | img_url: '' }}" class="img-fluid" alt="">
@@ -173,12 +177,16 @@
                         </li>
                         {% endif %}
 
+                        {% endif %}
+
                         {% if section.settings.video_hide_show != false %}
+                        {% if section.settings.video_image != blank %}
                         <li>
                             <a data-fancybox href="{{ section.settings.header_video }}" class="video-card">
                                 <img src="{{ section.settings.video_image | img_url: '' }}" class="img-fluid" alt="">
                             </a>
                         </li>
+                        {% endif %}
                         {% endif %}
                     </ul>
                 </div>

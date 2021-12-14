@@ -1,0 +1,329 @@
+<style>
+    .bubble-bg-color {
+        padding: 30px;
+        min-height: 330px;
+    }
+
+    .bubble-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        ;
+    }
+
+    .bubble-bg-color {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bubble-bg-color:after {
+        background: #1c3d72;
+        position: absolute;
+        z-index: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0.5;
+    }
+
+    .bubble-grib {
+        z-index: 1;
+        position: relative;
+        display: inline-block;
+    }
+
+    .bubble-img {
+        transition: 0.3s;
+        position: relative;
+    }
+
+    .bubble-grib:hover .bubble-img {
+        transition: 0.3s;
+        width: 180px;
+        height: 180px;
+    }
+
+    .hover-bble {
+        overflow: hidden;
+        position: relative;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .hover-bble:hover .bubble-one:after {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        transition: 0.3s;
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        opacity: 0.8;
+        z-index: 1;
+
+    }
+
+    .hove-text {
+        position: absolute;
+        top: 32%;
+        text-align: center;
+        max-width: 150px;
+        z-index: 2;
+        left: 11%;
+        display: none;
+        transition: 0.3s;
+    }
+
+    .hover-bble:hover .hove-text {
+        display: block;
+        transition: 0.3s;
+    }
+
+    .hove-text p {
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #1c3d72;
+        line-height: 1.4;
+    }
+
+    .hove-text a {
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #f43739;
+        font-weight: 600;
+    }
+    .bubble-two{
+        margin-top: 15%;
+    }
+</style>
+<div class="hero-bubble">
+    <div class="container-fluid">
+        <div class="row">
+            <div style="background: url({{ section.settings.residential_fst_bg_img | img_url: '' }})"
+                class="col-md-4 bubble-bg-color">
+                <div class="bubble-grib">
+                    <div class="hover-bble">
+                        <div class="bubble-one">
+                            <img class="bubble-img"
+                                src="{{ section.settings.residential_round_img | img_url: '' }}"
+                                alt="">
+                            <div class="hove-text">
+                                <p>{{ section.settings.residential_title }}</p>
+                                <a href="{{ section.settings.residential_url }}">Shop Now »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bubble-grib bubble-two">
+                    <div class="hover-bble">
+                        <div class="bubble-one">
+                            <img class="bubble-img"
+                                src="{{ section.settings.residential_Two_round_img | img_url: '' }}"
+                                alt="">
+                            <div class="hove-text">
+                                <p>{{ section.settings.residential_Two_title }}</p>
+                                <a href="{{ section.settings.residential_Two_url }}">Shop Now »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: url('{{ section.settings.residential_scnd_bg_img | img_url: '' }}')"
+                class="col-md-4 bubble-bg-color">
+                <div class="bubble-grib">
+                    <div class="hover-bble">
+                        <div class="bubble-one">
+                            <img class="bubble-img"
+                                src="{{ section.settings.Commercial_round_img | img_url: '' }}"
+                                alt="">
+                            <div class="hove-text">
+                                <p>{{ section.settings.commercial_title }}</p>
+                                <a href="{{ section.settings.commercial_url }}">Shop Now »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bubble-grib bubble-two">
+                    <div class="hover-bble">
+                        <div class="bubble-one">
+                            <img class="bubble-img"
+                                src="{{ section.settings.commercial_Two_round_img | img_url: ''}}"
+                                alt="">
+                            <div class="hove-text">
+                                <p>{{ section.settings.commercial_Two_title }}</p>
+                                <a href="{{ section.settings.commercial_Two_url }}">Shop Now »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="background: url('{{ section.settings.residential_trd_bg_img | img_url: '' }}')"
+            class="col-md-4 bubble-bg-color">
+            <div class="bubble-grib">
+                <div class="hover-bble">
+                    <div class="bubble-one">
+                        <img class="bubble-img"
+                            src="{{ section.settings.garden_round_img | img_url: ''}}"
+                            alt="">
+                        <div class="hove-text">
+                            <p>{{ section.settings.garden_title }}</p>
+                            <a href="{{ section.settings.garden_url }}">Shop Now »</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bubble-grib  bubble-two">
+                <div class="hover-bble">
+                    <div class="bubble-one">
+                        <img class="bubble-img"
+                            src="{{ section.settings.garden_Two_round_img | img_url: ''}}"
+                            alt="">
+                        <div class="hove-text">
+                            <p>{{ section.settings.garden_Two_title }}</p>
+                            <a href="{{ section.settings.garden_Two_url }}">Shop Now »</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- item -->
+{% for block in section.blocks %}
+
+    
+{% endfor %}
+
+
+
+<!-- /hero slider -->
+{% schema %}
+{
+  "name": "Hero Bubble Section",
+  "settings": [
+    {
+       "type": "image_picker",
+       "id": "residential_fst_bg_img",
+       "label": "Residential First Background Image"
+    },
+    {
+        "type": "image_picker",
+        "id": "residential_round_img",
+        "label": "Residential Round Image"
+    },
+    {
+        "type": "text",
+        "id": "residential_title",
+        "label": "Residential Title"
+    },
+    {
+        "type": "url",
+        "id": "residential_url",
+        "label": "Residential Link"
+    },
+    {
+        "type": "image_picker",
+        "id": "residential_Two_round_img",
+        "label": "Residential Two Round Image"
+    },
+    {
+        "type": "text",
+        "id": "residential_Two_title",
+        "label": "Residential Two Title"
+    },
+    {
+        "type": "url",
+        "id": "residential_Two_url",
+        "label": "Residential Two Link"
+    },
+    {
+        "type": "image_picker",
+        "id": "residential_scnd_bg_img",
+        "label": "Commercial Background Image"
+    },
+    {
+        "type": "image_picker",
+        "id": "Commercial_round_img",
+        "label": "Commercial Round Image"
+    },
+    {
+        "type": "text",
+        "id": "commercial_title",
+        "label": "Commercial Title"
+    },
+    {
+        "type": "url",
+        "id": "commercial_url",
+        "label": "Commercial Link"
+    },
+    {
+        "type": "image_picker",
+        "id": "commercial_Two_round_img",
+        "label": "Commercial Two Round Image"
+    },
+    {
+        "type": "text",
+        "id": "commercial_Two_title",
+        "label": "Commercial Two Title"
+    },
+    {
+        "type": "url",
+        "id": "commercial_Two_url",
+        "label": "Commercial Two Link"
+    },
+    {
+        "type": "image_picker",
+        "id": "residential_trd_bg_img",
+        "label": "Lawn & Garden Background Image"
+    },
+    {
+        "type": "image_picker",
+        "id": "garden_round_img",
+        "label": "Garden Round Image"
+    },
+    {
+        "type": "text",
+        "id": "garden_title",
+        "label": "Garden Title"
+    },
+    {
+        "type": "url",
+        "id": "garden_url",
+        "label": "Garden Link"
+    },
+    {
+        "type": "image_picker",
+        "id": "garden_Two_round_img",
+        "label": "Garden Two Round Image"
+    },
+    {
+        "type": "text",
+        "id": "garden_Two_title",
+        "label": "Garden Two Title"
+    },
+    {
+        "type": "url",
+        "id": "garden_Two_url",
+        "label": "Garden Two Link"
+    }
+    
+
+  ],
+  "presets": [
+    {
+      "name": "Hero Bubble Section"
+    }
+  ]
+}
+{% endschema %}
