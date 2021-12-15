@@ -1,5 +1,25 @@
 {
   "sections": {
+    "16395472184b8aa549": {
+      "type": "hero-bubble",
+      "settings": {
+        "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
+        "residential_title": "",
+        "residential_url": "",
+        "residential_Two_title": "",
+        "residential_Two_url": "",
+        "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
+        "commercial_title": "",
+        "commercial_url": "",
+        "commercial_Two_title": "",
+        "commercial_Two_url": "",
+        "residential_trd_bg_img": "shopify:\/\/shop_images\/488833.jpg",
+        "garden_title": "",
+        "garden_url": "",
+        "garden_Two_title": "",
+        "garden_Two_url": ""
+      }
+    },
     "header": {
       "type": "slider",
       "blocks": {
@@ -192,6 +212,7 @@
     }
   },
   "order": [
+    "16395472184b8aa549",
     "header",
     "163578805663d00692",
     "easy-step",
