@@ -134,126 +134,6 @@
       "settings": {
       }
     },
-    "header": {
-      "type": "slider",
-      "blocks": {
-        "6620487d-8a95-4ef5-ad65-a0806e995f1c": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
-            "hero_slider_slug": "Make Your",
-            "hero_slider_title": "Home a Safe Space",
-            "hero_slider_subtitle": "From Rodent Pest Invaders",
-            "hero_slider_title_color": "#f43739",
-            "hero_left_button_link": "#",
-            "hero_right_button_link": "#"
-          }
-        },
-        "8d431182-fd03-446e-b11b-5982018d7f53": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
-            "hero_slider_slug": "Make Your",
-            "hero_slider_title": "Home a Safe Space",
-            "hero_slider_subtitle": "From Rodent Pest Invaders",
-            "hero_slider_title_color": "#f43739",
-            "hero_left_button_link": "#",
-            "hero_right_button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "6620487d-8a95-4ef5-ad65-a0806e995f1c",
-        "8d431182-fd03-446e-b11b-5982018d7f53"
-      ],
-      "settings": {
-      }
-    },
-    "163578805663d00692": {
-      "type": "id-problem-faq",
-      "blocks": {
-        "163578805663d00692-0": {
-          "type": "image",
-          "settings": {
-            "ask_an_expert_icon": "fa fa-commenting",
-            "ask_an_expert_title": "Ask An Expert",
-            "ask_an_expert_description": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.<\/p>",
-            "ask_an_expert_link": ""
-          }
-        },
-        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b": {
-          "type": "image",
-          "settings": {
-            "ask_an_expert_icon": "fa fa-comments",
-            "ask_an_expert_title": "Chat Now",
-            "ask_an_expert_description": "<p>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products you need for your next DIY - Do it yourself project!<\/p>",
-            "ask_an_expert_link": ""
-          }
-        },
-        "7a93814a-c7a4-43f6-99d5-53d328d44aed": {
-          "type": "image",
-          "settings": {
-            "ask_an_expert_icon": "fa fa-video-camera",
-            "ask_an_expert_title": "Video Call",
-            "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<\/p><p>.<\/p>",
-            "ask_an_expert_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163578805663d00692-0",
-        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b",
-        "7a93814a-c7a4-43f6-99d5-53d328d44aed"
-      ],
-      "settings": {
-      }
-    },
-    "easy-step": {
-      "type": "easy-step",
-      "blocks": {
-        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "Id Your Pest",
-            "step_progress_image": "shopify:\/\/shop_images\/step1.png"
-          }
-        },
-        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "Find the RIGHT Pest Products",
-            "step_progress_image": "shopify:\/\/shop_images\/step2.png"
-          }
-        },
-        "971dec0e-271c-4427-bec1-650a421d7014": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "DIY - Knowledge Center & Training Videos",
-            "step_progress_image": "shopify:\/\/shop_images\/step3.png"
-          }
-        },
-        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "Book an Online Video Call With a Pest Expert!",
-            "step_progress_image": "shopify:\/\/shop_images\/step4.png"
-          }
-        }
-      },
-      "block_order": [
-        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d",
-        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653",
-        "971dec0e-271c-4427-bec1-650a421d7014",
-        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7"
-      ],
-      "settings": {
-        "step_title": "Clean your Home from Rodent Pest",
-        "step_subtitle": "In 4 Easy Steps",
-        "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
-      }
-    },
     "product-slider": {
       "type": "product-slider",
       "blocks": {
@@ -329,9 +209,6 @@
     "16395472184b8aa549",
     "1639548637fe1b1450",
     "1639548644b7da3daa",
-    "header",
-    "163578805663d00692",
-    "easy-step",
     "product-slider",
     "testimonial"
   ]
