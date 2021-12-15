@@ -97,12 +97,21 @@
             "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-lawn-care-guides.jpg",
             "diy_item_url": "shopify:\/\/products\/portionpac-disinfectant-spray-1l"
           }
+        },
+        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "DIY Articles",
+            "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-pest-treatment-guides.jpg",
+            "diy_item_url": "shopify:\/\/collections\/best-selling-collection"
+          }
         }
       },
       "block_order": [
         "16395486446d9c30b4-0",
         "5e78ac15-0053-41a1-adab-a8f04b17c5c1",
-        "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707"
+        "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707",
+        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38"
       ],
       "settings": {
       }
