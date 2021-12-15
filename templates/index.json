@@ -32,7 +32,7 @@
         "16395486375498d3ff-0": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Shop By Pest",
+            "service_item_title": "Shop By  Pest",
             "service_item_image": "shopify:\/\/shop_images\/Pest.png",
             "service_item_url": "shopify:\/\/collections\/bed-bug-collection"
           }
@@ -40,7 +40,7 @@
         "6096e789-8b4d-47d3-aa8a-6930afef73bb": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Shop By Product",
+            "service_item_title": "Shop By  Product",
             "service_item_image": "shopify:\/\/shop_images\/Shop_by_product.png",
             "service_item_url": "shopify:\/\/collections\/best-selling-collection"
           }
@@ -48,7 +48,7 @@
         "b9bcaacf-3192-4347-b465-ddd747dbe881": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Book a Professional",
+            "service_item_title": "Book a Professional On-Site Service",
             "service_item_image": "shopify:\/\/shop_images\/Pasted_File_at_December_12_2021_10_20_PM.png",
             "service_item_url": "#"
           }
@@ -56,8 +56,8 @@
         "7561fc86-8a1e-4392-b33b-dd0423efba38": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Book a Virtual Service",
-            "service_item_image": "shopify:\/\/shop_images\/stock-photo-old-professional-contractor-doing-pest-control-in-the-office-1504692137_f08bd11d-3f9b-42a2-b676-cb61ff795baf.jpg",
+            "service_item_title": "Book a Virtual On-line Service",
+            "service_item_image": "shopify:\/\/shop_images\/PC-Software00.jpg",
             "service_item_url": ""
           }
         }
