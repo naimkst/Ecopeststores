@@ -1,0 +1,90 @@
+<style>
+    .diy-contetn{
+        background: #1C3D72;
+        padding: 15px 5px 15px 10px;
+    }
+    .diy-contetn p{
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .diy-contetn a{
+        color: #F43739;
+        margin-bottom: 10px;
+        font-size: 14px;
+
+    }
+    .center-grid{
+        display: flex;
+        align-items: center;
+        transition: transform .3s;
+    }
+    .center-grid:hover{
+        transition: transform .3s;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+</style>
+<div class="diy-section">
+    <div class="container">
+        <div class="row">
+            {% for block in section.blocks %}
+            <div class="col-md-2 center-grid">
+                <div class="dyi-grid text-center align-middle">
+                    <img class="img-fluid align-middle" src="{{ block.settings.diy_item_image | img_url: ''}}" alt="">
+                    {% if block.settings.diy_item_title != blank %}
+                        <div class="diy-contetn text-left">
+                            <p>{{ block.settings.diy_item_title }}</p>
+                            <a href="{{ block.settings.diy_item_url }}">See All »</a>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+    "name": "Diy Section",
+    "settings":[
+    ],
+    "blocks": [
+        {
+            "name": "Diy Item Add",
+            "type": "slideshow",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "diy_item_title",
+                    "label": "diy Item Title",
+                    "default": "Shop By Pest"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "diy_item_image",
+                    "label": "diy Item Image"
+                },
+                {
+                    "type": "url",
+                    "id": "diy_item_url",
+                    "label": "diy Link"
+                }
+
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Diy Section",
+        "blocks": [
+          {
+            "type": "slideshow"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}

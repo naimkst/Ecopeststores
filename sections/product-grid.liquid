@@ -1,0 +1,86 @@
+<style>
+    .service-item{
+        padding: 30px 0px;
+    }
+    .service-item-grid{
+        text-align: center;
+        transition: transform .3s;
+    }
+    .service-item-grid h2{
+        font-size: 20px;
+        font-weight: 600;
+        color: #0B384E;
+    }
+    .service-item-grid img{
+        margin-top: 20px;
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .gird-main-item-service:hover .service-item-grid{
+        transition: transform .3s;
+        transform: scale(1.05);
+    }
+</style>
+
+<div class="service-item">
+    <div class="container">
+        <div class="row">
+            {% for block in section.blocks %}
+            <div class="col-md-3 gird-main-item-service">
+                <a href="{{ block.settings.service_item_url }}">
+                    <div class="service-item-grid">
+                        <h2>{{ block.settings.service_item_title }}</h2>
+                        <img src="{{ block.settings.service_item_image | img_url: ''}}" class="img-fluid" alt="">
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Service Item Section",
+    "settings":[
+    ],
+    "blocks": [
+        {
+            "name": "Service Item Add",
+            "type": "slideshow",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "service_item_title",
+                    "label": "Service Item Title",
+                    "default": "Shop By Pest"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "service_item_image",
+                    "label": "Service Item Image"
+                },
+                {
+                    "type": "url",
+                    "id": "service_item_url",
+                    "label": "Service Link"
+                }
+
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Service Grid With Image",
+        "blocks": [
+          {
+            "type": "slideshow"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}
