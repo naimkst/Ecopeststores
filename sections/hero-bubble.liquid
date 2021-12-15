@@ -96,15 +96,17 @@
         color: #f43739;
         font-weight: 600;
     }
-    .bubble-two{
+
+    .bubble-two {
         margin-top: 15%;
     }
-    .buble-main-title{
+
+    .buble-main-title {
         position: absolute;
-        bottom: 0;
+        bottom: 20px;
         font-size: 20px;
         color: #fff;
-        
+        z-index: 1;
     }
 </style>
 <div class="hero-bubble">
@@ -113,8 +115,8 @@
             <div style="background: url({{ section.settings.residential_fst_bg_img | img_url: '' }});background-repeat: no-repeat;
             background-size: cover;"
                 class="col-md-4 bubble-bg-color">
+                <h2 class="text-center buble-main-title">{{ section.settings.residential_main_title }}</h2>
                 <div class="bubble-grib">
-                    <h2 class="text-center buble-main-title">{{ section.settings.residential_main_title }}</h2>
                     <div class="hover-bble">
                         <div class="bubble-one">
                             <img class="bubble-img"
@@ -146,8 +148,8 @@
             <div style="background: url('{{ section.settings.residential_scnd_bg_img | img_url: '' }}');background-repeat: no-repeat;
             background-size: cover;"
                 class="col-md-4 bubble-bg-color">
+                <h2 class="text-center buble-main-title">{{ section.settings.commercial_main_title }}</h2>
                 <div class="bubble-grib">
-                    <h2 class="text-center buble-main-title">{{ section.settings.commercial_main_title }}</h2>
                     <div class="hover-bble">
                         <div class="bubble-one">
                             <img class="bubble-img"
@@ -178,8 +180,9 @@
             <div style="background: url('{{ section.settings.residential_trd_bg_img | img_url: '' }}');background-repeat: no-repeat;
             background-size: cover;"
             class="col-md-4 bubble-bg-color">
-            <div class="bubble-grib">
+            
             <h2 class="text-center buble-main-title">{{ section.settings.garden_main_title }}</h2>
+            <div class="bubble-grib">
                 <div class="hover-bble">
                     <div class="bubble-one">
                         <img class="bubble-img"
