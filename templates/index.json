@@ -105,13 +105,22 @@
             "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-pest-treatment-guides.jpg",
             "diy_item_url": "shopify:\/\/collections\/best-selling-collection"
           }
+        },
+        "1d209533-2077-4656-bd31-c39254b1f753": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "How To Video",
+            "diy_item_image": "shopify:\/\/shop_images\/photo-1616587896649-79b16d8b173d_de7ca507-f0f2-432a-bbb5-e97802da8c8b.jpg",
+            "diy_item_url": "shopify:\/\/pages\/id-your-problem"
+          }
         }
       },
       "block_order": [
         "16395486446d9c30b4-0",
         "5e78ac15-0053-41a1-adab-a8f04b17c5c1",
         "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707",
-        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38"
+        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38",
+        "1d209533-2077-4656-bd31-c39254b1f753"
       ],
       "settings": {
       }
