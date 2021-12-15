@@ -81,10 +81,19 @@
             "diy_item_image": "shopify:\/\/shop_images\/Asset_1_4x_8bba2ee8-5acd-4ee1-8739-a27f0ac6d2ac.png",
             "diy_item_url": "shopify:\/\/pages\/id-your-problem"
           }
+        },
+        "5e78ac15-0053-41a1-adab-a8f04b17c5c1": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "Pest Treatment Guides",
+            "diy_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "diy_item_url": "shopify:\/\/collections\/best-selling-products"
+          }
         }
       },
       "block_order": [
-        "16395486446d9c30b4-0"
+        "16395486446d9c30b4-0",
+        "5e78ac15-0053-41a1-adab-a8f04b17c5c1"
       ],
       "settings": {
       }
