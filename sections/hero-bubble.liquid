@@ -99,6 +99,13 @@
     .bubble-two{
         margin-top: 15%;
     }
+    .buble-main-title{
+        position: absolute;
+        bottom: 0;
+        font-size: 20px;
+        color: #fff;
+        
+    }
 </style>
 <div class="hero-bubble">
     <div class="container-fluid">
@@ -107,6 +114,7 @@
             background-size: cover;"
                 class="col-md-4 bubble-bg-color">
                 <div class="bubble-grib">
+                    <h2 class="text-center buble-main-title">{{ section.settings.residential_main_title }}</h2>
                     <div class="hover-bble">
                         <div class="bubble-one">
                             <img class="bubble-img"
@@ -139,6 +147,7 @@
             background-size: cover;"
                 class="col-md-4 bubble-bg-color">
                 <div class="bubble-grib">
+                    <h2 class="text-center buble-main-title">{{ section.settings.commercial_main_title }}</h2>
                     <div class="hover-bble">
                         <div class="bubble-one">
                             <img class="bubble-img"
@@ -170,6 +179,7 @@
             background-size: cover;"
             class="col-md-4 bubble-bg-color">
             <div class="bubble-grib">
+            <h2 class="text-center buble-main-title">{{ section.settings.garden_main_title }}</h2>
                 <div class="hover-bble">
                     <div class="bubble-one">
                         <img class="bubble-img"
@@ -221,6 +231,12 @@
        "label": "Residential First Background Image"
     },
     {
+        "type": "text",
+        "id": "residential_main_title",
+        "label": "Residential Section Title",
+        "default": "Residential"
+    },
+    {
         "type": "image_picker",
         "id": "residential_round_img",
         "label": "Residential Round Image"
@@ -256,6 +272,12 @@
         "label": "Commercial Background Image"
     },
     {
+        "type": "text",
+        "id": "commercial_main_title",
+        "label": "Commercial Section Title",
+        "default": "Commercial"
+    },
+    {
         "type": "image_picker",
         "id": "Commercial_round_img",
         "label": "Commercial Round Image"
@@ -289,6 +311,12 @@
         "type": "image_picker",
         "id": "residential_trd_bg_img",
         "label": "Lawn & Garden Background Image"
+    },
+    {
+        "type": "text",
+        "id": "garden_main_title",
+        "label": "Garden Section Title",
+        "default": "Lawn & Garden"
     },
     {
         "type": "image_picker",
