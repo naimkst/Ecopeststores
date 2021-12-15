@@ -1,123 +1,137 @@
 {
   "sections": {
-    "header": {
-      "type": "slider",
+    "16395472184b8aa549": {
+      "type": "hero-bubble",
+      "settings": {
+        "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
+        "residential_round_img": "shopify:\/\/shop_images\/GermicidalDisinfectantSpray1L_1024x1024_aa95081d-4b69-4311-94a8-3a4795961e38.png",
+        "residential_title": "Ecopest - Germicidal Disinfectant Spray",
+        "residential_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
+        "residential_Two_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugandAnt4LFront_2048x2048_efccca6a-42bf-4a9c-bcd1-54a15d0df9fd.png",
+        "residential_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants TOTAL INSECT KILLER",
+        "residential_Two_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
+        "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
+        "Commercial_round_img": "shopify:\/\/shop_images\/SquirrelTrapCage1025_1024x1024_efdc48d2-4839-44bb-9ef8-0433fb46398f.png",
+        "commercial_title": "Havahart - Squirrel and Chipmunk Live Trap",
+        "commercial_url": "shopify:\/\/products\/squirrel-trap-model-1025",
+        "commercial_Two_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugSpray1Liter2PackFront_1024x1024_0f69190e-aa1d-4391-9f2c-bbfefc75a10a.png",
+        "commercial_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants",
+        "commercial_Two_url": "",
+        "residential_trd_bg_img": "shopify:\/\/shop_images\/488833.jpg",
+        "garden_round_img": "shopify:\/\/shop_images\/ECOPESTMiceGlueBoard-2_1024x1024_57b2d7fe-4387-4912-befd-11f8344d8c89.jpg",
+        "garden_title": "Best Mouse & Insect Glue Boards",
+        "garden_url": "shopify:\/\/products\/mice-sticky-board-traps-tin-cat-box",
+        "garden_Two_round_img": "shopify:\/\/shop_images\/Pest_Control_Coppoer_Mesh_100_feet_1024x1024_0d89e1f1-c615-41aa-8265-2c1f923224a2.png",
+        "garden_Two_title": "100f - Knitted Copper Mesh Rodent Pest Control",
+        "garden_Two_url": ""
+      }
+    },
+    "1639548637fe1b1450": {
+      "type": "product-grid",
       "blocks": {
-        "6620487d-8a95-4ef5-ad65-a0806e995f1c": {
-          "type": "heading",
-          "disabled": true,
+        "16395486375498d3ff-0": {
+          "type": "slideshow",
           "settings": {
-            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
-            "hero_slider_slug": "Make Your",
-            "hero_slider_title": "Home a Safe Space",
-            "hero_slider_subtitle": "From Rodent Pest Invaders",
-            "hero_slider_title_color": "#f43739",
-            "hero_left_button_link": "#",
-            "hero_right_button_link": "#"
+            "service_item_title": "Shop By  Pest",
+            "service_item_image": "shopify:\/\/shop_images\/Pest.png",
+            "service_item_url": "shopify:\/\/collections\/bed-bug-collection"
           }
         },
-        "8d431182-fd03-446e-b11b-5982018d7f53": {
-          "type": "heading",
-          "disabled": true,
+        "6096e789-8b4d-47d3-aa8a-6930afef73bb": {
+          "type": "slideshow",
           "settings": {
-            "hero_image": "shopify:\/\/shop_images\/slider1.jpg",
-            "hero_slider_slug": "Make Your",
-            "hero_slider_title": "Home a Safe Space",
-            "hero_slider_subtitle": "From Rodent Pest Invaders",
-            "hero_slider_title_color": "#f43739",
-            "hero_left_button_link": "#",
-            "hero_right_button_link": "#"
+            "service_item_title": "Shop By  Product",
+            "service_item_image": "shopify:\/\/shop_images\/Shop_by_product.png",
+            "service_item_url": "shopify:\/\/collections\/best-selling-collection"
+          }
+        },
+        "b9bcaacf-3192-4347-b465-ddd747dbe881": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional On-Site Service",
+            "service_item_image": "shopify:\/\/shop_images\/Pasted_File_at_December_12_2021_10_20_PM.png",
+            "service_item_url": "#"
+          }
+        },
+        "7561fc86-8a1e-4392-b33b-dd0423efba38": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Virtual On-line Service",
+            "service_item_image": "shopify:\/\/shop_images\/PC-Software00.jpg",
+            "service_item_url": ""
           }
         }
       },
       "block_order": [
-        "6620487d-8a95-4ef5-ad65-a0806e995f1c",
-        "8d431182-fd03-446e-b11b-5982018d7f53"
+        "16395486375498d3ff-0",
+        "6096e789-8b4d-47d3-aa8a-6930afef73bb",
+        "b9bcaacf-3192-4347-b465-ddd747dbe881",
+        "7561fc86-8a1e-4392-b33b-dd0423efba38"
       ],
       "settings": {
       }
     },
-    "163578805663d00692": {
-      "type": "id-problem-faq",
+    "1639548644b7da3daa": {
+      "type": "diy-section",
       "blocks": {
-        "163578805663d00692-0": {
-          "type": "image",
+        "16395486446d9c30b4-0": {
+          "type": "slideshow",
           "settings": {
-            "ask_an_expert_icon": "fa fa-commenting",
-            "ask_an_expert_title": "Ask An Expert",
-            "ask_an_expert_description": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.<\/p>",
-            "ask_an_expert_link": ""
+            "diy_item_title": "",
+            "diy_item_image": "shopify:\/\/shop_images\/Asset_1_4x_8bba2ee8-5acd-4ee1-8739-a27f0ac6d2ac.png",
+            "diy_item_url": "shopify:\/\/pages\/id-your-problem"
           }
         },
-        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b": {
-          "type": "image",
+        "5e78ac15-0053-41a1-adab-a8f04b17c5c1": {
+          "type": "slideshow",
           "settings": {
-            "ask_an_expert_icon": "fa fa-comments",
-            "ask_an_expert_title": "Chat Now",
-            "ask_an_expert_description": "<p>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products you need for your next DIY - Do it yourself project!<\/p>",
-            "ask_an_expert_link": ""
+            "diy_item_title": "Pest Treatment Guides",
+            "diy_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "diy_item_url": "shopify:\/\/collections\/best-selling-products"
           }
         },
-        "7a93814a-c7a4-43f6-99d5-53d328d44aed": {
-          "type": "image",
+        "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707": {
+          "type": "slideshow",
           "settings": {
-            "ask_an_expert_icon": "fa fa-video-camera",
-            "ask_an_expert_title": "Video Call",
-            "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<\/p><p>.<\/p>",
-            "ask_an_expert_link": ""
+            "diy_item_title": "Lawn Treatment Guides",
+            "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-lawn-care-guides.jpg",
+            "diy_item_url": "shopify:\/\/products\/portionpac-disinfectant-spray-1l"
+          }
+        },
+        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "DIY Articles",
+            "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-pest-treatment-guides.jpg",
+            "diy_item_url": "shopify:\/\/collections\/best-selling-collection"
+          }
+        },
+        "1d209533-2077-4656-bd31-c39254b1f753": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "How To Video",
+            "diy_item_image": "shopify:\/\/shop_images\/photo-1616587896649-79b16d8b173d_de7ca507-f0f2-432a-bbb5-e97802da8c8b.jpg",
+            "diy_item_url": "shopify:\/\/pages\/id-your-problem"
+          }
+        },
+        "434094c0-790e-41c0-94df-09ee075581a3": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "Product QA",
+            "diy_item_image": "shopify:\/\/shop_images\/Plants_and_Trees_x1024_7a539d94-a434-4cd6-95f8-abb5cca13353.jpg",
+            "diy_item_url": ""
           }
         }
       },
       "block_order": [
-        "163578805663d00692-0",
-        "93acfe41-a7e1-46c6-9d4c-9d7eba75850b",
-        "7a93814a-c7a4-43f6-99d5-53d328d44aed"
+        "16395486446d9c30b4-0",
+        "5e78ac15-0053-41a1-adab-a8f04b17c5c1",
+        "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707",
+        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38",
+        "1d209533-2077-4656-bd31-c39254b1f753",
+        "434094c0-790e-41c0-94df-09ee075581a3"
       ],
       "settings": {
-      }
-    },
-    "easy-step": {
-      "type": "easy-step",
-      "blocks": {
-        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "Id Your Pest",
-            "step_progress_image": "shopify:\/\/shop_images\/step1.png"
-          }
-        },
-        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "Find the RIGHT Pest Products",
-            "step_progress_image": "shopify:\/\/shop_images\/step2.png"
-          }
-        },
-        "971dec0e-271c-4427-bec1-650a421d7014": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "DIY - Knowledge Center & Training Videos",
-            "step_progress_image": "shopify:\/\/shop_images\/step3.png"
-          }
-        },
-        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7": {
-          "type": "text",
-          "settings": {
-            "step_progress_title": "Book an Online Video Call With a Pest Expert!",
-            "step_progress_image": "shopify:\/\/shop_images\/step4.png"
-          }
-        }
-      },
-      "block_order": [
-        "4b1d35ed-f850-4b62-a1bd-4c8ae049a87d",
-        "bf1fa9c9-5462-4c48-a381-bd86bb7e9653",
-        "971dec0e-271c-4427-bec1-650a421d7014",
-        "aaf3b1b0-0d7b-4819-ba99-ac59c89227f7"
-      ],
-      "settings": {
-        "step_title": "Clean your Home from Rodent Pest",
-        "step_subtitle": "In 4 Easy Steps",
-        "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
       }
     },
     "product-slider": {
@@ -192,9 +206,9 @@
     }
   },
   "order": [
-    "header",
-    "163578805663d00692",
-    "easy-step",
+    "16395472184b8aa549",
+    "1639548637fe1b1450",
+    "1639548644b7da3daa",
     "product-slider",
     "testimonial"
   ]
