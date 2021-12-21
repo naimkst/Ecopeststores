@@ -4,6 +4,7 @@
       "type": "hero-bubble",
       "settings": {
         "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
+        "residential_main_title": "Residential",
         "residential_round_img": "shopify:\/\/shop_images\/GermicidalDisinfectantSpray1L_1024x1024_aa95081d-4b69-4311-94a8-3a4795961e38.png",
         "residential_title": "Ecopest - Germicidal Disinfectant Spray",
         "residential_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
@@ -11,6 +12,7 @@
         "residential_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants TOTAL INSECT KILLER",
         "residential_Two_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
         "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
+        "commercial_main_title": "Commercial",
         "Commercial_round_img": "shopify:\/\/shop_images\/SquirrelTrapCage1025_1024x1024_efdc48d2-4839-44bb-9ef8-0433fb46398f.png",
         "commercial_title": "Havahart - Squirrel and Chipmunk Live Trap",
         "commercial_url": "shopify:\/\/products\/squirrel-trap-model-1025",
@@ -18,6 +20,7 @@
         "commercial_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants",
         "commercial_Two_url": "",
         "residential_trd_bg_img": "shopify:\/\/shop_images\/488833.jpg",
+        "garden_main_title": "Lawn & Garden",
         "garden_round_img": "shopify:\/\/shop_images\/ECOPESTMiceGlueBoard-2_1024x1024_57b2d7fe-4387-4912-befd-11f8344d8c89.jpg",
         "garden_title": "Best Mouse & Insect Glue Boards",
         "garden_url": "shopify:\/\/products\/mice-sticky-board-traps-tin-cat-box",
@@ -49,7 +52,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Book a Professional On-Site Service",
-            "service_item_image": "shopify:\/\/shop_images\/Pasted_File_at_December_12_2021_10_20_PM.png",
+            "service_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
             "service_item_url": "#"
           }
         },
@@ -86,7 +89,7 @@
           "type": "slideshow",
           "settings": {
             "diy_item_title": "Pest Treatment Guides",
-            "diy_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "diy_item_image": "shopify:\/\/shop_images\/Pasted_File_at_December_12_2021_10_20_PM.png",
             "diy_item_url": "shopify:\/\/collections\/best-selling-products"
           }
         },
