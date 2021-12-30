@@ -29,25 +29,32 @@
           "2d0ec77c-addc-4da1-851a-fa7f636a1590"
         ],
         "settings": {
+<<<<<<< HEAD
           "logo": "shopify:\/\/shop_images\/logo.png",
+=======
+>>>>>>> 87e2642a91d3f4dfa12b16d48eac12724761c8de
           "sign_in_hide_show": true,
           "sing_in": "",
-          "sign_in_image": "shopify:\/\/shop_images\/user.png",
+          "sign_in_image": "shopify:\/\/shop_images\/user_60b319ab-2142-40b3-b32e-59d42e48187f.png",
           "cart_hide_show": true,
           "Cart_image": "shopify:\/\/shop_images\/cart.png",
           "chat_hide_show": true,
           "video_hide_show": true,
+<<<<<<< HEAD
           "right_menu_image": "shopify:\/\/shop_images\/more-btn-angle_c5e5bd90-265e-425e-a494-99ddf98e21e4.png",
+=======
+          "right_menu_image": "shopify:\/\/shop_images\/more-btn-angle_d5111d84-f900-4faf-a0a1-610e9b5c536c.png",
+>>>>>>> 87e2642a91d3f4dfa12b16d48eac12724761c8de
           "header_video": "https:\/\/www.youtube.com\/watch?v=jssO8-5qmag&ab_channel=HighResolutionDatabase",
           "main_menu": "main-menu",
-          "know_more_menu": "id-your-problem",
+          "know_more_menu": "",
           "top_header_hide_show": true
         }
       },
       "cta": {
         "type": "cta",
         "settings": {
-          "cta_bg_image": "shopify:\/\/shop_images\/cta.jpg",
+          "cta_bg_image": "shopify:\/\/shop_images\/bgggggg.png",
           "cta_title": "Subscribe To Our Newsletter",
           "cta_subtitle": "Promotions, new products and sales. Directly to your inbox.",
           "cta_btn_txt": "Subscribe  Now",
@@ -57,10 +64,10 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_shop_menu": "footer-one",
+          "footer_shop_menu": "collection-menu",
           "footer_shop_menu_title": "Shop by Pest",
-          "footer_shop_menu_two": "footer-two",
-          "plolicy_menu": "policies-disclaimer",
+          "footer_shop_menu_two": "main-menu-second",
+          "plolicy_menu": "policies-disclaimers",
           "privacy_menu_title": "Policies & Disclaimer",
           "contact_us_title": "Contact Us",
           "phone_number": "1-866-ANY-BUGS; 1-866-269-2847",
