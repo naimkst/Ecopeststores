@@ -39,10 +39,19 @@
             "service_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
             "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
           }
+        },
+        "8eadd502-a98a-4aac-b3ac-b0002e3b3de3": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By PestBook a Virtual On-line Service",
+            "service_item_image": "shopify:\/\/shop_images\/PC-Software00_1.jpg",
+            "service_item_url": ""
+          }
         }
       },
       "block_order": [
-        "1640847374d1f20da9-0"
+        "1640847374d1f20da9-0",
+        "8eadd502-a98a-4aac-b3ac-b0002e3b3de3"
       ],
       "settings": {
       }
