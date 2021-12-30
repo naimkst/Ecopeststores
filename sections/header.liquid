@@ -105,8 +105,8 @@
     <!-- middle -->
     <div class="middle-header">
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-xl-3 col-md-4 col-sm-6 mb-xl-0 mb-3">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-xl-0 mb-3">
                     <!-- logo -->
                     {% if section.settings.logo != blank %}
                     <a href="/" class="logo">
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 {% endif %}
-                <div class="col-xl-4 col-md-10 mb-xl-0 mb-4">
+                <div class="col-xl-4 col-lg-6 col-md-10 mb-xl-0 mb-4">
                     <form action="/search" method="get" role="search" class="search-bar">
                         <input type="search" id="search-box" name="q" value="{{ search.terms | escape }}"
                             class="form-control typewrite form-control" onkeyup="ajaxSearch()" data-period="2000"
@@ -147,7 +147,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-10">
+                <div class="col-lg-2 col-md-10">
                     <ul class="middle-header-right">
                         {% if section.settings.sign_in_hide_show != false %}
                         <li>
