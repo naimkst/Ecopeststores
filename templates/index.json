@@ -65,7 +65,9 @@
         "b1ee4490-9a80-4858-a098-ab3ee54f6ed1"
       ],
       "settings": {
-        "testimonial_section_title": "Customer Reviews"
+        "testimonial_section_title": "Customer Reviews",
+        "testimonial_left_image": "shopify:\/\/shop_images\/feedback-left.jpg",
+        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg_eeaba52f-038c-4dfc-8d3f-2129be4022f8.jpg"
       }
     }
   },
