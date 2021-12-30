@@ -1,146 +1,10 @@
 {
   "sections": {
-<<<<<<< HEAD
-    "16395472184b8aa549": {
-      "type": "hero-bubble",
-      "settings": {
-        "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
-        "residential_main_title": "Residential",
-        "residential_round_img": "shopify:\/\/shop_images\/GermicidalDisinfectantSpray1L_1024x1024_aa95081d-4b69-4311-94a8-3a4795961e38.png",
-        "residential_title": "Ecopest - Germicidal Disinfectant Spray",
-        "residential_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
-        "residential_Two_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugandAnt4LFront_2048x2048_efccca6a-42bf-4a9c-bcd1-54a15d0df9fd.png",
-        "residential_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants TOTAL INSECT KILLER",
-        "residential_Two_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
-        "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
-        "commercial_main_title": "Commercial",
-        "Commercial_round_img": "shopify:\/\/shop_images\/SquirrelTrapCage1025_1024x1024_efdc48d2-4839-44bb-9ef8-0433fb46398f.png",
-        "commercial_title": "Havahart - Squirrel and Chipmunk Live Trap",
-        "commercial_url": "shopify:\/\/products\/squirrel-trap-model-1025",
-        "commercial_Two_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugSpray1Liter2PackFront_1024x1024_0f69190e-aa1d-4391-9f2c-bbfefc75a10a.png",
-        "commercial_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants",
-        "commercial_Two_url": "",
-        "residential_trd_bg_img": "shopify:\/\/shop_images\/488833.jpg",
-        "garden_main_title": "Lawn & Garden",
-        "garden_round_img": "shopify:\/\/shop_images\/ECOPESTMiceGlueBoard-2_1024x1024_57b2d7fe-4387-4912-befd-11f8344d8c89.jpg",
-        "garden_title": "Best Mouse & Insect Glue Boards",
-        "garden_url": "shopify:\/\/products\/mice-sticky-board-traps-tin-cat-box",
-        "garden_Two_round_img": "shopify:\/\/shop_images\/Pest_Control_Coppoer_Mesh_100_feet_1024x1024_0d89e1f1-c615-41aa-8265-2c1f923224a2.png",
-        "garden_Two_title": "100f - Knitted Copper Mesh Rodent Pest Control",
-        "garden_Two_url": ""
-      }
-    },
-    "1639548637fe1b1450": {
-      "type": "product-grid",
-      "blocks": {
-        "16395486375498d3ff-0": {
-          "type": "slideshow",
-          "settings": {
-            "service_item_title": "Shop By  Pest",
-            "service_item_image": "shopify:\/\/shop_images\/Pest.png",
-            "service_item_url": "shopify:\/\/collections\/bed-bug-collection"
-          }
-        },
-        "6096e789-8b4d-47d3-aa8a-6930afef73bb": {
-          "type": "slideshow",
-          "settings": {
-            "service_item_title": "Shop By  Product",
-            "service_item_image": "shopify:\/\/shop_images\/Shop_by_product.png",
-            "service_item_url": "shopify:\/\/collections\/best-selling-collection"
-          }
-        },
-        "b9bcaacf-3192-4347-b465-ddd747dbe881": {
-          "type": "slideshow",
-          "settings": {
-            "service_item_title": "Book a Professional On-Site Service",
-            "service_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
-            "service_item_url": "#"
-          }
-        },
-        "7561fc86-8a1e-4392-b33b-dd0423efba38": {
-          "type": "slideshow",
-          "settings": {
-            "service_item_title": "Book a Virtual On-line Service",
-            "service_item_image": "shopify:\/\/shop_images\/PC-Software00.jpg",
-            "service_item_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "16395486375498d3ff-0",
-        "6096e789-8b4d-47d3-aa8a-6930afef73bb",
-        "b9bcaacf-3192-4347-b465-ddd747dbe881",
-        "7561fc86-8a1e-4392-b33b-dd0423efba38"
-      ],
-      "settings": {
-      }
-    },
-    "1639548644b7da3daa": {
-      "type": "diy-section",
-      "blocks": {
-        "16395486446d9c30b4-0": {
-          "type": "slideshow",
-          "settings": {
-            "diy_item_title": "",
-            "diy_item_image": "shopify:\/\/shop_images\/Asset_1_4x_8bba2ee8-5acd-4ee1-8739-a27f0ac6d2ac.png",
-            "diy_item_url": "shopify:\/\/pages\/id-your-problem"
-          }
-        },
-        "5e78ac15-0053-41a1-adab-a8f04b17c5c1": {
-          "type": "slideshow",
-          "settings": {
-            "diy_item_title": "Pest Treatment Guides",
-            "diy_item_image": "shopify:\/\/shop_images\/Pasted_File_at_December_12_2021_10_20_PM.png",
-            "diy_item_url": "shopify:\/\/collections\/best-selling-products"
-          }
-        },
-        "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707": {
-          "type": "slideshow",
-          "settings": {
-            "diy_item_title": "Lawn Treatment Guides",
-            "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-lawn-care-guides.jpg",
-            "diy_item_url": "shopify:\/\/products\/portionpac-disinfectant-spray-1l"
-          }
-        },
-        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38": {
-          "type": "slideshow",
-          "settings": {
-            "diy_item_title": "DIY Articles",
-            "diy_item_image": "shopify:\/\/shop_images\/HP-DIY-Section-Images-pest-treatment-guides.jpg",
-            "diy_item_url": "shopify:\/\/collections\/best-selling-collection"
-          }
-        },
-        "1d209533-2077-4656-bd31-c39254b1f753": {
-          "type": "slideshow",
-          "settings": {
-            "diy_item_title": "How To Video",
-            "diy_item_image": "shopify:\/\/shop_images\/photo-1616587896649-79b16d8b173d_de7ca507-f0f2-432a-bbb5-e97802da8c8b.jpg",
-            "diy_item_url": "shopify:\/\/pages\/id-your-problem"
-          }
-        },
-        "434094c0-790e-41c0-94df-09ee075581a3": {
-          "type": "slideshow",
-          "settings": {
-            "diy_item_title": "Product QA",
-            "diy_item_image": "shopify:\/\/shop_images\/Plants_and_Trees_x1024_7a539d94-a434-4cd6-95f8-abb5cca13353.jpg",
-            "diy_item_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "16395486446d9c30b4-0",
-        "5e78ac15-0053-41a1-adab-a8f04b17c5c1",
-        "63bd1da2-89c4-4fa0-a2b0-b8e71e4c0707",
-        "bc16f5ce-7184-49d4-9ce3-2bdf03531b38",
-        "1d209533-2077-4656-bd31-c39254b1f753",
-        "434094c0-790e-41c0-94df-09ee075581a3"
-      ],
-      "settings": {
-=======
     "1640845352f918b3ed": {
       "type": "hero-bubble",
       "settings": {
         "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
+        "residential_main_title": "Residential",
         "residential_round_img": "shopify:\/\/shop_images\/GermicidalDisinfectantSpray1L_1024x1024_aa95081d-4b69-4311-94a8-3a4795961e38.png",
         "residential_title": "Ecopest - Germicidal Disinfectant Spray",
         "residential_url": "shopify:\/\/products\/100f-knitted-copper-mesh-rodent-pest-control-for-mouse-rat-and-most-other-pests",
@@ -148,6 +12,7 @@
         "residential_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants TOTAL INSECT KILLER",
         "residential_Two_url": "shopify:\/\/products\/2pk-home-garden-pyrodust-powder-insecticide",
         "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
+        "commercial_main_title": "Commercial",
         "Commercial_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugandAnt4LFront_2048x2048_efccca6a-42bf-4a9c-bcd1-54a15d0df9fd.png",
         "commercial_title": "Havahart - Squirrel and Chipmunk Live Trap",
         "commercial_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
@@ -155,13 +20,31 @@
         "commercial_Two_title": "Havahart - Squirrel and Chipmunk Live Trap",
         "commercial_Two_url": "shopify:\/\/products\/remote-trigger-sprayer",
         "residential_trd_bg_img": "shopify:\/\/shop_images\/Home_and_Garden.jpg",
+        "garden_main_title": "Lawn & Garden",
         "garden_round_img": "shopify:\/\/shop_images\/ECOPESTMiceGlueBoard-2_1024x1024_57b2d7fe-4387-4912-befd-11f8344d8c89.jpg",
         "garden_title": "Best Mouse & Insect Glue Boards",
         "garden_url": "shopify:\/\/products\/ecopest-insect-trap-and-monitor-36-x-cards-108-traps-a-non-poisonous-glue-trap-that-captures-and-monitors-insects",
         "garden_Two_round_img": "shopify:\/\/shop_images\/Pest_Control_Coppoer_Mesh_100_feet_1024x1024_0d89e1f1-c615-41aa-8265-2c1f923224a2.png",
         "garden_Two_title": "100f - Knitted Copper Mesh Rodent Pest Control",
         "garden_Two_url": "shopify:\/\/products\/100f-knitted-copper-mesh-rodent-pest-control-for-mouse-rat-and-most-other-pests"
->>>>>>> 87e2642a91d3f4dfa12b16d48eac12724761c8de
+      }
+    },
+    "164084737464488ea4": {
+      "type": "product-grid",
+      "blocks": {
+        "1640847374d1f20da9-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional On-Site Service",
+            "service_item_image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
+          }
+        }
+      },
+      "block_order": [
+        "1640847374d1f20da9-0"
+      ],
+      "settings": {
       }
     },
     "product-slider": {
@@ -236,13 +119,8 @@
     }
   },
   "order": [
-<<<<<<< HEAD
-    "16395472184b8aa549",
-    "1639548637fe1b1450",
-    "1639548644b7da3daa",
-=======
     "1640845352f918b3ed",
->>>>>>> 87e2642a91d3f4dfa12b16d48eac12724761c8de
+    "164084737464488ea4",
     "product-slider",
     "testimonial"
   ]
