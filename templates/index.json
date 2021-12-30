@@ -48,14 +48,6 @@
             "service_item_url": ""
           }
         },
-        "39fbd7ea-4ebb-4a48-8712-e0a78db65753": {
-          "type": "slideshow",
-          "settings": {
-            "service_item_title": "Do It Yourself",
-            "service_item_image": "shopify:\/\/shop_images\/diy.png",
-            "service_item_url": ""
-          }
-        },
         "7d1f55e3-ed47-4fbd-b12a-396031f673c3": {
           "type": "slideshow",
           "settings": {
@@ -63,13 +55,21 @@
             "service_item_image": "shopify:\/\/shop_images\/Pest.png",
             "service_item_url": "shopify:\/\/collections\/all"
           }
+        },
+        "c7d4557b-55b0-48aa-b057-d394c5e3a6ec": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/dffdf.png",
+            "service_item_url": "shopify:\/\/collections\/all"
+          }
         }
       },
       "block_order": [
         "1640847374d1f20da9-0",
         "8eadd502-a98a-4aac-b3ac-b0002e3b3de3",
-        "39fbd7ea-4ebb-4a48-8712-e0a78db65753",
-        "7d1f55e3-ed47-4fbd-b12a-396031f673c3"
+        "7d1f55e3-ed47-4fbd-b12a-396031f673c3",
+        "c7d4557b-55b0-48aa-b057-d394c5e3a6ec"
       ],
       "settings": {
       }
