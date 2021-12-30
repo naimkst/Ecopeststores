@@ -46,6 +46,7 @@
       "cta": {
         "type": "cta",
         "settings": {
+          "cta_bg_image": "shopify:\/\/shop_images\/bgggggg.png",
           "cta_title": "Subscribe To Our Newsletter",
           "cta_subtitle": "Promotions, new products and sales. Directly to your inbox.",
           "cta_btn_txt": "Subscribe  Now",
