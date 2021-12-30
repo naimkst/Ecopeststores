@@ -1,5 +1,25 @@
 {
   "sections": {
+    "1640845352f918b3ed": {
+      "type": "hero-bubble",
+      "settings": {
+        "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
+        "residential_title": "Residential",
+        "residential_url": "",
+        "residential_Two_title": "",
+        "residential_Two_url": "",
+        "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
+        "commercial_title": "Commercial",
+        "commercial_url": "",
+        "commercial_Two_title": "",
+        "commercial_Two_url": "",
+        "residential_trd_bg_img": "shopify:\/\/shop_images\/Home_and_Garden.jpg",
+        "garden_title": "Lawn & Garden",
+        "garden_url": "",
+        "garden_Two_title": "",
+        "garden_Two_url": ""
+      }
+    },
     "product-slider": {
       "type": "product-slider",
       "blocks": {
@@ -72,6 +92,7 @@
     }
   },
   "order": [
+    "1640845352f918b3ed",
     "product-slider",
     "testimonial"
   ]
