@@ -48,6 +48,14 @@
             "service_item_url": ""
           }
         },
+        "e9b1499b-6a15-48ff-b8d8-f6d81ce71657": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "DIY",
+            "service_item_image": "shopify:\/\/shop_images\/diy.png",
+            "service_item_url": ""
+          }
+        },
         "7d1f55e3-ed47-4fbd-b12a-396031f673c3": {
           "type": "slideshow",
           "settings": {
@@ -68,6 +76,7 @@
       "block_order": [
         "1640847374d1f20da9-0",
         "8eadd502-a98a-4aac-b3ac-b0002e3b3de3",
+        "e9b1499b-6a15-48ff-b8d8-f6d81ce71657",
         "7d1f55e3-ed47-4fbd-b12a-396031f673c3",
         "c7d4557b-55b0-48aa-b057-d394c5e3a6ec"
       ],
