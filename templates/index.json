@@ -36,7 +36,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Book a Professional On-Site Service",
-            "service_item_image": "shopify:\/\/shop_images\/Ecopest_Book_a_Service_f604851b-41da-4d09-a9ba-a415e1f89a9a.png",
             "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
           }
         },
@@ -68,7 +67,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/dffdf.png",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products.png",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         }
