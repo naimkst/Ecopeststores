@@ -35,7 +35,7 @@
         "1640847374d1f20da9-0": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Book a Professional On-Site Service",
+            "service_item_title": "Book a Professional Onsite Service",
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
             "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
           }
@@ -43,7 +43,7 @@
         "8eadd502-a98a-4aac-b3ac-b0002e3b3de3": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Book a Virtual On-line Service",
+            "service_item_title": "Book a Virtual Online Service",
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service.png",
             "service_item_url": ""
           }
