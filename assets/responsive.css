@@ -413,3 +413,59 @@
         min-height: 300px;
     }
 }
+
+
+
+/* By R */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .top-selling {
+        padding: 0px 0;
+    }
+    
+    .client-feedback {
+        padding: 50px 0;
+        height: 325px;
+        margin-bottom: 0px;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .top-selling {
+        padding: 0px 0;
+    } 
+    
+    .nav-tabs .nav-item {
+        margin-bottom: 4px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-footer {
+        padding: 30px 0;
+    }
+
+    .widget h5 {
+        margin-bottom: 0px;
+    }
+
+    ul.contact-card {
+        padding-left: 0px;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
