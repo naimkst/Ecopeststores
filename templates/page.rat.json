@@ -1,0 +1,237 @@
+{
+  "sections": {
+    "main": {
+      "type": "id-your-problem",
+      "settings": {
+      }
+    },
+    "1635745706a4d81549": {
+      "type": "id-your-header",
+      "settings": {
+        "id_your_header_left_image": "shopify:\/\/shop_images\/know_more.png",
+        "id_your_header_title": "ID Your Problem",
+        "id_your_header_description": "<p>Learn more about the rodents that may be infesting your home, buildings, yard and fields and how to control them in the safest and most efficient way.<\/p>",
+        "id_your_header_background": "shopify:\/\/shop_images\/vp-lc-id-your-problem-header.jpg"
+      }
+    },
+    "16357457268d23df8b": {
+      "type": "id-your-grid",
+      "blocks": {
+        "72c6cca3-971b-49f0-abcd-a16462f97847": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Bed Bugs",
+            "Pest_Identification_description": "<p>Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "16357457268d23df8b-0": {
+          "type": "advert",
+          "settings": {
+            "Pest_Identification_title": "Pigeon",
+            "Pest_Identification_description": "<p>Most people are well acquainted with this bird. They are excellent fliers and are often seen in flocks. Pigeons feed on open ground eating seeds or discarded scraps. They mate for life and roost on tall buildings where their droppings coat....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_12.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "381676eb-3673-48ea-a48e-ceea979a7d6a": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Cockroach",
+            "Pest_Identification_description": "<p>Cockroaches require a strategy that involves two consecutive sprays and a baiting as they are impossible to kill in only one shot. Each application should be carried out at 2 weeks apart. This strategy usually requires 3 visits depending......<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download.png",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "b6d44db5-0c82-4cd5-a46a-9a75e1e75841": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Ants",
+            "Pest_Identification_description": "<p>The most damage is caused by carpenter ants, who build their nests in wood. Their nests can be in the walls or roofs of houses, in fences or decks, or in trees, but they will also build hills in the ground as well. They are usually large, black ants.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_1.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "509ddb78-a21f-463f-ab56-6c8b3523453a": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Sow Bug",
+            "Pest_Identification_description": "<p>The sowbug is dark brown or gray and measures 16 mm. Although sowbugs are principally beneficial because they assist in the breakdown of decaying organic matter, they can be a threat to young plants. Indoors, they are more of a pest.......<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_2.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "e3a66d7d-6811-43c6-8995-3225ab6c71ba": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Spider",
+            "Pest_Identification_description": "<p>There are many varieties in North America. All are easily recognizable by four pairs of legs and a large sac-like abdomen. The size of a spider generally ranges from 10 to 20 mm in length. Color varies from brown and gray to black.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_3.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "2207c084-19e2-4f3b-8c02-cb1b1c0c0149": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Carpet Beetle",
+            "Pest_Identification_description": "<p>The Carpet beetle, commonly found in all parts of North America, is oval in shape, measures approximately 1\/8” with an irregular arrangement of white, brownish and yellowish spots, or a solid black shell, when fully matured. While in the larvae.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_4.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "22f8627f-a2f7-4810-9611-4a5b637dd51e": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Larder Beetle",
+            "Pest_Identification_description": "<p>Larder Beetles, as their name implies, prefer meat or meat by-products. This could be decomposing animal, poultry, insect or other non-plant materials. Mounted animals may also become infested. However, Larder Beetles can.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_5.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad": {
+          "type": "button",
+          "settings": {
+            "Pest_Identification_title": "Centipedee",
+            "Pest_Identification_description": "<p>Centipedes are common animals of the soil and leaf litter. They are long (2-4 cm), flattened creatures with from 15 to over 100 pairs of legs, one pair to each abdominal segment. The long, jointed legs provide for rapid movement. Long.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_6.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "e93b4569-bec7-484d-baae-e8f20daece85": {
+          "type": "image",
+          "settings": {
+            "Pest_Identification_title": "Wasps & Bees",
+            "Pest_Identification_description": "<p>Wasps and honey bees are beneficial insects, although they are generally considered to be pests because of their ability to sting. Wasps, in particular, can become a problem in autumn when they may disrupt many outdoor activities.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_7.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "abebb77e-6690-4cce-9d5d-56768787729b": {
+          "type": "image",
+          "settings": {
+            "Pest_Identification_title": "Mosquitoes",
+            "Pest_Identification_description": "<p>Heavy summer rainfall can result in uncomfortable levels of mosquito biting activity in Edmonton. Such biting is considered only to be a nuisance since there appears to be negligible risk of human disease transmission by.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_8.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "d6474b4b-b4e2-44a3-aae5-963ce7274b20": {
+          "type": "image",
+          "settings": {
+            "Pest_Identification_title": "Flies",
+            "Pest_Identification_description": "<p>Flies are more than a nuisance. They spread bacteria and contaminate food. Flies are prolific breeders, capable of existing in a wide range of conditions. Ecopest’s Fly Control Program is a smart, effective way to reduce flies.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_9.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "044cbad4-33bf-4eb6-8f81-f4f91e92ee89": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Mice",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": "shopify:\/\/pages\/mouse"
+          }
+        },
+        "7277750c-1717-4114-a238-e344c7145423": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Rats",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "bb72ac03-546a-43b4-b112-93dc756856c7": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Mice",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        },
+        "711c333b-9de8-40e2-9116-c0e1fbe8f097": {
+          "type": "headline",
+          "settings": {
+            "Pest_Identification_title": "Rats",
+            "Pest_Identification_description": "<p>Mice are common in all parts of Canada. They can range in color from dusky grey to tan or brown, and measure overall from 2.5 to 4” long with large ears and long tails. Deer mice are 4 to 9” long, reddish-brown in colour with a white chest, white feet.....<\/p>",
+            "Pest_Identification_image": "shopify:\/\/shop_images\/download_11.jpg",
+            "Pest_Identification_link": "https:\/\/ecopeststores-live.myshopify.com\/pages\/bed-bugs"
+          }
+        }
+      },
+      "block_order": [
+        "72c6cca3-971b-49f0-abcd-a16462f97847",
+        "16357457268d23df8b-0",
+        "381676eb-3673-48ea-a48e-ceea979a7d6a",
+        "b6d44db5-0c82-4cd5-a46a-9a75e1e75841",
+        "509ddb78-a21f-463f-ab56-6c8b3523453a",
+        "e3a66d7d-6811-43c6-8995-3225ab6c71ba",
+        "2207c084-19e2-4f3b-8c02-cb1b1c0c0149",
+        "22f8627f-a2f7-4810-9611-4a5b637dd51e",
+        "c89fd825-5c30-4dbf-aaf7-728fda1cb8ad",
+        "e93b4569-bec7-484d-baae-e8f20daece85",
+        "abebb77e-6690-4cce-9d5d-56768787729b",
+        "d6474b4b-b4e2-44a3-aae5-963ce7274b20",
+        "044cbad4-33bf-4eb6-8f81-f4f91e92ee89",
+        "7277750c-1717-4114-a238-e344c7145423",
+        "bb72ac03-546a-43b4-b112-93dc756856c7",
+        "711c333b-9de8-40e2-9116-c0e1fbe8f097"
+      ],
+      "settings": {
+        "id_your_grid_title": "Pest Identification",
+        "id_your_tab_one": "Crawling Insects & bugs",
+        "id_your_tab_two": "Flying Insects",
+        "id_your_tab_three": "Rodents",
+        "id_your_tab_four": "Birds"
+      }
+    },
+    "1636484325c0269271": {
+      "type": "id-problem-faq",
+      "blocks": {
+        "1636484325c0269271-0": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-commenting",
+            "ask_an_expert_title": "Ask An Expert",
+            "ask_an_expert_description": "<p>Find out about the myths, misconceptions, or half-truths commonly heard from people about rodents in their neighborhoods. Myths about mice, rats and moles are covered in a Q&A format.<\/p>",
+            "ask_an_expert_link": ""
+          }
+        },
+        "9ce5f3b3-fa5d-4fe0-9bd9-bcc39230a1fb": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-comments",
+            "ask_an_expert_title": "Chat Now",
+            "ask_an_expert_description": "<p><br\/>Need help now? Chat with our exceptional customer service support team and we can help you find either the service you need or the right products your need for your next DIY - Do it yourself project!<\/p>",
+            "ask_an_expert_link": ""
+          }
+        },
+        "aed903b4-73df-4e25-8335-5566eb522b0a": {
+          "type": "image",
+          "settings": {
+            "ask_an_expert_icon": "fa fa-video-camera",
+            "ask_an_expert_title": "Video Call",
+            "ask_an_expert_description": "<p>Book a live 1-on-1 video call with one of our Pest Experts. We can take a look at your pest problem and let you know the best solutions to solve it for you.<br\/><br\/>.<\/p>",
+            "ask_an_expert_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636484325c0269271-0",
+        "9ce5f3b3-fa5d-4fe0-9bd9-bcc39230a1fb",
+        "aed903b4-73df-4e25-8335-5566eb522b0a"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1635745706a4d81549",
+    "16357457268d23df8b",
+    "1636484325c0269271"
+  ]
+}
