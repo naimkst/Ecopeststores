@@ -103,11 +103,21 @@
 
     .buble-main-title {
         position: absolute;
-        bottom: 20px;
-        font-size: 20px;
+        bottom: 45%;
+        font-size: 35px;
         color: #fff;
         z-index: 1;
     }
+    .service-item-grid h2 {
+        height: 30px;
+    }
+    
+    .col.gird-main-item-service {
+            padding: 25px 15px 15px 15px;
+            margin-right: 15px;
+            margin-left: 15px;
+            border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
 
 
     /* Responsive Style */
@@ -154,7 +164,9 @@
             <div style="background: url({{ section.settings.residential_fst_bg_img | img_url: '' }});background-repeat: no-repeat;
             background-size: cover;"
                 class="col-md-4 bubble-bg-color">
-                <h2 class="text-center buble-main-title">{{ section.settings.residential_main_title }}</h2>
+                <a class="text-center buble-main-title" href="{{ section.settings.residential_url }}"><h2>{{ section.settings.residential_main_title }}</h2></a>
+
+                <!-- {% if section.settings.residential_round_img %}
                 <div class="bubble-grib">
                     <div class="hover-bble">
                         <div class="bubble-one">
@@ -168,7 +180,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="bubble-grib bubble-two">
                     <div class="hover-bble">
                         <div class="bubble-one">
@@ -182,12 +193,15 @@
                         </div>
                     </div>
                 </div>
+                {% endif %} -->
             </div>
 
             <div style="background: url('{{ section.settings.residential_scnd_bg_img | img_url: '' }}');background-repeat: no-repeat;
             background-size: cover;"
                 class="col-md-4 bubble-bg-color">
-                <h2 class="text-center buble-main-title">{{ section.settings.commercial_main_title }}</h2>
+                <a class="text-center buble-main-title" href="{{ section.settings.commercial_url }}"><h2>{{ section.settings.commercial_main_title }}</h2></a>
+
+                <!-- {% if section.settings.Commercial_round_img %}
                 <div class="bubble-grib">
                     <div class="hover-bble">
                         <div class="bubble-one">
@@ -201,7 +215,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="bubble-grib bubble-two">
                     <div class="hover-bble">
                         <div class="bubble-one">
@@ -215,12 +228,14 @@
                         </div>
                     </div>
                 </div>
+                {% endif %} -->
             </div>
             <div style="background: url('{{ section.settings.residential_trd_bg_img | img_url: '' }}');background-repeat: no-repeat;
             background-size: cover;"
             class="col-md-4 bubble-bg-color">
+            <a class="text-center buble-main-title" href="{{ section.settings.garden_url }}"><h2 class="">{{ section.settings.garden_main_title }}</h2></a>
             
-            <h2 class="text-center buble-main-title">{{ section.settings.garden_main_title }}</h2>
+            <!-- {% if section.settings.garden_round_img %}
             <div class="bubble-grib">
                 <div class="hover-bble">
                     <div class="bubble-one">
@@ -234,7 +249,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="bubble-grib  bubble-two">
                 <div class="hover-bble">
                     <div class="bubble-one">
@@ -248,6 +262,7 @@
                     </div>
                 </div>
             </div>
+            {% endif %} -->
         </div>
             
         </div>
@@ -279,34 +294,9 @@
         "default": "Residential"
     },
     {
-        "type": "image_picker",
-        "id": "residential_round_img",
-        "label": "Residential Round Image"
-    },
-    {
-        "type": "text",
-        "id": "residential_title",
-        "label": "Residential Title"
-    },
-    {
         "type": "url",
         "id": "residential_url",
         "label": "Residential Link"
-    },
-    {
-        "type": "image_picker",
-        "id": "residential_Two_round_img",
-        "label": "Residential Two Round Image"
-    },
-    {
-        "type": "text",
-        "id": "residential_Two_title",
-        "label": "Residential Two Title"
-    },
-    {
-        "type": "url",
-        "id": "residential_Two_url",
-        "label": "Residential Two Link"
     },
     {
         "type": "image_picker",
@@ -320,34 +310,9 @@
         "default": "Commercial"
     },
     {
-        "type": "image_picker",
-        "id": "Commercial_round_img",
-        "label": "Commercial Round Image"
-    },
-    {
-        "type": "text",
-        "id": "commercial_title",
-        "label": "Commercial Title"
-    },
-    {
         "type": "url",
         "id": "commercial_url",
         "label": "Commercial Link"
-    },
-    {
-        "type": "image_picker",
-        "id": "commercial_Two_round_img",
-        "label": "Commercial Two Round Image"
-    },
-    {
-        "type": "text",
-        "id": "commercial_Two_title",
-        "label": "Commercial Two Title"
-    },
-    {
-        "type": "url",
-        "id": "commercial_Two_url",
-        "label": "Commercial Two Link"
     },
     {
         "type": "image_picker",
@@ -361,34 +326,9 @@
         "default": "Lawn & Garden"
     },
     {
-        "type": "image_picker",
-        "id": "garden_round_img",
-        "label": "Garden Round Image"
-    },
-    {
-        "type": "text",
-        "id": "garden_title",
-        "label": "Garden Title"
-    },
-    {
         "type": "url",
         "id": "garden_url",
         "label": "Garden Link"
-    },
-    {
-        "type": "image_picker",
-        "id": "garden_Two_round_img",
-        "label": "Garden Two Round Image"
-    },
-    {
-        "type": "text",
-        "id": "garden_Two_title",
-        "label": "Garden Two Title"
-    },
-    {
-        "type": "url",
-        "id": "garden_Two_url",
-        "label": "Garden Two Link"
     }
     
 

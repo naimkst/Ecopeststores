@@ -4,7 +4,7 @@
 
         <style>
             .custom-id-your-problem {
-                background-image: url('https://www.victorpest.com/media/wysiwyg/vp/cms/learning-center/vp-lc-rodent-library-house-mouse-header-3.jpg');
+                background-image: url({{ section.settings.id_your_single_background_img | img_url: ''}});
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
@@ -242,6 +242,11 @@
             "id": "id_your_single_title",
             "label": "ID Your Single Title",
             "default": "House Mouse"
+        },
+        {
+            "type": "image_picker",
+            "id": "id_your_single_background_img",
+            "label": "ID Your Single Header Background Image"
         },
         {
             "type": "text",
