@@ -5,28 +5,13 @@
       "settings": {
         "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
         "residential_main_title": "Residential",
-        "residential_round_img": "shopify:\/\/shop_images\/GermicidalDisinfectantSpray1L_1024x1024_aa95081d-4b69-4311-94a8-3a4795961e38.png",
-        "residential_title": "Ecopest - Germicidal Disinfectant Spray",
         "residential_url": "shopify:\/\/products\/portionpac-disinfectant-spray-1l",
-        "residential_Two_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugandAnt4LFront_2048x2048_efccca6a-42bf-4a9c-bcd1-54a15d0df9fd.png",
-        "residential_Two_title": "ECOPEST - Bed Bug, Cockroach, Ants TOTAL INSECT KILLER",
-        "residential_Two_url": "shopify:\/\/products\/ecopest-bed-bug-spray-and-insect-killer",
         "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
         "commercial_main_title": "Commercial",
-        "Commercial_round_img": "shopify:\/\/shop_images\/SquirrelTrapCage1025_1024x1024_efdc48d2-4839-44bb-9ef8-0433fb46398f.png",
-        "commercial_title": "Havahart - Squirrel and Chipmunk Live Trap",
         "commercial_url": "shopify:\/\/products\/ecopest-x-small-professional-style-one-door-animal-trap-for-chipmunks-squirrels-rats-and-weasels",
-        "commercial_Two_round_img": "shopify:\/\/shop_images\/ECOPESTMiceGlueBoard-2_1024x1024_57b2d7fe-4387-4912-befd-11f8344d8c89.jpg",
-        "commercial_Two_title": "Ecopest Mouse & Insect Glue Boards",
-        "commercial_Two_url": "shopify:\/\/products\/ecopest-best-mouse-insect-glue-boards-on-the-market-better-than-trapper-ltd-jt-eaton-victor-masterline",
         "residential_trd_bg_img": "shopify:\/\/shop_images\/Home_and_Garden.jpg",
         "garden_main_title": "Lawn & Garden",
-        "garden_round_img": "shopify:\/\/shop_images\/Pest_Control_Coppoer_Mesh_100_feet_1024x1024_0d89e1f1-c615-41aa-8265-2c1f923224a2.png",
-        "garden_title": "100f - Knitted Copper Mesh Rodent Pest Control",
-        "garden_url": "shopify:\/\/products\/100f-knitted-copper-mesh-rodent-pest-control-for-mouse-rat-and-most-other-pests",
-        "garden_Two_round_img": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugSpray1Liter2PackFront_1024x1024_0f69190e-aa1d-4391-9f2c-bbfefc75a10a.png",
-        "garden_Two_title": "Ecopest Mouse & Insect Glue Boards",
-        "garden_Two_url": "shopify:\/\/products\/ecopest-bed-bug-cockroach-ants-total-insect-killer-1l-2-pack-spiders-plant-bugs-and-much-more"
+        "garden_url": "shopify:\/\/products\/100f-knitted-copper-mesh-rodent-pest-control-for-mouse-rat-and-most-other-pests"
       }
     },
     "164084737464488ea4": {
@@ -52,7 +37,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "DIY - Do it Yourself",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself.png",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
             "service_item_url": ""
           }
         },
@@ -60,7 +45,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest.png",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         },
@@ -68,7 +53,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products.png",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         }
