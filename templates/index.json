@@ -45,7 +45,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest.png",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         },
