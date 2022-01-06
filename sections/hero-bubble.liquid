@@ -111,14 +111,20 @@
     .service-item-grid h2 {
         height: 30px;
     }
-    
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .bg-hover:hover h2{
+        color: #f43739;
+    }
     .col.gird-main-item-service {
-            padding: 25px 15px 15px 15px;
-            margin-right: 15px;
-            margin-left: 15px;
-            border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-        }
-
+        padding: 25px 15px 15px 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+        border-radius: 5px;
+        box-shadow: hsla(221, 84%, 45%, 0.746) 0px 4px 12px;
+    }
 
     /* Responsive Style */
     /* Medium Layout: 1280px. */
@@ -161,109 +167,32 @@
 <div class="hero-bubble">
     <div class="container-fluid">
         <div class="row">
-            <div style="background: url({{ section.settings.residential_fst_bg_img | img_url: '' }});background-repeat: no-repeat;
-            background-size: cover;"
-                class="col-md-4 bubble-bg-color">
-                <a class="text-center buble-main-title" href="{{ section.settings.residential_url }}"><h2>{{ section.settings.residential_main_title }}</h2></a>
-
-                <!-- {% if section.settings.residential_round_img %}
-                <div class="bubble-grib">
-                    <div class="hover-bble">
-                        <div class="bubble-one">
-                            <img class="bubble-img"
-                                src="{{ section.settings.residential_round_img | img_url: '' }}"
-                                alt="">
-                            <div class="hove-text">
-                                <p>{{ section.settings.residential_title }}</p>
-                                <a href="{{ section.settings.residential_url }}">Shop Now »</a>
-                            </div>
-                        </div>
+            <div class="col-md-4 nopadding bg-hover">
+                <a href="{{ section.settings.residential_url }}">
+                    <div style="background: url({{ section.settings.residential_fst_bg_img | img_url: '' }});background-repeat: no-repeat; background-size: cover;" class="bubble-bg-color">
+                        <h2 class="text-center buble-main-title" >{{ section.settings.residential_main_title }}</h2>
                     </div>
-                </div>
-                <div class="bubble-grib bubble-two">
-                    <div class="hover-bble">
-                        <div class="bubble-one">
-                            <img class="bubble-img"
-                                src="{{ section.settings.residential_Two_round_img | img_url: '' }}"
-                                alt="">
-                            <div class="hove-text">
-                                <p>{{ section.settings.residential_Two_title }}</p>
-                                <a href="{{ section.settings.residential_Two_url }}">Shop Now »</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endif %} -->
+                </a>
             </div>
-
-            <div style="background: url('{{ section.settings.residential_scnd_bg_img | img_url: '' }}');background-repeat: no-repeat;
-            background-size: cover;"
-                class="col-md-4 bubble-bg-color">
-                <a class="text-center buble-main-title" href="{{ section.settings.commercial_url }}"><h2>{{ section.settings.commercial_main_title }}</h2></a>
-
-                <!-- {% if section.settings.Commercial_round_img %}
-                <div class="bubble-grib">
-                    <div class="hover-bble">
-                        <div class="bubble-one">
-                            <img class="bubble-img"
-                                src="{{ section.settings.Commercial_round_img | img_url: '' }}"
-                                alt="">
-                            <div class="hove-text">
-                                <p>{{ section.settings.commercial_title }}</p>
-                                <a href="{{ section.settings.commercial_url }}">Shop Now »</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-4 nopadding bg-hover">
+                <a href="{{ section.settings.commercial_url }}">
+                <div style="background: url('{{ section.settings.residential_scnd_bg_img | img_url: '' }}');background-repeat: no-repeat;
+                background-size: cover;"
+                    class="bubble-bg-color">
+                    <h2 class="text-center buble-main-title" >{{ section.settings.commercial_main_title }}</h2>
                 </div>
-                <div class="bubble-grib bubble-two">
-                    <div class="hover-bble">
-                        <div class="bubble-one">
-                            <img class="bubble-img"
-                                src="{{ section.settings.commercial_Two_round_img | img_url: ''}}"
-                                alt="">
-                            <div class="hove-text">
-                                <p>{{ section.settings.commercial_Two_title }}</p>
-                                <a href="{{ section.settings.commercial_Two_url }}">Shop Now »</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endif %} -->
+                
+                </a>
             </div>
-            <div style="background: url('{{ section.settings.residential_trd_bg_img | img_url: '' }}');background-repeat: no-repeat;
-            background-size: cover;"
-            class="col-md-4 bubble-bg-color">
-            <a class="text-center buble-main-title" href="{{ section.settings.garden_url }}"><h2 class="">{{ section.settings.garden_main_title }}</h2></a>
-            
-            <!-- {% if section.settings.garden_round_img %}
-            <div class="bubble-grib">
-                <div class="hover-bble">
-                    <div class="bubble-one">
-                        <img class="bubble-img"
-                            src="{{ section.settings.garden_round_img | img_url: ''}}"
-                            alt="">
-                        <div class="hove-text">
-                            <p>{{ section.settings.garden_title }}</p>
-                            <a href="{{ section.settings.garden_url }}">Shop Now »</a>
-                        </div>
-                    </div>
+            <div class="col-md-4 nopadding bg-hover">
+                <a href="{{ section.settings.garden_url }}">
+                <div style="background: url('{{ section.settings.residential_trd_bg_img | img_url: '' }}');background-repeat: no-repeat;
+                background-size: cover;"
+                class="bubble-bg-color">
+                <h2 class="text-center buble-main-title" >{{ section.settings.garden_main_title }}</h2>
                 </div>
-            </div>
-            <div class="bubble-grib  bubble-two">
-                <div class="hover-bble">
-                    <div class="bubble-one">
-                        <img class="bubble-img"
-                            src="{{ section.settings.garden_Two_round_img | img_url: ''}}"
-                            alt="">
-                        <div class="hove-text">
-                            <p>{{ section.settings.garden_Two_title }}</p>
-                            <a href="{{ section.settings.garden_Two_url }}">Shop Now »</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endif %} -->
-        </div>
+            </a>
+             </div>  
             
         </div>
     </div>
