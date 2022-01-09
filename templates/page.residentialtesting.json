@@ -4,9 +4,91 @@
       "type": "slider",
       "settings": {
       }
+    },
+    "16417126502a344023": {
+      "type": "diy-section",
+      "blocks": {
+        "164171265065155b93-0": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_title": "Shop By Pest",
+            "diy_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "164171265065155b93-0"
+      ],
+      "settings": {
+      }
+    },
+    "1641712693fd73501b": {
+      "type": "page-header",
+      "settings": {
+        "collection_header_color": "#000",
+        "page_header_ttle": "Page Title Here"
+      }
+    },
+    "164171270145c35de7": {
+      "type": "hero-bubble",
+      "settings": {
+        "residential_main_title": "Residential",
+        "residential_url": "",
+        "commercial_main_title": "Commercial",
+        "commercial_url": "",
+        "garden_main_title": "Lawn & Garden",
+        "garden_url": ""
+      }
+    },
+    "1641712704eeffd1f2": {
+      "type": "easy-step",
+      "blocks": {
+        "16417127040ad8b344-0": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/step1.png"
+          }
+        },
+        "db6981c4-e296-490b-8683-9a5a4be61fee": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/pest2.png"
+          }
+        },
+        "c2152150-c52b-4584-8c54-457683ccbd43": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/pest3.png"
+          }
+        },
+        "441d327c-deff-40d7-8c09-6c7ba192d76b": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/step4_53d3d9ae-4378-471a-bc85-fc0250935ef1.png"
+          }
+        }
+      },
+      "block_order": [
+        "16417127040ad8b344-0",
+        "db6981c4-e296-490b-8683-9a5a4be61fee",
+        "c2152150-c52b-4584-8c54-457683ccbd43",
+        "441d327c-deff-40d7-8c09-6c7ba192d76b"
+      ],
+      "settings": {
+        "step_title": "Clean your Home from Rodent Pest",
+        "step_subtitle": "In 4 Easy Steps"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16417126502a344023",
+    "1641712693fd73501b",
+    "164171270145c35de7",
+    "1641712704eeffd1f2"
   ]
 }
