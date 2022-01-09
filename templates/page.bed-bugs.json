@@ -7,7 +7,6 @@
           "type": "button",
           "settings": {
             "single_id_grid_title": "Bed Bug Facts",
-            "single_id_grid_image": "shopify:\/\/shop_images\/download.jpg",
             "single_id_description": "<p><strong>Daily Amount:<\/strong><br\/>1\/10 Ounce<br\/><br\/><strong>Daily Water:<\/strong><br\/>Utilizes moisture in food<br\/><br\/><strong>Daily Food:<\/strong><br\/>Cereal grains, meats, seeds<\/p>"
           }
         },
@@ -15,7 +14,6 @@
           "type": "button",
           "settings": {
             "single_id_grid_title": "Bed Bug Facts",
-            "single_id_grid_image": "shopify:\/\/shop_images\/vp-lc-rodent-library-house-mouse-diet.jpg",
             "single_id_description": "<p><strong>Daily Amount:<\/strong><br\/>1\/10 Ounce<br\/><br\/><strong>Daily Water:<\/strong><br\/>Utilizes moisture in food<br\/><br\/><strong>Daily Food:<\/strong><br\/>Cereal grains, meats, seeds<\/p>"
           }
         }
@@ -27,8 +25,9 @@
       "settings": {
         "id_your_single_title": "Bed Bugs",
         "id_your_single_subtitle": "Excellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter.",
+        "long_description": "<p>xcellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter. House M<\/p>",
         "side_bar_title": "Overview",
-        "side_bar_link": "overview-sidebar",
+        "side_bar_link": "",
         "side_bar_fact_title": "Bed Bug Facts",
         "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/>Mus Musculus meaning \"little thief\"<br\/><br\/><strong>Color:<\/strong><br\/>Dusty gray<br\/><br\/><strong>Weight:<\/strong><br\/>½-1 ounce<br\/><br\/><strong>Length:<\/strong><br\/>2.5-4 inches<br\/><br\/><strong>Tail Length:<\/strong><br\/>As long as body - up to 4 inches<br\/><br\/><strong>Body:<\/strong><br\/>Small head & slender body<br\/><br\/><strong>Ears:<\/strong><br\/>Moderately large ears<\/p>"
       }
@@ -39,8 +38,8 @@
         "16357472098b8fa268-0": {
           "type": "product",
           "settings": {
-            "collection_name": "",
-            "product_collection": "bed-bug-collection"
+            "collection_name": "Top Selling Bed Bugs",
+            "product_collection": "bed-bug-control"
           }
         },
         "1c177ff0-bde6-4ebc-b336-42e68d66f237": {
