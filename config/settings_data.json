@@ -29,10 +29,6 @@
           "2d0ec77c-addc-4da1-851a-fa7f636a1590"
         ],
         "settings": {
-<<<<<<< HEAD
-          "logo": "shopify:\/\/shop_images\/logo.png",
-=======
->>>>>>> 87e2642a91d3f4dfa12b16d48eac12724761c8de
           "sign_in_hide_show": true,
           "sing_in": "",
           "sign_in_image": "shopify:\/\/shop_images\/user_60b319ab-2142-40b3-b32e-59d42e48187f.png",
@@ -40,11 +36,7 @@
           "Cart_image": "shopify:\/\/shop_images\/cart.png",
           "chat_hide_show": true,
           "video_hide_show": true,
-<<<<<<< HEAD
-          "right_menu_image": "shopify:\/\/shop_images\/more-btn-angle_c5e5bd90-265e-425e-a494-99ddf98e21e4.png",
-=======
           "right_menu_image": "shopify:\/\/shop_images\/more-btn-angle_d5111d84-f900-4faf-a0a1-610e9b5c536c.png",
->>>>>>> 87e2642a91d3f4dfa12b16d48eac12724761c8de
           "header_video": "https:\/\/www.youtube.com\/watch?v=jssO8-5qmag&ab_channel=HighResolutionDatabase",
           "main_menu": "main-menu",
           "know_more_menu": "",
@@ -84,6 +76,38 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "5918445685253060206": {
+        "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17503894164445082576": {
+        "type": "shopify:\/\/apps\/helpcenter-faq-chat-helpdesk\/blocks\/contact-form-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "319724205969189013": {
+        "type": "shopify:\/\/apps\/form-builder-with-file-upload\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16114465257489415219": {
+        "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs-style\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5038451100865107764": {
+        "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   }
 }
