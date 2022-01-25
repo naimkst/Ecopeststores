@@ -1,0 +1,188 @@
+<style>
+    .col.gird-main-item-service {
+        box-shadow: none !important;
+    }
+
+    .col.gird-main-item-service ul li:first-child {
+        border-bottom: 1px solid #C2B0B0;
+    }
+
+    .gird-main-item-service ul li img {
+        width: 30px;
+        height: 27px;
+    }
+
+    .service-item-x-title h3 {
+        border-bottom: 1px solid #C2B0B0;
+        font-size: 20px;
+    }
+
+    .margin-bottom-10px {
+        margin-bottom: 10px;
+    }
+
+
+    .margin-bottom-30px {
+        margin-bottom: 30px;
+    }
+
+    .property-on-widget .on-widget-image {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        display: block;
+        float: left;
+        margin-right: 10px;
+        max-height: 90px;
+        overflow: hidden;
+        width: 90px;
+        border: 2px solid #DEDEDE;
+    }
+
+    .property-on-widget .on-widget-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .on-widget-title {
+        margin-bottom: 8px;
+        text-align: left;
+    }
+
+    .service-item-grid h2 {
+        margin-top: 10px;
+    }
+
+    .property-on-widget .on-widget-title a {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #074173;
+    }
+
+    .on-widget-price {
+        text-align: left;
+    }
+
+    .property-on-widget .on-widget-price span {
+        color: #999999;
+    }
+
+    .on-widget-content {
+        padding-top: 15px;
+    }
+
+    .property-on-widget {
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+</style>
+<div class="service-item">
+    <div class="container-fluid">
+
+        <div class="row">
+
+            {% for block in section.blocks %}
+                <div class="col gird-main-item-service">
+                    <div class="service-item-x-title margin-bottom-10px">
+                        <h3>{{ block.settings.shop_by_title }}</h3>
+                    </div>
+
+                    {% for product in block.settings.shop_by_collection.products limit:5 %}
+                        <div class="property-on-widget">
+                            <div class="on-widget-image">
+                                <a href="{{ product.url }}">
+                                    <img src="{{ product.featured_image.src | img_url: '' }}" alt="">
+                                </a>
+                            </div>
+
+                            <div class="on-widget-content">
+                                <div class="on-widget-title">
+                                    <a href="{{ product.url }}">{{ product.title }}</a>
+                                </div>
+                                <div class="on-widget-price">{{ product.price | money }}<span></span></div>
+                            </div>
+                        </div> <!-- end property-on-widget -->
+                    {% endfor%}
+
+                </div> 
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Shop By Product",
+  "settings": [
+    
+    {
+        "type": "text",
+        "id": "shop_by_product_title_one",
+        "label": "Shop By Title One",
+        "default": "Rodent Control Products"
+    },
+    {
+        "type": "text",
+        "id": "shop_by_product_title_two",
+        "label": "Shop By Title Two",
+        "default": "Rodent Control Products"
+    },
+    {
+        "type": "text",
+        "id": "shop_by_product_title_three",
+        "label": "Shop By Title Three",
+        "default": "Rodent Control Products"
+    },
+    {
+        "type": "text",
+        "id": "shop_by_product_title_four",
+        "label": "Shop By Title Four",
+        "default": "Rodent Control Products"
+    },
+    {
+        "type": "text",
+        "id": "shop_by_product_title_five",
+        "label": "Shop By Title Five",
+        "default": "Rodent Control Products"
+    }
+
+  ],
+
+  "blocks": [
+        {
+            "name": "Shop By Product Item",
+            "type": "first-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "shop_by_title",
+                    "label": "Shop By Title",
+                    "default": "Book a Virtual Online Service"
+                },
+                {
+                    "type": "collection",
+                    "id": "shop_by_collection",
+                    "label": "Shop By Collection"
+                }
+            ]
+        }
+    ],
+
+  "presets": [
+    {
+      "name": "Shop By Product",
+      "blocks": [
+        {
+          "type": "first-section"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

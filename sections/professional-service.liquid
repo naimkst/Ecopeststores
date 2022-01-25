@@ -11,6 +11,7 @@
    .pro-service-box h6 {
        font-size: 14px;
        font-weight: bold;
+       margin-bottom: 10px;
    }
    
    .pro-ser-img-box .pro-service-box {
@@ -22,14 +23,10 @@
        padding: 0;
    }
    
-    .pro-service-box img{
-        width: 100%;
-    }
-   
     .pro-form-box{
         width: 100%;
         height: auto;
-        padding: 15px 15px 15px 15px;
+        padding: 25px 25px 35px 25px;
         background: #FFFFFF;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     }
@@ -109,6 +106,18 @@
        background: #EEEEEE;
        border: 0px;
    }
+   .pro-form-box h3, .pro-form-box p {
+        margin-bottom: 15px;
+    }
+    .grid_small_imgs{
+        width:100%;
+        height:182px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .small_grids_color h6, .small_grids_color a {
+        color: inherit !important;
+    }
    </style>
    
    <div class="diy-section pad-t-30-p-b-30">
@@ -116,52 +125,54 @@
            <div class="row">
              <div class="col-md-4">
                  <div class="pro-service-box margin-bottom-30px">
-                   <img src="https://cdn.shopify.com/s/files/1/0387/7961/7411/files/EcopestStore_Book_a_Professional_Service.png?v=1641239693" alt="">
+                   <img width="280" src="{{ section.settings.left_professional_image | img_url: '' }}" alt="">
                  </div>
    
                  <div class="pro-contact-box">
-                   <h3 class="margin-bottom-10px">Contact Us</h3>
+                   <h3 class="margin-bottom-10px">{{ section.settings.contract_us_title }}</h3>
                     <ul>
-                        <li><a href=""><i class="fa fa-phone"></i> 1-866-269-2847</a></li>
-                        <li><a href=""><i class="fa fa-envelope"></i> service@ecopeststore.ca</a></li>
-                        <li><a href=""><i class="fa fa-map-marker"></i> 8605 Coronet Rd. Edmonton, AB</a></li>
+                        <li><a href="tel:{{ section.settings.contact_phone }}"><i class="fa fa-phone"></i> {{ section.settings.contact_phone }}</a></li>
+                        <li><a href="mailto:{{ section.settings.contact_email }}"><i class="fa fa-envelope"></i> {{ section.settings.contact_email }}</a></li>
+                        <li><a href=""><i class="fa fa-map-marker"></i> {{ section.settings.contact_address }}</a></li>
                     </ul>
                  </div>
    
               </div> <!-- end col-md-4 -->
               <div class="col-md-4">
                   <div class="pro-form-box">
-                   <h3>Book a Professional Onsite Service!</h3>
-                   <p class="margin-bottom-10px">Please complete the form below and our pest expert team will contact you as soon as possible!</p>
+                   <h3>{{ section.settings.form_title }}</h3>
+                   <p class="margin-bottom-10px">{{ section.settings.form_description }}</p>
    
-                   <form>
+                   {% form 'contact', enctype: 'multipart/form-data' %}
+                    {% if form.posted_successfully? %} Thank you for your contact {% endif %}
+                    {{ form.errors | default_errors }}
                        <div class="form-row margin-bottom-10px">
                          <div class="col-md-6">
-                           <input type="text" class="form-control" placeholder="Name">
+                           <input type="text" class="form-control" placeholder="Name" name="contact[name]">
                           </div> <!-- end col-md-6 -->
                          <div class="col-md-6">
-                           <input type="email" class="form-control" placeholder="Email">
+                           <input type="email" class="form-control" placeholder="Email" name="contact[email]">
                          </div> <!-- end col-md-6 -->
                        </div> <!-- End Form Row -->
    
                        <div class="form-row margin-bottom-10px">
                            <div class="col-md-6">
-                             <input type="text" class="form-control" placeholder="Phone">
+                             <input type="text" class="form-control" placeholder="Phone" name="contact[phone]">
                             </div> <!-- end col-md-6 -->
                            <div class="col-md-6">
-                             <input type="email" class="form-control" placeholder="Post">
+                             <input type="text" class="form-control" placeholder="Post" name="contact[post]">
                            </div> <!-- end col-md-6 -->
                        </div> <!-- End Form Row -->
    
                        <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Pest">
+                           <input type="text" class="form-control" placeholder="Pest" name="contact[pest]">
                        </div> <!-- end form-group -->
    
                        <div class="form-group">
-                           <textarea class="form-control" rows="5"></textarea>
+                           <textarea class="form-control" rows="5" name="contact[description]"></textarea>
                        </div> <!-- end form-group -->
                        <button type="submit" class="btn btn-danger">SEND</button>
-                   </form> <!-- end form -->
+                    {%- endform -%} <!-- end form -->
    
                   </div> <!-- end section box -->
    
@@ -172,33 +183,18 @@
                <div class="pro-ser-img-box">
                   <div class="container">
                            <div class="row">
-                               <div class="col-md-6">
-                                   <div class="pro-service-box">
-                                       <h6>Book a Virtual Online Service</h6>
-                                       <img src="https://cdn.shopify.com/s/files/1/0387/7961/7411/files/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png?v=1641940149" alt="">
-                                   </div>
-                               </div>  <!-- end col-md-6 -->
-   
-                               <div class="col-md-6">
-                                   <div class="pro-service-box">
-                                   <h6>Book a Virtual Online Service</h6>
-                                   <img src="https://cdn.shopify.com/s/files/1/0387/7961/7411/files/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png?v=1641940149" alt="">
-                                   </div>
-                               </div>  <!-- end col-md-6 -->
-   
-                               <div class="col-md-6">
-                                   <div class="pro-service-box">
-                                   <h6>Book a Virtual Online Service</h6>
-                                   <img src="https://cdn.shopify.com/s/files/1/0387/7961/7411/files/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png?v=1641940149" alt="">
-                                   </div>
-                               </div>  <!-- end col-md-6 -->
-   
-                               <div class="col-md-6">
-                                   <div class="pro-service-box">
-                                       <h6>Book a Virtual Online Service</h6>
-                                       <img src="https://cdn.shopify.com/s/files/1/0387/7961/7411/files/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png?v=1641940149" alt="">
-                                   </div>
-                               </div>  <!-- end col-md-6 -->
+                            {% for block in section.blocks %}
+                               <div class="col-md-6 small_grids_color">
+                                   <a href="{{ section.settings.service_link }}">
+                                        <div class="pro-service-box">
+                                            {% if block.settings.service_title %}
+                                            <h6>{{ block.settings.service_title }}</h6>
+                                            {% endif %}
+                                            <img src="{{ block.settings.service_image | img_url: '' }}" alt="" class="img-fluid grid_small_imgs">
+                                        </div>
+                                   </a>
+                               </div> 
+                            {% endfor %}
                            </div>
                        </div>
                   </div>
@@ -214,58 +210,81 @@
   "settings": [
     {
        "type": "image_picker",
-       "id": "residential_fst_bg_img",
-       "label": "Residential First Background Image"
+       "id": "left_professional_image",
+       "label": "Left Professional Image"
     },
     {
         "type": "text",
-        "id": "residential_main_title",
-        "label": "Residential Section Title",
-        "default": "Residential"
-    },
-    {
-        "type": "url",
-        "id": "residential_url",
-        "label": "Residential Link"
-    },
-    {
-        "type": "image_picker",
-        "id": "residential_scnd_bg_img",
-        "label": "Commercial Background Image"
+        "id": "contract_us_title",
+        "label": "Contact Us Title",
+        "default": "Left Professional Image"
     },
     {
         "type": "text",
-        "id": "commercial_main_title",
-        "label": "Commercial Section Title",
-        "default": "Commercial"
-    },
-    {
-        "type": "url",
-        "id": "commercial_url",
-        "label": "Commercial Link"
-    },
-    {
-        "type": "image_picker",
-        "id": "residential_trd_bg_img",
-        "label": "Lawn & Garden Background Image"
+        "id": "contact_phone",
+        "label": "Phone Number",
+        "default": "1-866-269-2847"
     },
     {
         "type": "text",
-        "id": "garden_main_title",
-        "label": "Garden Section Title",
-        "default": "Lawn & Garden"
+        "id": "contact_email",
+        "label": "Email",
+        "default": "service@ecopeststore.ca"
     },
     {
-        "type": "url",
-        "id": "garden_url",
-        "label": "Garden Link"
+        "type": "text",
+        "id": "contact_address",
+        "label": "Address",
+        "default": "8605 Coronet Rd. Edmonton, AB"
+    },
+    {
+        "type": "text",
+        "id": "form_title",
+        "label": "Form Title",
+        "default": "Book a Professional Onsite Service!"
+    },
+    {
+        "type": "text",
+        "id": "form_description",
+        "label": "Form Description",
+        "default": "Please complete the form below and our pest expert team will contact you as soon as possible!"
     }
-    
 
   ],
+
+  "blocks": [
+        {
+            "name": "Professional Service Item",
+            "type": "first-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "service_title",
+                    "label": "Service Title",
+                    "default": "Book a Virtual Online Service"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "service_image",
+                    "label": "Service Image"
+                },
+                {
+                    "type": "link",
+                    "id": "service_link",
+                    "label": "Service Link"
+                }
+            ]
+        }
+    ],
+
   "presets": [
     {
-      "name": "Professional Service"
+      "name": "Professional Service",
+      "blocks": [
+        {
+          "type": "first-section"
+        }
+      ]
     }
   ]
 }
