@@ -61,6 +61,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         color: #074173;
+        white-space: pre-line;
     }
 
     .on-widget-price {
@@ -71,13 +72,13 @@
         color: #999999;
     }
 
-    .on-widget-content {
+    /* .on-widget-content {
         padding-top: 15px;
-    }
+    } */
 
     .property-on-widget {
         overflow: hidden;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 </style>
 <div class="service-item">
@@ -101,7 +102,7 @@
 
                             <div class="on-widget-content">
                                 <div class="on-widget-title">
-                                    <a href="{{ product.url }}">{{ product.title }}</a>
+                                    <a href="{{ product.url }}">{{ product.title | truncate: 30 }}</a>
                                 </div>
                                 <div class="on-widget-price">{{ product.price | money }}<span></span></div>
                             </div>
