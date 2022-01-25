@@ -1,0 +1,224 @@
+<style>
+    .col.gird-main-item-service {
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+    }
+
+    .col.gird-main-item-service ul li:first-child {
+        border-bottom: 1px solid #C2B0B0;
+    }
+
+    .gird-main-item-service ul li img {
+        width: 30px;
+        height: 27px;
+    }
+
+    .gird-main-item-service ul li a {
+        color: inherit;
+    }
+
+    .service-item-x-title {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .service-item-x-title h3 {
+        border-bottom: 1px solid #C2B0B0;
+    }
+
+    .margin-bottom-10px {
+        margin-bottom: 10px;
+    }
+
+
+    .margin-bottom-30px {
+        margin-bottom: 30px;
+    }
+
+    .paddint-item ul li {
+        margin-bottom: 15px;
+    }
+</style>
+<div class="service-item">
+    <div class="container-fluid">
+        <div class="row margin-bottom-30px">
+            <div class="col-md-12">
+                <div class="service-item-x-title">
+                    <h3>{{ section.settings.shop_by_pest_section_title }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col gird-main-item-service paddint-item">
+                <ul>
+                    {% for block in section.blocks %}
+                    {% if block.type == 'first-section' %}
+                    {% assign collection = block.settings.shop_by_pest_collection %}
+                    <li><a href="{{ collection.url }}"><img src="{{ collection.featured_image.src | img_url: '' }}"
+                                alt=""> {{ collection.title }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col gird-main-item-service paddint-item">
+                <ul>
+                    {% for block in section.blocks %}
+                    {% if block.type == 'second-section' %}
+                    {% assign collection = block.settings.shop_by_pest_collection %}
+                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col gird-main-item-service paddint-item">
+                <ul>
+                    {% for block in section.blocks %}
+                    {% if block.type == 'third-section' %}
+                    {% assign collection = block.settings.shop_by_pest_collection %}
+                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col gird-main-item-service paddint-item">
+                <ul>
+                    {% for block in section.blocks %}
+                    {% if block.type == 'four-section' %}
+                    {% assign collection = block.settings.shop_by_pest_collection %}
+                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col gird-main-item-service paddint-item">
+                <ul>
+                    {% for block in section.blocks %}
+                    {% if block.type == 'five-section' %}
+                    {% assign collection = block.settings.shop_by_pest_collection %}
+                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Shop By Pest",
+  "settings": [
+    {
+        "type": "text",
+        "id": "shop_by_pest_section_title",
+        "label": "Shop By Pest Section Title",
+        "default": "SHOP BY PEST"
+    }
+  ],
+  "blocks": [
+        {
+            "name": "Shop By Pest One",
+            "type": "first-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "shop_by_pest_title",
+                    "label": "Shop By Pest Title",
+                    "default": "Bug & Insects"
+                },
+                {
+                    "type": "collection",
+                    "id": "shop_by_pest_collection",
+                    "label": "Shop By Pest Collection"
+                }
+            ]
+        },
+        {
+            "name": "Shop By Pest Two",
+            "type": "second-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "shop_by_pest_title",
+                    "label": "Shop By Pest Title",
+                    "default": "Bug & Insects"
+                },
+                {
+                    "type": "collection",
+                    "id": "shop_by_pest_collection",
+                    "label": "Shop By Pest Collection"
+                }
+            ]
+        },
+        {
+            "name": "Shop By Pest Three",
+            "type": "third-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "shop_by_pest_title",
+                    "label": "Shop By Pest Title",
+                    "default": "Bug & Insects"
+                },
+                {
+                    "type": "collection",
+                    "id": "shop_by_pest_collection",
+                    "label": "Shop By Pest Collection"
+                }
+            ]
+        },
+        {
+            "name": "Shop By Pest Four",
+            "type": "four-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "shop_by_pest_title",
+                    "label": "Shop By Pest Title",
+                    "default": "Bug & Insects"
+                },
+                {
+                    "type": "collection",
+                    "id": "shop_by_pest_collection",
+                    "label": "Shop By Pest Collection"
+                }
+            ]
+        },
+        {
+            "name": "Shop By Pest Five",
+            "type": "five-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "shop_by_pest_title",
+                    "label": "Shop By Pest Title",
+                    "default": "Bug & Insects"
+                },
+                {
+                    "type": "collection",
+                    "id": "shop_by_pest_collection",
+                    "label": "Shop By Pest Collection"
+                }
+            ]
+        }
+    ],
+    "presets": [
+    {
+      "name": "Shop By Pest",
+      "blocks": [
+        {
+          "type": "first-section",
+          "type": "second-section",
+          "type": "third-section",
+          "type": "four-section",
+          "type": "five-section"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
