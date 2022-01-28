@@ -12,14 +12,41 @@
           "type": "first-section",
           "settings": {
             "service_title": "Book a Virtual Online Service",
+            "service_link": "",
+            "service_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png"
+          }
+        },
+        "f1a9da2c-bb27-440d-a151-073f79412603": {
+          "type": "first-section",
+          "settings": {
+            "service_title": "DIY - Do it Yourself",
+            "service_link": "",
+            "service_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png"
+          }
+        },
+        "2c705a18-7b63-4fcf-a977-c7c5e8da2316": {
+          "type": "first-section",
+          "settings": {
+            "service_title": "Book a Virtual Online Service",
+            "service_link": ""
+          }
+        },
+        "a27f2808-fa05-4348-923e-c720da8f6a33": {
+          "type": "first-section",
+          "settings": {
+            "service_title": "Book a Virtual Online Service",
             "service_link": ""
           }
         }
       },
       "block_order": [
-        "16433516680dee2eea-0"
+        "16433516680dee2eea-0",
+        "f1a9da2c-bb27-440d-a151-073f79412603",
+        "2c705a18-7b63-4fcf-a977-c7c5e8da2316",
+        "a27f2808-fa05-4348-923e-c720da8f6a33"
       ],
       "settings": {
+        "left_professional_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
         "contract_us_title": "Left Professional Image",
         "contact_phone": "1-866-269-2847",
         "contact_email": "service@ecopeststore.ca",
@@ -27,10 +54,23 @@
         "form_title": "Book a Professional Onsite Service!",
         "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
       }
+    },
+    "1643391625fe9a2a7b": {
+      "type": "vartual-online",
+      "settings": {
+        "contract_us_title": "Left Professional Image",
+        "contact_phone": "1-866-269-2847",
+        "contact_email": "service@ecopeststore.ca",
+        "contact_address": "8605 Coronet Rd. Edmonton, AB",
+        "form_title": "Book a Professional Onsite Service!",
+        "list_title": "Your Title",
+        "list_details": "<p>Book a Professional Onsite Service!<\/p>"
+      }
     }
   },
   "order": [
     "main",
-    "1643351668db14fb60"
+    "1643351668db14fb60",
+    "1643391625fe9a2a7b"
   ]
 }
