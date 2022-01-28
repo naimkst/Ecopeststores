@@ -27,15 +27,17 @@
         "2c705a18-7b63-4fcf-a977-c7c5e8da2316": {
           "type": "first-section",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "service_title": "Ask an Expert",
+            "service_link": "",
+            "service_image": "shopify:\/\/shop_images\/Ask_the_Pest_Expert.png"
           }
         },
         "a27f2808-fa05-4348-923e-c720da8f6a33": {
           "type": "first-section",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "service_title": "Chat Now",
+            "service_link": "",
+            "service_image": "shopify:\/\/shop_images\/EcopestStore_Chat_with_us_now.png"
           }
         }
       },
