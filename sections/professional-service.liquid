@@ -160,12 +160,19 @@
                              <input type="text" class="form-control" placeholder="Phone" name="contact[phone]">
                             </div> <!-- end col-md-6 -->
                            <div class="col-md-6">
-                             <input type="text" class="form-control" placeholder="Post" name="contact[post]">
+                             <input type="text" class="form-control" placeholder="Postal Code" name="contact[post]">
                            </div> <!-- end col-md-6 -->
                        </div> <!-- End Form Row -->
    
                        <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Pest" name="contact[pest]">
+                            <select name="contact[pest]" class="form-control">
+                                <option value="">Pest:</option>
+                                {% for block in section.blocks %}
+                                {% if block.settings.form_select_field != blank %}
+                                    <option value="{{ block.settings.form_select_field }}">{{ block.settings.form_select_field }}</option>
+                                {% endif %}
+                                {% endfor %}
+                            </select>
                        </div> <!-- end form-group -->
    
                        <div class="form-group">
@@ -251,7 +258,6 @@
     }
 
   ],
-
   "blocks": [
         {
             "name": "Professional Service Item",
@@ -275,6 +281,19 @@
                 }
                 
             ]
+        },
+        {
+            "name": "Pest Form Item",
+            "type": "second-section",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "form_select_field",
+                    "label": "Form Pest Field",
+                    "default": "Bed Bug"
+                }
+                
+            ]
         }
     ],
   "presets": [
@@ -282,7 +301,8 @@
       "name": "Professional Service",
       "blocks": [
         {
-          "type": "first-section"
+          "type": "first-section",
+          "type": "second-section"
         }
       ]
     }

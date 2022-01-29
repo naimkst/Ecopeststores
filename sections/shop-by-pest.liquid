@@ -54,8 +54,14 @@
                     {% for block in section.blocks %}
                     {% if block.type == 'first-section' %}
                     {% assign collection = block.settings.shop_by_pest_collection %}
-                    <li><a href="{{ collection.url }}"><img src="{{ collection.featured_image.src | img_url: '' }}"
-                                alt=""> {{ collection.title }}</a></li>
+                    <li>
+                        <a href="{{ collection.url }}">
+                            {% if collection.featured_image.src %}
+                            <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                            {% endif %}
+                            {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
+                        </a>
+                    </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
@@ -195,8 +201,7 @@
                 {
                     "type": "text",
                     "id": "shop_by_pest_title",
-                    "label": "Shop By Pest Title",
-                    "default": "Bug & Insects"
+                    "label": "Shop By Pest Title"
                 },
                 {
                     "type": "collection",
