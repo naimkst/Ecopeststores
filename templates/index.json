@@ -21,6 +21,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Book a Professional Onsite Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
             "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
           }
         },
@@ -28,6 +29,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Book a Virtual Online Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
             "service_item_url": ""
           }
         },
@@ -35,6 +37,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "DIY - Do it Yourself",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
             "service_item_url": ""
           }
         },
@@ -42,6 +45,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         },
@@ -49,6 +53,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestTotalInsectKillerBedBugandAnt4LFront.png",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         }
