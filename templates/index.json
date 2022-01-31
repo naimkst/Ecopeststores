@@ -21,7 +21,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Book a Professional Onsite Service",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
             "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
           }
         },
@@ -29,7 +28,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Book a Virtual Online Service",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
             "service_item_url": ""
           }
         },
@@ -37,7 +35,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "DIY - Do it Yourself",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
             "service_item_url": ""
           }
         },
@@ -45,7 +42,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         },
@@ -53,7 +49,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         }
@@ -133,9 +128,7 @@
         "b1ee4490-9a80-4858-a098-ab3ee54f6ed1"
       ],
       "settings": {
-        "testimonial_section_title": "Customer Reviews",
-        "testimonial_left_image": "shopify:\/\/shop_images\/feedback-left.jpg",
-        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg_eeaba52f-038c-4dfc-8d3f-2129be4022f8.jpg"
+        "testimonial_section_title": "Customer Reviews"
       }
     }
   },
