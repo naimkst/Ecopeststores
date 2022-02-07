@@ -74,7 +74,7 @@ $(document).ready(function(){
   var ajax_spiner = $('.search-loading');
     $.ajax(
       {
-        url: '/products.json',
+        url: '/search/suggest.json?q=' + query + '&resources[type]=product',
         type: 'GET',
         dataType: 'json',
         beforeSend: function () {
@@ -130,6 +130,7 @@ function ajaxSearch() {
         searchSection.hide();
         $('.search-result').empty();
         data.resources.results.products.forEach(function (product) {
+          console.log(product)
           searchSection.show();
           var html = '<li>';
           html += '<a href="">';
