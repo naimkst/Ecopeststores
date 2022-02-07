@@ -5,19 +5,19 @@
       "settings": {
       }
     },
-    "1643351668db14fb60": {
-      "type": "professional-service",
+    "1644257591226d7f2d": {
+      "type": "vartual-online",
       "blocks": {
-        "16433516680dee2eea-0": {
-          "type": "first-section",
+        "1644257591343f2efa-0": {
+          "type": "product",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "vartual_title": "Book a Virtual Online vartual",
+            "item_link": ""
           }
         }
       },
       "block_order": [
-        "16433516680dee2eea-0"
+        "1644257591343f2efa-0"
       ],
       "settings": {
         "contract_us_title": "Left Professional Image",
@@ -25,12 +25,13 @@
         "contact_email": "service@ecopeststore.ca",
         "contact_address": "8605 Coronet Rd. Edmonton, AB",
         "form_title": "Book a Professional Onsite Service!",
-        "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
+        "list_title": "Your Title",
+        "list_details": "<p>Book a Professional Onsite Service!<\/p>"
       }
     }
   },
   "order": [
     "main",
-    "1643351668db14fb60"
+    "1644257591226d7f2d"
   ]
 }
