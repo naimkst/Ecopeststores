@@ -1829,3 +1829,6 @@ font-size: 18px;
     height: 250px;
     object-fit: contain;
 }
+button#dropdownMenuButton a {
+    color: #fff;
+}

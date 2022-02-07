@@ -3164,7 +3164,7 @@
                                 }
                             }
                         </style>
-                        <nav class="wsmenu clearfix">
+                        <!-- <nav class="wsmenu clearfix">
                             <ul class="mobile-sub wsmenu-list">
 
                                 <div class="wsshoptabing wstfullmenubg02 clearfix" id="allbrands">
@@ -3204,7 +3204,7 @@
                                 </li>
 
                             </ul>
-                        </nav>
+                        </nav> -->
                     </div>
 
 
@@ -3333,19 +3333,23 @@
                     <div class="dropdown">
                         <button class="btn know-more-btn dropdown-toggle right-menu-toggole" type="button"
                             id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>
-                                Know More!
-                                <span>Learn & Support</span>
-                            </span>
-                            <img src="{{ section.settings.right_menu_image | img_url: '' }}" class="img-fluid" alt="">
+                            <a href="{{ section.settings.know_more_link }}">
+                                <span>
+                                    {{ section.settings.know_more_title }}
+                                    
+                                    <span>{{ section.settings.know_more_slug }}</span>
+                                </span>
+                            </a>
+                            
+                            <!-- <img src="{{ section.settings.right_menu_image | img_url: '' }}" class="img-fluid" alt=""> -->
                         </button>
-                        <div hidden class="dropdown-menu show" aria-labelledby="dropdownMenuButton">
+                        <!-- <div hidden class="dropdown-menu show" aria-labelledby="dropdownMenuButton">
                             {% for link in linklists[section.settings.know_more_menu].links %}
                             {% if link.lists == blank %}
                             <a class="dropdown-item" href="{{ link.url }}">{{ link.title }}</a>
                             {% endif %}
                             {% endfor %}
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -3433,6 +3437,23 @@
 "id": "header_video",
 "label": "Header Video Link",
 "default": "https://www.youtube.com/watch?v=jssO8-5qmag&ab_channel=HighResolutionDatabase"
+},
+{
+"type": "text",
+"id": "know_more_title",
+"label": "Know More Title",
+"default": "Know More"
+},
+{
+    "type": "text",
+    "id": "know_more_slug",
+    "label": "Know More Slug",
+    "default": "Learn & Support"
+},
+{
+    "type": "url",
+    "id": "know_more_link",
+    "label": "Know More Link"
 },
 {
 "type": "link_list",
