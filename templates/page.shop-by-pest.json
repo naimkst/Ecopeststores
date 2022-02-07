@@ -5,32 +5,83 @@
       "settings": {
       }
     },
-    "1643351668db14fb60": {
-      "type": "professional-service",
+    "1644271386c1787650": {
+      "type": "shop-by-pest",
       "blocks": {
-        "16433516680dee2eea-0": {
+        "7f9bcf08-e364-4a6d-bfca-13df49a431ce": {
           "type": "first-section",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "shop_by_pest_title": "Bugs & Insects",
+            "shop_by_pest_collection": ""
+          }
+        },
+        "dbea8104-7b38-4dbb-ac98-622a1c6ed73d": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Ants",
+            "shop_by_pest_collection": "ant-products"
+          }
+        },
+        "520c4aa0-d5d1-4662-b365-5b78b27818fe": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Bed Bugs",
+            "shop_by_pest_collection": "bed-bugs-1"
+          }
+        },
+        "a1332acb-59dd-4c9f-ad1d-0860c90d4313": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Cockroaches",
+            "shop_by_pest_collection": "cockroaches"
+          }
+        },
+        "e456c688-1ad6-4019-be22-26a24bc463cb": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Flies",
+            "shop_by_pest_collection": "flies"
+          }
+        },
+        "abe53170-9e2b-43f4-8b24-0f88ba7c587d": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Mosquitoes",
+            "shop_by_pest_collection": "mosquitoes"
+          }
+        },
+        "2df9e07d-6ead-415c-ba07-ea56faaecfdf": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Spiders",
+            "shop_by_pest_collection": "spiders"
+          }
+        },
+        "bcca89de-c403-4363-ad7d-81a58c747482": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_pest_title": "Wasps, Bees & Hornets",
+            "shop_by_pest_collection": "wasps-bees-and-hornets"
           }
         }
       },
       "block_order": [
-        "16433516680dee2eea-0"
+        "7f9bcf08-e364-4a6d-bfca-13df49a431ce",
+        "dbea8104-7b38-4dbb-ac98-622a1c6ed73d",
+        "520c4aa0-d5d1-4662-b365-5b78b27818fe",
+        "a1332acb-59dd-4c9f-ad1d-0860c90d4313",
+        "e456c688-1ad6-4019-be22-26a24bc463cb",
+        "abe53170-9e2b-43f4-8b24-0f88ba7c587d",
+        "2df9e07d-6ead-415c-ba07-ea56faaecfdf",
+        "bcca89de-c403-4363-ad7d-81a58c747482"
       ],
       "settings": {
-        "contract_us_title": "Left Professional Image",
-        "contact_phone": "1-866-269-2847",
-        "contact_email": "service@ecopeststore.ca",
-        "contact_address": "8605 Coronet Rd. Edmonton, AB",
-        "form_title": "Book a Professional Onsite Service!",
-        "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
+        "shop_by_pest_section_title": "SHOP BY PEST"
       }
     }
   },
   "order": [
     "main",
-    "1643351668db14fb60"
+    "1644271386c1787650"
   ]
 }
