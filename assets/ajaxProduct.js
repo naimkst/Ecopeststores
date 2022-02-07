@@ -88,7 +88,7 @@ $(document).ready(function(){
         data.products.forEach(function (product) {
           searchSection.show();
           var html = '<li>';
-          html += '<a href="">';
+          html += '<a href="' + product.url + '">';
           html += '<div class="thumbnail"><img src="' + product['images'][0]['src'] + '" alt="" width="80px"></div>';
           html += '<div class="title"> <h6>' + product['title'] + '</h6> <p>$' + product['price'] + '</p> </div> </a> </li>';
           ajax_spiner.hide();
@@ -133,7 +133,7 @@ function ajaxSearch() {
           console.log(product)
           searchSection.show();
           var html = '<li>';
-          html += '<a href="">';
+          html += '<a href="' + product.url + '">';
           html += '<div class="thumbnail"><img src="' + product['image'] + '" alt="" width="80px"></div>';
           html += '<div class="title"> <h6>' + product['title'] + '</h6> <p>$' + product['price'] + '</p> </div> </a> </li>';
           ajax_spiner.hide();
