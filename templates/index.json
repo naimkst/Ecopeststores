@@ -91,12 +91,20 @@
             "collection_name": "Rats",
             "product_collection": "rats"
           }
+        },
+        "07d5b729-2093-46fc-8f21-62f6ae012895": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Wasps, Bees & Hornets",
+            "product_collection": "wasps-bees-and-hornets"
+          }
         }
       },
       "block_order": [
         "aaca5c7f-25ba-4352-8517-4e61606675a7",
         "b547df73-077b-40cc-8b2f-edd94455a421",
-        "edf119ab-48ee-4ee3-b9d1-47cf262325bf"
+        "edf119ab-48ee-4ee3-b9d1-47cf262325bf",
+        "07d5b729-2093-46fc-8f21-62f6ae012895"
       ],
       "settings": {
         "product_slider_section_title": "Top selling products"
