@@ -12,7 +12,7 @@
           "type": "first-section",
           "settings": {
             "shop_by_pest_title": "Bugs & Insects",
-            "shop_by_pest_collection": ""
+            "shop_by_pest_collection": "bugs-insects"
           }
         },
         "dbea8104-7b38-4dbb-ac98-622a1c6ed73d": {
@@ -63,6 +63,62 @@
             "shop_by_pest_title": "Wasps, Bees & Hornets",
             "shop_by_pest_collection": "wasps-bees-and-hornets"
           }
+        },
+        "d3fdea35-5c5b-47b6-a4e9-1b7ee4954584": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Wild Animals",
+            "shop_by_pest_collection": "wild-animals"
+          }
+        },
+        "e75aadca-69d9-4c4a-86d1-910c87ea8d7e": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Chipmunks",
+            "shop_by_pest_collection": "chipmunks"
+          }
+        },
+        "52410b30-4383-4633-b0c2-483c6a9881fc": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Pigeons",
+            "shop_by_pest_collection": "pigeons"
+          }
+        },
+        "c6ba77f7-6f89-454e-a8e6-cacc1cd9e007": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Skunks",
+            "shop_by_pest_collection": "skunks"
+          }
+        },
+        "da0c22c9-4327-46f3-81ab-95645c3cce8f": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Squirrels",
+            "shop_by_pest_collection": "squirrels"
+          }
+        },
+        "fefb7a82-d7e4-4165-b01d-f8b2ab01c73f": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Traps & Cages",
+            "shop_by_pest_collection": "traps-cages"
+          }
+        },
+        "072dc8e8-7eed-4e9b-990a-6b2d115ea638": {
+          "type": "third-section",
+          "settings": {
+            "shop_by_pest_title": "Rodents",
+            "shop_by_pest_collection": "rodent-control-products"
+          }
+        },
+        "c30c8752-6a45-4b36-93b9-eae4d31e95f9": {
+          "type": "third-section",
+          "settings": {
+            "shop_by_pest_title": "Mice",
+            "shop_by_pest_collection": "mice"
+          }
         }
       },
       "block_order": [
@@ -73,7 +129,15 @@
         "e456c688-1ad6-4019-be22-26a24bc463cb",
         "abe53170-9e2b-43f4-8b24-0f88ba7c587d",
         "2df9e07d-6ead-415c-ba07-ea56faaecfdf",
-        "bcca89de-c403-4363-ad7d-81a58c747482"
+        "bcca89de-c403-4363-ad7d-81a58c747482",
+        "d3fdea35-5c5b-47b6-a4e9-1b7ee4954584",
+        "e75aadca-69d9-4c4a-86d1-910c87ea8d7e",
+        "52410b30-4383-4633-b0c2-483c6a9881fc",
+        "c6ba77f7-6f89-454e-a8e6-cacc1cd9e007",
+        "da0c22c9-4327-46f3-81ab-95645c3cce8f",
+        "fefb7a82-d7e4-4165-b01d-f8b2ab01c73f",
+        "072dc8e8-7eed-4e9b-990a-6b2d115ea638",
+        "c30c8752-6a45-4b36-93b9-eae4d31e95f9"
       ],
       "settings": {
         "shop_by_pest_section_title": "SHOP BY PEST"
