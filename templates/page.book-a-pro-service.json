@@ -11,13 +11,23 @@
         "16433516680dee2eea-0": {
           "type": "first-section",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "service_title": "Book a Virtual Service",
+            "service_link": "",
+            "service_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png"
+          }
+        },
+        "b6b6d757-6983-4f70-9316-974e7d0c06b8": {
+          "type": "first-section",
+          "settings": {
+            "service_title": "DIY - Do it Yourself",
+            "service_link": "",
+            "service_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png"
           }
         }
       },
       "block_order": [
-        "16433516680dee2eea-0"
+        "16433516680dee2eea-0",
+        "b6b6d757-6983-4f70-9316-974e7d0c06b8"
       ],
       "settings": {
         "left_professional_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
