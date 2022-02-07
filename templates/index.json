@@ -22,7 +22,7 @@
           "settings": {
             "service_item_title": "Book a Professional Onsite Service",
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
-            "service_item_url": "shopify:\/\/pages\/ask-a-pest-expert"
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
           }
         },
         "8eadd502-a98a-4aac-b3ac-b0002e3b3de3": {
@@ -53,7 +53,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
             "service_item_url": "shopify:\/\/collections\/all"
           }
         }
@@ -75,21 +75,21 @@
           "type": "product",
           "settings": {
             "collection_name": "Ants",
-            "product_collection": "ant-products"
+            "product_collection": "ant"
           }
         },
         "b547df73-077b-40cc-8b2f-edd94455a421": {
           "type": "product",
           "settings": {
             "collection_name": "Bed Bugs",
-            "product_collection": "bed-bug-control"
+            "product_collection": "bed-bugs"
           }
         },
         "edf119ab-48ee-4ee3-b9d1-47cf262325bf": {
           "type": "product",
           "settings": {
             "collection_name": "Wasps & Bees",
-            "product_collection": "wasps-hornets"
+            "product_collection": "rats"
           }
         }
       },
@@ -135,7 +135,7 @@
       "settings": {
         "testimonial_section_title": "Customer Reviews",
         "testimonial_left_image": "shopify:\/\/shop_images\/feedback-left.jpg",
-        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg_eeaba52f-038c-4dfc-8d3f-2129be4022f8.jpg"
+        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg.jpg"
       }
     }
   },

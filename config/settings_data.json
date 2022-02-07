@@ -46,7 +46,7 @@
       "cta": {
         "type": "cta",
         "settings": {
-          "cta_bg_image": "shopify:\/\/shop_images\/bgggggg.png",
+          "cta_bg_image": "shopify:\/\/shop_images\/cta.jpg",
           "cta_title": "Subscribe To Our Newsletter",
           "cta_subtitle": "Promotions, new products and sales. Directly to your inbox.",
           "cta_btn_txt": "Subscribe  Now",
@@ -56,10 +56,10 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_shop_menu": "collection-menu",
+          "footer_shop_menu": "footer",
           "footer_shop_menu_title": "Shop by Pest",
-          "footer_shop_menu_two": "main-menu-second",
-          "plolicy_menu": "policies-disclaimers",
+          "footer_shop_menu_two": "footer-two",
+          "plolicy_menu": "policies-disclaimer",
           "privacy_menu_title": "Policies & Disclaimer",
           "contact_us_title": "Contact Us",
           "phone_number": "1-866-ANY-BUGS; 1-866-269-2847",
@@ -76,38 +76,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "5918445685253060206": {
-        "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "17503894164445082576": {
-        "type": "shopify:\/\/apps\/helpcenter-faq-chat-helpdesk\/blocks\/contact-form-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "319724205969189013": {
-        "type": "shopify:\/\/apps\/form-builder-with-file-upload\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16114465257489415219": {
-        "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs-style\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5038451100865107764": {
-        "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }

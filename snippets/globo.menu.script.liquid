@@ -7,10 +7,10 @@
   window.GloboMenuCustomer = {% if customer %}true{% else %}false{% endif %};
   window.assetsUrl = '{{ assets_url[0] }}';
   window.filesUrl = '{{ files_url[0] }}';
-  window.GloboMenuSignature = '8c2ed64e063be8083ba667388d80b1c3';
-  window.GloboMenuTimestamp = 1641973397;
+  window.GloboMenuSignature = '7d4ef41bf432cae694274732c270c8a1';
+  window.GloboMenuTimestamp = 1643619849;
   window.hasMegamenu  = true;
-  window.gmml = false;
+  window.gmml = true;
   window.GloboMenuLinklists = {
     {%- assign comma = '' -%}{%- for list in linklists -%}{%- unless list.handle contains '-child-' or list.links.size == 0 -%}{{comma}}{%- assign comma = ',' -%}{{ list.handle | json }}: [{%- for link in list.links -%}{'url' :{{ link.url | json }}, 'title': {{ link.title | json }}}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]{%- endunless -%}{%- endfor -%}
   };
