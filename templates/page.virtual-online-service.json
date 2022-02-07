@@ -7,18 +7,6 @@
     },
     "1644257591226d7f2d": {
       "type": "vartual-online",
-      "blocks": {
-        "1644257591343f2efa-0": {
-          "type": "product",
-          "settings": {
-            "vartual_title": "Book a Virtual Online vartual",
-            "item_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1644257591343f2efa-0"
-      ],
       "settings": {
         "left_professional_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
         "contract_us_title": "Contact Us",
