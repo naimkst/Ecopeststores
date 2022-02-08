@@ -39,13 +39,27 @@
             "service_link": "",
             "service_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif"
           }
+        },
+        "929d4a1c-ebf6-4b6a-a6fc-de24607662c0": {
+          "type": "second-section",
+          "settings": {
+            "form_select_field": "Bed Bug"
+          }
+        },
+        "cd1267cc-92d1-4d86-8a3a-24291163b7e2": {
+          "type": "second-section",
+          "settings": {
+            "form_select_field": "Ants"
+          }
         }
       },
       "block_order": [
         "16433516680dee2eea-0",
         "b6b6d757-6983-4f70-9316-974e7d0c06b8",
         "cefab0f1-4068-4375-8625-0fb5ab013bd2",
-        "178a0fe3-464a-4f62-affe-a029a5af15de"
+        "178a0fe3-464a-4f62-affe-a029a5af15de",
+        "929d4a1c-ebf6-4b6a-a6fc-de24607662c0",
+        "cd1267cc-92d1-4d86-8a3a-24291163b7e2"
       ],
       "settings": {
         "left_professional_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
