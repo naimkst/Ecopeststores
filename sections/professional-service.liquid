@@ -143,7 +143,7 @@
                    <h3>{{ section.settings.form_title }}</h3>
                    <p class="margin-bottom-10px">{{ section.settings.form_description }}</p>
    
-                   {% form 'contact', enctype: 'multipart/form-data' %}
+                   {% form 'contact' %}
                     {% if form.posted_successfully? %} Thank you for your contact {% endif %}
                     {{ form.errors | default_errors }}
                        <div class="form-row margin-bottom-10px">
@@ -151,16 +151,16 @@
                            <input type="text" class="form-control" placeholder="Name" name="contact[name]" required>
                           </div> <!-- end col-md-6 -->
                          <div class="col-md-6">
-                           <input type="email" class="form-control" placeholder="Email" name="contact[email]"  required>
+                           <input type="email" class="form-control" placeholder="Email" name="contact[email]" required>
                          </div> <!-- end col-md-6 -->
                        </div> <!-- End Form Row -->
    
                        <div class="form-row margin-bottom-10px">
                            <div class="col-md-6">
-                             <input type="text" class="form-control" placeholder="Phone" name="contact[phone]"  required>
+                             <input type="text" class="form-control" placeholder="Phone" name="contact[phone]" required>
                             </div> <!-- end col-md-6 -->
                            <div class="col-md-6">
-                             <input type="text" class="form-control" placeholder="Postal Code" name="contact[post]"  required>
+                             <input type="text" class="form-control" placeholder="Postal Code" name="contact[post]" required>
                            </div> <!-- end col-md-6 -->
                        </div> <!-- End Form Row -->
    
@@ -174,7 +174,7 @@
                                 {% endfor %}
                             </select>
                        </div> <!-- end form-group -->
-   
+
                        <div class="form-group">
                            <textarea class="form-control" rows="5" name="contact[description]" required></textarea>
                        </div> <!-- end form-group -->
@@ -182,8 +182,7 @@
                     {%- endform -%} <!-- end form -->
    
                   </div> <!-- end section box -->
-   
-   
+
               </div> <!-- end col-md- 4 -->
    
               <div class="col-md-4">
@@ -258,7 +257,6 @@
         "label": "Form Description",
         "default": "Please complete the form below and our pest expert team will contact you as soon as possible!"
     }
-
   ],
   "blocks": [
         {
@@ -281,7 +279,6 @@
                     "id": "service_image",
                     "label": "Service Image"
                 }
-                
             ]
         },
         {
@@ -293,8 +290,7 @@
                     "id": "form_select_field",
                     "label": "Form Pest Field",
                     "default": "Bed Bug"
-                }
-                
+                } 
             ]
         }
     ],

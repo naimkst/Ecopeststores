@@ -104,11 +104,12 @@
         box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
     }
 
-    .pro-form-box.vartual button {
+    .pro-form-box.vartual a {
         width: 100%;
         border-radius: 5px !important;
         background: #F43739;
-        margin: 50% 0% 50% 0%;
+        margin-top: 30px;
+        color
     }
 
     .pro-list-box {
@@ -168,6 +169,11 @@
     .nullPadding h6, .nullPadding a {
         color: inherit !important;
     }
+    img.img-fluid.vartual-prd-img {
+        width: 100%;
+        height: 460px;
+        object-fit: contain;
+    }
 </style>
 <div class="diy-section pad-t-30-p-b-30">
     <div class="container">
@@ -191,7 +197,10 @@
             <div class="col-md-4">
                 <div class="pro-form-box vartual">
                     <h3>{{ section.settings.form_title }}</h3>
-                    <button type="submit" class="btn btn-danger">SEND</button>
+                    {% assign product = all_products[section.settings.select_time_product] %}
+
+                    <img src="{{ product.featured_image.src | img_url: '' }}" alt="" class="img-fluid vartual-prd-img">
+                    <a href="{{ product.url }}" type="submit" class="btn btn-danger">Select Time</a>
                 </div> <!-- end section box -->
             </div> <!-- end col-md- 4 -->
             <div class="col-md-4">
@@ -276,7 +285,13 @@
         "id": "list_details",
         "label": "List Item",
         "default": "<p>Book a Professional Onsite Service!</p>"
+    },
+    {
+        "type": "product",
+        "id": "select_time_product",
+        "label": "Select Time Product"
     }
+
 
   ],
     "blocks": [
