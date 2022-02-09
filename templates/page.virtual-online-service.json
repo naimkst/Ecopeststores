@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "slider",
+      "settings": {
+      }
+    },
+    "1644257591226d7f2d": {
+      "type": "vartual-online",
+      "settings": {
+        "left_professional_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+        "contract_us_title": "Contact Us",
+        "contact_phone": "1-866-269-2847",
+        "contact_email": "service@ecopeststore.ca",
+        "contact_address": "8605 Coronet Rd. Edmonton, AB",
+        "form_title": "Book a Professional Onsite Service!",
+        "list_title": "Virtual Booking Includes",
+        "list_details": "<p>15% discount on all products order as recommened from our virtual tech<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644257591226d7f2d"
+  ]
+}
