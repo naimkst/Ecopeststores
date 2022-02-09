@@ -18,7 +18,7 @@
         height: auto;
         padding: 15px 15px 15px 15px;
         background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
         text-align: center;
     }
 
@@ -32,7 +32,7 @@
         height: auto;
         padding: 5px;
         background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
         text-align: center;
     }
 
@@ -49,7 +49,7 @@
         height: auto;
         padding: 15px 15px 15px 15px;
         background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
     }
 
     .pro-contact-box h3 {
@@ -101,7 +101,7 @@
         height: auto;
         padding: 15px 15px 15px 15px;
         background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
     }
 
     .pro-form-box.vartual button {
@@ -116,7 +116,7 @@
         height: auto;
         padding: 15px 15px 15px 15px;
         background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
     }
 
     .pro-list-box h3 {
@@ -135,8 +135,9 @@
         padding: 0;
     }
 
-    .col-md-3.nopadding.nullPadding {
+    .col-md-6.nullPadding {
         padding-right: 10px !important;
+        margin-bottom: 20px;
     }
     .pro-lists p{
         margin-bottom: 15px !important;
@@ -206,7 +207,7 @@
                     <div class="container">
                         <div class="row">
                             {% for block in section.blocks%}
-                                <div class="col-md-3 nopadding nullPadding">
+                                <div class="col-md-6 nullPadding">
                                     <a href="{{ block.settings.item_link}}">
                                         <div class="pro-service-box-two">
                                             <h6>{{ block.settings.vartual_title }}</h6>

@@ -1,6 +1,6 @@
 <style>
     .col.gird-main-item-service {
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+        box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
     }
 
     .col.gird-main-item-service ul li:first-child {
@@ -37,8 +37,11 @@
     .paddint-item ul li {
         margin-bottom: 15px;
     }
+    .service-item.shop-by-pests{
+        padding: 50px 0;
+    }
 </style>
-<div class="service-item">
+<div class="service-item shop-by-pests">
     <div class="container-fluid">
         <div class="row margin-bottom-30px">
             <div class="col-md-12">
@@ -52,12 +55,38 @@
             <div class="col gird-main-item-service paddint-item">
                 <ul>
                     {% for block in section.blocks %}
-                    {% if block.type == 'first-section' %}
+                        {% if block.type == 'first-section' %}
+                        {% assign collection = block.settings.shop_by_pest_collection %}
+                            <li>
+                                <a href="{{ collection.url }}">
+                                    {% if block.settings.shop_by_pest_image %}
+                                        <img src="{{ block.settings.shop_by_pest_image | img_url: '' }}" alt="">
+                                    {% else %}
+                                        {% if collection.featured_image.src %}
+                                            <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                                        {% endif %}
+                                    {% endif %}
+                                    {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col gird-main-item-service paddint-item">
+                <ul>
+                    {% for block in section.blocks %}
+                    {% if block.type == 'second-section' %}
                     {% assign collection = block.settings.shop_by_pest_collection %}
                     <li>
                         <a href="{{ collection.url }}">
-                            {% if collection.featured_image.src %}
-                            <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                            {% if block.settings.shop_by_pest_image %}
+                                <img src="{{ block.settings.shop_by_pest_image | img_url: '' }}" alt="">
+                            {% else %}
+                                {% if collection.featured_image.src %}
+                                    <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                                {% endif %}
                             {% endif %}
                             {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
                         </a>
@@ -70,20 +99,20 @@
             <div class="col gird-main-item-service paddint-item">
                 <ul>
                     {% for block in section.blocks %}
-                    {% if block.type == 'second-section' %}
-                    {% assign collection = block.settings.shop_by_pest_collection %}
-                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <div class="col gird-main-item-service paddint-item">
-                <ul>
-                    {% for block in section.blocks %}
                     {% if block.type == 'third-section' %}
                     {% assign collection = block.settings.shop_by_pest_collection %}
-                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    <li>
+                        <a href="{{ collection.url }}">
+                            {% if block.settings.shop_by_pest_image %}
+                                <img src="{{ block.settings.shop_by_pest_image | img_url: '' }}" alt="">
+                            {% else %}
+                                {% if collection.featured_image.src %}
+                                    <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                                {% endif %}
+                            {% endif %}
+                            {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
+                        </a>
+                    </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
@@ -94,7 +123,18 @@
                     {% for block in section.blocks %}
                     {% if block.type == 'four-section' %}
                     {% assign collection = block.settings.shop_by_pest_collection %}
-                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    <li>
+                        <a href="{{ collection.url }}">
+                            {% if block.settings.shop_by_pest_image %}
+                                <img src="{{ block.settings.shop_by_pest_image | img_url: '' }}" alt="">
+                            {% else %}
+                                {% if collection.featured_image.src %}
+                                    <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                                {% endif %}
+                            {% endif %}
+                            {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
+                        </a>
+                    </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
@@ -104,7 +144,18 @@
                     {% for block in section.blocks %}
                     {% if block.type == 'five-section' %}
                     {% assign collection = block.settings.shop_by_pest_collection %}
-                    <li><img src="{{ collection.featured_image.src | img_url: '' }}" alt=""> {{ collection.title }}</li>
+                    <li>
+                        <a href="{{ collection.url }}">
+                            {% if block.settings.shop_by_pest_image %}
+                                <img src="{{ block.settings.shop_by_pest_image | img_url: '' }}" alt="">
+                            {% else %}
+                                {% if collection.featured_image.src %}
+                                    <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
+                                {% endif %}
+                            {% endif %}
+                            {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
+                        </a>
+                    </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
@@ -140,6 +191,11 @@
                     "type": "collection",
                     "id": "shop_by_pest_collection",
                     "label": "Shop By Pest Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "shop_by_pest_image",
+                    "label": "Shop By Pest Image"
                 }
             ]
         },
@@ -157,6 +213,11 @@
                     "type": "collection",
                     "id": "shop_by_pest_collection",
                     "label": "Shop By Pest Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "shop_by_pest_image",
+                    "label": "Shop By Pest Image"
                 }
             ]
         },
@@ -174,6 +235,11 @@
                     "type": "collection",
                     "id": "shop_by_pest_collection",
                     "label": "Shop By Pest Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "shop_by_pest_image",
+                    "label": "Shop By Pest Image"
                 }
             ]
         },
@@ -191,6 +257,11 @@
                     "type": "collection",
                     "id": "shop_by_pest_collection",
                     "label": "Shop By Pest Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "shop_by_pest_image",
+                    "label": "Shop By Pest Image"
                 }
             ]
         },
@@ -207,6 +278,11 @@
                     "type": "collection",
                     "id": "shop_by_pest_collection",
                     "label": "Shop By Pest Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "shop_by_pest_image",
+                    "label": "Shop By Pest Image"
                 }
             ]
         }
