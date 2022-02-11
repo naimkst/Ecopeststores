@@ -58,10 +58,65 @@
         "shop_by_product_title_four": "Rodent Control Products",
         "shop_by_product_title_five": "Rodent Control Products"
       }
+    },
+    "164457214373393c65": {
+      "type": "product-grid",
+      "blocks": {
+        "16445721434939fbd6-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional OnSite Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": ""
+          }
+        },
+        "f50f77cf-3ca6-4f9c-aeda-f66a4126e1b9": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Virtual Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "service_item_url": ""
+          }
+        },
+        "852688b8-1dd7-4794-95bc-6b73f5b1235a": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "DIY - Do it Yourself",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
+            "service_item_url": ""
+          }
+        },
+        "55003f14-f62a-48f8-ad67-ee9c4a843122": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": ""
+          }
+        },
+        "cbeb0274-e987-44b9-817a-1ece45a12196": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
+            "service_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16445721434939fbd6-0",
+        "f50f77cf-3ca6-4f9c-aeda-f66a4126e1b9",
+        "852688b8-1dd7-4794-95bc-6b73f5b1235a",
+        "55003f14-f62a-48f8-ad67-ee9c4a843122",
+        "cbeb0274-e987-44b9-817a-1ece45a12196"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "16445717809b7c8883"
+    "16445717809b7c8883",
+    "164457214373393c65"
   ]
 }
