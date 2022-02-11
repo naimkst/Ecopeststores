@@ -15,7 +15,8 @@
         "contact_address": "8605 Coronet Rd. Edmonton, AB",
         "form_title": "Book a Professional Onsite Service!",
         "list_title": "Virtual Booking Includes",
-        "list_details": "<p>15% discount on all products order as recommened from our virtual tech<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p>"
+        "list_details": "<p>15% discount on all products order as recommened from our virtual tech<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p><p>????<\/p>",
+        "select_time_product": "virtual-online-booking-service"
       }
     }
   },
