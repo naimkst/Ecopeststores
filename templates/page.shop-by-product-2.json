@@ -5,32 +5,63 @@
       "settings": {
       }
     },
-    "1643351668db14fb60": {
-      "type": "professional-service",
+    "16445717809b7c8883": {
+      "type": "shop-by-product",
       "blocks": {
-        "16433516680dee2eea-0": {
+        "1644571780539d5c9f-0": {
           "type": "first-section",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "shop_by_title": "Rodent Control",
+            "shop_by_collection": "rodent-control-products"
+          }
+        },
+        "d1378ee5-323a-46a8-954b-92b81ff395d0": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_title": "Insect Control",
+            "shop_by_collection": "bugs-insects"
+          }
+        },
+        "1c88053d-d7d0-43df-b0ea-68773dc12d4c": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_title": "Lawn & Garden",
+            "shop_by_collection": "lawn-and-garden-products"
+          }
+        },
+        "177c28e4-429a-48eb-8c22-820b455270b8": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_title": "Traps and Cages",
+            "shop_by_collection": "traps-cages"
+          }
+        },
+        "9c9b36fa-b138-4397-8440-c3ba9c1a2287": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_title": "Rodent Proofing",
+            "shop_by_collection": "rodent-proofing"
           }
         }
       },
       "block_order": [
-        "16433516680dee2eea-0"
+        "1644571780539d5c9f-0",
+        "d1378ee5-323a-46a8-954b-92b81ff395d0",
+        "1c88053d-d7d0-43df-b0ea-68773dc12d4c",
+        "177c28e4-429a-48eb-8c22-820b455270b8",
+        "9c9b36fa-b138-4397-8440-c3ba9c1a2287"
       ],
       "settings": {
-        "contract_us_title": "Left Professional Image",
-        "contact_phone": "1-866-269-2847",
-        "contact_email": "service@ecopeststore.ca",
-        "contact_address": "8605 Coronet Rd. Edmonton, AB",
-        "form_title": "Book a Professional Onsite Service!",
-        "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
+        "shop_by_product_title_one": "Rodent Control Products",
+        "shop_by_product_title_two": "Rodent Control Products",
+        "shop_by_product_title_three": "Rodent Control Products",
+        "shop_by_product_title_four": "Rodent Control Products",
+        "shop_by_product_title_five": "Rodent Control Products"
       }
     }
   },
   "order": [
     "main",
-    "1643351668db14fb60"
+    "16445717809b7c8883"
   ]
 }
