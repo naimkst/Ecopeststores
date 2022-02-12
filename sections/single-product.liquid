@@ -676,7 +676,7 @@ iframe.youtube_video {
               {% endif %}
             </div>
             <input type="hidden" id="variant-id" name="id" value="{{ product.variants.first.id }}">
-            {% if collection.available == true %}
+            {% if product.available == true %}
             <input type="submit" value="Add To Cart" class="shop-now-btn">
             {% else %}
             <a class="shop-now-btn disabled">Sold Out</a>
