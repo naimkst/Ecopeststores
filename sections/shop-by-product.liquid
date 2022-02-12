@@ -5,6 +5,7 @@
 
     .col.gird-main-item-service ul li:first-child {
         border-bottom: 1px solid #C2B0B0;
+        padding-bottom: 10px;
     }
 
     .gird-main-item-service ul li img {
@@ -14,7 +15,9 @@
 
     .service-item-x-title h3 {
         border-bottom: 1px solid #C2B0B0;
-        font-size: 20px;
+        padding-bottom: 10px;
+        font-size: 17px;
+        color: #ae2828;
     }
 
     .margin-bottom-10px {
@@ -36,7 +39,6 @@
         max-height: 90px;
         overflow: hidden;
         width: 90px;
-        border: 2px solid #DEDEDE;
     }
 
     .property-on-widget .on-widget-image img {
@@ -54,8 +56,8 @@
     }
 
     .property-on-widget .on-widget-title a {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 1.4;
         margin-bottom: 2px;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -82,14 +84,14 @@
     }
 </style>
 <div class="service-item">
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="row">
 
             {% for block in section.blocks %}
                 <div class="col gird-main-item-service">
                     <div class="service-item-x-title margin-bottom-10px">
-                        <h3>{{ block.settings.shop_by_title }}</h3>
+                        <h3><a href="{{ block.settings.url }}">{{ block.settings.shop_by_title }}</a></h3>
                     </div>
 
                     {% for product in block.settings.shop_by_collection.products limit:5 %}
@@ -129,10 +131,20 @@
         "default": "Rodent Control Products"
     },
     {
+        "type": "collection",
+        "id": "shop_by_product_collection_one",
+        "label": "Shop By Collection One"
+    },
+    {
         "type": "text",
         "id": "shop_by_product_title_two",
         "label": "Shop By Title Two",
         "default": "Rodent Control Products"
+    },
+    {
+        "type": "collection",
+        "id": "shop_by_product_collection_two",
+        "label": "Shop By Collection Two"
     },
     {
         "type": "text",
@@ -141,16 +153,31 @@
         "default": "Rodent Control Products"
     },
     {
+        "type": "collection",
+        "id": "shop_by_product_collection_three",
+        "label": "Shop By Collection Three"
+    },
+    {
         "type": "text",
         "id": "shop_by_product_title_four",
         "label": "Shop By Title Four",
         "default": "Rodent Control Products"
     },
     {
+        "type": "collection",
+        "id": "shop_by_product_collection_four",
+        "label": "Shop By Collection Four"
+    },
+    {
         "type": "text",
         "id": "shop_by_product_title_five",
         "label": "Shop By Title Five",
         "default": "Rodent Control Products"
+    },
+    {
+        "type": "collection",
+        "id": "shop_by_product_collection_five",
+        "label": "Shop By Collection Five"
     }
 
   ],
