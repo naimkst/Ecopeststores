@@ -79,6 +79,24 @@
                             </li>
                         {% endif %}
                     {% endfor %}
+
+                    {% for block in section.blocks %}
+                        {% for link in linklists[block.settings.shop_by_pest_menu1].links %}
+                            <li>
+                                <a href="{{ link.url }}">
+                                    {% if block.settings.shop_by_pest_image %}
+                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                    {% else %}
+                                        {% if collection.featured_image.src %}
+                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                        {% endif %}
+                                    {% endif %}
+                                    {{ link.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    {% endfor %}
+
                 </ul>
             </div>
 
@@ -100,6 +118,23 @@
                         </a>
                     </li>
                     {% endif %}
+                    {% endfor %}
+
+                    {% for block in section.blocks %}
+                        {% for link in linklists[block.settings.shop_by_pest_menu2].links %}
+                            <li>
+                                <a href="{{ link.url }}">
+                                    {% if block.settings.shop_by_pest_image %}
+                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                    {% else %}
+                                        {% if collection.featured_image.src %}
+                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                        {% endif %}
+                                    {% endif %}
+                                    {{ link.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
                     {% endfor %}
                 </ul>
             </div>
@@ -123,6 +158,24 @@
                     </li>
                     {% endif %}
                     {% endfor %}
+
+                    {% for block in section.blocks %}
+                        {% for link in linklists[block.settings.shop_by_pest_menu3].links %}
+                            <li>
+                                <a href="{{ link.url }}">
+                                    {% if block.settings.shop_by_pest_image %}
+                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                    {% else %}
+                                        {% if collection.featured_image.src %}
+                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                        {% endif %}
+                                    {% endif %}
+                                    {{ link.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    {% endfor %}
+
                 </ul>
             </div>
 
@@ -145,6 +198,24 @@
                     </li>
                     {% endif %}
                     {% endfor %}
+
+                    {% for block in section.blocks %}
+                        {% for link in linklists[block.settings.shop_by_pest_menu4].links %}
+                            <li>
+                                <a href="{{ link.url }}">
+                                    {% if block.settings.shop_by_pest_image %}
+                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                    {% else %}
+                                        {% if collection.featured_image.src %}
+                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                        {% endif %}
+                                    {% endif %}
+                                    {{ link.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    {% endfor %}
+
                 </ul>
             </div>
             <div class="col gird-main-item-service paddint-item">
@@ -166,6 +237,23 @@
                         </li>
                         {% endif %}
                     {% endfor %}
+                    {% for block in section.blocks %}
+                        {% for link in linklists[block.settings.shop_by_pest_menu5].links %}
+                            <li>
+                                <a href="{{ link.url }}">
+                                    {% if block.settings.shop_by_pest_image %}
+                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                    {% else %}
+                                        {% if collection.featured_image.src %}
+                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                        {% endif %}
+                                    {% endif %}
+                                    {{ link.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    {% endfor %}
+
                 </ul>
             </div>
         </div>
@@ -175,7 +263,7 @@
 {% schema %}
 {
   "name": "Shop By Pest",
-  "max_blocks": 12,
+  "max_blocks": 5,
   "settings": [
     {
         "type": "text",
@@ -204,6 +292,11 @@
                     "type": "image_picker",
                     "id": "shop_by_pest_image",
                     "label": "Shop By Pest Image"
+                },
+                {
+                    "type": "link_list",
+                    "id": "shop_by_pest_menu1",
+                    "label": "Shop By Pest Menu"
                 }
             ]
         },
@@ -226,6 +319,11 @@
                     "type": "image_picker",
                     "id": "shop_by_pest_image",
                     "label": "Shop By Pest Image"
+                },
+                {
+                    "type": "link_list",
+                    "id": "shop_by_pest_menu2",
+                    "label": "Shop By Pest Menu"
                 }
             ]
         },
@@ -248,6 +346,11 @@
                     "type": "image_picker",
                     "id": "shop_by_pest_image",
                     "label": "Shop By Pest Image"
+                },
+                {
+                    "type": "link_list",
+                    "id": "shop_by_pest_menu3",
+                    "label": "Shop By Pest Menu"
                 }
             ]
         },
@@ -270,6 +373,11 @@
                     "type": "image_picker",
                     "id": "shop_by_pest_image",
                     "label": "Shop By Pest Image"
+                },
+                {
+                    "type": "link_list",
+                    "id": "shop_by_pest_menu4",
+                    "label": "Shop By Pest Menu"
                 }
             ]
         },
@@ -291,6 +399,11 @@
                     "type": "image_picker",
                     "id": "shop_by_pest_image",
                     "label": "Shop By Pest Image"
+                },
+                {
+                    "type": "link_list",
+                    "id": "shop_by_pest_menu5",
+                    "label": "Shop By Pest Menu"
                 }
             ]
         }

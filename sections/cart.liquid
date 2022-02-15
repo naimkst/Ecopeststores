@@ -1,3 +1,8 @@
+<style>
+  .cart-buttons button.btn.btn-main.pull-right.learn-more {
+      margin-top: 0;
+  }
+</style>
 
 {% if cart.item_count > 0 %}
 <form action="/cart" method="post" novalidate>
@@ -48,9 +53,11 @@
                       {{ cart.total_price | money }}
                     </div>
                   </div>
-                  <button type="submit" name="checkout" class="btn btn-main pull-right learn-more">Checkout</button>
-                  <button type="submit" name="update" id="update-btn"
-                    class="btn shop-now btn-transparent pull-right">Update</button>
+                  <div class="cart-buttons">
+                    <button type="submit" name="checkout" class="btn btn-main pull-right learn-more">Checkout</button>
+                    <button type="submit" name="update" id="update-btn"
+                      class="btn shop-now btn-transparent pull-right">Update</button>
+                  </div>
                 </form>
               </div>
             </div>

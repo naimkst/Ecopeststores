@@ -80,7 +80,7 @@
 </style>
 
 <div class="service-item">
-    <div class="container-fluid">
+    <div class="{%if section.settings.full_width == "full" %}container-fluid{% else %}container {% endif %}">
         <div class="row">
             {% for block in section.blocks %}
             <div class="col gird-main-item-service">
@@ -101,6 +101,22 @@
 {
     "name": "Service Item Section",
     "settings":[
+    {
+        "type": "radio",
+        "id": "full_width",
+        "label": "Section Full Width",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full Width"
+          },
+          {
+            "value": "box",
+            "label": "Box Width"
+          }
+        ],
+        "default": "full"
+      }
     ],
     "blocks": [
         {

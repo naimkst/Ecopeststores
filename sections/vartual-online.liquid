@@ -200,7 +200,7 @@
                     {% assign product = all_products[section.settings.select_time_product] %}
 
                     <img src="{{ product.featured_image.src | img_url: '' }}" alt="" class="img-fluid vartual-prd-img">
-                    <a href="{{ product.url }}" type="submit" class="btn btn-danger">Select Time</a>
+                    <a href="{{ product.url }}" type="submit" class="btn btn-danger">{{ section.settings.select_time_text }}</a>
                 </div> <!-- end section box -->
             </div> <!-- end col-md- 4 -->
             <div class="col-md-4">
@@ -279,6 +279,12 @@
         "id": "list_title",
         "label": "List Title",
         "default": "Your Title"
+    },
+    {
+        "type": "text",
+        "id": "select_time_text",
+        "label": "Select Time Text",
+        "default": "Buy Now"
     },
     {
         "type": "richtext",
