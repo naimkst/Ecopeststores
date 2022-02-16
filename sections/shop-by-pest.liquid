@@ -84,13 +84,7 @@
                         {% for link in linklists[block.settings.shop_by_pest_menu1].links %}
                             <li>
                                 <a href="{{ link.url }}">
-                                    {% if block.settings.shop_by_pest_image %}
-                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                    {% else %}
-                                        {% if collection.featured_image.src %}
-                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                        {% endif %}
-                                    {% endif %}
+                                    <img src="{{ link.object.image | img_url: '' }}" alt="">
                                     {{ link.title }}
                                 </a>
                             </li>
@@ -122,18 +116,12 @@
 
                     {% for block in section.blocks %}
                         {% for link in linklists[block.settings.shop_by_pest_menu2].links %}
-                            <li>
-                                <a href="{{ link.url }}">
-                                    {% if block.settings.shop_by_pest_image %}
-                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                    {% else %}
-                                        {% if collection.featured_image.src %}
-                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                        {% endif %}
-                                    {% endif %}
-                                    {{ link.title }}
-                                </a>
-                            </li>
+                        <li>
+                            <a href="{{ link.url }}">
+                                <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                {{ link.title }}
+                            </a>
+                        </li>
                         {% endfor %}
                     {% endfor %}
                 </ul>
@@ -161,18 +149,12 @@
 
                     {% for block in section.blocks %}
                         {% for link in linklists[block.settings.shop_by_pest_menu3].links %}
-                            <li>
-                                <a href="{{ link.url }}">
-                                    {% if block.settings.shop_by_pest_image %}
-                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                    {% else %}
-                                        {% if collection.featured_image.src %}
-                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                        {% endif %}
-                                    {% endif %}
-                                    {{ link.title }}
-                                </a>
-                            </li>
+                        <li>
+                            <a href="{{ link.url }}">
+                                <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                {{ link.title }}
+                            </a>
+                        </li>
                         {% endfor %}
                     {% endfor %}
 
@@ -201,18 +183,12 @@
 
                     {% for block in section.blocks %}
                         {% for link in linklists[block.settings.shop_by_pest_menu4].links %}
-                            <li>
-                                <a href="{{ link.url }}">
-                                    {% if block.settings.shop_by_pest_image %}
-                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                    {% else %}
-                                        {% if collection.featured_image.src %}
-                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                        {% endif %}
-                                    {% endif %}
-                                    {{ link.title }}
-                                </a>
-                            </li>
+                        <li>
+                            <a href="{{ link.url }}">
+                                <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                {{ link.title }}
+                            </a>
+                        </li>
                         {% endfor %}
                     {% endfor %}
 
@@ -239,18 +215,12 @@
                     {% endfor %}
                     {% for block in section.blocks %}
                         {% for link in linklists[block.settings.shop_by_pest_menu5].links %}
-                            <li>
-                                <a href="{{ link.url }}">
-                                    {% if block.settings.shop_by_pest_image %}
-                                        <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                    {% else %}
-                                        {% if collection.featured_image.src %}
-                                            <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                        {% endif %}
-                                    {% endif %}
-                                    {{ link.title }}
-                                </a>
-                            </li>
+                        <li>
+                            <a href="{{ link.url }}">
+                                <img src="{{ link.object.image | img_url: '' }}" alt="">
+                                {{ link.title }}
+                            </a>
+                        </li>
                         {% endfor %}
                     {% endfor %}
 

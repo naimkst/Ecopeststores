@@ -1832,3 +1832,10 @@ font-size: 18px;
 button#dropdownMenuButton a {
     color: #fff;
 }
+.col.gird-main-item-service {
+    padding: 25px 15px 15px 15px !important;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+    border-radius: 5px !important;
+    box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
+}
