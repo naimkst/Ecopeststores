@@ -53,10 +53,15 @@
       ],
       "settings": {
         "shop_by_product_title_one": "Rodent Control Products",
+        "shop_by_product_collection_one": "",
         "shop_by_product_title_two": "Rodent Control Products",
+        "shop_by_product_collection_two": "",
         "shop_by_product_title_three": "Rodent Control Products",
+        "shop_by_product_collection_three": "",
         "shop_by_product_title_four": "Rodent Control Products",
-        "shop_by_product_title_five": "Rodent Control Products"
+        "shop_by_product_collection_four": "",
+        "shop_by_product_title_five": "Rodent Control Products",
+        "shop_by_product_collection_five": ""
       }
     },
     "164457214373393c65": {
@@ -111,6 +116,7 @@
         "cbeb0274-e987-44b9-817a-1ece45a12196"
       ],
       "settings": {
+        "full_width": "box"
       }
     }
   },
