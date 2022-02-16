@@ -11,17 +11,41 @@
         "164503605313ab31c9-0": {
           "type": "first-section",
           "settings": {
+            "shop_by_title": "Rodent Control Products",
+            "shop_by_collection": "rodent-control-products"
+          }
+        },
+        "47cd28ad-1be2-41a3-b1ac-0a69ed13e7f4": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_title": "Insect Control Products",
+            "shop_by_collection": ""
+          }
+        },
+        "78f0acba-9812-446c-847b-51bf3af743ba": {
+          "type": "first-section",
+          "settings": {
+            "shop_by_title": "Lawn & Garden Products",
+            "shop_by_collection": ""
+          }
+        },
+        "437ca288-0a77-4e95-b75d-6761cfef1731": {
+          "type": "first-section",
+          "settings": {
             "shop_by_title": "Book a Virtual Online Service",
             "shop_by_collection": ""
           }
         }
       },
       "block_order": [
-        "164503605313ab31c9-0"
+        "164503605313ab31c9-0",
+        "47cd28ad-1be2-41a3-b1ac-0a69ed13e7f4",
+        "78f0acba-9812-446c-847b-51bf3af743ba",
+        "437ca288-0a77-4e95-b75d-6761cfef1731"
       ],
       "settings": {
         "shop_by_product_title_one": "Rodent Control Products",
-        "shop_by_product_collection_one": "rodent-control-products",
+        "shop_by_product_collection_one": "",
         "shop_by_product_title_two": "Rodent Control Products",
         "shop_by_product_collection_two": "",
         "shop_by_product_title_three": "Rodent Control Products",
