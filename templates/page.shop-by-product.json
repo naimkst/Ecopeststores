@@ -5,32 +5,36 @@
       "settings": {
       }
     },
-    "1643351668db14fb60": {
-      "type": "professional-service",
+    "16450360536f3e7272": {
+      "type": "shop-by-product",
       "blocks": {
-        "16433516680dee2eea-0": {
+        "164503605313ab31c9-0": {
           "type": "first-section",
           "settings": {
-            "service_title": "Book a Virtual Online Service",
-            "service_link": ""
+            "shop_by_title": "Book a Virtual Online Service",
+            "shop_by_collection": ""
           }
         }
       },
       "block_order": [
-        "16433516680dee2eea-0"
+        "164503605313ab31c9-0"
       ],
       "settings": {
-        "contract_us_title": "Left Professional Image",
-        "contact_phone": "1-866-269-2847",
-        "contact_email": "service@ecopeststore.ca",
-        "contact_address": "8605 Coronet Rd. Edmonton, AB",
-        "form_title": "Book a Professional Onsite Service!",
-        "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
+        "shop_by_product_title_one": "Rodent Control Products",
+        "shop_by_product_collection_one": "rodent-control-products",
+        "shop_by_product_title_two": "Rodent Control Products",
+        "shop_by_product_collection_two": "",
+        "shop_by_product_title_three": "Rodent Control Products",
+        "shop_by_product_collection_three": "",
+        "shop_by_product_title_four": "Rodent Control Products",
+        "shop_by_product_collection_four": "",
+        "shop_by_product_title_five": "Rodent Control Products",
+        "shop_by_product_collection_five": ""
       }
     }
   },
   "order": [
     "main",
-    "1643351668db14fb60"
+    "16450360536f3e7272"
   ]
 }
