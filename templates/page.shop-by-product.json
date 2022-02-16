@@ -55,10 +55,53 @@
         "shop_by_product_title_five": "Rodent Control Products",
         "shop_by_product_collection_five": ""
       }
+    },
+    "164503622002a561f1": {
+      "type": "product-grid",
+      "blocks": {
+        "16450362207701ab9e-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "5ad77016-7621-4142-a389-3704f0d031e6": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "0baadb95-8a92-42db-9519-cbc655db4e66": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "e6e32f93-3965-4e75-aa7f-c18943562081": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16450362207701ab9e-0",
+        "5ad77016-7621-4142-a389-3704f0d031e6",
+        "0baadb95-8a92-42db-9519-cbc655db4e66",
+        "e6e32f93-3965-4e75-aa7f-c18943562081"
+      ],
+      "settings": {
+        "full_width": "full"
+      }
     }
   },
   "order": [
     "main",
-    "16450360536f3e7272"
+    "16450360536f3e7272",
+    "164503622002a561f1"
   ]
 }
