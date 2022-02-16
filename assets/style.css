@@ -1839,3 +1839,6 @@ button#dropdownMenuButton a {
     border-radius: 5px !important;
     box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
 }
+.ReactModal__Overlay.ReactModal__Overlay--after-open a.shop-now-btn {
+    color: #fff;
+}
