@@ -19,21 +19,21 @@
           "type": "first-section",
           "settings": {
             "shop_by_title": "Insect Control Products",
-            "shop_by_collection": ""
+            "shop_by_collection": "insect-control-products"
           }
         },
         "78f0acba-9812-446c-847b-51bf3af743ba": {
           "type": "first-section",
           "settings": {
             "shop_by_title": "Lawn & Garden Products",
-            "shop_by_collection": ""
+            "shop_by_collection": "lawn-and-garden-products"
           }
         },
         "437ca288-0a77-4e95-b75d-6761cfef1731": {
           "type": "first-section",
           "settings": {
-            "shop_by_title": "Book a Virtual Online Service",
-            "shop_by_collection": ""
+            "shop_by_title": "Rodent Proofing Products",
+            "shop_by_collection": "rodent-proofing"
           }
         }
       },
