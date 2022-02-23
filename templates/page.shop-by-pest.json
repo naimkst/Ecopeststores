@@ -50,10 +50,53 @@
       "settings": {
         "shop_by_pest_section_title": "SHOP BY PEST"
       }
+    },
+    "1645596718ec2e795a": {
+      "type": "product-grid",
+      "blocks": {
+        "1645596718898622c7-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "d902a708-53c7-4fb9-aaef-f450111344d7": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "33789ec6-d790-43b3-88ef-dbd2ec99c611": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "902dd52b-2f06-419b-b87c-c18a2d3999d2": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645596718898622c7-0",
+        "d902a708-53c7-4fb9-aaef-f450111344d7",
+        "33789ec6-d790-43b3-88ef-dbd2ec99c611",
+        "902dd52b-2f06-419b-b87c-c18a2d3999d2"
+      ],
+      "settings": {
+        "full_width": "full"
+      }
     }
   },
   "order": [
     "main",
-    "164499575154c68a63"
+    "164499575154c68a63",
+    "1645596718ec2e795a"
   ]
 }
