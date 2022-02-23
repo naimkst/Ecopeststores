@@ -93,10 +93,12 @@
 
             .content-image-with-title h2 {
                 margin-bottom: 15px;
+                font-size: 18px;
+                font-weight: 600;
             }
 
             .image-grid {
-                margin-top: 20px;
+                margin-top: 60px;
             }
             .cotent-sfasification{
                 margin-top: 25px;
@@ -146,6 +148,35 @@
             .product-id-widget {
                 margin-top: 50px;
             }
+            .grid-single-shop-pest-layout {
+                box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
+                transition: transform .3s;
+                padding: 15px 10px 10px 10px;
+            }
+            .grid-single-shop-pest-layout img {
+                height: 280px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .grid-single-shop-pest-layout:hover{
+                transition: transform .3s;
+                transform: scale(1.05);
+            }
+            .shop-more-button {
+                background: #f43639;
+                padding: 15px 20px;
+                border-radius: 3px;
+                color: #fff;
+                text-align: center;
+            }
+            .shop-more-div {
+                display: block;
+                align-items: center;
+                text-align: center;
+                margin: 0 auto;
+                width: 100%;
+                margin-top: 80px;
+            }
         </style>
 
         <!-- Header Section -->
@@ -170,41 +201,30 @@
                     <div class="col-md-9">
                         <div class="right-content-id">
                             <div class="content-image-with-title">
-                                <h2>{{ section.settings.id_your_single_title }}</h2>
-                                <p>{{ section.settings.long_description }}</p>
-
+                                <h2>{{ section.settings.id_your_single_page_title }}</h2>
+                                {{ section.settings.page_long_description }}
                                 <div class="image-grid">
                                     <div class="container">
                                         <div class="row">
                                             {% for block in section.blocks %}
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
+                                                <div class="grid-single-shop-pest-layout">
+                                                    <h2 class="text-center">{{ block.settings.single_id_grid_title }}</h2>
                                                 <div class="idimg">
                                                     <img src="{{ block.settings.single_id_grid_image | img_url: ''}}"
-                                                    alt="">
+                                                    alt="" class="img-fluid">
                                                 </div>
-                                                <div class="single-spacification">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="cotent-sfasification">
-                                                                    <h2>{{ block.settings.single_id_grid_title }}</h2>
-                                                                    <div class="spacification">
-                                                                        {{ block.settings.single_id_description }}
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                             {% endfor %}
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <div class="shop-more-div">
+                                    <a class="shop-more-button" href="{{ section.settings.shop_more_link }}">Shop more</a>
+                                </div>
                             </div>
-
-
-                            
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -262,6 +282,18 @@
         },
         {
             "type": "text",
+            "id": "id_your_single_page_title",
+            "label": "ID Your Single Page Title",
+            "default": "House Mouse"
+        },
+        {
+            "type": "richtext",
+            "id": "page_long_description",
+            "label": "Single Page Description",
+            "default": "<p>xcellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter. House M</p>"
+        },
+        {
+            "type": "text",
             "id": "side_bar_title",
             "label": "Sidebar Overview Title",
             "default": "Overview"
@@ -280,6 +312,11 @@
             "type": "richtext",
             "id": "side_bar_fact_description",
             "label": "Sidebar Fact Description"
+        },
+        {
+            "type": "url",
+            "id": "shop_more_link",
+            "label": "Shop More Link"
         }
 
     ],
@@ -298,12 +335,6 @@
                     "type": "image_picker",
                     "id": "single_id_grid_image",
                     "label": "Single Id Scientific"
-                },
-                {
-                    "type": "richtext",
-                    "id": "single_id_description",
-                    "label": "Single Id Description",
-                    "default": "<p>here is description</p>"
                 }
             ]
         }

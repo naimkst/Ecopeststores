@@ -194,38 +194,7 @@
 
                 </ul>
             </div>
-            <div class="col gird-main-item-service paddint-item">
-                <ul>
-                    {% for block in section.blocks %}
-                        {% if block.type == 'five-section' %}
-                        {% assign collection = block.settings.shop_by_pest_collection %}
-                        <li>
-                            <a href="{{ collection.url }}">
-                                {% if block.settings.shop_by_pest_image %}
-                                    <img src="{{ block.settings.shop_by_pest_image | img_url: '' }}" alt="">
-                                {% else %}
-                                    {% if collection.featured_image.src %}
-                                        <img src="{{ collection.featured_image.src | img_url: '' }}" alt="">
-                                    {% endif %}
-                                {% endif %}
-                                {% if block.settings.shop_by_pest_title %} {{ block.settings.shop_by_pest_title }} {% else %} {{ collection.title }} {% endif %} 
-                            </a>
-                        </li>
-                        {% endif %}
-                    {% endfor %}
-                    {% for block in section.blocks %}
-                        {% for link in linklists[block.settings.shop_by_pest_menu5].links %}
-                        <li>
-                            <a href="{{ link.url }}">
-                                <img src="{{ link.object.image | img_url: '' }}" alt="">
-                                {{ link.title }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    {% endfor %}
-
-                </ul>
-            </div>
+            
         </div>
     </div>
 </div>
