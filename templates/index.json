@@ -5,13 +5,13 @@
       "settings": {
         "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
         "residential_main_title": "Residential",
-        "residential_url": "shopify:\/\/products\/portionpac-disinfectant-spray-1l",
+        "residential_url": "",
         "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
         "commercial_main_title": "Commercial",
-        "commercial_url": "shopify:\/\/products\/ecopest-x-small-professional-style-one-door-animal-trap-for-chipmunks-squirrels-rats-and-weasels",
+        "commercial_url": "",
         "residential_trd_bg_img": "shopify:\/\/shop_images\/Home_and_Garden.jpg",
         "garden_main_title": "Lawn & Garden",
-        "garden_url": "shopify:\/\/products\/100f-knitted-copper-mesh-rodent-pest-control-for-mouse-rat-and-most-other-pests"
+        "garden_url": ""
       }
     },
     "164084737464488ea4": {
@@ -66,6 +66,7 @@
         "c7d4557b-55b0-48aa-b057-d394c5e3a6ec"
       ],
       "settings": {
+        "full_width": "full"
       }
     },
     "product-slider": {
