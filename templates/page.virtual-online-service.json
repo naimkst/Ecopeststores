@@ -7,46 +7,6 @@
     },
     "1644257591226d7f2d": {
       "type": "vartual-online",
-      "blocks": {
-        "ac7d9fa8-f52c-425f-95ef-5b9ec824397a": {
-          "type": "product",
-          "settings": {
-            "vartual_title": "Book a Professional Onsite Service",
-            "vartual_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
-            "item_link": "shopify:\/\/pages\/book-a-professional-on-site-service"
-          }
-        },
-        "2dc74e38-9d86-4057-a457-58a795f53d59": {
-          "type": "product",
-          "settings": {
-            "vartual_title": "DIY - Do it Yourself",
-            "vartual_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
-            "item_link": ""
-          }
-        },
-        "f413f693-bcf3-445e-86ad-2b3d03efd0d6": {
-          "type": "product",
-          "settings": {
-            "vartual_title": "Shop By Pest",
-            "vartual_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
-            "item_link": "shopify:\/\/pages\/shop-by-pest-1"
-          }
-        },
-        "212fcef2-605b-4b3e-a447-14f8d7080bd5": {
-          "type": "product",
-          "settings": {
-            "vartual_title": "Shop By Product",
-            "vartual_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
-            "item_link": "shopify:\/\/pages\/shop-by-product"
-          }
-        }
-      },
-      "block_order": [
-        "ac7d9fa8-f52c-425f-95ef-5b9ec824397a",
-        "2dc74e38-9d86-4057-a457-58a795f53d59",
-        "f413f693-bcf3-445e-86ad-2b3d03efd0d6",
-        "212fcef2-605b-4b3e-a447-14f8d7080bd5"
-      ],
       "settings": {
         "left_professional_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
         "contract_us_title": "Contact Us",
@@ -59,10 +19,57 @@
         "list_details": "<p><\/p><p>Getting rid of your pests is our number one goal.<\/p><p>Booking a virtual online service makes it that much easier and faster.<\/p><p>Our expert technicians are here to virtually guide you to solve any issue you may have.<\/p><p>Contact us at any time and you will get the help that you need in a timely manner.<\/p><p>We look forward to serving you!<\/p>",
         "select_time_product": "virtual-online-booking-service"
       }
+    },
+    "16456885133f9965bf": {
+      "type": "product-grid",
+      "blocks": {
+        "1645688513d68b104a-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional Onsite Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+          }
+        },
+        "02f4dd51-d46d-4f99-a32b-e53099a34cd7": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "DIY - Do it Yourself",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
+            "service_item_url": ""
+          }
+        },
+        "8b92b7d3-e27c-4047-837a-5116859b2073": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-pest-1"
+          }
+        },
+        "bda2791e-c0bc-4f4c-aefe-6d11a46bc616": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-product"
+          }
+        }
+      },
+      "block_order": [
+        "1645688513d68b104a-0",
+        "02f4dd51-d46d-4f99-a32b-e53099a34cd7",
+        "8b92b7d3-e27c-4047-837a-5116859b2073",
+        "bda2791e-c0bc-4f4c-aefe-6d11a46bc616"
+      ],
+      "settings": {
+        "full_width": "box"
+      }
     }
   },
   "order": [
     "main",
-    "1644257591226d7f2d"
+    "1644257591226d7f2d",
+    "16456885133f9965bf"
   ]
 }
