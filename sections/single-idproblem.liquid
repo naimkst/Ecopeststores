@@ -177,6 +177,9 @@
                 width: 100%;
                 margin-top: 80px;
             }
+            .grid-single-shop-pest-layout h2 a {
+                color: #064172;
+            }
         </style>
 
         <!-- Header Section -->
@@ -209,7 +212,7 @@
                                             {% for block in section.blocks %}
                                             <div class="col-md-4">
                                                 <div class="grid-single-shop-pest-layout">
-                                                    <h2 class="text-center">{{ block.settings.single_id_grid_title }}</h2>
+                                                    <h2 class="text-center"><a href="{{ block.settings.single_id_grid_image.url }}">{{ block.settings.single_id_grid_image.title }}</a></h2>
                                                 <div class="idimg">
                                                     <img src="{{ block.settings.single_id_grid_image | img_url: ''}}"
                                                     alt="" class="img-fluid">
@@ -314,7 +317,7 @@
             "label": "Sidebar Fact Description"
         },
         {
-            "type": "url",
+            "type": "collection",
             "id": "shop_more_link",
             "label": "Shop More Link"
         }
@@ -332,7 +335,7 @@
                     "default": "House Mouse Facts"
                 },
                 {
-                    "type": "image_picker",
+                    "type": "product",
                     "id": "single_id_grid_image",
                     "label": "Single Id Scientific"
                 }
