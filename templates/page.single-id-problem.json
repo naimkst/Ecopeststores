@@ -2,13 +2,24 @@
   "sections": {
     "main": {
       "type": "single-idproblem",
+      "blocks": {
+        "dc3e6942-a125-4569-8c8f-8990802358d9": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "House Mouse Facts"
+          }
+        }
+      },
+      "block_order": [
+        "dc3e6942-a125-4569-8c8f-8990802358d9"
+      ],
       "settings": {
         "id_your_single_title": "Bed Bugs",
         "id_your_single_subtitle": "Excellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter.",
         "long_description": "<p>xcellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor bu<\/p>",
-        "id_your_single_page_title": "House Mouse",
-        "page_long_description": "<p>xcellent hearing, vision, smell and touch have enabled the mouse to be hig<\/p>",
-        "side_bar_title": "Overview",
+        "id_your_single_page_title": "Bed Bug - How to treatments",
+        "page_long_description": "<p>- First lay traps<\/p><p>-  Spray with Ecopest Total Insect Killer<\/p><p>-  Place glue boards in the corner of the room and along the baseboards<\/p>",
+        "side_bar_title": "Bed Bugs",
         "side_bar_link": "",
         "side_bar_fact_title": "Bed Bug Facts",
         "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p>Mus Musculus meaning \"little thief\"<br\/><br\/><strong>Color:<\/strong><br\/>Dusty gray<br\/><br\/><strong>Weight:<\/strong><br\/>½-1 ounce<br\/><br\/><strong>Length:<\/strong><br\/>2.5-4 inches<br\/><br\/><strong>Tail Length:<\/strong><br\/>As long as body - up to 4 inches<br\/><br\/><strong>Body:<\/strong><br\/>Small head & slender body<br\/><br\/><strong>Ears:<\/strong><br\/>Moderately large ears<br\/><br\/><strong>Eyes:<\/strong><br\/>Small & somewhat protruding; color blind<br\/><br\/><strong>Lifespan:<\/strong><br\/>1-2 years<br\/><br\/><strong>Droppings:<\/strong><br\/>¼ inch long with pointed ends; dark color<\/p>",
