@@ -469,3 +469,7 @@
 .theme_store_id_714.gm-menu-installed .gm-level-0 > a.menu__link {
   padding: 18px 20px !important;
 }
+
+body.gm-menu-installed .header-item.header-item--navigation.gm-theme-Expanse > ul,body.gm-menu-installed .header-item.header-item--navigation.gm-theme-902 > ul{
+  width: 100% !important;
+}
