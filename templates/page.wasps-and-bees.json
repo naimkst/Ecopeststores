@@ -31,16 +31,16 @@
         "db92be56-5666-417f-8ae6-1a67f90bcb53"
       ],
       "settings": {
-        "id_your_single_title": "Bed Bugs",
+        "id_your_single_title": "Wasps and Bees",
         "id_your_single_subtitle": "",
         "long_description": "",
-        "id_your_single_page_title": "Bed Bug - How to treatments",
+        "id_your_single_page_title": "Wasps and Bees",
         "page_long_description": "",
-        "side_bar_title": "Bed Bugs",
+        "side_bar_title": "Overview",
         "side_bar_link": "",
-        "side_bar_fact_title": "Bed Bug Facts",
+        "side_bar_fact_title": "Wasps and Bees Facts",
         "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/><br\/><strong>Color:<\/strong><br\/><br\/><br\/><strong>Weight:<\/strong><br\/><br\/><br\/><strong>Length:<\/strong><br\/><br\/><br\/><strong>Tail Length:<\/strong><br\/><br\/><br\/><strong>Body:<\/strong><br\/><br\/><br\/><strong>Ears:<\/strong><br\/><br\/><br\/><strong>Eyes:<\/strong><br\/><br\/><br\/><strong>Lifespan:<\/strong><br\/><br\/><br\/><strong>Droppings:<\/strong><br\/><\/p>",
-        "shop_more_link": ""
+        "shop_more_link": "wasps-bees-and-hornets"
       }
     },
     "16460870590ca4dadf": {
@@ -49,8 +49,8 @@
         "1646087059fd80e408-0": {
           "type": "product",
           "settings": {
-            "collection_name": "",
-            "product_collection": ""
+            "collection_name": "Top Selling Wasps and Bees Products",
+            "product_collection": "wasps-bees-and-hornets"
           }
         }
       },
@@ -58,7 +58,7 @@
         "1646087059fd80e408-0"
       ],
       "settings": {
-        "product_slider_section_title": "Top selling products"
+        "product_slider_section_title": "Wasps and Bees Products"
       }
     }
   },
