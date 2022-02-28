@@ -3,94 +3,67 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
-        "0a325e78-fd6a-4912-b250-de8b424e938c": {
+        "f975bd32-b2c2-4a46-86a3-b77df2ea0492": {
           "type": "button",
           "settings": {
-            "single_id_grid_title": "Mouse Facts",
-            "single_id_grid_image": "shopify:\/\/shop_images\/download.jpg",
-            "single_id_description": "<p><strong>Daily Amount:<\/strong><br\/>1\/10 Ounce<br\/><br\/><strong>Daily Water:<\/strong><br\/>Utilizes moisture in food<br\/><br\/><strong>Daily Food:<\/strong><br\/>Cereal grains, meats, seeds<\/p>"
+            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_image": ""
           }
         },
-        "16dea0b5-d1fe-4d00-97bf-d1ec864afc75": {
+        "a30bfe47-92df-4856-b15d-9ad37ad17cd0": {
           "type": "button",
           "settings": {
-            "single_id_grid_title": "Mouse Facts",
-            "single_id_grid_image": "shopify:\/\/shop_images\/vp-lc-rodent-library-house-mouse-diet.jpg",
-            "single_id_description": "<p><strong>Daily Amount:<\/strong><br\/>1\/10 Ounce<br\/><br\/><strong>Daily Water:<\/strong><br\/>Utilizes moisture in food<br\/><br\/><strong>Daily Food:<\/strong><br\/>Cereal grains, meats, seeds<\/p>"
+            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_image": ""
+          }
+        },
+        "f1ad84ae-9030-49d3-86b8-734f6ff2e83a": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_image": ""
           }
         }
       },
       "block_order": [
-        "0a325e78-fd6a-4912-b250-de8b424e938c",
-        "16dea0b5-d1fe-4d00-97bf-d1ec864afc75"
+        "f975bd32-b2c2-4a46-86a3-b77df2ea0492",
+        "a30bfe47-92df-4856-b15d-9ad37ad17cd0",
+        "f1ad84ae-9030-49d3-86b8-734f6ff2e83a"
       ],
       "settings": {
         "id_your_single_title": "Mouse",
         "id_your_single_subtitle": "Excellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter.",
+        "long_description": "<p>xcellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter. House M<\/p>",
+        "id_your_single_page_title": "House Mouse",
+        "page_long_description": "<p>xcellent hearing, vision, smell and touch have enabled the mouse to be highly adaptable to homes and indoor buildings. All they need is a 1\/4 opening to be able to enter a building, so they often have access to many places along the building's perimeter. House M<\/p>",
         "side_bar_title": "Overview",
-        "side_bar_link": "overview-sidebar",
+        "side_bar_link": "",
         "side_bar_fact_title": "House Mouse Facts",
-        "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/>Mus Musculus meaning \"little thief\"<br\/><br\/><strong>Color:<\/strong><br\/>Dusty gray<br\/><br\/><strong>Weight:<\/strong><br\/>½-1 ounce<br\/><br\/><strong>Length:<\/strong><br\/>2.5-4 inches<br\/><br\/><strong>Tail Length:<\/strong><br\/>As long as body - up to 4 inches<br\/><br\/><strong>Body:<\/strong><br\/>Small head & slender body<br\/><br\/><strong>Ears:<\/strong><br\/>Moderately large ears<br\/><br\/><strong>Eyes:<\/strong><br\/>Small & somewhat protruding; color blind<br\/><br\/><strong>Lifespan:<\/strong><br\/>1-2 years<br\/><br\/><strong>Droppings:<\/strong><br\/>¼ inch long with pointed ends; dark color<\/p>"
+        "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/>Mus Musculus meaning \"little thief\"<br\/><br\/><strong>Color:<\/strong><br\/>Dusty gray<br\/><br\/><strong>Weight:<\/strong><br\/>½-1 ounce<br\/><br\/><strong>Length:<\/strong><br\/>2.5-4 inches<br\/><br\/><strong>Tail Length:<\/strong><br\/>As long as body - up to 4 inches<br\/><br\/><strong>Body:<\/strong><br\/>Small head & slender body<br\/><br\/><strong>Ears:<\/strong><br\/>Moderately large ears<br\/><br\/><strong>Eyes:<\/strong><br\/>Small & somewhat protruding; color blind<br\/><br\/><strong>Lifespan:<\/strong><br\/>1-2 years<br\/><br\/><strong>Droppings:<\/strong><br\/>¼ inch long with pointed ends; dark color<\/p>",
+        "shop_more_link": ""
       }
     },
     "16357472098b8fa268": {
       "type": "product-slider",
       "blocks": {
-        "16357472098b8fa268-0": {
+        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb": {
           "type": "product",
           "settings": {
-            "collection_name": "",
-            "product_collection": "commercial-center"
-          }
-        },
-        "1c177ff0-bde6-4ebc-b336-42e68d66f237": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "collection_name": "Ants",
-            "product_collection": "demo-collection"
-          }
-        },
-        "7882bdf7-1e58-4e94-90cf-a3e79f7d3287": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "collection_name": "Sow Bug",
-            "product_collection": "lawn-garden"
+            "collection_name": "Top Selling Ant Products",
+            "product_collection": ""
           }
         }
       },
       "block_order": [
-        "16357472098b8fa268-0",
-        "1c177ff0-bde6-4ebc-b336-42e68d66f237",
-        "7882bdf7-1e58-4e94-90cf-a3e79f7d3287"
+        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb"
       ],
       "settings": {
-        "product_slider_section_title": "Bed Bug Products"
-      }
-    },
-    "163704403550bcf5bb": {
-      "type": "testimonial",
-      "blocks": {
-        "1637044035a9b5bb45-0": {
-          "type": "slideshow",
-          "settings": {
-            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
-            "testimonial_name": "Lena Roy"
-          }
-        }
-      },
-      "block_order": [
-        "1637044035a9b5bb45-0"
-      ],
-      "settings": {
-        "testimonial_section_title": "Customer Reviews"
+        "product_slider_section_title": "Ant Products"
       }
     }
   },
   "order": [
     "main",
-    "16357472098b8fa268",
-    "163704403550bcf5bb"
+    "16357472098b8fa268"
   ]
 }
