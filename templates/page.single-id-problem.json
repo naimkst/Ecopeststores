@@ -42,9 +42,28 @@
         "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/><br\/><strong>Color:<\/strong><br\/><br\/><br\/><strong>Weight:<\/strong><br\/><br\/><br\/><strong>Length:<\/strong><br\/><br\/><br\/><strong>Tail Length:<\/strong><br\/><br\/><br\/><strong>Body:<\/strong><br\/><br\/><br\/><strong>Ears:<\/strong><br\/><br\/><br\/><strong>Eyes:<\/strong><br\/><br\/><br\/><strong>Lifespan:<\/strong><br\/><br\/><br\/><strong>Droppings:<\/strong><br\/><\/p>",
         "shop_more_link": ""
       }
+    },
+    "16460870590ca4dadf": {
+      "type": "product-slider",
+      "blocks": {
+        "1646087059fd80e408-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "",
+            "product_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646087059fd80e408-0"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top selling products"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16460870590ca4dadf"
   ]
 }
