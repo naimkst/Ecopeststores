@@ -46,34 +46,16 @@
     "16357472098b8fa268": {
       "type": "product-slider",
       "blocks": {
-        "16357472098b8fa268-0": {
+        "bb1a034a-ccf4-45ff-921e-45591f1d1030": {
           "type": "product",
           "settings": {
-            "collection_name": "Top Selling Bed Bugs",
-            "product_collection": "bed-bug-control"
-          }
-        },
-        "1c177ff0-bde6-4ebc-b336-42e68d66f237": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "collection_name": "Ants",
-            "product_collection": "demo-collection"
-          }
-        },
-        "7882bdf7-1e58-4e94-90cf-a3e79f7d3287": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "collection_name": "Sow Bug",
-            "product_collection": "lawn-garden"
+            "collection_name": "",
+            "product_collection": "bed-bugs-1"
           }
         }
       },
       "block_order": [
-        "16357472098b8fa268-0",
-        "1c177ff0-bde6-4ebc-b336-42e68d66f237",
-        "7882bdf7-1e58-4e94-90cf-a3e79f7d3287"
+        "bb1a034a-ccf4-45ff-921e-45591f1d1030"
       ],
       "settings": {
         "product_slider_section_title": "Top Selling Bed Bug Products"
