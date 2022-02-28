@@ -50,7 +50,7 @@
           "type": "product",
           "settings": {
             "collection_name": "Top Selling Ant Products",
-            "product_collection": ""
+            "product_collection": "ant-products"
           }
         }
       },
