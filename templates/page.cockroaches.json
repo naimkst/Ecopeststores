@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "single-idproblem",
+      "blocks": {
+        "dc3e6942-a125-4569-8c8f-8990802358d9": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "ecopest-bed-bug-spray-and-insect-killer"
+          }
+        },
+        "89ab4240-6d38-4848-958c-40e4faf62f7a": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "ecopest-insect-trap-and-monitor-36-x-cards-108-traps-a-non-poisonous-glue-trap-that-captures-and-monitors-insects"
+          }
+        },
+        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "dd-go-green-baited-insecticide"
+          }
+        }
+      },
+      "block_order": [
+        "dc3e6942-a125-4569-8c8f-8990802358d9",
+        "89ab4240-6d38-4848-958c-40e4faf62f7a",
+        "db92be56-5666-417f-8ae6-1a67f90bcb53"
+      ],
+      "settings": {
+        "id_your_single_title": "Bed Bugs",
+        "id_your_single_subtitle": "Bed bugs are small, flat, reddish-brown insects that are found in people’s bedrooms. They can be found along mattress seams, box springs, headboards, and baseboards, where they hide during the day. Bed bugs have a one-year life span during which time a female can lay 200-400 eggs depending on food supply and temperature. Eggs hatch in about 10 days.",
+        "long_description": "",
+        "id_your_single_page_title": "Bed Bug - How to treatments",
+        "page_long_description": "<p>While bed bugs can be very difficult to control without pest control professionals, you can succeed to some extent if you are thorough in keen identification, preparation and treatment.<\/p><p>– Start by getting rid of any clutter, as this will eliminate the places they can hide.<\/p><p>– Next, seal all items in plastic bags before moving them from the infested room. This will prevent you from spreading the bed bugs to other rooms and making your problem worse.<\/p><p>– Look for bedbugs droppings, eggs and live bedbugs in the bedding, furniture and baseboards.<\/p><p>– Identify the infested area and spray with Eco Bug Buster.<\/p><p>– After spraying protect your bedding with bedbug mattress and box spring covers.<\/p>",
+        "side_bar_title": "Bed Bugs",
+        "side_bar_link": "",
+        "side_bar_fact_title": "Bed Bug Facts",
+        "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/><br\/><strong>Color:<\/strong><br\/><br\/><br\/><strong>Weight:<\/strong><br\/><br\/><br\/><strong>Length:<\/strong><br\/><br\/><br\/><strong>Tail Length:<\/strong><br\/><br\/><br\/><strong>Body:<\/strong><br\/><br\/><br\/><strong>Ears:<\/strong><br\/><br\/><br\/><strong>Eyes:<\/strong><br\/><br\/><br\/><strong>Lifespan:<\/strong><br\/><br\/><br\/><strong>Droppings:<\/strong><br\/><\/p>",
+        "shop_more_link": "bed-bugs-1"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
