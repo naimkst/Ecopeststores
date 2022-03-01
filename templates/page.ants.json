@@ -43,24 +43,6 @@
         "shop_more_link": "ant-products"
       }
     },
-    "16357472098b8fa268": {
-      "type": "product-slider",
-      "blocks": {
-        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb": {
-          "type": "product",
-          "settings": {
-            "collection_name": "Top Selling Ant Products",
-            "product_collection": "ant-products"
-          }
-        }
-      },
-      "block_order": [
-        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb"
-      ],
-      "settings": {
-        "product_slider_section_title": ""
-      }
-    },
     "16461138072b3fe764": {
       "type": "product-grid",
       "blocks": {
@@ -115,11 +97,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "16357472098b8fa268": {
+      "type": "product-slider",
+      "blocks": {
+        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Ant Products",
+            "product_collection": "ant-products"
+          }
+        }
+      },
+      "block_order": [
+        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16357472098b8fa268",
-    "16461138072b3fe764"
+    "16461138072b3fe764",
+    "16357472098b8fa268"
   ]
 }
