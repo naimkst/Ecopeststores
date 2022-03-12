@@ -43,6 +43,61 @@
         "shop_more_link": "wasps-bees-and-hornets"
       }
     },
+    "164712829308f72916": {
+      "type": "product-grid",
+      "blocks": {
+        "1647128293d9ddced4-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+          }
+        },
+        "604e3d35-eada-4486-b171-d79a64280b6a": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Virtual Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
+          }
+        },
+        "b1902bb2-1b5e-4bd1-bacf-40ca4b518192": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": "shopify:\/\/pages\/single-shop-by-pest"
+          }
+        },
+        "fe734259-b25d-4625-be3e-f7dcc5a27229": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-product"
+          }
+        },
+        "0dc9ec8b-7214-4e66-b890-a4571b5350d7": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Chat Now",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Chat_with_us_now.png",
+            "service_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647128293d9ddced4-0",
+        "604e3d35-eada-4486-b171-d79a64280b6a",
+        "b1902bb2-1b5e-4bd1-bacf-40ca4b518192",
+        "fe734259-b25d-4625-be3e-f7dcc5a27229",
+        "0dc9ec8b-7214-4e66-b890-a4571b5350d7"
+      ],
+      "settings": {
+        "full_width": "full"
+      }
+    },
     "16460870590ca4dadf": {
       "type": "product-slider",
       "blocks": {
@@ -64,6 +119,7 @@
   },
   "order": [
     "main",
+    "164712829308f72916",
     "16460870590ca4dadf"
   ]
 }
