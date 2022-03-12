@@ -43,24 +43,6 @@
         "shop_more_link": ""
       }
     },
-    "16460870590ca4dadf": {
-      "type": "product-slider",
-      "blocks": {
-        "1646087059fd80e408-0": {
-          "type": "product",
-          "settings": {
-            "collection_name": "",
-            "product_collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1646087059fd80e408-0"
-      ],
-      "settings": {
-        "product_slider_section_title": "Top selling products"
-      }
-    },
     "16460960843ca4a893": {
       "type": "product-grid",
       "blocks": {
@@ -95,22 +77,49 @@
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
+        },
+        "ff80300c-acd0-4242-a173-fef8e83ac30d": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Chat Now",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Chat_with_us_now.png",
+            "service_item_url": ""
+          }
         }
       },
       "block_order": [
         "16460960847f2189c8-0",
         "5be0a302-924d-440d-b659-686db47a7765",
         "507a16e1-29d9-4e28-b583-43833c841262",
-        "45a8b3c8-00d4-4eff-acaa-bdf30d107966"
+        "45a8b3c8-00d4-4eff-acaa-bdf30d107966",
+        "ff80300c-acd0-4242-a173-fef8e83ac30d"
       ],
       "settings": {
         "full_width": "box"
+      }
+    },
+    "16460870590ca4dadf": {
+      "type": "product-slider",
+      "blocks": {
+        "1646087059fd80e408-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "",
+            "product_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646087059fd80e408-0"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top selling products"
       }
     }
   },
   "order": [
     "main",
-    "16460870590ca4dadf",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "16460870590ca4dadf"
   ]
 }
