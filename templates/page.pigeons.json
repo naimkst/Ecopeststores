@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "main": {
+      "type": "single-idproblem",
+      "blocks": {
+        "dc3e6942-a125-4569-8c8f-8990802358d9": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "ecopest-bed-bug-spray-and-insect-killer"
+          }
+        },
+        "89ab4240-6d38-4848-958c-40e4faf62f7a": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "ecopest-insect-trap-and-monitor-36-x-cards-108-traps-a-non-poisonous-glue-trap-that-captures-and-monitors-insects"
+          }
+        },
+        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "dd-go-green-baited-insecticide"
+          }
+        }
+      },
+      "block_order": [
+        "dc3e6942-a125-4569-8c8f-8990802358d9",
+        "89ab4240-6d38-4848-958c-40e4faf62f7a",
+        "db92be56-5666-417f-8ae6-1a67f90bcb53"
+      ],
+      "settings": {
+        "id_your_single_title": "Bed Bugs",
+        "id_your_single_subtitle": "",
+        "long_description": "",
+        "id_your_single_page_title": "Bed Bug - How to treatments",
+        "page_long_description": "",
+        "side_bar_title": "Bed Bugs",
+        "side_bar_link": "",
+        "side_bar_fact_title": "Bed Bug Facts",
+        "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/><br\/><strong>Color:<\/strong><br\/><br\/><br\/><strong>Weight:<\/strong><br\/><br\/><br\/><strong>Length:<\/strong><br\/><br\/><br\/><strong>Tail Length:<\/strong><br\/><br\/><br\/><strong>Body:<\/strong><br\/><br\/><br\/><strong>Ears:<\/strong><br\/><br\/><br\/><strong>Eyes:<\/strong><br\/><br\/><br\/><strong>Lifespan:<\/strong><br\/><br\/><br\/><strong>Droppings:<\/strong><br\/><\/p>",
+        "shop_more_link": ""
+      }
+    },
+    "16460870590ca4dadf": {
+      "type": "product-slider",
+      "blocks": {
+        "1646087059fd80e408-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "",
+            "product_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646087059fd80e408-0"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top selling products"
+      }
+    },
+    "16460960843ca4a893": {
+      "type": "product-grid",
+      "blocks": {
+        "16460960847f2189c8-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional Onsite Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+          }
+        },
+        "5be0a302-924d-440d-b659-686db47a7765": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Virtual Online Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
+          }
+        },
+        "507a16e1-29d9-4e28-b583-43833c841262": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-pest-1"
+          }
+        },
+        "45a8b3c8-00d4-4eff-acaa-bdf30d107966": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-product"
+          }
+        }
+      },
+      "block_order": [
+        "16460960847f2189c8-0",
+        "5be0a302-924d-440d-b659-686db47a7765",
+        "507a16e1-29d9-4e28-b583-43833c841262",
+        "45a8b3c8-00d4-4eff-acaa-bdf30d107966"
+      ],
+      "settings": {
+        "full_width": "box"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16460870590ca4dadf",
+    "16460960843ca4a893"
+  ]
+}
