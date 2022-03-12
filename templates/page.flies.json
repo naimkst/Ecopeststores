@@ -43,6 +43,61 @@
         "shop_more_link": ""
       }
     },
+    "1647127609f029279b": {
+      "type": "product-grid",
+      "blocks": {
+        "164712760921f5a992-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+          }
+        },
+        "a970caf6-be07-40b5-a2f8-aa39edd9e50d": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Virtual Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
+          }
+        },
+        "0c1086c4-5f6b-414e-86c5-47243ed4643d": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": "shopify:\/\/pages\/single-shop-by-pest"
+          }
+        },
+        "c1bcd97f-dc7c-4cf2-a1ee-fe85c9f57ca6": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-product"
+          }
+        },
+        "a5243776-a857-4561-ae8b-1f573a6b8c34": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Chat Now",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Chat_with_us_now.png",
+            "service_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "164712760921f5a992-0",
+        "a970caf6-be07-40b5-a2f8-aa39edd9e50d",
+        "0c1086c4-5f6b-414e-86c5-47243ed4643d",
+        "c1bcd97f-dc7c-4cf2-a1ee-fe85c9f57ca6",
+        "a5243776-a857-4561-ae8b-1f573a6b8c34"
+      ],
+      "settings": {
+        "full_width": "full"
+      }
+    },
     "16460870590ca4dadf": {
       "type": "product-slider",
       "blocks": {
@@ -64,6 +119,7 @@
   },
   "order": [
     "main",
+    "1647127609f029279b",
     "16460870590ca4dadf"
   ]
 }
