@@ -43,6 +43,57 @@
         "shop_more_link": "cockroaches"
       }
     },
+    "1647127443be27010f": {
+      "type": "product-grid",
+      "blocks": {
+        "1647127443c445c47c-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+          }
+        },
+        "5886efb4-9073-466e-8514-71621475ef35": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "8662c8e1-e87b-405c-9199-6b902c53ddfb": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "2d389c99-c27a-4274-b042-d5b374d6f3f9": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        },
+        "5f2543d2-f3ac-464c-a045-9d67fee59c5a": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647127443c445c47c-0",
+        "5886efb4-9073-466e-8514-71621475ef35",
+        "8662c8e1-e87b-405c-9199-6b902c53ddfb",
+        "2d389c99-c27a-4274-b042-d5b374d6f3f9",
+        "5f2543d2-f3ac-464c-a045-9d67fee59c5a"
+      ],
+      "settings": {
+        "full_width": "box"
+      }
+    },
     "1646086818c4278de6": {
       "type": "product-slider",
       "blocks": {
@@ -64,6 +115,7 @@
   },
   "order": [
     "main",
+    "1647127443be27010f",
     "1646086818c4278de6"
   ]
 }
