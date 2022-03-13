@@ -97,29 +97,10 @@
       "settings": {
         "full_width": "box"
       }
-    },
-    "16357472098b8fa268": {
-      "type": "product-slider",
-      "blocks": {
-        "bb1a034a-ccf4-45ff-921e-45591f1d1030": {
-          "type": "product",
-          "settings": {
-            "collection_name": "Top Selling Bed Bug Produc",
-            "product_collection": "bed-bugs"
-          }
-        }
-      },
-      "block_order": [
-        "bb1a034a-ccf4-45ff-921e-45591f1d1030"
-      ],
-      "settings": {
-        "product_slider_section_title": ""
-      }
     }
   },
   "order": [
     "main",
-    "16460962818f38126f",
-    "16357472098b8fa268"
+    "16460962818f38126f"
   ]
 }
