@@ -9,10 +9,18 @@
             "single_id_grid_title": "Bed Bugs",
             "single_id_grid_image": "live-animal-trap-1085"
           }
+        },
+        "61bde56c-4858-4fda-904a-929320426932": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_image": "live-animal-cage-trap-1"
+          }
         }
       },
       "block_order": [
-        "dc3e6942-a125-4569-8c8f-8990802358d9"
+        "dc3e6942-a125-4569-8c8f-8990802358d9",
+        "61bde56c-4858-4fda-904a-929320426932"
       ],
       "settings": {
         "id_your_single_title": "Skunks",
