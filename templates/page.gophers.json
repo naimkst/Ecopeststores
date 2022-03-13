@@ -2,6 +2,18 @@
   "sections": {
     "main": {
       "type": "single-idproblem",
+      "blocks": {
+        "051e007f-9908-41d4-bb66-b7ba28d39745": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_image": "burrowing-rodent-stick-12pks-box"
+          }
+        }
+      },
+      "block_order": [
+        "051e007f-9908-41d4-bb66-b7ba28d39745"
+      ],
       "settings": {
         "id_your_single_title": "Gophers",
         "id_your_single_subtitle": "Gophers are destructive diggers that can damage property. They use their sharp teeth and claws to excavate underground tunnels and burrows. They prefer moist, porous soils with good drainage. Gophers face numerous threats from predators. They are eaten by animals that are able to follow them into burrows such as weasels and snakes.",
