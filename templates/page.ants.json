@@ -7,21 +7,21 @@
           "type": "button",
           "settings": {
             "single_id_grid_title": "Ants",
-            "single_id_grid_image": "ecopest-bed-bug-spray-and-insect-killer"
+            "single_id_grid_image": "optigard-ant-gel-bait"
           }
         },
         "f975bd32-b2c2-4a46-86a3-b77df2ea0492": {
           "type": "button",
           "settings": {
             "single_id_grid_title": "Ants",
-            "single_id_grid_image": "exterminator-dust"
+            "single_id_grid_image": "max-force-quantum"
           }
         },
         "a30bfe47-92df-4856-b15d-9ad37ad17cd0": {
           "type": "button",
           "settings": {
-            "single_id_grid_title": "Ants",
-            "single_id_grid_image": "greenway-ant-bait-gel"
+            "single_id_grid_title": "insect glue",
+            "single_id_grid_image": "ecopest-professional-sticky-best-mouse-insect-glue-boards-on-the-market-72mb-2"
           }
         }
       },
@@ -97,29 +97,10 @@
       "settings": {
         "full_width": "box"
       }
-    },
-    "16357472098b8fa268": {
-      "type": "product-slider",
-      "blocks": {
-        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb": {
-          "type": "product",
-          "settings": {
-            "collection_name": "Top Selling Ant Products",
-            "product_collection": "ant-products"
-          }
-        }
-      },
-      "block_order": [
-        "460dcb1d-fc86-4ee9-bea4-15f05431d9eb"
-      ],
-      "settings": {
-        "product_slider_section_title": ""
-      }
     }
   },
   "order": [
     "main",
-    "16461138072b3fe764",
-    "16357472098b8fa268"
+    "16461138072b3fe764"
   ]
 }
