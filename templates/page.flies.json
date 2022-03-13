@@ -97,29 +97,10 @@
       "settings": {
         "full_width": "box"
       }
-    },
-    "16460870590ca4dadf": {
-      "type": "product-slider",
-      "blocks": {
-        "1646087059fd80e408-0": {
-          "type": "product",
-          "settings": {
-            "collection_name": "",
-            "product_collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1646087059fd80e408-0"
-      ],
-      "settings": {
-        "product_slider_section_title": "Top selling products"
-      }
     }
   },
   "order": [
     "main",
-    "1647127609f029279b",
-    "16460870590ca4dadf"
+    "1647127609f029279b"
   ]
 }
