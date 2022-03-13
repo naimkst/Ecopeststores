@@ -7,28 +7,12 @@
           "type": "button",
           "settings": {
             "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "ecopest-bed-bug-spray-and-insect-killer"
-          }
-        },
-        "89ab4240-6d38-4848-958c-40e4faf62f7a": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "ecopest-insect-trap-and-monitor-36-x-cards-108-traps-a-non-poisonous-glue-trap-that-captures-and-monitors-insects"
-          }
-        },
-        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "dd-go-green-baited-insecticide"
+            "single_id_grid_image": "burrowing-rodent-stick-12pks-box"
           }
         }
       },
       "block_order": [
-        "dc3e6942-a125-4569-8c8f-8990802358d9",
-        "89ab4240-6d38-4848-958c-40e4faf62f7a",
-        "db92be56-5666-417f-8ae6-1a67f90bcb53"
+        "dc3e6942-a125-4569-8c8f-8990802358d9"
       ],
       "settings": {
         "id_your_single_title": "Moles",
