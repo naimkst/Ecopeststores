@@ -76,14 +76,14 @@
           "type": "product",
           "settings": {
             "collection_name": "Ants",
-            "product_collection": "ant-products"
+            "product_collection": "ants"
           }
         },
         "b547df73-077b-40cc-8b2f-edd94455a421": {
           "type": "product",
           "settings": {
             "collection_name": "Bed Bugs",
-            "product_collection": "bed-bugs-1"
+            "product_collection": "bed-bugs"
           }
         },
         "edf119ab-48ee-4ee3-b9d1-47cf262325bf": {
@@ -97,7 +97,7 @@
           "type": "product",
           "settings": {
             "collection_name": "Wasps, Bees & Hornets",
-            "product_collection": "wasps-bees-and-hornets"
+            "product_collection": "wasps-and-bees"
           }
         }
       },
