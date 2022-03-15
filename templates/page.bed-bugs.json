@@ -7,7 +7,14 @@
           "type": "button",
           "settings": {
             "single_id_grid_title": "Bed Bug Facts",
-            "single_id_grid_image": "temprid-insecticide"
+            "single_id_grid_image": "all-in-one-bed-bug-kit"
+          }
+        },
+        "c4e67fc2-4246-4707-b2a5-6ae8578fe23a": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "House Mouse Facts",
+            "single_id_grid_image": "ecopest-bed-bug-spray-and-insect-killer"
           }
         },
         "16dea0b5-d1fe-4d00-97bf-d1ec864afc75": {
@@ -16,19 +23,12 @@
             "single_id_grid_title": "Bed Bug Facts",
             "single_id_grid_image": "ecopest-best-mouse-insect-glue-boards-on-the-market-better-than-trapper-ltd-jt-eaton-victor-masterline"
           }
-        },
-        "c4e67fc2-4246-4707-b2a5-6ae8578fe23a": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "House Mouse Facts",
-            "single_id_grid_image": "drione-insecticide-dust"
-          }
         }
       },
       "block_order": [
         "0a325e78-fd6a-4912-b250-de8b424e938c",
-        "16dea0b5-d1fe-4d00-97bf-d1ec864afc75",
-        "c4e67fc2-4246-4707-b2a5-6ae8578fe23a"
+        "c4e67fc2-4246-4707-b2a5-6ae8578fe23a",
+        "16dea0b5-d1fe-4d00-97bf-d1ec864afc75"
       ],
       "settings": {
         "id_your_single_title": "Bed Bugs",
