@@ -97,10 +97,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "164736714079415b08": {
+      "type": "product-slider",
+      "blocks": {
+        "16473671400bcf9341-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Ant Products",
+            "product_collection": "ants"
+          }
+        }
+      },
+      "block_order": [
+        "16473671400bcf9341-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16461138072b3fe764"
+    "16461138072b3fe764",
+    "164736714079415b08"
   ]
 }
