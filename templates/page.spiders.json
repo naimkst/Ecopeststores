@@ -3,6 +3,13 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
+        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "all-in-one-ant-bundle"
+          }
+        },
         "dc3e6942-a125-4569-8c8f-8990802358d9": {
           "type": "button",
           "settings": {
@@ -16,19 +23,12 @@
             "single_id_grid_title": "Bed Bugs",
             "single_id_grid_image": "ecopest-insect-trap-and-monitor-36-x-cards-108-traps-a-non-poisonous-glue-trap-that-captures-and-monitors-insects"
           }
-        },
-        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "dragnet-ft"
-          }
         }
       },
       "block_order": [
+        "db92be56-5666-417f-8ae6-1a67f90bcb53",
         "dc3e6942-a125-4569-8c8f-8990802358d9",
-        "89ab4240-6d38-4848-958c-40e4faf62f7a",
-        "db92be56-5666-417f-8ae6-1a67f90bcb53"
+        "89ab4240-6d38-4848-958c-40e4faf62f7a"
       ],
       "settings": {
         "id_your_single_title": "Spiders",
