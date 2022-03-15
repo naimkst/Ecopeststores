@@ -3,32 +3,32 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
-        "dc3e6942-a125-4569-8c8f-8990802358d9": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "ecopest-professional-sticky-best-mouse-insect-glue-boards-on-the-market-72mb-2"
-          }
-        },
         "89ab4240-6d38-4848-958c-40e4faf62f7a": {
           "type": "button",
           "settings": {
             "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "max-force-impact-roach-bait"
+            "single_id_grid_image": "all-in-one-ant-bundle"
           }
         },
         "db92be56-5666-417f-8ae6-1a67f90bcb53": {
           "type": "button",
           "settings": {
             "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "nisus-professional-roach-bait"
+            "single_id_grid_image": "ecopest-bed-bug-spray-and-insect-killer"
+          }
+        },
+        "dc3e6942-a125-4569-8c8f-8990802358d9": {
+          "type": "button",
+          "settings": {
+            "single_id_grid_title": "Bed Bugs",
+            "single_id_grid_image": "ecopest-professional-sticky-best-mouse-insect-glue-boards-on-the-market-72mb-2"
           }
         }
       },
       "block_order": [
-        "dc3e6942-a125-4569-8c8f-8990802358d9",
         "89ab4240-6d38-4848-958c-40e4faf62f7a",
-        "db92be56-5666-417f-8ae6-1a67f90bcb53"
+        "db92be56-5666-417f-8ae6-1a67f90bcb53",
+        "dc3e6942-a125-4569-8c8f-8990802358d9"
       ],
       "settings": {
         "id_your_single_title": "Cockroaches",
