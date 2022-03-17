@@ -56,10 +56,17 @@
       ],
       "settings": {
       }
+    },
+    "1647514034abba5da3": {
+      "type": "blog-grid",
+      "settings": {
+        "blog_limit": "8"
+      }
     }
   },
   "order": [
     "1643351668db14fb60",
-    "164751401656dab7e4"
+    "164751401656dab7e4",
+    "1647514034abba5da3"
   ]
 }
