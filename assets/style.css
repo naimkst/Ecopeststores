@@ -1842,3 +1842,39 @@ button#dropdownMenuButton a {
 .ReactModal__Overlay.ReactModal__Overlay--after-open a.shop-now-btn {
     color: #fff;
 }
+
+/* Ask An Expert */
+.pest-experts-blog-section{
+    padding-top: 100px;
+}
+.pest-experts-blog-feature {
+    border: 1px solid #e7e4e4;
+    padding: 10px;
+}
+.pext-experts-blog-m-t{
+    margin-top: 5%;
+}
+.pest-experts-blog {
+    position: relative;
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #00000078;
+    color: white;
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .pest-experts-blog-feature{
+        margin-bottom: 30px;
+    }
+}
