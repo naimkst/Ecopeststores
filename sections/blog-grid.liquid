@@ -11,6 +11,9 @@
           height: 330px;
           object-fit: cover;
         }
+        .top-zero{
+          margin-top: 0px;
+        }
 
 
     </style>
@@ -18,7 +21,7 @@
     <div class="pest-experts-blog-section blog-grid-section">
       <div class="container">
         
-          <div class="row pext-experts-blog-m-t">
+          <div class="row pext-experts-blog-m-t top-zero">
 
             {% assign limit = section.settings.blog_limit %}
             {% for article in blogs.news.articles limit:limit %}
