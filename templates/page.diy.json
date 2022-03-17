@@ -1,12 +1,8 @@
 {
   "sections": {
-    "main": {
-      "type": "slider",
-      "settings": {
-      }
-    },
     "1643351668db14fb60": {
       "type": "professional-service",
+      "disabled": true,
       "blocks": {
         "16433516680dee2eea-0": {
           "type": "first-section",
@@ -27,10 +23,43 @@
         "form_title": "Book a Professional Onsite Service!",
         "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
       }
+    },
+    "164751401656dab7e4": {
+      "type": "ask-expert-grid",
+      "blocks": {
+        "1647514016d6d34ec0-0": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+            "diy_item_url": ""
+          }
+        },
+        "81123d8f-9fe5-45ee-85f0-24de618fea10": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+            "diy_item_url": ""
+          }
+        },
+        "71f4b9a7-d20a-46cb-adf1-b0ec0c50881a": {
+          "type": "slideshow",
+          "settings": {
+            "diy_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+            "diy_item_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647514016d6d34ec0-0",
+        "81123d8f-9fe5-45ee-85f0-24de618fea10",
+        "71f4b9a7-d20a-46cb-adf1-b0ec0c50881a"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
-    "1643351668db14fb60"
+    "1643351668db14fb60",
+    "164751401656dab7e4"
   ]
 }
