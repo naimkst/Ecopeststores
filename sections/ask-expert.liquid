@@ -39,6 +39,9 @@
       font-size: 19px;
       font-weight: 600;
   }
+  .pest-experts-content p {
+      line-height: 1.5;
+  }
 
   /* Mobile Layout: 320px. */
   @media only screen and (max-width: 767px) { 
@@ -63,7 +66,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="pest-experts-title">
-                    <h1>It is a long established fact that a reader will be distracted by the readable content of a page when looking</h1>
+                    <h1>{{ section.settings.ask_an_expert_title }}</h1>
                 </div>
             </div>
         </div> <!--End Row-->
@@ -75,23 +78,23 @@
             </div> <!--End-Col-6-->
             <div class="col-md-6">
                 <div class="pest-experts-img">
-                    <img src="https://i.postimg.cc/Pq9wK9Jm/Ask-an-expert-single.png" class="img-fluid" alt="">
+                    <img src="{{ section.settings.ask_an_expert_image | img_url: '' }}" class="img-fluid" alt="">
                 </div>
                 <div class="pest-experts-content">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+                    <p>{{ section.settings.ask_an_expert_description }}</p>
                 </div>
 
                 <div class="row">
                     <div class="col-md-5">
                         <div class="pest-experts-chat-img">
-                            <img src="https://i.postimg.cc/26FBmwrJ/Asset-3-4x-8.png" class="img-fluid" alt="">
+                            <a href="{{ section.settings.ask_an_expert_url }}"><img src="https://i.postimg.cc/26FBmwrJ/Asset-3-4x-8.png" class="img-fluid" alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-7">
                         <div class="pest-experts-contact-number">
                             <ul>
-                                <li> <img src="https://i.postimg.cc/nr3TkmSs/Asset-2-4x-8.png" alt=""> <a href="tel:1-866-269-2847">1-866-269-2847</a></li>
-                                <li> <img src="https://i.postimg.cc/fTpXc5T4/Asset-3-4x-8.png" alt=""> <a href="mailto:service@ecopeststore.ca">service@ecopeststore.ca</a></li>
+                                <li> <img src="https://i.postimg.cc/nr3TkmSs/Asset-2-4x-8.png" alt=""> <a href="tel:{{ section.settings.ask_an_expert_phone }}">{{ section.settings.ask_an_expert_phone }}</a></li>
+                                <li> <img src="https://i.postimg.cc/fTpXc5T4/Asset-3-4x-8.png" alt=""> <a href="mailto:{{ section.settings.ask_an_expert_email }}">{{ section.settings.ask_an_expert_email }}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -107,40 +110,44 @@
 {
     "name": "Ask An Expert",
     "settings":[
-    ],
-    "blocks": [
         {
-            "name": "Ask An Expert",
-            "type": "slideshow",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "diy_item_title",
-                    "label": "diy Item Title",
-                    "default": "Shop By Pest"
-                },
-                {
-                    "type": "image_picker",
-                    "id": "diy_item_image",
-                    "label": "diy Item Image"
-                },
-                {
-                    "type": "url",
-                    "id": "diy_item_url",
-                    "label": "diy Link"
-                }
-
-            ]
+            "type": "text",
+            "id": "ask_an_expert_title",
+            "label": "Ask And Expert Title",
+            "default": "It is a long established fact that a reader will be distracted by the readable content of a page when looking"
+        },
+        {
+            "type": "image_picker",
+            "id": "ask_an_expert_image",
+            "label": "Ask Expert Image"
+        },
+        {
+            "type": "text",
+            "id": "ask_an_expert_description",
+            "label": "Ask And Expert Description",
+            "default": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,"
+        },
+        {
+            "type": "url",
+            "id": "ask_an_expert_url",
+            "label": "Ask Expert URL"
+        },
+        {
+            "type": "text",
+            "id": "ask_an_expert_phone",
+            "label": "Ask And Expert Phone",
+            "default": "1-866-269-2847"
+        },
+        {
+            "type": "text",
+            "id": "ask_an_expert_email",
+            "label": "Ask And Expert Email",
+            "default": "service@ecopeststore.ca"
         }
     ],
     "presets": [
       {
-        "name": "Ask An Expert",
-        "blocks": [
-          {
-            "type": "slideshow"
-          }
-        ]
+        "name": "Ask An Expert"
       }
     ]
 }
