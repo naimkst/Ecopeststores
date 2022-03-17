@@ -1,0 +1,147 @@
+<style>
+  .pest-experts-title h1{
+      padding: 100px 0;
+  }
+  .pest-experts-title{
+      text-align: center;
+  }
+  .pest-experts-form{
+      width: 100%;
+      height: 500px;
+      background-color: gray;
+  }
+  .pest-experts-img{
+      text-align: center;
+  }
+  .pest-experts-img img{
+      width: 70%;
+  }
+  .pest-experts-content{
+      margin-bottom: 5%;
+  }
+  .pest-experts-contact-number{
+      padding-top: 8%;
+  }
+  .pest-experts-contact-number ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  .pest-experts-contact-number ul li img{
+      width: 35px;
+      height: 35px;
+  }
+  .pest-experts-contact-number ul li{
+      margin-bottom: 5px;
+  }
+  .pest-experts-contact-number ul li a {
+      color: black;
+      font-size: 19px;
+      font-weight: 600;
+  }
+
+  /* Mobile Layout: 320px. */
+  @media only screen and (max-width: 767px) { 
+      .pest-experts-chat-img img{
+          width: 30%;
+      }
+      .pest-experts-contact-number {
+          padding-top: 0%;
+      }
+      .pest-experts-img{
+          margin-top: 5%;
+      }
+      .pest-experts-title h1{
+          padding: 50px 0;
+      }
+  }
+</style>  
+  
+  <!--Start Main Body Code-->
+   <div class="pest-experts-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pest-experts-title">
+                    <h1>It is a long established fact that a reader will be distracted by the readable content of a page when looking</h1>
+                </div>
+            </div>
+        </div> <!--End Row-->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pest-experts-form">
+
+                </div>
+            </div> <!--End-Col-6-->
+            <div class="col-md-6">
+                <div class="pest-experts-img">
+                    <img src="https://i.postimg.cc/Pq9wK9Jm/Ask-an-expert-single.png" class="img-fluid" alt="">
+                </div>
+                <div class="pest-experts-content">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="pest-experts-chat-img">
+                            <img src="https://i.postimg.cc/26FBmwrJ/Asset-3-4x-8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="pest-experts-contact-number">
+                            <ul>
+                                <li> <img src="https://i.postimg.cc/nr3TkmSs/Asset-2-4x-8.png" alt=""> <a href="tel:1-866-269-2847">1-866-269-2847</a></li>
+                                <li> <img src="https://i.postimg.cc/fTpXc5T4/Asset-3-4x-8.png" alt=""> <a href="mailto:service@ecopeststore.ca">service@ecopeststore.ca</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!--End Row-->
+
+            </div> <!--End-Col-6-->
+        </div> <!--End Row -->
+    </div>
+</div>
+<!--End Main Body Code-->
+
+{% schema %}
+{
+    "name": "Ask An Expert",
+    "settings":[
+    ],
+    "blocks": [
+        {
+            "name": "Ask An Expert",
+            "type": "slideshow",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "diy_item_title",
+                    "label": "diy Item Title",
+                    "default": "Shop By Pest"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "diy_item_image",
+                    "label": "diy Item Image"
+                },
+                {
+                    "type": "url",
+                    "id": "diy_item_url",
+                    "label": "diy Link"
+                }
+
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Ask An Expert",
+        "blocks": [
+          {
+            "type": "slideshow"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}
