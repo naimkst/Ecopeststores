@@ -28,8 +28,8 @@
       "type": "ask-expert",
       "settings": {
         "ask_an_expert_title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking",
-        "ask_an_expert_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
-        "ask_an_expert_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+        "ask_an_expert_imagess": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+        "ask_an_expert_description": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,<\/p>",
         "ask_an_expert_url": "",
         "ask_an_expert_phone": "1-866-269-2847",
         "ask_an_expert_email": "service@ecopeststore.ca"
