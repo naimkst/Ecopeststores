@@ -41,29 +41,33 @@
         "16475037674be66117-0": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Shop By Pest",
-            "service_item_url": ""
+            "service_item_title": "Book a Professional Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
           }
         },
         "27ed2f73-45b1-45c5-bd44-863b4f16f8ad": {
           "type": "slideshow",
           "settings": {
-            "service_item_title": "Shop By Pest",
-            "service_item_url": ""
+            "service_item_title": "Book a Virtual Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
           }
         },
         "7ec8d9bd-0fc0-433e-9f5d-420e5a7b8211": {
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
-            "service_item_url": ""
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-pest-1"
           }
         },
         "a1b44026-cf17-4d0c-94e3-483e1973bc7f": {
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
-            "service_item_url": ""
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
         }
       },
