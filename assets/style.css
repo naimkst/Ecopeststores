@@ -1878,3 +1878,6 @@ button#dropdownMenuButton a {
         margin-bottom: 30px;
     }
 }
+.col.gird-main-item-service, .pest-experts-blog-feature, .pest-experts-blog img {
+    box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
+}

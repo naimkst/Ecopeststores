@@ -1,0 +1,60 @@
+    <style>
+      .blog-grid-section{
+        padding-top: 20px;
+      }
+      .pest-experts-blog p {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .blog-img-size{
+          max-width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+
+
+    </style>
+    <!--Start Main Body Code -->
+    <div class="pest-experts-blog-section blog-grid-section">
+      <div class="container">
+        
+          <div class="row pext-experts-blog-m-t">
+
+            {% assign limit = section.settings.blog_limit %}
+            {% for article in blogs.news.articles limit:limit %}
+              <div class="col-md-3">
+                  <div class="pest-experts-blog">
+                    <a href="{{ article.url }}">
+                      <img src="{{ article | img_url: '' }}" alt="Nature" style="width:100%;" class="img-fluid blog-img-size">
+                      <div class="text-block">
+                        <p>{{ article.title }}</p>
+                      </div>
+                    </a>
+                     
+                  </div>
+              </div> <!--End Col-3-->
+              {% endfor %}
+
+          </div>
+      </div>
+  </div>
+  <!--End Main Body Code-->
+
+  {% schema %}
+  {
+      "name": "Blog Grid",
+      "settings":[
+        {
+          "type": "text",
+          "id": "blog_limit",
+          "label": "Blog Limit",
+          "default": "8"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Blog Grid"
+        }
+      ]
+  }
+  {% endschema %}
