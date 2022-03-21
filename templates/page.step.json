@@ -115,8 +115,8 @@
             "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
             "Step_item_url": "shopify:\/\/pages\/book-a-virtual-online-service",
             "step_item_button_text": "Book an Online Virtual Service",
-            "Step_ask_and_url": "#",
-            "step_ask_button_text": ""
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "step_ask_button_text": "Contact Us"
           }
         }
       },
