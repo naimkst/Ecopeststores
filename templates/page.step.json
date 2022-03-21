@@ -1,12 +1,8 @@
 {
   "sections": {
-    "main": {
-      "type": "slider",
-      "settings": {
-      }
-    },
     "1643351668db14fb60": {
       "type": "professional-service",
+      "disabled": true,
       "blocks": {
         "16433516680dee2eea-0": {
           "type": "first-section",
@@ -27,10 +23,49 @@
         "form_title": "Book a Professional Onsite Service!",
         "form_description": "Please complete the form below and our pest expert team will contact you as soon as possible!"
       }
+    },
+    "1647837325da25d386": {
+      "type": "easy-step",
+      "blocks": {
+        "16478373254d809881-0": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest"
+          }
+        },
+        "326193fc-8bce-4cdd-91fe-eae794486a1d": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest"
+          }
+        },
+        "ff107305-ba66-48bb-b0ed-6e1259f661e4": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest"
+          }
+        },
+        "cfdb2635-bed3-4823-ac5a-c02b95096ca0": {
+          "type": "text",
+          "settings": {
+            "step_progress_title": "Id Your Pest"
+          }
+        }
+      },
+      "block_order": [
+        "16478373254d809881-0",
+        "326193fc-8bce-4cdd-91fe-eae794486a1d",
+        "ff107305-ba66-48bb-b0ed-6e1259f661e4",
+        "cfdb2635-bed3-4823-ac5a-c02b95096ca0"
+      ],
+      "settings": {
+        "step_title": "Clean your Home from Rodent Pest",
+        "step_subtitle": "In 4 Easy Steps"
+      }
     }
   },
   "order": [
-    "main",
-    "1643351668db14fb60"
+    "1643351668db14fb60",
+    "1647837325da25d386"
   ]
 }
