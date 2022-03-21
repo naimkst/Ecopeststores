@@ -90,11 +90,24 @@
             "Step_ask_and_url": "",
             "step_ask_button_text": "Ank And Expert"
           }
+        },
+        "68790282-ea9a-4c82-887a-f60972dc7a6c": {
+          "type": "slideshow",
+          "settings": {
+            "Step_item_title": "Step By Pest",
+            "Step_item_description": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when looking<\/p>",
+            "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "Step_item_url": "",
+            "step_item_button_text": "Learning Center",
+            "Step_ask_and_url": "#",
+            "step_ask_button_text": "Ank And Expert"
+          }
         }
       },
       "block_order": [
         "1647839658d234691d-0",
-        "1b6b732f-0538-41ab-a0a5-5cfe81f58dfa"
+        "1b6b732f-0538-41ab-a0a5-5cfe81f58dfa",
+        "68790282-ea9a-4c82-887a-f60972dc7a6c"
       ],
       "settings": {
       }
