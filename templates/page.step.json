@@ -85,10 +85,10 @@
             "Step_item_title": "Shop By Product",
             "Step_item_description": "<p>Already know what product you are looking for? You can click the Shop by Product button to see a listing of products we have for your pest. NOT sure what product you need?? Don't worry, just click the Ask an Expert button and one of our Pest Experts will help you find the right product!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
-            "Step_item_url": "#",
+            "Step_item_url": "shopify:\/\/pages\/diy",
             "step_item_button_text": "Learning Center",
-            "Step_ask_and_url": "#",
-            "step_ask_button_text": "Ank And Expert"
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "step_ask_button_text": "Ask an Expert"
           }
         },
         "43ee13c7-b6f2-4dbb-8849-d8918e42dfd5": {
