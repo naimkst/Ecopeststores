@@ -60,12 +60,36 @@
       ],
       "settings": {
         "step_title": "Clean your Home from Rodent Pest",
-        "step_subtitle": "In 4 Easy Steps"
+        "step_subtitle": "In 4 Easy Steps",
+        "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
+      }
+    },
+    "1647839658e706e879": {
+      "type": "step-grid",
+      "blocks": {
+        "1647839658d234691d-0": {
+          "type": "slideshow",
+          "settings": {
+            "Step_item_title": "Step By Pest",
+            "Step_item_description": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when looking<\/p>",
+            "Step_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+            "Step_item_url": "#",
+            "step_item_button_text": "Learning Center",
+            "Step_ask_and_url": "#",
+            "step_ask_button_text": "Ank And Expert"
+          }
+        }
+      },
+      "block_order": [
+        "1647839658d234691d-0"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
     "1643351668db14fb60",
-    "1647837325da25d386"
+    "1647837325da25d386",
+    "1647839658e706e879"
   ]
 }
