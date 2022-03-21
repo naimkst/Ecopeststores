@@ -74,13 +74,13 @@
         "1b6b732f-0538-41ab-a0a5-5cfe81f58dfa": {
           "type": "slideshow",
           "settings": {
-            "Step_item_title": "Step By Pest",
-            "Step_item_description": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when looking<\/p>",
+            "Step_item_title": "Shop By Pest",
+            "Step_item_description": "<p>No sure what pest you have? No problem we are here to help! Just click the ASK AN EXPERT button below and you can send our Pest Experts an image(s) of your pest and they will recommend the right products for you!<\/p><p>Already know what type of pest you have? that's great, you can simply click the SHOP BY PEST button to find the right products you'll need for the pest you have!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/slide3.png",
-            "Step_item_url": "#",
+            "Step_item_url": "shopify:\/\/pages\/shop-by-pest-1",
             "step_item_button_text": "Shop By Pest",
-            "Step_ask_and_url": "",
-            "step_ask_button_text": "Ask And Expert"
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "step_ask_button_text": "Ask an Expert"
           }
         },
         "1647839658d234691d-0": {
