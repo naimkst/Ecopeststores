@@ -110,13 +110,13 @@
         "68790282-ea9a-4c82-887a-f60972dc7a6c": {
           "type": "slideshow",
           "settings": {
-            "Step_item_title": "Step By Pest",
-            "Step_item_description": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when lookingIt is a long established fact that a reader will be distracted by the readable content of a page when looking<\/p>",
+            "Step_item_title": "Book an Online Virtual Service",
+            "Step_item_description": "<p>Need more help and want some 1-on-1 service, no problem we are here to help! You can Book an Online Virtual Service with one of our Pest Experts who will connect with you in real-time over a video call. You can show them the pest problems you have and they can recommend the right products and help you in using them the most effective way! Book an Online Virtual Service today!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
-            "Step_item_url": "",
-            "step_item_button_text": "Learning Center",
+            "Step_item_url": "shopify:\/\/pages\/book-a-virtual-online-service",
+            "step_item_button_text": "Book an Online Virtual Service",
             "Step_ask_and_url": "#",
-            "step_ask_button_text": "Ank And Expert"
+            "step_ask_button_text": ""
           }
         }
       },
