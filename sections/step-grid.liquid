@@ -34,6 +34,10 @@
     margin: 14px 0;
     line-height: 1.5;
 }
+.pest-experts-multilist-section {
+  max-width: 70%;
+    margin: 0 auto;
+}
 
   /* Mobile Layout: 320px. */
   @media only screen and (max-width: 767px) { 
@@ -44,6 +48,10 @@
       .pest-experts-multilist-img img {
           width: 50%;
       }
+      .pest-experts-multilist-section {
+          max-width: 100%;
+            margin: 0 auto;
+        }
   }
   /* Start Pest Experts Multilist End*/
 </style>
@@ -54,12 +62,12 @@
 
         {% for block in section.blocks %}
           <div class="row pest-experts-multilist-section-m-p">
-              <div class="col-md-2">
+              <div class="col-md-3">
                   <div class="pest-experts-multilist-img">
                       <img src="{{ block.settings.Step_item_image | img_url: '' }}" class="img-fluid" alt="">
                   </div>
               </div>
-              <div class="col-md-10">
+              <div class="col-md-9">
                   <div class="pest-experts-multilist-content">
                       {% if block.settings.Step_item_title %}
                         <h4>{{ block.settings.Step_item_title }}</h4>
