@@ -39,8 +39,8 @@
           "right_menu_image": "shopify:\/\/shop_images\/more-btn-angle_d5111d84-f900-4faf-a0a1-610e9b5c536c.png",
           "header_video": "https:\/\/www.youtube.com\/watch?v=jssO8-5qmag&ab_channel=HighResolutionDatabase",
           "know_more_title": "Know More",
-          "know_more_slug": "Learn & Support",
-          "know_more_link": "",
+          "know_more_slug": "<center><strong>FAQ<\/strong><\/center>",
+          "know_more_link": "shopify:\/\/pages\/faqs",
           "main_menu": "main-menu",
           "know_more_menu": "",
           "top_header_hide_show": true
