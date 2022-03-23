@@ -74,7 +74,7 @@
         "1b6b732f-0538-41ab-a0a5-5cfe81f58dfa": {
           "type": "slideshow",
           "settings": {
-            "Step_item_title": "Shop By Pest",
+            "Step_item_title": "Step 1 - ID your Pest",
             "Step_item_description": "<p>No sure what pest you have? No problem we are here to help! Just click the ASK AN EXPERT button below and you can send our Pest Experts an image(s) of your pest and they will recommend the right products for you!<\/p><p>Already know what type of pest you have? that's great, you can simply click the SHOP BY PEST button to find the right products you'll need for the pest you have!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
             "Step_item_url": "shopify:\/\/pages\/shop-by-pest-1",
@@ -86,7 +86,7 @@
         "da770679-237d-4811-9280-f84310565109": {
           "type": "slideshow",
           "settings": {
-            "Step_item_title": "Shop By Product",
+            "Step_item_title": "Step 2- Find the right Product",
             "Step_item_description": "<p>Not sure what product you need for the pest you have? No problem.... just click the ASK AN EXPERT button below and you can send a message to one of our Pest Experts who can recommend the right product(s) for you.<\/p><p>Looking for a particular product for the pest you have? Simply click on the SHOP BY PRODUCT button to see the products we have for your pest problem!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
             "Step_item_url": "shopify:\/\/pages\/shop-by-product",
@@ -98,7 +98,7 @@
         "1647839658d234691d-0": {
           "type": "slideshow",
           "settings": {
-            "Step_item_title": "Learning Center",
+            "Step_item_title": "Step 3 - Learning Center",
             "Step_item_description": "<p>Want to learn more about the pest you have, or how the experts treat their pest problems? Visit our learning center to learn about tips and tricks on how best to manage your pest problems around your home and business! If you have any particular questions you can ask one of our Pest Experts today!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
             "Step_item_url": "shopify:\/\/pages\/diy",
@@ -110,7 +110,7 @@
         "68790282-ea9a-4c82-887a-f60972dc7a6c": {
           "type": "slideshow",
           "settings": {
-            "Step_item_title": "Book an Online Virtual Service",
+            "Step_item_title": "Step 4 - Book an Online Virtual Service",
             "Step_item_description": "<p>Need more help and want some 1-on-1 service, no problem we are here to help! You can Book an Online Virtual Service with one of our Pest Experts who will connect with you in real-time over a video call. You can show them the pest problems you have and they can recommend the right products and help you in using them the most effective way! Book an Online Virtual Service today!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
             "Step_item_url": "shopify:\/\/pages\/book-a-virtual-online-service",
