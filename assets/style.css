@@ -1687,7 +1687,7 @@ h3.spr-review-header-title {
     display: table-cell;
     vertical-align: middle;
     min-height: auto;
-    height: 170px;
+    height: auto;
 }
 
 .custom-header-content {
@@ -1880,4 +1880,203 @@ button#dropdownMenuButton a {
 }
 .col.gird-main-item-service, .pest-experts-blog-feature, .pest-experts-blog img {
     box-shadow: hsl(221deg 87% 43%) 0px 4px 12px !important;
+}
+
+
+/* By MD | Mobile Code */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    /* /pages/ants */
+    .custom-id-your-problem .header-copy {
+        height: auto;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .grid-single-shop-pest-layout h2 a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .left-sidebar-id .mouse-fact {
+        padding: 8px;
+    }
+
+    .spacification p {
+        font-size: 14px;
+    }
+
+    .content-image-with-title .image-grid {
+        margin-top: 15px;
+    }
+
+    .cta h2 {
+        text-align: center;
+    }
+
+    .cta p {
+        text-align: center;
+    }
+
+    /* /pages/faqs */
+    .headerimg {
+        height: 170px;
+    }
+    .headerimg::before {
+        height: 170px;
+    }
+   
+    /* /pages/step-page */
+    .blog-img-size {
+        height: 170px;
+    }
+
+    .diy-img-size {
+        height: 185px;
+    }
+
+    /* /pages/ask-an-expert */
+    .pest-experts-contact-number ul li a {
+        font-size: 11px !important;
+    }
+    .pest-experts-title h1 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    /* /pages/gophers */
+    .image-grid .grid-single-shop-pest-layout img {
+        height: 163px;
+    }
+    
+    .diy-section .vartual-image_size img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .diy-section .img-fluid.vartual-prd-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .diy-section .pro-contact-box .fa-phone {
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .diy-section .pro-contact-box .fa-envelope{
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .diy-section .pro-contact-box .fa-map-marker{
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .diy-section .pro-contact-box ul li a {
+        font-size: 14px;
+    }
+
+    .diy-section .pro-contact-box ul li {
+        text-align: center;
+    }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+     /* /pages/ants */
+    .image-grid .grid-single-shop-pest-layout {
+        margin-bottom: 25px;
+    }
+
+    .right-content-id .shop-more-div {
+        margin-top: 25px;
+    }
+
+    .cta h2 {
+        text-align: center;
+    }
+
+    .cta p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .left-sidebar-id .mouse-fact {
+        padding: 4px 15px;
+    }
+
+    .left-sidebar-id .spacification p {
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 18px;
+    }
+
+    /* /pages/faqs */
+    .headerimg {
+        height: 170px;
+    }
+    .headerimg::before {
+        height: 170px;
+    }
+    h3.card-header {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    /* /pages/step-page */
+    .pest-experts-multilist-section {
+        padding: 15px 0;
+    }
+
+    .service-item {
+        padding: 0px 0px;
+    }
+
+    /* /pages/diy */
+    .pest-experts-blog-section {
+        padding-top: 20px;
+    }
+
+    /* /pages/ask-an-expert */
+    .pest-experts-title h1 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    /* /pages/cockroaches */
+    .content-image-with-title {
+        text-align: center;
+    }
+
+    /* /pages/bed-bugs */
+    .custom-id-your-problem .header-copy h1 {
+        font-size: 25px;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
 }
