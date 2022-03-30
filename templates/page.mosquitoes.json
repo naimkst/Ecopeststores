@@ -74,7 +74,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
         },
@@ -97,10 +97,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "16460870590ca4dadf": {
+      "type": "product-slider",
+      "blocks": {
+        "1646087059fd80e408-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Mosquitoes Products",
+            "product_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646087059fd80e408-0"
+      ],
+      "settings": {
+        "product_slider_section_title": "Mosquitoes Products"
+      }
     }
   },
   "order": [
     "main",
-    "1647127730ec159d6a"
+    "1647127730ec159d6a",
+    "16460870590ca4dadf"
   ]
 }
