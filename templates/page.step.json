@@ -30,22 +30,19 @@
         "16478373254d809881-0": {
           "type": "text",
           "settings": {
-            "step_progress_title": "Id Your Pest",
-            "step_progress_image": "shopify:\/\/shop_images\/step1_1.png"
+            "step_progress_title": "Id Your Pest"
           }
         },
         "326193fc-8bce-4cdd-91fe-eae794486a1d": {
           "type": "text",
           "settings": {
-            "step_progress_title": "Find the right Product",
-            "step_progress_image": "shopify:\/\/shop_images\/step2.png"
+            "step_progress_title": "Find the right Product"
           }
         },
         "ff107305-ba66-48bb-b0ed-6e1259f661e4": {
           "type": "text",
           "settings": {
-            "step_progress_title": "Learning Center",
-            "step_progress_image": "shopify:\/\/shop_images\/step3.png"
+            "step_progress_title": "Learning Center"
           }
         },
         "cfdb2635-bed3-4823-ac5a-c02b95096ca0": {
@@ -63,7 +60,7 @@
         "cfdb2635-bed3-4823-ac5a-c02b95096ca0"
       ],
       "settings": {
-        "step_title": "Clean your Home from Rodent Pest",
+        "step_title": "Clean your Home from Pests",
         "step_subtitle": "In 4 Easy Steps",
         "step_bg_image": "shopify:\/\/shop_images\/steps-bg.jpg"
       }
@@ -88,7 +85,6 @@
           "settings": {
             "Step_item_title": "Step 2- Find the right Product",
             "Step_item_description": "<p>Not sure what product you need for the pest you have? No problem.... just click the ASK AN EXPERT button below and you can send a message to one of our Pest Experts who can recommend the right product(s) for you.<\/p><p>Looking for a particular product for the pest you have? Simply click on the SHOP BY PRODUCT button to see the products we have for your pest problem!<\/p>",
-            "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
             "Step_item_url": "shopify:\/\/pages\/shop-by-product",
             "step_item_button_text": "Shop By Product",
             "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
@@ -100,7 +96,6 @@
           "settings": {
             "Step_item_title": "Step 3 - Learning Center",
             "Step_item_description": "<p>Want to learn more about the pest you have, or how the experts treat their pest problems? Visit our learning center to learn about tips and tricks on how best to manage your pest problems around your home and business! If you have any particular questions you can ask one of our Pest Experts today!<\/p>",
-            "Step_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
             "Step_item_url": "shopify:\/\/pages\/diy",
             "step_item_button_text": "Learning Center",
             "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
