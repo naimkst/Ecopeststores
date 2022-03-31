@@ -40,7 +40,7 @@
         "side_bar_link": "",
         "side_bar_fact_title": "Bed Bug Facts",
         "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p><br\/><br\/><strong>Color:<\/strong><br\/><br\/><br\/><strong>Weight:<\/strong><br\/><br\/><br\/><strong>Length:<\/strong><br\/><br\/><br\/><strong>Tail Length:<\/strong><br\/><br\/><br\/><strong>Body:<\/strong><br\/><br\/><br\/><strong>Ears:<\/strong><br\/><br\/><br\/><strong>Eyes:<\/strong><br\/><br\/><br\/><strong>Lifespan:<\/strong><br\/><br\/><br\/><strong>Droppings:<\/strong><br\/><\/p>",
-        "shop_more_link": ""
+        "shop_more_link": "#shopify-section-template--14200176214147__16487050161f033c91"
       }
     },
     "16460870590ca4dadf": {
@@ -92,7 +92,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
         }
