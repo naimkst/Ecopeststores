@@ -28,7 +28,7 @@
         "c89105b6-50c8-4087-b54b-d5adbe839222": {
           "type": "third-section",
           "settings": {
-            "shop_by_pest_title": "Bug & Insects",
+            "shop_by_pest_title": "Rodents",
             "shop_by_pest_collection": "",
             "shop_by_pest_menu3": "rodents"
           }
@@ -36,7 +36,7 @@
         "0ab33c05-f22a-41fd-80a1-cd9b7c39cac3": {
           "type": "four-section",
           "settings": {
-            "shop_by_pest_title": "Bug & Insects",
+            "shop_by_pest_title": "Lawn & Garden",
             "shop_by_pest_collection": "",
             "shop_by_pest_menu4": "lawn-garden"
           }
