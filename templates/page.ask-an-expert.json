@@ -28,7 +28,7 @@
       "type": "ask-expert",
       "settings": {
         "ask_an_expert_title": "Not sure what you need? <br>Don’t worry our Pest Experts are here to help!",
-        "ask_an_expert_imagess": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+        "ask_an_expert_imagess": "shopify:\/\/shop_images\/Ask_the_Pest_Expert.png",
         "ask_an_expert_description": "<p>Our Pest Experts are here to help. If you don’t know what type of Pest you have, or if you are not sure what products you need, don’t worry! We have you covered!<br\/><br\/>Simply complete the form and any other details your can send us, like photos of the pest or the infected area and one of our Pest Experts will examine it!<br\/><br\/>Our experts will get back to you with all the details we can about your pest and recommend the right products to help you tackle the problem!<\/p>",
         "ask_an_expert_url": "",
         "ask_an_expert_phone": "1-866-269-2847",
@@ -66,7 +66,6 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Pest",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
         }
