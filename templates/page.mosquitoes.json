@@ -10,13 +10,6 @@
             "single_id_grid_image": "mosquito-barrier-3-79-litre"
           }
         },
-        "89ab4240-6d38-4848-958c-40e4faf62f7a": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "ortho®-home-defense-max-no-pest-insecticide-strip"
-          }
-        },
         "db92be56-5666-417f-8ae6-1a67f90bcb53": {
           "type": "button",
           "settings": {
@@ -27,7 +20,6 @@
       },
       "block_order": [
         "dc3e6942-a125-4569-8c8f-8990802358d9",
-        "89ab4240-6d38-4848-958c-40e4faf62f7a",
         "db92be56-5666-417f-8ae6-1a67f90bcb53"
       ],
       "settings": {
