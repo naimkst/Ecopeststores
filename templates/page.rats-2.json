@@ -97,10 +97,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "16487041159e0e0862": {
+      "type": "product-slider",
+      "blocks": {
+        "1648704115a0151de7-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Rat Products",
+            "product_collection": "rats"
+          }
+        }
+      },
+      "block_order": [
+        "1648704115a0151de7-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "16487041159e0e0862"
   ]
 }
