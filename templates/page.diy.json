@@ -44,7 +44,7 @@
         "71f4b9a7-d20a-46cb-adf1-b0ec0c50881a": {
           "type": "slideshow",
           "settings": {
-            "diy_item_image": "shopify:\/\/shop_images\/Ask-an-expert-single.png",
+            "diy_item_image": "shopify:\/\/shop_images\/Ask_the_Pest_Expert.png",
             "diy_item_url": "shopify:\/\/pages\/ask-an-expert"
           }
         }
@@ -94,7 +94,7 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
         }
