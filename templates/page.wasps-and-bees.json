@@ -10,13 +10,6 @@
             "single_id_grid_image": "4-pk-disposable-yellow-jacket-trap-non-toxic"
           }
         },
-        "89ab4240-6d38-4848-958c-40e4faf62f7a": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "drione-insecticide-dust"
-          }
-        },
         "db92be56-5666-417f-8ae6-1a67f90bcb53": {
           "type": "button",
           "settings": {
@@ -27,7 +20,6 @@
       },
       "block_order": [
         "dc3e6942-a125-4569-8c8f-8990802358d9",
-        "89ab4240-6d38-4848-958c-40e4faf62f7a",
         "db92be56-5666-417f-8ae6-1a67f90bcb53"
       ],
       "settings": {
@@ -40,7 +32,7 @@
         "side_bar_link": "",
         "side_bar_fact_title": "",
         "side_bar_fact_description": "<p><strong>Scientific Name:<\/strong><\/p><p>Vespidae<br\/><br\/><strong>Color:<\/strong><br\/>Vary in colour from a metallic blue to a dull red to black and yellow<br\/><br\/><strong>Weight:<\/strong><br\/>10-150mg<br\/><br\/><strong>Length:<\/strong><br\/>3\/8-5\/8in<br\/><br\/><strong>Tail Length:<\/strong><br\/>The giant ichneumon wasp is a wasp with a tail-like structure which is actually an ovipositor. It is used to lay her eggs. The tail can grow up to 4 inches long<br\/><br\/><strong>Body:<\/strong><br\/>Composed of 3 parts: head, thorax and abdomen. The thorax is joined to the abdomen by a constricted petiole giving the slender waist. The thorax has 3 pairs of legs and two pairs of membranous wings used for flying<br\/><br\/><strong>Ears:<\/strong><br\/>Wasps and bees do not have ears but are sensitive to vibration through their legs and feet<br\/><br\/><strong>Eyes:<\/strong><br\/>Wasps have 5 eyes, 2 compound eyes and 3 simple eyes. The compound eyes have low resolution but give them an excellent range of vision<br\/><br\/><strong>Lifespan:<\/strong><br\/>Social wasp workers live for 12-22 days, and the average queen live for about a year<br\/><br\/><strong>Droppings:<\/strong><br\/>Wasps have an active metabolism and digestive tract that they use to convert nutrient to waste<\/p>",
-        "shop_more_link": "wasps-bees-and-hornets"
+        "shop_more_link": ""
       }
     },
     "164712829308f72916": {
