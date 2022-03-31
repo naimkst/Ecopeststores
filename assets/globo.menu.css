@@ -14,15 +14,15 @@
 .gm-menu-installed .gm-menu {
   line-height: 1.4;
   background-color: rgba(7, 65, 115, 1) !important;
-  color: #313131;
+  color: rgba(7, 65, 115, 1);
   font-family: "Work Sans", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
 }
 .gm-menu-installed .gm-menu.gm-bordered:not(.gm-menu-mobile) > .gm-level-0 + .gm-level-0 {
-  border-left: 1px solid rgba(7, 65, 115, 1) !important;
+  border-left: 1px solid rgba(15, 15, 15, 0) !important;
 }
 .gm-menu-installed .gm-menu.gm-mobile-bordered.gm-menu-mobile > .gm-level-0 + .gm-level-0:not(.searchItem){
-  border-top: 1px solid rgba(7, 65, 115, 1) !important;
+  border-top: 1px solid rgba(15, 15, 15, 0) !important;
 }
 .gm-menu-installed .gm-item.gm-level-0 > .gm-target > .gm-text{
   font-family: "Work Sans", sans-serif !important;
@@ -30,7 +30,7 @@
 .gm-menu-installed .gm-menu .gm-item.gm-level-0 > .gm-target{
   padding: 15px 30px !important;
   /* background-color: rgba(7, 65, 115, 1) !important; */
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 1) !important;
   font-family: "Work Sans", sans-serif !important;
   font-size: 20px !important;
   font-weight: 500 !important;
@@ -44,13 +44,13 @@
 
 .gm-menu-installed .gm-menu .gm-item.gm-level-0.gm-active > .gm-target,
 .gm-menu-installed .gm-menu .gm-item.gm-level-0:hover > .gm-target{
-  background-color: rgba(7, 65, 115, 1) !important;
-  color: #f6f1f1 !important;
+  background-color: rgba(29, 29, 29, 0) !important;
+  color: rgba(240, 78, 62, 1) !important;
 }
 .gm-menu-installed .gm-menu .gm-item.gm-level-0 > .gm-target > .gm-icon,
 .gm-menu-installed .gm-menu .gm-item.gm-level-0 > .gm-target > .gm-text,
 .gm-menu-installed .gm-menu .gm-item.gm-level-0 > .gm-target > .gm-retractor{
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 1) !important;
   font-size: 20px !important;
   font-weight: 500 !important;
   font-style: normal !important;
@@ -62,7 +62,7 @@
 .gm-menu-installed .gm-menu .gm-item.gm-level-0:hover > .gm-target > .gm-icon,
 .gm-menu-installed .gm-menu .gm-item.gm-level-0:hover > .gm-target > .gm-text,
 .gm-menu-installed .gm-menu .gm-item.gm-level-0:hover > .gm-target > .gm-retractor{
-  color: #f6f1f1 !important;
+  color: rgba(240, 78, 62, 1) !important;
 }
 
 .gm-menu-installed .gm-submenu.gm-submenu-bordered:not(.gm-aliexpress) {
@@ -96,27 +96,27 @@
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target > .gm-text{
   font-family: "Work Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   font-style: normal;
 }
 
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target > .gm-icon{
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target > .gm-text,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target > .gm-retractor,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item > .gm-target > .gm-icon{
-  color: #202020 !important;
+  color: rgba(7, 65, 115, 1) !important;
 }
 
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item.gm-active > .gm-target,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item.gm-active > .gm-target > .gm-text,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item.gm-active > .gm-target > .gm-retractor,
 .gm-menu-installed .gm-menu .gm-tab-links > .gm-item.gm-active > .gm-target > .gm-icon{
-  color: #000000 !important;
+  color: rgba(7, 65, 115, 1) !important;
 }
 
 .gm-menu-installed .gm-menu .gm-dropdown {
@@ -136,24 +136,24 @@
 
 .gm-html-inner,
 .gm-menu-installed .gm-menu .gm-submenu .gm-item .gm-target {
-  color: #313131 !important;
+  color: rgba(7, 65, 115, 1) !important;
   font-family: "Work Sans", sans-serif !important;
-  font-size: 13px !important;
+  font-size: 15px !important;
   font-weight: 400 !important;
   font-style: normal !important;
 }
 .gm-menu-installed .gm-menu .gm-submenu .gm-item .gm-heading {
-  color: #ae2828 !important;
+  color: rgba(7, 65, 115, 1) !important;
   font-family: "Work Sans", sans-serif !important;
-  font-size: 14px !important;
+  font-size: 19px !important;
   font-weight: 600 !important;
   font-style: normal !important;
   display: block;
 }
 .gm-menu-installed .gm-menu .gm-submenu .gm-item .gm-heading .gm-target {
-  color: #ae2828 !important;
+  color: rgba(7, 65, 115, 1) !important;
   font-family: "Work Sans", sans-serif !important;
-  font-size: 14px !important;
+  font-size: 19px !important;
   font-weight: 600 !important;
   font-style: normal !important;
 }
@@ -162,16 +162,16 @@
 .gm-menu-installed .gm-menu .gm-submenu .gm-target:hover .gm-icon,
 .gm-menu-installed .gm-menu .gm-submenu .gm-target:hover .gm-retractor
 {
-  color: #000000 !important;
+  color: rgba(240, 78, 62, 1) !important;
 }
 .gm-menu-installed .gm-menu .gm-submenu .gm-target:hover .gm-price {
-  color: #313131 !important;
+  color: rgba(7, 65, 115, 1) !important;
 }
 .gm-menu-installed .gm-menu .gm-submenu .gm-target:hover .gm-old-price {
   color: #969696 !important;
 }
 .gm-menu-installed .gm-menu .gm-submenu .gm-target:hover > .gm-text > .gm-description {
-  color: #4d5bcd !important;
+  color: rgba(7, 65, 115, 1) !important;
 }
 .gm-menu-installed .gm-menu .gm-submenu .gm-item .gm-description {
   color: #969696 !important;
@@ -182,7 +182,7 @@
 }
 .gm-single-product>.gm-target .gm-label.gm-sale-label{
   color: #ffffff !important;
-  background: #ec523e !important;
+  background: rgba(7, 65, 115, 1) !important;
 }
 .gm-single-product>.gm-target .gm-label.gm-sold_out-label{
   color: #757575 !important;
@@ -229,7 +229,7 @@
 }
 .theme_store_id_601.gm-menu-installed .gm-level-0 >a.icon-account,
 .theme_store_id_601.gm-menu-installed .gm-level-0 >a.icon-search {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 1) !important;
   padding: 15px !important;
 }
 .theme_store_id_601.nav ul li .cart-button span {
@@ -237,7 +237,7 @@
 }
 .theme_store_id_601 #nav .gm-level-0 > a,
 .theme_store_id_601 #nav .gm-level-0 > select.currencies {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 .theme_store_id_601 #nav .gm-level-0 > select.currencies > option {
   background-color: rgba(7, 65, 115, 1) !important;
@@ -255,7 +255,7 @@
 }
 
 .gm-menu-installed .gm-menu > .gm-level-0.gm-theme-li > a {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 1) !important;
   font-family: "Work Sans", sans-serif !important;
   font-size: 20px !important;
 }
@@ -400,7 +400,7 @@
 }
 
 .theme_store_id_777 .drawer a, .drawer h3, .drawer .h3 {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 .theme_store_id_777 .mobile-nav__link h3, .mobile-nav__link .h3 {
   margin-top: 0;
