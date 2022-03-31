@@ -12,7 +12,7 @@
           "type": "first-section",
           "settings": {
             "service_title": "Book a Virtual Service",
-            "service_link": "",
+            "service_link": "shopify:\/\/pages\/book-a-virtual-online-service",
             "service_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png"
           }
         },
@@ -20,7 +20,7 @@
           "type": "first-section",
           "settings": {
             "service_title": "DIY - Do it Yourself",
-            "service_link": "",
+            "service_link": "shopify:\/\/pages\/diy-do-it-yourself",
             "service_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself.png"
           }
         },
@@ -28,7 +28,7 @@
           "type": "first-section",
           "settings": {
             "service_title": "Shop by Pest",
-            "service_link": "",
+            "service_link": "shopify:\/\/pages\/shop-by-pest-ecopest-pest-control",
             "service_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif"
           }
         },
@@ -36,7 +36,7 @@
           "type": "first-section",
           "settings": {
             "service_title": "Shop by Product",
-            "service_link": "",
+            "service_link": "shopify:\/\/pages\/shop-by-product",
             "service_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif"
           }
         },
