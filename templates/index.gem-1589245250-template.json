@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "1640845352f918b3ed": {
+      "type": "hero-bubble",
+      "settings": {
+        "residential_fst_bg_img": "shopify:\/\/shop_images\/istockphoto-1026205392-612x612.jpg",
+        "residential_main_title": "Residential",
+        "residential_url": "",
+        "residential_scnd_bg_img": "shopify:\/\/shop_images\/istockphoto-695968212-170667a.jpg",
+        "commercial_main_title": "Commercial",
+        "commercial_url": "",
+        "residential_trd_bg_img": "shopify:\/\/shop_images\/Home_and_Garden.jpg",
+        "garden_main_title": "Lawn & Garden",
+        "garden_url": ""
+      }
+    },
+    "164084737464488ea4": {
+      "type": "product-grid",
+      "blocks": {
+        "1640847374d1f20da9-0": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Professional Onsite Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+          }
+        },
+        "8eadd502-a98a-4aac-b3ac-b0002e3b3de3": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Book a Virtual Online Service",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
+            "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
+          }
+        },
+        "e9b1499b-6a15-48ff-b8d8-f6d81ce71657": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "DIY - Do it Yourself",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself_485e1c5e-1673-42f6-b3d7-1a91c3a5751a.png",
+            "service_item_url": "shopify:\/\/pages\/step-page"
+          }
+        },
+        "7d1f55e3-ed47-4fbd-b12a-396031f673c3": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-pest-1"
+          }
+        },
+        "c7d4557b-55b0-48aa-b057-d394c5e3a6ec": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Product",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
+            "service_item_url": "shopify:\/\/pages\/shop-by-product"
+          }
+        }
+      },
+      "block_order": [
+        "1640847374d1f20da9-0",
+        "8eadd502-a98a-4aac-b3ac-b0002e3b3de3",
+        "e9b1499b-6a15-48ff-b8d8-f6d81ce71657",
+        "7d1f55e3-ed47-4fbd-b12a-396031f673c3",
+        "c7d4557b-55b0-48aa-b057-d394c5e3a6ec"
+      ],
+      "settings": {
+        "full_width": "full"
+      }
+    },
+    "product-slider": {
+      "type": "product-slider",
+      "blocks": {
+        "aaca5c7f-25ba-4352-8517-4e61606675a7": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Ants",
+            "product_collection": "ants"
+          }
+        },
+        "b547df73-077b-40cc-8b2f-edd94455a421": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Bed Bugs",
+            "product_collection": "bed-bugs"
+          }
+        },
+        "edf119ab-48ee-4ee3-b9d1-47cf262325bf": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Rats",
+            "product_collection": "rats"
+          }
+        },
+        "07d5b729-2093-46fc-8f21-62f6ae012895": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Wasps, Bees & Hornets",
+            "product_collection": "wasps-and-bees"
+          }
+        }
+      },
+      "block_order": [
+        "aaca5c7f-25ba-4352-8517-4e61606675a7",
+        "b547df73-077b-40cc-8b2f-edd94455a421",
+        "edf119ab-48ee-4ee3-b9d1-47cf262325bf",
+        "07d5b729-2093-46fc-8f21-62f6ae012895"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top selling products"
+      }
+    },
+    "testimonial": {
+      "type": "testimonial",
+      "blocks": {
+        "4b6be68b-822e-4e1f-83a4-a6ebbeb8bf20": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        },
+        "f0e429ac-28b3-46fa-94da-a972c012ab55": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        },
+        "b1ee4490-9a80-4858-a098-ab3ee54f6ed1": {
+          "type": "slideshow",
+          "settings": {
+            "testimonial_item": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>",
+            "testimonial_name": "Lena Roy"
+          }
+        }
+      },
+      "block_order": [
+        "4b6be68b-822e-4e1f-83a4-a6ebbeb8bf20",
+        "f0e429ac-28b3-46fa-94da-a972c012ab55",
+        "b1ee4490-9a80-4858-a098-ab3ee54f6ed1"
+      ],
+      "settings": {
+        "testimonial_section_title": "Customer Reviews",
+        "testimonial_left_image": "shopify:\/\/shop_images\/feedback-left.jpg",
+        "testimonial_right_bg": "shopify:\/\/shop_images\/steps-bg.jpg"
+      }
+    }
+  },
+  "order": [
+    "1640845352f918b3ed",
+    "164084737464488ea4",
+    "product-slider",
+    "testimonial"
+  ]
+}
