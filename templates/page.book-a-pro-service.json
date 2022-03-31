@@ -28,7 +28,7 @@
           "type": "first-section",
           "settings": {
             "service_title": "Shop by Pest",
-            "service_link": "shopify:\/\/pages\/shop-by-pest-ecopest-pest-control",
+            "service_link": "shopify:\/\/pages\/shop-by-pest",
             "service_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif"
           }
         },
