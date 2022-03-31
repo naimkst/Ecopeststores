@@ -81,10 +81,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "164870394331f5476d": {
+      "type": "product-slider",
+      "blocks": {
+        "1648703943aece37f8-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "",
+            "product_collection": "moles-voles"
+          }
+        }
+      },
+      "block_order": [
+        "1648703943aece37f8-0"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top selling Voles products"
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "164870394331f5476d"
   ]
 }
