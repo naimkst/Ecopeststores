@@ -3,13 +3,6 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
-        "0a325e78-fd6a-4912-b250-de8b424e938c": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bug Facts",
-            "single_id_grid_image": "all-in-one-ant-bundle"
-          }
-        },
         "c4e67fc2-4246-4707-b2a5-6ae8578fe23a": {
           "type": "button",
           "settings": {
@@ -26,7 +19,6 @@
         }
       },
       "block_order": [
-        "0a325e78-fd6a-4912-b250-de8b424e938c",
         "c4e67fc2-4246-4707-b2a5-6ae8578fe23a",
         "16dea0b5-d1fe-4d00-97bf-d1ec864afc75"
       ],
@@ -97,10 +89,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "16487050161f033c91": {
+      "type": "product-slider",
+      "blocks": {
+        "164870501636a2f0ee-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Bed Bug Products",
+            "product_collection": "bed-bug-control"
+          }
+        }
+      },
+      "block_order": [
+        "164870501636a2f0ee-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16460962818f38126f"
+    "16460962818f38126f",
+    "16487050161f033c91"
   ]
 }
