@@ -3,13 +3,6 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
-        "dc3e6942-a125-4569-8c8f-8990802358d9": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "mice-bait-contrac-pails"
-          }
-        },
         "de52c343-4747-4b30-833c-d27af14da7ae": {
           "type": "button",
           "settings": {
@@ -19,7 +12,6 @@
         }
       },
       "block_order": [
-        "dc3e6942-a125-4569-8c8f-8990802358d9",
         "de52c343-4747-4b30-833c-d27af14da7ae"
       ],
       "settings": {
