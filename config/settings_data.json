@@ -59,10 +59,10 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_shop_menu": "footer",
+          "footer_shop_menu": "shop-by-pest",
           "footer_shop_menu_title": "Shop by Pest",
-          "footer_shop_menu_two": "footer-two",
-          "plolicy_menu": "policies-disclaimer",
+          "footer_shop_menu_two": "",
+          "plolicy_menu": "",
           "privacy_menu_title": "Policies & Disclaimer",
           "contact_us_title": "Contact Us",
           "phone_number": "1-866-ANY-BUGS; 1-866-269-2847",
