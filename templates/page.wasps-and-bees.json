@@ -97,10 +97,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "16487045731aaec39f": {
+      "type": "product-slider",
+      "blocks": {
+        "16487045734bacd7e1-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Wasps, Bees & Hornet Products",
+            "product_collection": "wasps-hornets"
+          }
+        }
+      },
+      "block_order": [
+        "16487045734bacd7e1-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "164712829308f72916"
+    "164712829308f72916",
+    "16487045731aaec39f"
   ]
 }
