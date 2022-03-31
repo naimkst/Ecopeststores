@@ -88,7 +88,7 @@
         "1648703943aece37f8-0": {
           "type": "product",
           "settings": {
-            "collection_name": "",
+            "collection_name": "Top selling Voles products",
             "product_collection": "moles-voles"
           }
         }
@@ -97,7 +97,7 @@
         "1648703943aece37f8-0"
       ],
       "settings": {
-        "product_slider_section_title": "Top selling Voles products"
+        "product_slider_section_title": ""
       }
     }
   },
