@@ -81,10 +81,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "1648704040f33f7bac": {
+      "type": "product-slider",
+      "blocks": {
+        "164870404063f13c0c-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "",
+            "product_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "164870404063f13c0c-0"
+      ],
+      "settings": {
+        "product_slider_section_title": "Top Selling Gopher Products"
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "1648704040f33f7bac"
   ]
 }
