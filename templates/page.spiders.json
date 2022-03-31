@@ -3,13 +3,6 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
-        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "all-in-one-ant-bundle"
-          }
-        },
         "dc3e6942-a125-4569-8c8f-8990802358d9": {
           "type": "button",
           "settings": {
@@ -26,7 +19,6 @@
         }
       },
       "block_order": [
-        "db92be56-5666-417f-8ae6-1a67f90bcb53",
         "dc3e6942-a125-4569-8c8f-8990802358d9",
         "89ab4240-6d38-4848-958c-40e4faf62f7a"
       ],
@@ -97,10 +89,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "164870462466050b76": {
+      "type": "product-slider",
+      "blocks": {
+        "1648704624315524fa-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Spider Products",
+            "product_collection": "spiders"
+          }
+        }
+      },
+      "block_order": [
+        "1648704624315524fa-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "1647127947226f17f2"
+    "1647127947226f17f2",
+    "164870462466050b76"
   ]
 }
