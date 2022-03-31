@@ -88,7 +88,7 @@
         "164870404063f13c0c-0": {
           "type": "product",
           "settings": {
-            "collection_name": "",
+            "collection_name": "Top Selling Gopher Products",
             "product_collection": ""
           }
         }
@@ -97,7 +97,7 @@
         "164870404063f13c0c-0"
       ],
       "settings": {
-        "product_slider_section_title": "Top Selling Gopher Products"
+        "product_slider_section_title": ""
       }
     }
   },
