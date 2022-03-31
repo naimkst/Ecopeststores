@@ -13,7 +13,7 @@
           "settings": {
             "shop_by_pest_title": "Bug & Insects",
             "shop_by_pest_collection": "",
-            "shop_by_pest_menu1": "test"
+            "shop_by_pest_menu1": ""
           }
         },
         "2d2885c8-7b48-40ab-8195-cf2246fdb232": {
@@ -21,7 +21,7 @@
           "settings": {
             "shop_by_pest_title": "Wild Animals",
             "shop_by_pest_collection": "",
-            "shop_by_pest_menu2": "wild-animals"
+            "shop_by_pest_menu2": ""
           }
         },
         "9212848c-4d43-43f9-8ca9-8b298fcb9c8c": {
@@ -29,7 +29,7 @@
           "settings": {
             "shop_by_pest_title": "Rodents",
             "shop_by_pest_collection": "",
-            "shop_by_pest_menu3": "rodents"
+            "shop_by_pest_menu3": ""
           }
         },
         "86e1ea4b-778a-40a1-abfd-33e8cfbc2419": {
@@ -37,7 +37,7 @@
           "settings": {
             "shop_by_pest_title": "Pest, Lawn & Garden",
             "shop_by_pest_collection": "",
-            "shop_by_pest_menu4": "lawn-garden"
+            "shop_by_pest_menu4": ""
           }
         }
       },
@@ -78,11 +78,19 @@
             "service_item_url": ""
           }
         },
+        "25c7d928-ff69-4ac0-95c5-25d3b8b19d6b": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
+            "service_item_url": ""
+          }
+        },
         "902dd52b-2f06-419b-b87c-c18a2d3999d2": {
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
           }
         }
@@ -91,6 +99,7 @@
         "1645596718898622c7-0",
         "d902a708-53c7-4fb9-aaef-f450111344d7",
         "33789ec6-d790-43b3-88ef-dbd2ec99c611",
+        "25c7d928-ff69-4ac0-95c5-25d3b8b19d6b",
         "902dd52b-2f06-419b-b87c-c18a2d3999d2"
       ],
       "settings": {
