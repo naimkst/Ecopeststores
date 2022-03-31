@@ -30,19 +30,22 @@
         "16478373254d809881-0": {
           "type": "text",
           "settings": {
-            "step_progress_title": "Id Your Pest"
+            "step_progress_title": "Id Your Pest",
+            "step_progress_image": "shopify:\/\/shop_images\/step1_1.png"
           }
         },
         "326193fc-8bce-4cdd-91fe-eae794486a1d": {
           "type": "text",
           "settings": {
-            "step_progress_title": "Find the right Product"
+            "step_progress_title": "Find the right Product",
+            "step_progress_image": "shopify:\/\/shop_images\/step2.png"
           }
         },
         "ff107305-ba66-48bb-b0ed-6e1259f661e4": {
           "type": "text",
           "settings": {
-            "step_progress_title": "Learning Center"
+            "step_progress_title": "Learning Center",
+            "step_progress_image": "shopify:\/\/shop_images\/step3.png"
           }
         },
         "cfdb2635-bed3-4823-ac5a-c02b95096ca0": {
