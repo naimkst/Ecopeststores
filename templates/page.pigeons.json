@@ -96,8 +96,8 @@
         "1646087059fd80e408-0": {
           "type": "product",
           "settings": {
-            "collection_name": "",
-            "product_collection": ""
+            "collection_name": "Top Selling Pigeon Products",
+            "product_collection": "pigeons"
           }
         }
       },
@@ -105,7 +105,7 @@
         "1646087059fd80e408-0"
       ],
       "settings": {
-        "product_slider_section_title": "Top selling products"
+        "product_slider_section_title": ""
       }
     }
   },
