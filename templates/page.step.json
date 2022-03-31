@@ -77,9 +77,9 @@
             "Step_item_title": "Step 1 - ID your Pest",
             "Step_item_description": "<p>No sure what pest you have? No problem we are here to help! Just click the ASK AN EXPERT button below and you can send our Pest Experts an image(s) of your pest and they will recommend the right products for you!<\/p><p>Already know what type of pest you have? that's great, you can simply click the SHOP BY PEST button to find the right products you'll need for the pest you have!<\/p>",
             "Step_item_image": "shopify:\/\/shop_images\/ID_your_PEst.png",
-            "Step_item_url": "shopify:\/\/pages\/shop-by-pest-1",
+            "Step_item_url": "shopify:\/\/pages\/shop-by-pest",
             "step_item_button_text": "Shop by Pest",
-            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-a-pest-expert",
             "step_ask_button_text": "Ask an Expert"
           }
         },
@@ -91,7 +91,7 @@
             "Step_item_image": "shopify:\/\/shop_images\/Find_the_right_Product.png",
             "Step_item_url": "shopify:\/\/pages\/shop-by-product",
             "step_item_button_text": "Shop By Product",
-            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-a-pest-expert",
             "step_ask_button_text": "Ask an Expert"
           }
         },
@@ -103,7 +103,7 @@
             "Step_item_image": "shopify:\/\/shop_images\/DIY_Learning_Center.png",
             "Step_item_url": "shopify:\/\/pages\/diy-do-it-yourself",
             "step_item_button_text": "Learning Center",
-            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-a-pest-expert",
             "step_ask_button_text": "Ask an Expert"
           }
         },
@@ -115,7 +115,7 @@
             "Step_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Virtual_Online_Service_fa98f5fa-d85e-49d3-9c47-884d3363bf84.png",
             "Step_item_url": "shopify:\/\/pages\/book-a-virtual-online-service",
             "step_item_button_text": "Book an Online Virtual Service",
-            "Step_ask_and_url": "shopify:\/\/pages\/ask-an-expert",
+            "Step_ask_and_url": "shopify:\/\/pages\/ask-a-pest-expert",
             "step_ask_button_text": "Contact Us"
           }
         }
