@@ -62,6 +62,14 @@
             "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
           }
         },
+        "7ce9b0de-7711-4bed-b093-73a9a2fa4ae7": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "DIY - Do it Yourself",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself.png",
+            "service_item_url": ""
+          }
+        },
         "507a16e1-29d9-4e28-b583-43833c841262": {
           "type": "slideshow",
           "settings": {
@@ -74,25 +82,17 @@
           "type": "slideshow",
           "settings": {
             "service_item_title": "Shop By Product",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_8f9c2c7c-8516-42cb-9ed7-8afea5f7ff35.gif",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-product"
-          }
-        },
-        "7ce9b0de-7711-4bed-b093-73a9a2fa4ae7": {
-          "type": "slideshow",
-          "settings": {
-            "service_item_title": "Chat Now",
-            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Chat_with_us_now.png",
-            "service_item_url": ""
           }
         }
       },
       "block_order": [
         "16460960847f2189c8-0",
         "5be0a302-924d-440d-b659-686db47a7765",
+        "7ce9b0de-7711-4bed-b093-73a9a2fa4ae7",
         "507a16e1-29d9-4e28-b583-43833c841262",
-        "45a8b3c8-00d4-4eff-acaa-bdf30d107966",
-        "7ce9b0de-7711-4bed-b093-73a9a2fa4ae7"
+        "45a8b3c8-00d4-4eff-acaa-bdf30d107966"
       ],
       "settings": {
         "full_width": "box"
