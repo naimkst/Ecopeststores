@@ -89,10 +89,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "16487044986734d102": {
+      "type": "product-slider",
+      "blocks": {
+        "16487044989d0d9c73-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Skunk Products",
+            "product_collection": "skunks"
+          }
+        }
+      },
+      "block_order": [
+        "16487044989d0d9c73-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "16487044986734d102"
   ]
 }
