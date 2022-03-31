@@ -9,18 +9,10 @@
             "single_id_grid_title": "Bed Bugs",
             "single_id_grid_image": "professional-bird-and-pigeon-trap"
           }
-        },
-        "89ab4240-6d38-4848-958c-40e4faf62f7a": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "avitrol-concentrated"
-          }
         }
       },
       "block_order": [
-        "dc3e6942-a125-4569-8c8f-8990802358d9",
-        "89ab4240-6d38-4848-958c-40e4faf62f7a"
+        "dc3e6942-a125-4569-8c8f-8990802358d9"
       ],
       "settings": {
         "id_your_single_title": "Pigeons",

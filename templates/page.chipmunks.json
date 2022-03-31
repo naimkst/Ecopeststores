@@ -81,10 +81,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "164870445969213d88": {
+      "type": "product-slider",
+      "blocks": {
+        "1648704459f83303f2-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Chipmunk Products",
+            "product_collection": "chipmunks"
+          }
+        }
+      },
+      "block_order": [
+        "1648704459f83303f2-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "164870445969213d88"
   ]
 }
