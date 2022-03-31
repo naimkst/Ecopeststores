@@ -16,19 +16,11 @@
             "single_id_grid_title": "Bed Bugs",
             "single_id_grid_image": "ecopest-insect-trap-and-monitor-36-x-cards-108-traps-a-non-poisonous-glue-trap-that-captures-and-monitors-insects"
           }
-        },
-        "db92be56-5666-417f-8ae6-1a67f90bcb53": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Bed Bugs",
-            "single_id_grid_image": "catchmore-fruit-fly-trap"
-          }
         }
       },
       "block_order": [
         "dc3e6942-a125-4569-8c8f-8990802358d9",
-        "89ab4240-6d38-4848-958c-40e4faf62f7a",
-        "db92be56-5666-417f-8ae6-1a67f90bcb53"
+        "89ab4240-6d38-4848-958c-40e4faf62f7a"
       ],
       "settings": {
         "id_your_single_title": "Flies",
@@ -97,10 +89,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "1648704765b84079fa": {
+      "type": "product-slider",
+      "blocks": {
+        "1648704765cf353ca7-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Fly Products",
+            "product_collection": "mosquito-control"
+          }
+        }
+      },
+      "block_order": [
+        "1648704765cf353ca7-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "1647127609f029279b"
+    "1647127609f029279b",
+    "1648704765b84079fa"
   ]
 }
