@@ -97,10 +97,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "1648704302db2f04a1": {
+      "type": "product-slider",
+      "blocks": {
+        "1648704302b2ffa8ad-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top Selling Mice Products",
+            "product_collection": "rodent-control"
+          }
+        }
+      },
+      "block_order": [
+        "1648704302b2ffa8ad-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "1648704302db2f04a1"
   ]
 }
