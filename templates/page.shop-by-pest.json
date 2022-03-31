@@ -9,17 +9,44 @@
     "1648705467ad19ca8f": {
       "type": "shop-by-pest",
       "blocks": {
-        "164870546735ef446a-0": {
-          "type": "five-section",
+        "1d21ff3b-ba9b-46bf-9a73-2d1da4d1ef52": {
+          "type": "first-section",
           "settings": {
-            "shop_by_pest_title": "",
+            "shop_by_pest_title": "Bug & Insects",
             "shop_by_pest_collection": "",
-            "shop_by_pest_menu5": "bugs-insects"
+            "shop_by_pest_menu1": "bugs-insects"
+          }
+        },
+        "cef75f88-6ce8-4de6-8c48-ca5174fd7098": {
+          "type": "second-section",
+          "settings": {
+            "shop_by_pest_title": "Bug & Insects",
+            "shop_by_pest_collection": "",
+            "shop_by_pest_menu2": "wild-animals"
+          }
+        },
+        "c89105b6-50c8-4087-b54b-d5adbe839222": {
+          "type": "third-section",
+          "settings": {
+            "shop_by_pest_title": "Bug & Insects",
+            "shop_by_pest_collection": "",
+            "shop_by_pest_menu3": "rodents"
+          }
+        },
+        "0ab33c05-f22a-41fd-80a1-cd9b7c39cac3": {
+          "type": "four-section",
+          "settings": {
+            "shop_by_pest_title": "Bug & Insects",
+            "shop_by_pest_collection": "",
+            "shop_by_pest_menu4": "lawn-garden"
           }
         }
       },
       "block_order": [
-        "164870546735ef446a-0"
+        "1d21ff3b-ba9b-46bf-9a73-2d1da4d1ef52",
+        "cef75f88-6ce8-4de6-8c48-ca5174fd7098",
+        "c89105b6-50c8-4087-b54b-d5adbe839222",
+        "0ab33c05-f22a-41fd-80a1-cd9b7c39cac3"
       ],
       "settings": {
         "shop_by_pest_section_title": "SHOP BY PEST"
