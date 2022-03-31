@@ -3,13 +3,6 @@
     "main": {
       "type": "single-idproblem",
       "blocks": {
-        "f1ad84ae-9030-49d3-86b8-734f6ff2e83a": {
-          "type": "button",
-          "settings": {
-            "single_id_grid_title": "Ants",
-            "single_id_grid_image": "all-in-one-ant-bundle"
-          }
-        },
         "f975bd32-b2c2-4a46-86a3-b77df2ea0492": {
           "type": "button",
           "settings": {
@@ -26,7 +19,6 @@
         }
       },
       "block_order": [
-        "f1ad84ae-9030-49d3-86b8-734f6ff2e83a",
         "f975bd32-b2c2-4a46-86a3-b77df2ea0492",
         "a30bfe47-92df-4856-b15d-9ad37ad17cd0"
       ],
@@ -105,7 +97,7 @@
           "type": "product",
           "settings": {
             "collection_name": "Top Selling Ant Products",
-            "product_collection": "ants"
+            "product_collection": "ant-products"
           }
         }
       },
