@@ -43,7 +43,7 @@
           "settings": {
             "service_item_title": "Book a Professional Service",
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Book_a_Professional_Service.png",
-            "service_item_url": "shopify:\/\/pages\/book-a-professional-on-site-service"
+            "service_item_url": "shopify:\/\/pages\/book-a-professional-pest-service"
           }
         },
         "a57c68b1-9b9f-411b-baa0-4413fbda7260": {
@@ -59,7 +59,7 @@
           "settings": {
             "service_item_title": "DIY - Do it Yourself",
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself.png",
-            "service_item_url": ""
+            "service_item_url": "shopify:\/\/pages\/diy-do-it-yourself"
           }
         },
         "b1406983-3c3d-47b0-9735-1e6c7aba4376": {
@@ -67,7 +67,7 @@
           "settings": {
             "service_item_title": "Shop By Pest",
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
-            "service_item_url": "shopify:\/\/pages\/single-shop-by-pest"
+            "service_item_url": "shopify:\/\/pages\/shop-by-pest"
           }
         },
         "d9684b64-7d74-479a-bd36-7afca21a2931": {
