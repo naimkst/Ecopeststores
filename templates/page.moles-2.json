@@ -81,10 +81,29 @@
       "settings": {
         "full_width": "box"
       }
+    },
+    "164870426167b2bf6a": {
+      "type": "product-slider",
+      "blocks": {
+        "164870426100251a6d-0": {
+          "type": "product",
+          "settings": {
+            "collection_name": "Top selling Moles products",
+            "product_collection": "moles-voles"
+          }
+        }
+      },
+      "block_order": [
+        "164870426100251a6d-0"
+      ],
+      "settings": {
+        "product_slider_section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "16460960843ca4a893"
+    "16460960843ca4a893",
+    "164870426167b2bf6a"
   ]
 }
