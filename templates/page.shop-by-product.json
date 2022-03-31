@@ -90,13 +90,22 @@
             "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Pest_Rotate.gif",
             "service_item_url": "shopify:\/\/pages\/shop-by-pest-1"
           }
+        },
+        "1be6075f-a1ba-4603-adac-a3f82ac42d25": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_Shop_by_Products_Rotate_c3331c18-d32f-4d96-88d2-0550c6c256de.gif",
+            "service_item_url": ""
+          }
         }
       },
       "block_order": [
         "1645687033d53501d2-0",
         "073f4b1f-f577-40a1-ac1d-b90443321131",
         "9c5ee245-b1a4-4175-8d8c-2e5ac8ec1081",
-        "3061fa61-510c-455e-919b-6415aa32e432"
+        "3061fa61-510c-455e-919b-6415aa32e432",
+        "1be6075f-a1ba-4603-adac-a3f82ac42d25"
       ],
       "settings": {
         "full_width": "box"
