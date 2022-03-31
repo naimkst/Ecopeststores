@@ -82,6 +82,14 @@
             "service_item_url": "shopify:\/\/pages\/book-a-virtual-online-service"
           }
         },
+        "f91bf8ca-8fd7-4847-a67e-c9ac91e115b9": {
+          "type": "slideshow",
+          "settings": {
+            "service_item_title": "Shop By Pest",
+            "service_item_image": "shopify:\/\/shop_images\/EcopestStore_DIY_Do_it_Yourself.png",
+            "service_item_url": ""
+          }
+        },
         "e97c3262-ceb4-4601-ac0b-a3b55fa0f77b": {
           "type": "slideshow",
           "settings": {
@@ -102,6 +110,7 @@
       "block_order": [
         "1647514096ae716085-0",
         "13af8260-e6b8-41bb-bb71-911efb55528f",
+        "f91bf8ca-8fd7-4847-a67e-c9ac91e115b9",
         "e97c3262-ceb4-4601-ac0b-a3b55fa0f77b",
         "582ef5d7-587f-4e11-8840-0a79c5f5c442"
       ],
