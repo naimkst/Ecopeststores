@@ -3,13 +3,15 @@
     "singpe-product": {
       "type": "single-product",
       "settings": {
+        "video_content_title": "How can you use this?",
+        "video_content_description": "<p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<\/p>"
       }
     },
     "1632119646fa8f89c7": {
       "type": "product-recommendations",
       "settings": {
         "related_product_slider_section_title": "Related Products",
-        "related_product_collection": "lawn-garden"
+        "related_product_collection": "ant-products"
       }
     },
     "163211966633c6dde5": {
