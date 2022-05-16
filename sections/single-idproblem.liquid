@@ -210,6 +210,7 @@
                                         <div class="row">
                                             {% for block in section.blocks %}
                                             <div class="col-md-4">
+                                                <a href="{{ block.settings.single_id_grid_image.url }}">
                                                 <div class="grid-single-shop-pest-layout">
                                                     <h2 class="text-center"><a href="{{ block.settings.single_id_grid_image.url }}">{{ block.settings.single_id_grid_image.title }}</a></h2>
                                                 <div class="idimg">
@@ -217,15 +218,16 @@
                                                     alt="" class="img-fluid">
                                                 </div>
                                                 </div>
+                                            </a>
                                             </div>
                                             {% endfor %}
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="shop-more-div">
+                                <!-- <div class="shop-more-div">
                                     <a class="shop-more-button" href="{{ section.settings.shop_more_link }}">Shop more</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
