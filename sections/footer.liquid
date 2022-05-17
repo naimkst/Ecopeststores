@@ -62,7 +62,7 @@
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
                                         <div class="card">
                                             <div class="card-body">
-                                                {% if section.settings.address_appointment %}
+                                                {% if section.settings.address_appointment != empty %}
                                                     <span class="card-label">{{ section.settings.address_appointment }}</span>
                                                 {% endif %}
                                                 <h6>{{ section.settings.address_two}}</h6>
