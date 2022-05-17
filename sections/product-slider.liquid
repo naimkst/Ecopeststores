@@ -37,7 +37,7 @@
                             <div class="item">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <img src="{{ product.featured_image.src | img_url: '' }}" class="img-fluid" alt="">
+                                        <a href="{{ product.url }}"><img src="{{ product.featured_image.src | img_url: '' }}" class="img-fluid" alt=""></a>
                                        <a href="{{ product.url }}"><h5>{{ product.title | truncate: 65 }}</h5></a> 
                                         <p>{{ product.price | money }}</p>
 
