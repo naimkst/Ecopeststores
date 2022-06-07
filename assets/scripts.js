@@ -207,8 +207,8 @@ $(document).ready(function () {
     });
     updateHistoryState(found);
     $("#variant-id").val(found.id);
-    var priceFind = found.price;
-    $('span.money').html(`$${priceFind}`); 
+    var priceFind = found.price.toString();
+    $('span.money').html("$" + price.slice(0, -2) + ".00"); 
     // $('#prd-test').html(`$${priceFind}`); 
     
     console.log(`${ priceFind.slice(2) }`);
