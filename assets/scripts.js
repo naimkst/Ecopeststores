@@ -208,7 +208,7 @@ $(document).ready(function () {
     updateHistoryState(found);
     $("#variant-id").val(found.id);
     console.log(found.price);
-    $('p.product-price span').html(symbol + "" + found.price.slice(0, -2) + ".00"); 
+    $('#prd-price span.money').html(symbol + "" + found.price.slice(0, -2) + ".00"); 
   });
 
   $(".card-header").click(function () {
