@@ -207,8 +207,12 @@ $(document).ready(function () {
     });
     updateHistoryState(found);
     $("#variant-id").val(found.id);
-    console.log(found.price);
-    $('#prd-price span.money').html(symbol + "" + found.price.slice(0, -2) + ".00"); 
+    var priceFind = found.price;
+    $('span.money').html(`$${priceFind}`); 
+    $('#prd-test').html(`$${priceFind}`); 
+
+    
+    console.log(`${ priceFind.slice(2) }`);
   });
 
   $(".card-header").click(function () {
