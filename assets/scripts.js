@@ -209,8 +209,7 @@ $(document).ready(function () {
     $("#variant-id").val(found.id);
     var priceFind = found.price;
     $('span.money').html(`$${priceFind}`); 
-    $('#prd-test').html(`$${priceFind}`); 
-
+    // $('#prd-test').html(`$${priceFind}`); 
     
     console.log(`${ priceFind.slice(2) }`);
   });
