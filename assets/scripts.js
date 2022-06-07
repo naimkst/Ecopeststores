@@ -209,9 +209,9 @@ $(document).ready(function () {
     $("#variant-id").val(found.id);
     var priceFind = found.price.toString();
     // $('span.money').html("$" + priceFind.slice(0, -2) + priceFind.slice(0, -2)); 
-    // $('#prd-price').html("$" + priceFind.slice(0, -2) + "." + priceFind.slice(-2, 4)); 
+    $('#prd-price').html("$" + priceFind.slice(0, -2) + "." + priceFind.slice(-2, 4)); 
     
-    console.log(`${ priceFind.slice(2) }`);
+    console.log(`${ priceFind }`);
   });
 
   $(".card-header").click(function () {
